@@ -1,8 +1,19 @@
 # ACPDroid
 
+## Demo video of how to execute ACPDroid
+Youtube [ACPDroid](https://www.youtube.com/watch?v=6VdClNX3CDQ) https://www.youtube.com/watch?v=6VdClNX3CDQ
+
 ## License
 This project is licensed under the MIT License.
 
+# Option 1. Running in the virtual machine (recommended)
+Virtual VM download links: 
+- [download](https://drive.google.com/file/d/14K7R1qwWSTJDzpj1NwRj1rMQGjwQ1a0T/view?usp=sharing)
+
+
+
+
+# Option 2. Running on your local environment
 ## Installation Instructions
 This package will work on Linux system. There are many binaries that the scripts rely on so there are no guarantees on other platforms. 
 1. Install Ruby
@@ -59,8 +70,7 @@ Create AVD（Android Virtual Device）
 avdmanager create avd -n MyEmu -k "system-images;android-33;google_apis;x86_64" --device "pixel"
 ```
 
-## Demo video of how to execute ACPDroid
-Youtube [ACPDroid](https://www.youtube.com/watch?v=6VdClNX3CDQ) https://www.youtube.com/watch?v=6VdClNX3CDQ
+
 
 
 ## Usage 
