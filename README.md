@@ -10,8 +10,8 @@ This project is licensed under the MIT License.
 
 # Option 1. Running in the virtual machine (recommended)
 Virtual VM download links: 
-- [download](https://drive.google.com/file/d/14K7R1qwWSTJDzpj1NwRj1rMQGjwQ1a0T/view?usp=sharing)
-The provided image can be run on VMware® Workstation 16 Pro onwards as this version starts supporting nested virtualisation for running Android Emulator on both Intel and AMD CPUs.
+- [Download](https://drive.google.com/file/d/14K7R1qwWSTJDzpj1NwRj1rMQGjwQ1a0T/view?usp=sharing)
+the provided image can be run on VMware® Workstation 16 Pro onwards as this version starts supporting nested virtualisation for running Android Emulator on both Intel and AMD CPUs.
 
 ## Prerequisites
 
