@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:measureWithLargestChild="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settingsLinearLayoutCardsBasic" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="1.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/settings_basic" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_basic" android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settingsLinearLayoutCardsClassic" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginRight="1.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/settings_classic" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_classic" android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settingsLinearLayoutCardsAbstract" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="1.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/settings_abstract" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_abstract" android:maxLines="1" />
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settingsLinearLayoutCardsSimple" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="1.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/settings_simple" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_simple" android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settingsLinearLayoutCardsModern" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="1.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/settings_modern" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_modern" android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settingsLinearLayoutCardsOxygenDark" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="1.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/settings_oxygen_dark" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_oxygen_dark" android:maxLines="1" />
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settingsLinearLayoutCardsOxygenLight" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="1.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/settings_oxygen_light" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_oxygen_light" android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settingsLinearLayoutCardsPoker" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="1.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/settings_poker" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_poker" android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

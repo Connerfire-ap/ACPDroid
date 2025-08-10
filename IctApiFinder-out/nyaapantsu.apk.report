@@ -1,0 +1,61 @@
+nyaapantsu.apk minSdkVersion: 21, targetSdkVersion: 27
+
+BUG: <android.app.Activity: void requestPermissions(java.lang.String[],int)> called in <cat.pantsu.nyaapantsu.ui.activity.LoginActivity$mayRequestContacts$1: void onClick(android.view.View)> on line -1 not in [21, 22]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cat.pantsu.nyaapantsu.ui.activity.LoginActivity dummyMainMethod_cat_pantsu_nyaapantsu_ui_activity_LoginActivity(android.content.Intent)>
+		--><cat.pantsu.nyaapantsu.ui.activity.LoginActivity$mayRequestContacts$1: void onClick(android.view.View)>
+
+WARNING: <java.io.File: java.io.File[] listFiles(java.io.FilenameFilter)> called in <com.bumptech.glide.load.engine.executor.RuntimeCompat: int getCoreCountPre17()> on line -1 no living Level
+
+WARNING: <java.lang.Runtime: long maxMemory()> called in <com.facebook.imagepipeline.memory.BitmapCounterProvider: int getMaxSizeHardCap()> on line -1 no living Level
+
+WARNING: <java.lang.Math: int max(int,int)> called in <com.bumptech.glide.load.engine.executor.RuntimeCompat: int availableProcessors()> on line -1 no living Level
+
+WARNING: <java.io.File: void <init>(java.lang.String)> called in <com.bumptech.glide.load.engine.executor.RuntimeCompat: int getCoreCountPre17()> on line -1 no living Level
+
+WARNING: <android.os.Build$VERSION: int SDK_INT> called in <com.facebook.imagepipeline.core.ImagePipelineFactory: com.facebook.imagepipeline.bitmaps.PlatformBitmapFactory buildPlatformBitmapFactory(com.facebook.imagepipeline.memory.PoolFactory,com.facebook.imagepipeline.platform.PlatformDecoder)> on line -1 no living Level
+
+WARNING: <java.lang.Math: int max(int,int)> called in <com.bumptech.glide.load.engine.executor.RuntimeCompat: int getCoreCountPre17()> on line -1 no living Level
+
+WARNING: <android.os.SystemClock: long uptimeMillis()> called in <com.bumptech.glide.util.LogTime: long getLogTime()> on line -1 no living Level
+
+WARNING: <android.view.View: void setVisibility(int)> called in <cat.pantsu.nyaapantsu.ui.activity.LoginActivity: void showProgress(boolean)> on line -1 no living Level
+
+WARNING: <android.util.Log: boolean isLoggable(java.lang.String,int)> called in <com.bumptech.glide.load.engine.executor.RuntimeCompat: int getCoreCountPre17()> on line -1 no living Level
+
+WARNING: <java.lang.Object: void <init>()> called in <com.bumptech.glide.load.engine.bitmap_recycle.AttributeStrategy: void <init>()> on line -1 no living Level
+
+WARNING: <android.os.StrictMode: android.os.StrictMode$ThreadPolicy allowThreadDiskReads()> called in <com.bumptech.glide.load.engine.executor.RuntimeCompat: int getCoreCountPre17()> on line -1 no living Level
+
+WARNING: <java.util.regex.Pattern: java.util.regex.Pattern compile(java.lang.String)> called in <com.bumptech.glide.load.engine.executor.RuntimeCompat: int getCoreCountPre17()> on line -1 no living Level
+
+WARNING: <android.os.StrictMode: void setThreadPolicy(android.os.StrictMode$ThreadPolicy)> called in <com.bumptech.glide.load.engine.executor.RuntimeCompat: int getCoreCountPre17()> on line -1 no living Level
+
+WARNING: <java.lang.Object: void <init>()> called in <com.facebook.imagepipeline.memory.BitmapCounter: void <init>(int,int)> on line -1 no living Level
+
+WARNING: <java.lang.Runtime: java.lang.Runtime getRuntime()> called in <com.facebook.imagepipeline.memory.BitmapCounterProvider: int getMaxSizeHardCap()> on line -1 no living Level
+
+WARNING: <android.os.StrictMode: void setThreadPolicy(android.os.StrictMode$ThreadPolicy)> called in <com.bumptech.glide.load.engine.executor.RuntimeCompat: int getCoreCountPre17()> on line -1 no living Level
+
+WARNING: <java.lang.Object: void <init>()> called in <com.bumptech.glide.load.engine.executor.RuntimeCompat$1: void <init>(java.util.regex.Pattern)> on line -1 no living Level
+
+WARNING: <java.lang.Object: void <init>()> called in <com.facebook.imagepipeline.platform.DalvikPurgeableDecoder: void <init>()> on line -1 no living Level
+
+WARNING: <java.util.regex.Matcher: boolean matches()> called in <com.bumptech.glide.load.engine.executor.RuntimeCompat$1: boolean accept(java.io.File,java.lang.String)> on line -1 no living Level
+
+WARNING: <java.lang.Object: void <init>()> called in <com.facebook.imagepipeline.memory.BitmapCounter$1: void <init>(com.facebook.imagepipeline.memory.BitmapCounter)> on line -1 no living Level
+
+WARNING: <android.os.Build$VERSION: int SDK_INT> called in <com.facebook.imagepipeline.core.ImagePipelineFactory: com.facebook.imagepipeline.platform.PlatformDecoder buildPlatformDecoder(com.facebook.imagepipeline.memory.PoolFactory,boolean)> on line -1 no living Level
+
+WARNING: <java.lang.Math: long min(long,long)> called in <com.facebook.imagepipeline.memory.BitmapCounterProvider: int getMaxSizeHardCap()> on line -1 no living Level
+
+WARNING: <android.os.StrictMode: void setThreadPolicy(android.os.StrictMode$ThreadPolicy)> called in <com.bumptech.glide.load.engine.executor.RuntimeCompat: int getCoreCountPre17()> on line -1 no living Level
+
+WARNING: <java.util.regex.Pattern: java.util.regex.Matcher matcher(java.lang.CharSequence)> called in <com.bumptech.glide.load.engine.executor.RuntimeCompat$1: boolean accept(java.io.File,java.lang.String)> on line -1 no living Level
+
+WARNING: <android.view.View: void setVisibility(int)> called in <cat.pantsu.nyaapantsu.ui.activity.LoginActivity: void showProgress(boolean)> on line -1 no living Level
+
+WARNING: <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)> called in <com.bumptech.glide.load.engine.executor.RuntimeCompat: int getCoreCountPre17()> on line -1 no living Level
+

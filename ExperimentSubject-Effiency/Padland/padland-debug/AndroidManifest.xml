@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.mikifus.padland" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="true" android:debuggable="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:logo="@drawable/ic_launcher" android:name="com.mikifus.padland.PadlandApp" android:testOnly="true" android:theme="@style/AppBaseTheme">
+        <activity android:label="@string/app_name" android:name="com.mikifus.padland.SplashActivity" android:theme="@style/splashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_intro" android:name="com.mikifus.padland.IntroActivity" android:theme="@style/splashScreenTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/title_activity_padlist" android:name="com.mikifus.padland.PadListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/title_activity_pad_view" android:name="com.mikifus.padland.PadViewActivity" android:parentActivityName="com.mikifus.padland.PadListActivity" android:theme="@style/splashScreenTheme">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".PadListActivity"/>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="pad.riseup.net" android:pathPrefix="/p/"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="titanpad.com"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:host="meetingwords.com"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:host="piratepad.net"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="etherpad.mozilla.org" android:pathPrefix="/p/"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="framapad.org" android:pathPrefix="/p/"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:host="free.primarypad.com"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="piratenpad.de" android:pathPrefix="/p/"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+                <data android:host="piratenpad.de" android:pathPrefix="/p/"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/title_activity_new_pad" android:name="com.mikifus.padland.NewPadActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".PadListActivity"/>
+        </activity>
+        <activity android:label="@string/title_activity_about" android:name="com.mikifus.padland.About">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".SettingsActivity"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/title_activity_settings" android:name="com.mikifus.padland.SettingsActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".PadListActivity"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/title_activity_pad_info" android:name="com.mikifus.padland.PadInfoActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.mikifus.padland.PadInfoActivity"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/title_activity_pad_land_data" android:name="com.mikifus.padland.PadLandDataActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/title_activity_server_list" android:name="com.mikifus.padland.ServerListActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".SettingsActivity"/>
+        </activity>
+        <provider android:authorities="com.mikifus.padland.padlandcontentprovider" android:enabled="true" android:exported="true" android:name="com.mikifus.padland.PadContentProvider"/>
+        <meta-data android:name="android.support.VERSION" android:value="26.1.0"/>
+        <meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT"/>
+    </application>
+</manifest>

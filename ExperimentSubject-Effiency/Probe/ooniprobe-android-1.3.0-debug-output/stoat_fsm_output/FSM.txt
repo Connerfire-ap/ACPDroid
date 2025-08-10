@@ -1,0 +1,5 @@
+# the app FSM, including all unique app states and transitions. Please keep this file unchanged. 
+1;1
+/home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/ExperimentSubject-Effiency/Probe/ooniprobe-android-1.3.0-debug-output/stoat_fsm_output/ui/S_1.xml
+S_1;org.openobservatory.ooniprobe.activity.MainActivity;1
+/home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/ExperimentSubject-Effiency/Probe/ooniprobe-android-1.3.0-debug-output/stoat_fsm_output/ui/S_1.xml;/home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/ExperimentSubject-Effiency/Probe/ooniprobe-android-1.3.0-debug-output/stoat_fsm_output/ui/S_1.xml;3;click(resource-id='com.android.systemui:id/home'):android.widget.ImageView@"";3;1;0.0

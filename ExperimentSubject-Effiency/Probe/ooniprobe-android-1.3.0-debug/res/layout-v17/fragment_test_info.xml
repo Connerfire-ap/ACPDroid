@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:padding="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/test_logo" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/http_invalid_request_line_big" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/color_off_black" android:id="@id/testDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/http_invalid_request_line_longdesc" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatButton android:textColor="@color/color_ooni_blue" android:id="@id/learn_more_button" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/learn_more" android:layout_centerHorizontal="true" app:textAllCaps="false" />
+            <android.support.v7.widget.AppCompatButton android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/color_off_white" android:id="@id/run_test_button" android:background="@drawable/nextbutton" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="60.0dip" android:text="@string/run" android:layout_below="@id/learn_more_button" android:layout_centerHorizontal="true" app:textAllCaps="false" />
+            <ProgressBar android:id="@id/progressIndicator" android:layout_width="wrap_content" android:layout_height="60.0dip" android:indeterminate="true" android:layout_below="@id/learn_more_button" android:layout_alignLeft="@id/learn_more_button" android:layout_alignRight="@id/learn_more_button" android:layout_alignStart="@id/learn_more_button" android:layout_alignEnd="@id/learn_more_button" style="?android:progressBarStyleSmall" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

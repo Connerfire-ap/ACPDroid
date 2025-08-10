@@ -1,0 +1,2 @@
+    9@click(resource-id='org.openobservatory.ooniprobe:id/test_logo'):android.widget.ImageView@""
+    3@click(resource-id='com.android.systemui:id/home'):android.widget.ImageView@""

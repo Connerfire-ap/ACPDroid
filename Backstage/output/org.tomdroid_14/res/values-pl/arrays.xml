@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="firstNoteContent">
+        <item>"Witaj w Tomdroid!
+"</item>
+        <item>"Nie masz jeszcze żadnych notatek. By rozpocząć, ustaw swoje preferencje Synchronizacji w Ustawieniach. Istnieją dwie opcje synchronizacji, opisane poniżej.
+"</item>
+        <item>=Synchronizacha online=</item>
+        <item>"Online Synchronization is what you are looking for if you want to sync to Tomboy-Online, your own Rainy/Snowy server or any server supporting the Tomboy Web REST API.
+"</item>
+        <item>By tego użyć, ustaw usługę synchronizacji na Synchronizację online w preferencjach, a następnie podaj URL serwera. Tu jest kilka publicznych serwerów:</item>
+        <item>-Tomboy Online - https://edge.tomboy-online.org/</item>
+        <item>"-rainy.notesync.org - https://notesync.org:8080/[username]/[password]/
+"</item>
+        <item>"Po ustawieniu, kliknij logo Synchronizacji na górnym pasku Tomdroid by zsynchronizować swoje notatki.
+"</item>
+        <item>"Uwaga: zalecane jest zrobić kopię zapasową Twoich notatek z Tomboy przed synchronizacja, gdyż ta aplikacja jest nadal w fazie rozwoju i może uszkodzić Twoje notatki z Tomboy.
+"</item>
+        <item>"Odwiedź http://live.gnome.org/Tomboy/Directories by poznać lokalizacje plików *.note na wszystkich platformach.
+"</item>
+        <item>=Karta SD=</item>
+        <item>"Umieść swoje notatki z Tomboy (*.note) na karcie SD w folderze tomdroid/. Po skopiowaniu notatek, ustaw usługę synchronizacji jako karta SD w preferencjach i kliknij logo synchronizacji na górnym pasku Tomdroid.
+"</item>
+        <item>"Tomdroid jest także otwarty na wszelką pomoc. Jeśli jesteś zainteresowany, dołącz do grupy tomdroid-dev na Launchpadzie: http://launchpad.net/~tomdroid-dev.
+"</item>
+        <item>Jeśli napotkasz jakiś problem z aplikacją, prosimy o zgłoszenie go tutaj: https://bugs.launchpad.net/tomdroid</item>
+    </string-array>
+</resources>

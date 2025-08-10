@@ -1,0 +1,16 @@
+    9@click(resource-id='org.openobservatory.ooniprobe:id/test_logo'):android.widget.ImageView@""
+    16@keyevent_back
+    17@reset
+    16@keyevent_back
+    17@reset
+    16@keyevent_back
+    17@reset
+    16@keyevent_back
+    17@reset
+    16@keyevent_back
+    17@reset
+    16@keyevent_back
+    17@reset
+    16@keyevent_back
+    17@reset
+    3@click(resource-id='com.android.systemui:id/home'):android.widget.ImageView@""

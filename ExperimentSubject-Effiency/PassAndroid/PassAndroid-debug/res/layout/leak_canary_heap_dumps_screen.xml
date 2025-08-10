@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/leak_canary_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@null" android:dividerHeight="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+        <Button android:textColor="@color/leak_canary_gray_darkest" android:id="@id/leak_canary_import_heap_dump" android:background="@drawable/leak_canary_primary_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="@string/leak_canary_import_hprof_file" android:layout_weight="1.0" android:textAllCaps="false" />
+        <Button android:textColor="@color/leak_canary_gray_lightest" android:id="@id/leak_canary_dump_heap_now" android:background="@drawable/leak_canary_secondary_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/leak_canary_dump_heap" android:layout_weight="1.0" android:textAllCaps="false" />
+    </LinearLayout>
+</LinearLayout>

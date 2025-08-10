@@ -1,0 +1,5 @@
+cat.pantsu.nyaapantsu.ui.activity.HomeActivity
+cat.pantsu.nyaapantsu.ui.activity.HomeActivity
+cat.pantsu.nyaapantsu.ui.activity.HomeActivity
+com.android.launcher2.Launcher
+com.android.launcher2.Launcher

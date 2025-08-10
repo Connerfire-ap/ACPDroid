@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/manual_ui">
+        <de.tobiasbielefeld.solitaire.dialogs.DialogPreferenceMenuBarPosition android:title="@string/settings_menu_bar_position" android:key="@string/pref_key_menu_bar_position" android:summary="Portrait: Bottom, Landscape: Right" android:positiveButtonText="@string/game_confirm" android:negativeButtonText="@string/game_cancel" />
+        <de.tobiasbielefeld.solitaire.dialogs.DialogPreferenceBackgroundColor android:title="@string/settings_background_color" android:key="@string/pref_key_background_color" android:summary="%s" android:widgetLayout="@layout/preference_widget_layout_background_color" android:positiveButtonText="@string/game_cancel" android:negativeButtonText="@string/settings_background_color_custom" />
+        <CheckBoxPreference android:title="@string/settings_hide_time" android:key="@string/pref_key_hide_time" android:defaultValue="@bool/default_hide_time" />
+        <CheckBoxPreference android:title="@string/settings_hide_score" android:key="@string/pref_key_hide_score" android:defaultValue="@bool/default_hide_score" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_cards">
+        <de.tobiasbielefeld.solitaire.dialogs.DialogPreferenceCardDialog android:title="@string/settings_cards" android:key="@string/pref_key_cards" android:summary="" android:widgetLayout="@layout/preference_widget_layout_cards" android:positiveButtonText="@null" android:negativeButtonText="@string/game_cancel" />
+        <de.tobiasbielefeld.solitaire.dialogs.DialogPreferenceCardBackground android:title="@string/settings_cards_back" android:key="@string/pref_key_cards_background" android:summary="" android:widgetLayout="@layout/preference_widget_layout_cards_background" android:positiveButtonText="@string/game_confirm" android:negativeButtonText="@string/game_cancel" />
+        <CheckBoxPreference android:title="@string/settings_4_color_mode_title" android:key="@string/pref_key_4_color_mode" android:summary="@string/settings_4_color_mode_text" android:defaultValue="@bool/default_4_color_mode" />
+    </PreferenceCategory>
+</PreferenceScreen>

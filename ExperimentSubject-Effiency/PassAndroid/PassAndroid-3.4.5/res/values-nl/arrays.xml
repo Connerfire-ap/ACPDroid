@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_edit_options">
+        <item>@string/select_category_dialog_title</item>
+        <item>@string/change_color_dialog_title</item>
+        <item>Selecteer ikoon</item>
+    </string-array>
+</resources>

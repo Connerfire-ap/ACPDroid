@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_action_delete" android:id="@id/menu_emptytrash" android:title="@string/emtytrash_label" yourapp:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_help_outline" android:id="@id/menu_help" android:title="@string/help_label" yourapp:showAsAction="ifRoom" />
+</menu>

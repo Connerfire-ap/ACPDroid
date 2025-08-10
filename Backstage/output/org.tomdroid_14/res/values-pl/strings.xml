@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tomdroid</string>
+    <string name="app_desc">Tomboy compatible wikiwiki note-taking app.</string>
+    <string name="author">Olivier Bilodeau</string>
+    <string name="strListEmptyWaiting">Proszę czekać na załadowanie notatek…</string>
+    <string name="strListEmptyNoNotes">Brak notatek w bazie danych Tomdroid.</string>
+    <string name="menuSync">Synchronizowanie</string>
+    <string name="menuPrefs">Ustawienia</string>
+    <string name="menuAbout">O programie</string>
+    <string name="titleWelcome">Uwaga</string>
+    <string name="titleAbout">O Tomdroid</string>
+    <string name="strWelcome">"Witaj w Tomdroid.
+
+Proszę pamiętać, że jako wersja beta, program zawiera pewne błędy.
+
+Jesteśmy tego świadomomi i pracujemy nad jak najszybszym ich naprawieniem, ale chceliśmy udostępnić aplikację jak najszybciej, by mogła zostać przetestowana.
+
+Jeśli chciałbyś się zaangażować, każda pomoc będzie bardzo mile widziana. Skontaktuj się z nami na launchpad.net/tomdroid!
+"</string>
+    <string name="strAbout">"%1$s
+
+Autor: %2$s
+Wersja: %3$s
+Licencja: GPLv3"</string>
+    <string name="btnOk">OK</string>
+    <string name="btnCancel">Anuluj</string>
+    <string name="btnClose">Zamknij</string>
+    <string name="btnProjectPage">Strona projektu</string>
+    <string name="btnSavetoSD">Zapisz</string>
+    <string name="strWait">Proszę czekać na załadowanie notatek…</string>
+    <string name="prefSyncService">Usługa</string>
+    <string name="prefSyncServer">Serwer</string>
+    <string name="prefSDCard">Karta SD</string>
+    <string name="prefTomboyWeb">Synchronizacja online</string>
+    <string name="prefAuthenticate">Autoryzuj</string>
+    <string name="prefLocation">Położenie na karcie SD</string>
+    <string name="prefSyncOnStart">Automatyczna synchroinizacja podczas startu</string>
+    <string name="prefDescSyncOnStart">Synchronizuj swoje notatki przy starcie aplikacji</string>
+    <string name="prefFolderCreated">Folder \"%1$s\" jeszcze nie istnieje. Proszę podłącz swoje urządzenie do komputera, stwórz folder i umieść w nim pliki *.note.</string>
+    <string name="prefNoValidLocation">Ścieżka \"%1$s\" nie wskazuje katalogu. Spróbuj ponownie!</string>
+    <string name="prefNoValidEntry">\"%1$s\" nie jest prawidłową wartością. Spróbuj ponownie!</string>
+    <string name="prefSyncCompleteAuth">Autoryzowanie. Proszę czekać…</string>
+    <string name="prefSyncConnectionFailed">Połączenie z serwerem jest niemożliwe, sprawdź, czy wprowadzony adres jest poprawny.</string>
+    <string name="prefServerEmpty">Nie wprowadzono adresu serwera</string>
+    <string name="titleSyncService">Wybierz usługę, której chcesz użyć</string>
+    <string name="messageSyncComplete">Zakończono synchronizację z %1$s.</string>
+    <string name="messageSyncNoNote">Nie znaleziono notatek na %1$s.</string>
+    <string name="messageSyncNoConnection">Brak połączenia z siecią.</string>
+    <string name="messageSyncAlreadyInProgress">Synchronizacja w trakcie</string>
+    <string name="messageSyncError">Błąd wczytywania notatek. Jeśli problem się powtarza, proszę skontaktuj się z nami!</string>
+    <string name="error">Błąd</string>
+    <string name="titleNoteNotFound">Nie ma takiej notatki</string>
+    <string name="messageNoteNotFound">Nie odnaleziono notatki. Możliwe, że została usunięta lub przeniesiona podczas synchronizacji.</string>
+    <string name="messageErrorNoteParsing">Błąd podczas wczytywania notatki.</string>
+    <string name="messageCouldNotSave">Zapisanie notatki nie powiodło się.</string>
+    <string name="messageNoSDCard">Karty SD nie odnaleziono.</string>
+    <string name="titleDefaultSorting">Wybierz domyślny sposób porządkowania</string>
+    <string name="prefDefaultSortingTitle">Domyślny sposób porządkowania</string>
+    <string name="prefSorting">Klucz sortowania</string>
+    <string name="prefSortDate">Data modyfikacji</string>
+    <string name="prefSortTitle">Tytuł notatki</string>
+    <string name="sortByDate">Porządkuj według daty</string>
+    <string name="sortByTitle">Porządkuj według tytułu</string>
+    <string name="menuFilterNotebook">Filtr</string>
+    <string name="strListEmptyNoNotebooks">Brak notatników w bazie danych.</string>
+    <string name="allNotebooksFilter">Wszystkie notatniki</string>
+    <string name="view">Wyświetl</string>
+    <string name="noteOptions">Opcje notatek</string>
+    <string name="send">Wyślij</string>
+    <string name="search_hint">Przeszukaj notatki</string>
+    <string name="search_description">Treść notatki</string>
+    <string name="strNoResults">Nie znaleziono notatek zawierających \"%s\"</string>
+    <string name="menuSearch">Szukaj</string>
+    <string name="SearchResultTitle">Wyniki wyszukiwania:</string>
+    <string name="clearSearchHistoryTitle">Wyczyść historię wyszukiwania</string>
+    <string name="clearSearchHistory">Wyczyść historię swoich wyszukiwań</string>
+    <string name="deletedSearchHistory">Historia wyszukiwania została wyczyszczona.</string>
+    <string name="textModified">Data modyfikacji:</string>
+    <string name="textToday">Dziś</string>
+    <string name="textYexterday">Wczoraj</string>
+    <string name="shortcuts_view_caption">Wybierz notatke</string>
+    <string name="shortcut_menu_item_caption">Notatki Tomdroid</string>
+    <string name="btnRemoveShortcut">Usuń skrót</string>
+    <string name="createShortcut">Utwórz skrót</string>
+    <string name="delete">Usuń</string>
+    <string name="delete_note">Usuń notatkę</string>
+    <string name="delete_message">Czy jesteś pewny, że chcesz usunąć tę notatkę?</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="delete_all">Usuń notatki</string>
+    <string name="delete_all_message">Czy jesteś pewny, że chcesz usunąć notatki z bazy danych?</string>
+    <string name="delete_remote_notes">Skasuj zdalne notatki</string>
+    <string name="delete_remote_notes_message">Jesteś pewny, że chcesz skasować wszystkie notatki ze zdalnej usługi?</string>
+    <string name="menuNew">Nowa</string>
+    <string name="NewNoteTitle">Nowa notatka</string>
+    <string name="NewNoteTitleHint">Tytuł notatki</string>
+    <string name="NewNoteBodyHint">Treść notatki</string>
+    <string name="edit">Edytuj</string>
+    <string name="save">Zapisz</string>
+    <string name="discard">Porzuć</string>
+    <string name="back">Wróć</string>
+    <string name="bold">B</string>
+    <string name="italic">i</string>
+    <string name="strike"><strike>S</strike></string>
+    <string name="mono">o stałej szerokości</string>
+    <string name="highlight">wyróżnienie</string>
+    <string name="size">rozmiar</string>
+    <string name="titleErrorParsingXML">Błąd podczas wczytywania notatki.</string>
+    <string name="messageErrorParsingXML">Wystąpił błąd podczas przetwarzania notatki. Proszę sprawdzić XML.</string>
+    <string name="messageNoteSaved">Notatka zapisana lokalnie.</string>
+    <string name="messageNoteDeleted">Notatka usunięta lokalnie.</string>
+    <string name="messageSelectSize">Wybierz rozmiar tekstu</string>
+    <string name="small">Mały</string>
+    <string name="normal">Normalny</string>
+    <string name="large">Duży</string>
+    <string name="huge">Olbrzymi</string>
+    <string name="messageDiscardChanges">Czy na pewno chcesz odrzucić zmiany i przywrócić notatkę do ostatniej zapisanej wersji?</string>
+    <string name="titleDiscardChanges">Porzucić zmiany?</string>
+    <string name="gt"><b>></b></string>
+    <string name="lt"><b>&lt;</b></string>
+    <string name="view_title">Tomdroid - Notatka</string>
+    <string name="edit_title">Tomdroid - Edycja</string>
+    <string name="search_title">Tomdroid - Wyniki wyszukiwania</string>
+    <string name="shortcut_title">Tomdroid - Skróty</string>
+    <string name="pref_title">Tomdroid - Ustawienia</string>
+    <string name="compare_title">Tomdroid - konflikt notatki</string>
+    <string name="filePickerTitle">Tomdroid - Importuj notatkę</string>
+    <string name="prefDisplay">Preferencje wyświetlania</string>
+    <string name="prefBaseSize">Domyślna wielkość czcionki</string>
+    <string name="prefSync">Synchronizacja</string>
+    <string name="prefTools">Narzędzia</string>
+    <string name="prefAutoSave">Automatycznie zapisuj notatki przy wyjściu z edytora.</string>
+    <string name="prefDeletedNotesTitle">Pokaż skasowane notatki</string>
+    <string name="prefDeletedNotes">Zaznacz, aby na liście wyświetlić skasowane notatki.</string>
+    <string name="prefNoteTemplatesTitle">Pokaż szablony notatek</string>
+    <string name="prefNoteTemplates">Jeśli zaznaczone, pokazuje szablony na liście notatek</string>
+    <string name="deleteAllNotesTitle">Usuń notatki</string>
+    <string name="deleteAllNotes">Usuń wszystkie notatki z bazy danych</string>
+    <string name="deleteRemoteNotesTitle">Skasuj zdalne notatki</string>
+    <string name="deleteRemoteNotes">Skasuj wszystkie notatki ze zdalnej usługi</string>
+    <string name="illegalTextSize">Wybrano nieprawidłowy rozmiar tekstu. Proszę wybrać liczbę.</string>
+    <string name="backupPrefTitle">Kopia zapasowa notatek</string>
+    <string name="backupPref">Kopiuj wszystkie lokalne notatki na kartę SD</string>
+    <string name="autoBackupPrefTitle">Automatyczna kopia zapasowa</string>
+    <string name="autoBackupPref">Skopiuj notatki na kartę SD</string>
+    <string name="prefLinks">Ustawienia odnośników</string>
+    <string name="prefLinkTitlesTitle">Linkuj tytuły</string>
+    <string name="prefLinkTitles">Odnośnik do innych tytułów notatek</string>
+    <string name="prefLinkUrlsTitle">Linkuj Adresy WWW</string>
+    <string name="prefLinkUrls">np. www.google.com</string>
+    <string name="prefLinkEmailsTitle">Linkuj emaile</string>
+    <string name="prefLinkEmails">np. imię@adres.com</string>
+    <string name="prefLinkPhonesTitle">Linkuj numery telefonów</string>
+    <string name="prefLinkPhones">Linkuj numery telefonów do aplikacji telefonu</string>
+    <string name="prefLinkAddressesTitle">Linkuj adresy map</string>
+    <string name="prefLinkAddresses">Linkuj adresy do aplikacji map</string>
+    <string name="syncing">Synchronizowanie z %1$s</string>
+    <string name="syncing_connect">łączenie z serwisem...</string>
+    <string name="gettings_notes">otrzymywanie listy zdalnych notatek...</string>
+    <string name="syncing_local">Aktualizuj lokalne notatki...</string>
+    <string name="syncing_remote">Aktualizuj zdalne notatki....</string>
+    <string name="sync_conflict_description">"wystąpił konflikt podczas synchronizacji notatki '%1$s'"</string>
+    <string name="sync_conflict_message">Wybierz akcję by rozwiązać konflikt. Możesz edytować jedną z notatek przed wyborem, lub obejrzeć różnice klikając na etykiety poniżej.</string>
+    <string name="sync_conflict_deleted">Lokalna wersja została już usunięta. Proszę wybrać jedną z akcji poniżej.</string>
+    <string name="sync_conflict_titles_message">Notatka z tym tytułem istnieje już w bazie danych. Proszę wybrać akcję, by rozwiązać ten konflikt. Możesz edytować obie notatki przed wybraniem, lub podejrzeć różnice klikając na etykiety poniżej.</string>
+    <string name="overwrite_remote">"Nadpisz
+Zdalny"</string>
+    <string name="overwrite_local">"Nadpisz
+Lokalny"</string>
+    <string name="delete_remote">"Usuń
+Zdalny"</string>
+    <string name="copy">"Utwórz
+Kopiuj"</string>
+    <string name="diff_label">Róznice pomiędzy plikami</string>
+    <string name="diff_titles">-- Różnice w tytule --</string>
+    <string name="diff_content">-- Różnice w zawartości --</string>
+    <string name="line_x">Linia %1$s:</string>
+    <string name="local_label">Wersja lokalna</string>
+    <string name="remote_label">Wersja zdalna</string>
+    <string name="deleted">Usunięto</string>
+    <string name="old">%1$s (stare)</string>
+    <string name="close">Zamknij</string>
+    <string name="cancel">Anuluj</string>
+    <string name="messageAuthComplete">Autoryzacja z %1$s zakończona sukcesem.</string>
+    <string name="messageAuthFailed">Autoryzacja z %1$s zakończona niepowodzeniem. Spróbuj ponownie później!</string>
+    <string name="messageSyncNoteDeleted">Usuwanie notatki z %1$s zakończone sukcesem.</string>
+    <string name="messageSyncNotePushed">Wysyłanie notatki do %1$s zakończone sukcesem.</string>
+    <string name="messageSyncNotePulled">Odbieranie notatki z %1$s zakończone sukcesem.</string>
+    <string name="messageSyncNoteDeleteError">Błąd podczas usuwania notatki z %1$s.</string>
+    <string name="messageSyncNotePushError">Błąd podczas wysyłania notatki do %1$s.</string>
+    <string name="messageSyncNotePullError">Błąd podczas odbierania notatki z %1$s.</string>
+    <string name="messageSyncParseFailed">Błąd podczas przetwarzania odpowiedzi z %1$s.</string>
+    <string name="messageSyncConnectingFailed">Błąd połączenia z %1$s. Prawdopodobnie musisz je autoryzować w Ustawieniach.</string>
+    <string name="messageRemoteNotesDeleted">Usuwanie notatek z %1$s zakończone sukcesem.</string>
+    <string name="messageSyncCancelled">Synchronizacja z %1$s anulowana.</string>
+    <string name="editTags">Edytuj tagi</string>
+    <string name="contextRevert">Przywróć do poprzedniej wersji</string>
+    <string name="note_x_tags">"Tagi notatki '%1$s'"</string>
+    <string name="edit_tags">Edytuj tagi poniżej, oddzielając je przecinkami.</string>
+    <string name="undelete">Cofnij usunięcie notatki</string>
+    <string name="menuImport">Importuj notatkę</string>
+    <string name="menuRevert">Przywróć wszystko do poprzednich wersji</string>
+    <string name="revert_notes">Przywróć notatki do poprzednich wersji</string>
+    <string name="revert_notes_message">To przywróci Twoje lokalne notatki do ich wersji w zdalnej usłudze. Czy na pewno chcesz to zrobić?</string>
+    <string name="revert_note">Przywróc poprzednią wersję notatki</string>
+    <string name="revert_note_message">To przywróci Twoją lokalną notatkę do jej wersji w zdalnej usłudze. Czy na pewno chcesz to zrobić?</string>
+    <string name="backup_notes_title">Utworzyć kopię zapasową notatek?</string>
+    <string name="backup_notes">Skopiować wszystkie lokalne notatki na kartę SD? Ta czynność może zastąpić notatki już istniejące na karcie SD.</string>
+    <string name="restorePrefTitle">Przywróć notatki</string>
+    <string name="restore_notes_title">Przywrócić notatki?</string>
+    <string name="restore_notes">Pobrać wszystkie notatki z karty SD? To może nadpisać Twoje istniejące notatki.</string>
+    <string name="messageNotesBackedUp">Tworzenie kopii zapasowej notatek na karcie SD zakończone sukcesem.</string>
+    <string name="messageNotesRestored">Przywracanie notatek z karty SD zakończone sukcesem.</string>
+    <string name="messageDatabaseReset">Usuwanie notatek zakończone powodzeniem.</string>
+    <string name="sendChoiceTitle">Wybierz sposób wysyłania</string>
+    <string name="sendChoice">W jaki sposób chciałbyś wysłać notatkę?</string>
+    <string name="btnSendAsText">Jako tekst</string>
+    <string name="btnSendAsFile">Jako plik</string>
+    <string name="sync_conflict_import_message">Notatka z tym tytułem istnieje już w bazie danych. Proszę wybrać akcję, by rozwiązać ten konflikt. Możesz edytować obie notatki przed wybraniem, lub podejrzeć różnice klikając na etykiety poniżej.</string>
+    <string name="btnCancelImport">"Anuluj
+Importowanie"</string>
+    <string name="messageFileTooBig">Plik przekracza maksymalny rozmiar importowania - czy jesteś pewny, że to zwykły tekst?</string>
+    <string name="messageFileNotReadable">Nie można odczytać pliku notatki.</string>
+    <string name="noFiles">Brak plików lub katalogów</string>
+    <string name="chooseFile">Wybierz plik poniżej, który jest plikiem notatki Tomboy (który zostanie zaimportowany) lub plikiem ze zwykłym tekstem (co spowoduje utworzenie nowej notatki):</string>
+    <string name="firstNoteTitle">Pierwsza notatka Tomdroid</string>
+    <string name="market_title">Tomdroid notes</string>
+    <string name="market_description">"A Tomboy client for Android. Tomboy is a desktop note-taking app using a wikiwiki approach and a simple user interface.
+
+* Note format compatibility with Tomboy
+* Online note synchronization with Rainy, Snowy or Tomboy Online
+* SD Card importation
+* Home screen shortcuts
+* Send and receive text or note-files from any app
+* Open source!"</string>
+    <string name="market_promotext">Aplikacja do notatek z synchronizacją online kompatybilną z Tomboy</string>
+    <string name="market_recent_changes">"* Notes can now be created, edited and deleted
+* Completely redesigned for both tablets and phones
+* Sync your notes with compatible web-services or to your SD card
+* Send and receive note files or text from any app
+* More configurable than before
+* Available in even more languages
+
+ And much more, for a complete list of changes please see https://launchpad.net/tomdroid/+announcements"</string>
+    <string name="about_translators">Launchpad Contributions: Account Deactivated https://launchpad.net/~accountdeactivated Adriaen Dot https://launchpad.net/~dotadriaen-deactivatedaccount Alicia Kwiatkowska https://launchpad.net/~paksumanuli Antoni Kudelski https://launchpad.net/~antoni-kudelski-deactivatedaccount Dawid Kalicki https://launchpad.net/~dvdk15 Michal https://launchpad.net/~michalg8 Michał Rzepiński https://launchpad.net/~micou8 Piotr Adamski https://launchpad.net/~mcveat Piotr Wawrzyniak https://launchpad.net/~wawrzino Stefan Hammer https://launchpad.net/~j-4 december0123 https://launchpad.net/~december0123 Łukasz Serafinowski https://launchpad.net/~lukasz-serafinowski</string>
+</resources>

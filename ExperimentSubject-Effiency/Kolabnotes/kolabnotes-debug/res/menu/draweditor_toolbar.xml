@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_undo_white_36dp" android:id="@id/undo_menu" android:title="@string/draweditor_menu_undo" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_redo_white_36dp" android:id="@id/redo_menu" android:title="@string/draweditor_menu_redo" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_action_accept" android:id="@id/ok_menu" android:title="@string/draweditor_menu_ok" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_restore_page_white_36dp" android:id="@id/clear_menu" android:title="@string/draweditor_menu_clear" app:showAsAction="ifRoom" />
+</menu>

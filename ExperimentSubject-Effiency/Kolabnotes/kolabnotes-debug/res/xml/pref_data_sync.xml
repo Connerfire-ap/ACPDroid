@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/pref_sync_conflict_titles" android:title="@string/pref_title_sync_conflict" android:key="sync_conflict" android:defaultValue="LATEST" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/pref_sync_conflict" />
+    <Preference android:title="@string/title_add_account">
+        <intent android:action="org.kore.kolabnotes.android.security.AuthenticatorActivity">
+            <extra android:name="changeAccount" android:value="false" />
+        </intent>
+    </Preference>
+    <Preference android:title="@string/title_update_account">
+        <intent android:action="org.kore.kolabnotes.android.security.AuthenticatorActivity">
+            <extra android:name="changeAccount" android:value="true" />
+        </intent>
+    </Preference>
+    <Preference android:title="@string/pref_title_system_sync_settings">
+        <intent android:action="android.settings.SYNC_SETTINGS" />
+    </Preference>
+</PreferenceScreen>

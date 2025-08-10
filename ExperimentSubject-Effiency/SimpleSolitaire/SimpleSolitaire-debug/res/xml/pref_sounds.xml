@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/Settings_sound" android:key="@string/pref_key_sound_enabled" android:defaultValue="@bool/default_sound_enabled" />
+    <de.tobiasbielefeld.solitaire.classes.ListPreferenceWithSummary android:entries="@array/pref_win_sounds_titles" android:title="@string/Settings_win_sound_title" android:key="@string/pref_key_win_sound" android:summary="%s" android:dependency="@string/pref_key_sound_enabled" android:defaultValue="@string/default_win_sound" android:positiveButtonText="@null" android:negativeButtonText="@string/game_cancel" android:entryValues="@array/pref_win_sounds_values" />
+    <de.tobiasbielefeld.solitaire.classes.ListPreferenceWithSummary android:entries="@array/pref_background_musics_titles" android:title="@string/Settings_background_music" android:key="@string/pref_key_background_music" android:summary="%s" android:dependency="@string/pref_key_sound_enabled" android:defaultValue="@string/default_background_music" android:positiveButtonText="@null" android:negativeButtonText="@string/game_cancel" android:entryValues="@array/pref_background_music_values" />
+    <de.tobiasbielefeld.solitaire.dialogs.DialogPreferenceMusicVolume android:title="@string/Settings_background_volume" android:key="@string/pref_key_background_volume" android:summary="" android:dependency="@string/pref_key_sound_enabled" android:positiveButtonText="@string/game_confirm" android:negativeButtonText="@string/game_cancel" />
+</PreferenceScreen>

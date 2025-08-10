@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/listView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:adjustViewBounds="true" android:text="@string/no_custom_servers" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/ly_bar_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <android.support.design.widget.FloatingActionButton android:layout_gravity="end|bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/action_button_margin" android:layout_marginBottom="@dimen/action_button_margin" android:src="@drawable/ic_add_inverted" android:onClick="onNewServerClick" android:layout_marginEnd="@dimen/action_button_margin" android:elevation="6.0dip" />
+    </LinearLayout>
+</RelativeLayout>

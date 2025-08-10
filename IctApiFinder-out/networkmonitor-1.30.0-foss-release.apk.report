@@ -1,0 +1,286 @@
+networkmonitor-1.30.0-foss-release.apk minSdkVersion: 14, targetSdkVersion: 27
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$000(de.psdev.licensesdialog.model.Notices,boolean,boolean,java.lang.String,int,int,boolean)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.about.AboutActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_about_AboutActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLibrariesClicked(android.view.View)>
+	--><de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$000(de.psdev.licensesdialog.model.Notices,boolean,boolean,java.lang.String,int,int,boolean)>
+
+BUG: <java.util.Spliterator: long estimateSize()> called in <java8.util.DelegatingSpliterator: long estimateSize()> on line -1 not in [16, 17, 18, 19, 21, 22, 23, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.service.NetMonService dummyMainMethod_ca_rmen_android_networkmonitor_app_service_NetMonService(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.service.NetMonService: void onDestroy()>
+	--><java8.util.stream.ReferencePipeline$Head: void forEach(java8.util.function.Consumer)>
+	--><java8.util.stream.ReferencePipeline: void forEach(java8.util.function.Consumer)>
+	--><java8.util.stream.AbstractPipeline: java.lang.Object evaluate(java8.util.stream.TerminalOp)>
+	--><java8.util.stream.ForEachOps$ForEachOp$OfRef: java.lang.Object evaluateParallel(java8.util.stream.PipelineHelper,java8.util.Spliterator)>
+	--><java8.util.stream.ForEachOps$ForEachOp: java.lang.Void evaluateParallel(java8.util.stream.PipelineHelper,java8.util.Spliterator)>
+	--><java8.util.stream.ForEachOps$ForEachOrderedTask: void <init>(java8.util.stream.PipelineHelper,java8.util.Spliterator,java8.util.stream.Sink)>
+	--><java8.util.DelegatingSpliterator: long estimateSize()>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$100(int,boolean,boolean,java.lang.String,int,int,boolean)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.about.AboutActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_about_AboutActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLibrariesClicked(android.view.View)>
+	--><de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$100(int,boolean,boolean,java.lang.String,int,int,boolean)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$000(de.psdev.licensesdialog.model.Notices,boolean,boolean,java.lang.String,int,int,boolean)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.about.AboutActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_about_AboutActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLibrariesClicked(android.view.View)>
+	--><de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$000(de.psdev.licensesdialog.model.Notices,boolean,boolean,java.lang.String,int,int,boolean)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$100(int,boolean,boolean,java.lang.String,int,int,boolean)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.about.AboutActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_about_AboutActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLibrariesClicked(android.view.View)>
+	--><de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$100(int,boolean,boolean,java.lang.String,int,int,boolean)>
+
+BUG: <java.util.Spliterator: int characteristics()> called in <java8.util.DelegatingSpliterator: int characteristics()> on line -1 not in [16, 17, 18, 19, 21, 22, 23, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.service.NetMonService dummyMainMethod_ca_rmen_android_networkmonitor_app_service_NetMonService(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.service.NetMonService: void onDestroy()>
+	--><java8.util.stream.StreamSupport: java8.util.stream.Stream stream(java.util.Collection)>
+	--><java8.util.stream.StreamOpFlag: int fromCharacteristics(java8.util.Spliterator)>
+	--><java8.util.DelegatingSpliterator: int characteristics()>
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$100(int,boolean,boolean,java.lang.String,int,int,boolean)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.about.AboutActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_about_AboutActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLibrariesClicked(android.view.View)>
+	--><de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$100(int,boolean,boolean,java.lang.String,int,int,boolean)>
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$100(int,boolean,boolean,java.lang.String,int,int,boolean)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.about.AboutActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_about_AboutActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLibrariesClicked(android.view.View)>
+	--><de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$100(int,boolean,boolean,java.lang.String,int,int,boolean)>
+
+BUG: <java.util.Spliterator: boolean hasCharacteristics(int)> called in <java8.util.Spliterators: java8.util.Spliterator spliterator(java.util.Collection)> on line -1 not in [16, 17, 18, 19, 21, 22, 23, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.service.NetMonService dummyMainMethod_ca_rmen_android_networkmonitor_app_service_NetMonService(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.service.NetMonService: void onDestroy()>
+	--><java8.util.stream.StreamSupport: java8.util.stream.Stream stream(java.util.Collection)>
+	--><java8.util.Spliterators: java8.util.Spliterator spliterator(java.util.Collection)>
+
+BUG: <android.app.AppOpsManager: int checkOpNoThrow(java.lang.String,int,java.lang.String)> called in <ca.rmen.android.networkmonitor.util.PermissionUtil: boolean hasUsageStatsPermission(android.content.Context)> on line -1 not in [16, 17, 18, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_prefs_SelectFieldsActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: void onRequestPermissionsResult(int,java.lang.String[],int[])>
+	--><ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivityPermissionsDispatcher: void onRequestPermissionsResult(ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity,int,int[])>
+	--><ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: void requestUsagePermission()>
+	--><ca.rmen.android.networkmonitor.util.PermissionUtil: boolean hasUsageStatsPermission(android.content.Context)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showChoiceDialog$2e68483f(android.support.v4.app.FragmentActivity,java.lang.String,java.lang.CharSequence[])> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.log.LogActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_log_LogActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+	--><ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showChoiceDialog$2e68483f(android.support.v4.app.FragmentActivity,java.lang.String,java.lang.CharSequence[])>
+
+BUG: <java.util.Spliterator: java.util.Comparator getComparator()> called in <java8.util.DelegatingSpliterator: java.util.Comparator getComparator()> on line -1 not in [16, 17, 18, 19, 21, 22, 23, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.service.NetMonService dummyMainMethod_ca_rmen_android_networkmonitor_app_service_NetMonService(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.service.NetMonService: void onDestroy()>
+	--><java8.util.stream.StreamSupport: java8.util.stream.Stream stream(java.util.Collection)>
+	--><java8.util.stream.StreamOpFlag: int fromCharacteristics(java8.util.Spliterator)>
+	--><java8.util.DelegatingSpliterator: java.util.Comparator getComparator()>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showInfoDialog(android.support.v4.app.FragmentActivity,java.lang.String,java.lang.String)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_speedtest_SpeedTestPreferencesActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity: void onStop()>
+	--><ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showInfoDialog(android.support.v4.app.FragmentActivity,java.lang.String,java.lang.String)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <ca.rmen.android.networkmonitor.app.dbops.backend.DBOpIntentService: void onHandleWork(android.content.Intent)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.dbops.backend.DBOpIntentService dummyMainMethod_ca_rmen_android_networkmonitor_app_dbops_backend_DBOpIntentService(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.dbops.backend.DBOpIntentService: void onHandleWork(android.content.Intent)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$000(de.psdev.licensesdialog.model.Notices,boolean,boolean,java.lang.String,int,int,boolean)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.about.AboutActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_about_AboutActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLibrariesClicked(android.view.View)>
+	--><de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$000(de.psdev.licensesdialog.model.Notices,boolean,boolean,java.lang.String,int,int,boolean)>
+
+BUG: <java.util.Collection: java.util.Spliterator spliterator()> called in <java8.util.Spliterators: java8.util.Spliterator spliterator(java.util.Collection)> on line -1 not in [16, 17, 18, 19, 21, 22, 23, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.service.NetMonService dummyMainMethod_ca_rmen_android_networkmonitor_app_service_NetMonService(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.service.NetMonService: void onDestroy()>
+	--><java8.util.stream.StreamSupport: java8.util.stream.Stream stream(java.util.Collection)>
+	--><java8.util.Spliterators: java8.util.Spliterator spliterator(java.util.Collection)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showChoiceDialog$2e68483f(android.support.v4.app.FragmentActivity,java.lang.String,java.lang.CharSequence[])> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.log.LogActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_log_LogActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+	--><ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showChoiceDialog$2e68483f(android.support.v4.app.FragmentActivity,java.lang.String,java.lang.CharSequence[])>
+
+BUG: <java.lang.reflect.Executable: boolean isAnnotationPresent(java.lang.Class)> called in <org.greenrobot.eventbus.SubscriberMethodFinder: void findUsingReflectionInSingleClass(org.greenrobot.eventbus.SubscriberMethodFinder$FindState)> on line -1 not in [24, 25]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_prefs_AdvancedPreferencesActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity: void onStart()>
+	--><org.greenrobot.eventbus.EventBus: void register(java.lang.Object)>
+	--><org.greenrobot.eventbus.SubscriberMethodFinder: void findUsingReflectionInSingleClass(org.greenrobot.eventbus.SubscriberMethodFinder$FindState)>
+
+BUG: <java.lang.reflect.Executable: boolean isAnnotationPresent(java.lang.Class)> called in <org.greenrobot.eventbus.SubscriberMethodFinder: void findUsingReflectionInSingleClass(org.greenrobot.eventbus.SubscriberMethodFinder$FindState)> on line -1 not in [24, 25]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_prefs_AdvancedPreferencesActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity: void onStart()>
+	--><org.greenrobot.eventbus.EventBus: void register(java.lang.Object)>
+	--><org.greenrobot.eventbus.SubscriberMethodFinder: void findUsingReflectionInSingleClass(org.greenrobot.eventbus.SubscriberMethodFinder$FindState)>
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$000(de.psdev.licensesdialog.model.Notices,boolean,boolean,java.lang.String,int,int,boolean)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.about.AboutActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_about_AboutActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLibrariesClicked(android.view.View)>
+	--><de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$000(de.psdev.licensesdialog.model.Notices,boolean,boolean,java.lang.String,int,int,boolean)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showWarningDialog(android.support.v4.app.FragmentActivity,java.lang.String,java.lang.String)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.main.MainActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_main_MainActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.main.MainActivity$1: void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)>
+	--><ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showWarningDialog(android.support.v4.app.FragmentActivity,java.lang.String,java.lang.String)>
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$100(int,boolean,boolean,java.lang.String,int,int,boolean)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.about.AboutActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_about_AboutActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLibrariesClicked(android.view.View)>
+	--><de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$100(int,boolean,boolean,java.lang.String,int,int,boolean)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showInfoDialog(android.support.v4.app.FragmentActivity,java.lang.String,java.lang.String)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_speedtest_SpeedTestPreferencesActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity: void onStop()>
+	--><ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showInfoDialog(android.support.v4.app.FragmentActivity,java.lang.String,java.lang.String)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showWarningDialog(android.support.v4.app.FragmentActivity,java.lang.String,java.lang.String)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.main.MainActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_main_MainActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.main.MainActivity$1: void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)>
+	--><ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showWarningDialog(android.support.v4.app.FragmentActivity,java.lang.String,java.lang.String)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showConfirmDialog(android.support.v4.app.FragmentActivity,java.lang.CharSequence,java.lang.CharSequence,int,android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_prefs_AdvancedPreferencesActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity: void onActivityResult(int,int,android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showConfirmDialog(android.support.v4.app.FragmentActivity,java.lang.CharSequence,java.lang.CharSequence,int,android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showChoiceDialog$2e68483f(android.support.v4.app.FragmentActivity,java.lang.String,java.lang.CharSequence[])> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.log.LogActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_log_LogActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+	--><ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showChoiceDialog$2e68483f(android.support.v4.app.FragmentActivity,java.lang.String,java.lang.CharSequence[])>
+
+BUG: <java.util.Spliterator: boolean tryAdvance(java.util.function.Consumer)> called in <java8.util.DelegatingSpliterator: boolean tryAdvance(java8.util.function.Consumer)> on line -1 not in [16, 17, 18, 19, 21, 22, 23, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.service.NetMonService dummyMainMethod_ca_rmen_android_networkmonitor_app_service_NetMonService(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.service.NetMonService: void onDestroy()>
+	--><java8.util.stream.ReferencePipeline$Head: void forEach(java8.util.function.Consumer)>
+	--><java8.util.stream.ReferencePipeline: void forEach(java8.util.function.Consumer)>
+	--><java8.util.stream.AbstractPipeline: java.lang.Object evaluate(java8.util.stream.TerminalOp)>
+	--><java8.util.stream.ForEachOps$ForEachOp$OfRef: java.lang.Object evaluateSequential(java8.util.stream.PipelineHelper,java8.util.Spliterator)>
+	--><java8.util.stream.ForEachOps$ForEachOp: java.lang.Void evaluateSequential(java8.util.stream.PipelineHelper,java8.util.Spliterator)>
+	--><java8.util.stream.AbstractPipeline: java8.util.stream.Sink wrapAndCopyInto(java8.util.stream.Sink,java8.util.Spliterator)>
+	--><java8.util.stream.AbstractPipeline: void copyInto(java8.util.stream.Sink,java8.util.Spliterator)>
+	--><java8.util.stream.ReferencePipeline: boolean forEachWithCancel(java8.util.Spliterator,java8.util.stream.Sink)>
+	--><java8.util.DelegatingSpliterator: boolean tryAdvance(java8.util.function.Consumer)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showWarningDialog(android.support.v4.app.FragmentActivity,java.lang.String,java.lang.String)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.main.MainActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_main_MainActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.main.MainActivity$1: void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)>
+	--><ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showWarningDialog(android.support.v4.app.FragmentActivity,java.lang.String,java.lang.String)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$100(int,boolean,boolean,java.lang.String,int,int,boolean)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.about.AboutActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_about_AboutActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLibrariesClicked(android.view.View)>
+	--><de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$100(int,boolean,boolean,java.lang.String,int,int,boolean)>
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$000(de.psdev.licensesdialog.model.Notices,boolean,boolean,java.lang.String,int,int,boolean)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.about.AboutActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_about_AboutActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLibrariesClicked(android.view.View)>
+	--><de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$000(de.psdev.licensesdialog.model.Notices,boolean,boolean,java.lang.String,int,int,boolean)>
+
+BUG: <java.util.Spliterator: long getExactSizeIfKnown()> called in <java8.util.DelegatingSpliterator: long getExactSizeIfKnown()> on line -1 not in [16, 17, 18, 19, 21, 22, 23, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.service.NetMonService dummyMainMethod_ca_rmen_android_networkmonitor_app_service_NetMonService(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.service.NetMonService: void onDestroy()>
+	--><java8.util.stream.ReferencePipeline$Head: void forEach(java8.util.function.Consumer)>
+	--><java8.util.stream.ReferencePipeline: void forEach(java8.util.function.Consumer)>
+	--><java8.util.stream.AbstractPipeline: java.lang.Object evaluate(java8.util.stream.TerminalOp)>
+	--><java8.util.stream.ForEachOps$ForEachOp$OfRef: java.lang.Object evaluateSequential(java8.util.stream.PipelineHelper,java8.util.Spliterator)>
+	--><java8.util.stream.ForEachOps$ForEachOp: java.lang.Void evaluateSequential(java8.util.stream.PipelineHelper,java8.util.Spliterator)>
+	--><java8.util.stream.AbstractPipeline: java8.util.stream.Sink wrapAndCopyInto(java8.util.stream.Sink,java8.util.Spliterator)>
+	--><java8.util.stream.AbstractPipeline: void copyInto(java8.util.stream.Sink,java8.util.Spliterator)>
+	--><java8.util.DelegatingSpliterator: long getExactSizeIfKnown()>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <ca.rmen.android.networkmonitor.app.prefs.NetMonPreferenceFragmentCompat: ca.rmen.android.networkmonitor.app.prefs.NetMonPreferenceFragmentCompat newInstance(int)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_prefs_AdvancedPreferencesActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity: void onCreate(android.os.Bundle)>
+	--><ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity: void loadPreferences()>
+	--><ca.rmen.android.networkmonitor.app.prefs.NetMonPreferenceFragmentCompat: ca.rmen.android.networkmonitor.app.prefs.NetMonPreferenceFragmentCompat newInstance(int)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$100(int,boolean,boolean,java.lang.String,int,int,boolean)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.about.AboutActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_about_AboutActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLibrariesClicked(android.view.View)>
+	--><de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$100(int,boolean,boolean,java.lang.String,int,int,boolean)>
+
+BUG: <java.util.Spliterator: void forEachRemaining(java.util.function.Consumer)> called in <java8.util.DelegatingSpliterator: void forEachRemaining(java8.util.function.Consumer)> on line -1 not in [16, 17, 18, 19, 21, 22, 23, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.service.NetMonService dummyMainMethod_ca_rmen_android_networkmonitor_app_service_NetMonService(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.service.NetMonService: void onDestroy()>
+	--><java8.util.stream.ReferencePipeline$Head: void forEach(java8.util.function.Consumer)>
+	--><java8.util.stream.ReferencePipeline: void forEach(java8.util.function.Consumer)>
+	--><java8.util.stream.AbstractPipeline: java.lang.Object evaluate(java8.util.stream.TerminalOp)>
+	--><java8.util.stream.ForEachOps$ForEachOp$OfRef: java.lang.Object evaluateSequential(java8.util.stream.PipelineHelper,java8.util.Spliterator)>
+	--><java8.util.stream.ForEachOps$ForEachOp: java.lang.Void evaluateSequential(java8.util.stream.PipelineHelper,java8.util.Spliterator)>
+	--><java8.util.stream.AbstractPipeline: java8.util.stream.Sink wrapAndCopyInto(java8.util.stream.Sink,java8.util.Spliterator)>
+	--><java8.util.stream.AbstractPipeline: void copyInto(java8.util.stream.Sink,java8.util.Spliterator)>
+	--><java8.util.DelegatingSpliterator: void forEachRemaining(java8.util.function.Consumer)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$000(de.psdev.licensesdialog.model.Notices,boolean,boolean,java.lang.String,int,int,boolean)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: ca.rmen.android.networkmonitor.app.about.AboutActivity dummyMainMethod_ca_rmen_android_networkmonitor_app_about_AboutActivity(android.content.Intent)>
+	--><ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLibrariesClicked(android.view.View)>
+	--><de.psdev.licensesdialog.LicensesDialogFragment: de.psdev.licensesdialog.LicensesDialogFragment access$000(de.psdev.licensesdialog.model.Notices,boolean,boolean,java.lang.String,int,int,boolean)>
+	
+

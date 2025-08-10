@@ -1,0 +1,240 @@
+Sensors2OSC.apk minSdkVersion: 8, targetSdkVersion: 27
+BUG: <android.nfc.tech.MifareClassic: android.nfc.tech.MifareClassic get(android.nfc.Tag)> called in <org.sensors2.osc.activities.StartUpActivity: java.lang.String dumpTagData(android.os.Parcelable)> on line -1 not in [8, 9]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onNewIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: java.lang.String dumpTagData(android.os.Parcelable)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onCreate(android.os.Bundle)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: java.lang.String dumpTagData(android.os.Parcelable)>
+
+BUG: <android.nfc.Tag: java.lang.String[] getTechList()> called in <org.sensors2.osc.activities.StartUpActivity: java.lang.String dumpTagData(android.os.Parcelable)> on line -1 not in [8, 9]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onNewIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: java.lang.String dumpTagData(android.os.Parcelable)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onCreate(android.os.Bundle)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: java.lang.String dumpTagData(android.os.Parcelable)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.sensors2.osc.dispatch.OscDispatcher: void trySend(org.sensors2.osc.dispatch.SensorConfiguration,float)> on line -1 not in [16, 17, 18, 19, 8, 9, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onNewIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+		--><org.sensors2.common.sensors.SensorCommunication: void dispatch(android.nfc.NdefMessage)>
+		--><org.sensors2.osc.dispatch.OscDispatcher: void dispatch(org.sensors2.common.dispatch.Measurement)>
+		--><org.sensors2.osc.dispatch.OscDispatcher: void trySend(org.sensors2.osc.dispatch.SensorConfiguration,float)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onCreate(android.os.Bundle)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+		--><org.sensors2.common.sensors.SensorCommunication: void dispatch(android.nfc.NdefMessage)>
+		--><org.sensors2.osc.dispatch.OscDispatcher: void dispatch(org.sensors2.common.dispatch.Measurement)>
+		--><org.sensors2.osc.dispatch.OscDispatcher: void trySend(org.sensors2.osc.dispatch.SensorConfiguration,float)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: boolean onTouch(android.view.View,android.view.MotionEvent)>
+		--><org.sensors2.osc.dispatch.OscDispatcher: void dispatch(org.sensors2.common.dispatch.Measurement)>
+		--><org.sensors2.osc.dispatch.OscDispatcher: void trySend(org.sensors2.osc.dispatch.SensorConfiguration,float)>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onSensorChanged(android.hardware.SensorEvent)>
+		--><org.sensors2.common.sensors.SensorCommunication: void dispatch(android.hardware.SensorEvent)>
+		--><org.sensors2.osc.dispatch.OscDispatcher: void dispatch(org.sensors2.common.dispatch.Measurement)>
+		--><org.sensors2.osc.dispatch.OscDispatcher: void trySend(org.sensors2.osc.dispatch.SensorConfiguration,float)>
+
+BUG: <android.nfc.NfcAdapter: void enableForegroundDispatch(android.app.Activity,android.app.PendingIntent,android.content.IntentFilter[],java.lang.String[][])> called in <org.sensors2.osc.activities.StartUpActivity: void onResume()> on line -1 not in [8, 9]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onResume()>
+
+BUG: <android.nfc.NfcAdapter: void disableForegroundDispatch(android.app.Activity)> called in <org.sensors2.osc.activities.StartUpActivity: void onPause()> on line -1 not in [8, 9]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onPause()>
+
+BUG: <android.nfc.NfcAdapter: boolean isEnabled()> called in <org.sensors2.osc.activities.StartUpActivity: void onResume()> on line -1 not in [8]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onResume()>
+
+BUG: <android.nfc.Tag: java.lang.String[] getTechList()> called in <org.sensors2.osc.activities.StartUpActivity: java.lang.String dumpTagData(android.os.Parcelable)> on line -1 not in [8, 9]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onNewIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: java.lang.String dumpTagData(android.os.Parcelable)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onCreate(android.os.Bundle)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: java.lang.String dumpTagData(android.os.Parcelable)>
+
+BUG: <android.nfc.NdefRecord: void <init>(short,byte[],byte[],byte[])> called in <org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)> on line -1 not in [8]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onNewIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onCreate(android.os.Bundle)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.sensors2.osc.activities.GuideActivity: void CreateFragment(org.sensors2.osc.sensors.Parameters,android.support.v4.app.FragmentManager)> on line -1 not in [16, 17, 18, 19, 8, 9, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.GuideActivity dummyMainMethod_org_sensors2_osc_activities_GuideActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.GuideActivity: void onCreate(android.os.Bundle)>
+		--><org.sensors2.osc.activities.GuideActivity: void CreateSensorFragments(org.sensors2.osc.sensors.Parameters)>
+		--><org.sensors2.osc.activities.GuideActivity: void CreateFragment(org.sensors2.osc.sensors.Parameters,android.support.v4.app.FragmentManager)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <org.sensors2.osc.activities.GuideActivity: void CreateFragment(org.sensors2.osc.sensors.Parameters,android.support.v4.app.FragmentManager)> on line -1 not in [16, 17, 18, 19, 8, 9, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.GuideActivity dummyMainMethod_org_sensors2_osc_activities_GuideActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.GuideActivity: void onCreate(android.os.Bundle)>
+		--><org.sensors2.osc.activities.GuideActivity: void CreateSensorFragments(org.sensors2.osc.sensors.Parameters)>
+		--><org.sensors2.osc.activities.GuideActivity: void CreateFragment(org.sensors2.osc.sensors.Parameters,android.support.v4.app.FragmentManager)>
+
+BUG: <android.nfc.NdefMessage: void <init>(android.nfc.NdefRecord[])> called in <org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)> on line -1 not in [8]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onNewIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onCreate(android.os.Bundle)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+
+BUG: <android.nfc.NdefMessage: void <init>(android.nfc.NdefRecord[])> called in <org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)> on line -1 not in [8]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onNewIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onCreate(android.os.Bundle)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+
+BUG: <android.nfc.tech.MifareUltralight: android.nfc.tech.MifareUltralight get(android.nfc.Tag)> called in <org.sensors2.osc.activities.StartUpActivity: java.lang.String dumpTagData(android.os.Parcelable)> on line -1 not in [8, 9]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onNewIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: java.lang.String dumpTagData(android.os.Parcelable)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onCreate(android.os.Bundle)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: java.lang.String dumpTagData(android.os.Parcelable)>
+
+BUG: <android.nfc.NdefRecord: void <init>(short,byte[],byte[],byte[])> called in <org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)> on line -1 not in [8]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onNewIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onCreate(android.os.Bundle)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.sensors2.osc.activities.GuideActivity: void CreateFragment(org.sensors2.osc.sensors.Parameters,android.support.v4.app.FragmentManager)> on line -1 not in [16, 17, 18, 19, 8, 9, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.GuideActivity dummyMainMethod_org_sensors2_osc_activities_GuideActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.GuideActivity: void onCreate(android.os.Bundle)>
+		--><org.sensors2.osc.activities.GuideActivity: void CreateSensorFragments(org.sensors2.osc.sensors.Parameters)>
+		--><org.sensors2.osc.activities.GuideActivity: void CreateFragment(org.sensors2.osc.sensors.Parameters,android.support.v4.app.FragmentManager)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <org.sensors2.osc.activities.GuideActivity: void CreateFragment(org.sensors2.osc.sensors.Parameters,android.support.v4.app.FragmentManager)> on line -1 not in [16, 17, 18, 19, 8, 9, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.GuideActivity dummyMainMethod_org_sensors2_osc_activities_GuideActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.GuideActivity: void onCreate(android.os.Bundle)>
+		--><org.sensors2.osc.activities.GuideActivity: void CreateSensorFragments(org.sensors2.osc.sensors.Parameters)>
+		--><org.sensors2.osc.activities.GuideActivity: void CreateFragment(org.sensors2.osc.sensors.Parameters,android.support.v4.app.FragmentManager)>
+
+BUG: <android.nfc.Tag: byte[] getId()> called in <org.sensors2.osc.activities.StartUpActivity: java.lang.String dumpTagData(android.os.Parcelable)> on line -1 not in [8, 9]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onNewIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: java.lang.String dumpTagData(android.os.Parcelable)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onCreate(android.os.Bundle)>
+		--><org.sensors2.osc.activities.StartUpActivity: void resolveIntent(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: java.lang.String dumpTagData(android.os.Parcelable)>
+
+BUG: <android.nfc.NfcAdapter: void enableForegroundNdefPush(android.app.Activity,android.nfc.NdefMessage)> called in <org.sensors2.osc.activities.StartUpActivity: void onResume()> on line -1 not in [8, 9]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onResume()>
+
+BUG: <android.nfc.NfcAdapter: void disableForegroundNdefPush(android.app.Activity)> called in <org.sensors2.osc.activities.StartUpActivity: void onPause()> on line -1 not in [8, 9]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.StartUpActivity dummyMainMethod_org_sensors2_osc_activities_StartUpActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.StartUpActivity: void onPause()>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.sensors2.osc.activities.GuideActivity: void CreateFragment(org.sensors2.osc.sensors.Parameters,android.support.v4.app.FragmentManager)> on line -1 not in [16, 17, 18, 19, 8, 9, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.sensors2.osc.activities.GuideActivity dummyMainMethod_org_sensors2_osc_activities_GuideActivity(android.content.Intent)>
+		--><org.sensors2.osc.activities.GuideActivity: void onCreate(android.os.Bundle)>
+		--><org.sensors2.osc.activities.GuideActivity: void CreateSensorFragments(org.sensors2.osc.sensors.Parameters)>
+		--><org.sensors2.osc.activities.GuideActivity: void CreateFragment(org.sensors2.osc.sensors.Parameters,android.support.v4.app.FragmentManager)>
+

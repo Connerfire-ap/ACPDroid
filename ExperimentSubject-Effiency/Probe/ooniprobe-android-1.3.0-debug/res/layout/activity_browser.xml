@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/navigationBar" android:background="@color/color_ooni_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/webviewBack" android:padding="5.0dip" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="5.0dip" android:src="@drawable/ic_back" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/webviewForward" android:padding="5.0dip" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="5.0dip" android:src="@drawable/ic_forward" android:layout_toRightOf="@id/webviewBack" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/urlLabel" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" android:maxLines="1" android:layout_toLeftOf="@id/reloadOrProgress" android:layout_toRightOf="@id/webviewForward" android:layout_centerInParent="true" />
+        <RelativeLayout android:layout_gravity="end" android:id="@id/reloadOrProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/webviewClose" android:layout_centerVertical="true">
+            <ImageView android:id="@id/webviewReload" android:padding="5.0dip" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="5.0dip" android:src="@drawable/ic_refresh" />
+            <ProgressBar android:id="@id/webViewProgressBar" android:visibility="gone" android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_margin="10.0dip" />
+        </RelativeLayout>
+        <ImageView android:id="@id/webviewClose" android:padding="5.0dip" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/ic_close" android:layout_alignTop="@id/webviewForward" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/separationBar" android:background="#ff7e7e7e" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/navigationBar" />
+    <WebView android:id="@id/sitesWebView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottomBar" android:layout_below="@id/separationBar" />
+    <RelativeLayout android:id="@id/bottomBar" android:background="@color/color_ooni_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" android:layout_alignParentBottom="true">
+        <Button android:textColor="@color/color_off_white" android:id="@id/tryMirror" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/try_mirror" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:textAllCaps="false" style="?android:borderlessButtonStyle" />
+        <ImageView android:id="@id/shareButton" android:padding="5.0dip" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="5.0dip" android:src="@drawable/ic_menu_share" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

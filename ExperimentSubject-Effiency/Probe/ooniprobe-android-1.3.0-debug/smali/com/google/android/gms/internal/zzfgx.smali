@@ -1,0 +1,119 @@
+.class abstract enum Lcom/google/android/gms/internal/zzfgx;
+.super Ljava/lang/Enum;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/google/android/gms/internal/zzfgx;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field private static enum zzpgr:Lcom/google/android/gms/internal/zzfgx;
+
+.field public static final enum zzpgs:Lcom/google/android/gms/internal/zzfgx;
+
+.field private static enum zzpgt:Lcom/google/android/gms/internal/zzfgx;
+
+.field private static final synthetic zzpgu:[Lcom/google/android/gms/internal/zzfgx;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 7
+
+    new-instance v0, Lcom/google/android/gms/internal/zzfgy;
+
+    const-string v1, "LOOSE"
+
+    const/4 v2, 0x0
+
+    invoke-direct {v0, v1, v2}, Lcom/google/android/gms/internal/zzfgy;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lcom/google/android/gms/internal/zzfgx;->zzpgr:Lcom/google/android/gms/internal/zzfgx;
+
+    new-instance v0, Lcom/google/android/gms/internal/zzfgz;
+
+    const-string v1, "STRICT"
+
+    const/4 v3, 0x1
+
+    invoke-direct {v0, v1, v3}, Lcom/google/android/gms/internal/zzfgz;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lcom/google/android/gms/internal/zzfgx;->zzpgs:Lcom/google/android/gms/internal/zzfgx;
+
+    new-instance v1, Lcom/google/android/gms/internal/zzfha;
+
+    const-string v4, "LAZY"
+
+    const/4 v5, 0x2
+
+    invoke-direct {v1, v4, v5}, Lcom/google/android/gms/internal/zzfha;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lcom/google/android/gms/internal/zzfgx;->zzpgt:Lcom/google/android/gms/internal/zzfgx;
+
+    const/4 v4, 0x3
+
+    new-array v4, v4, [Lcom/google/android/gms/internal/zzfgx;
+
+    sget-object v6, Lcom/google/android/gms/internal/zzfgx;->zzpgr:Lcom/google/android/gms/internal/zzfgx;
+
+    aput-object v6, v4, v2
+
+    aput-object v0, v4, v3
+
+    aput-object v1, v4, v5
+
+    sput-object v4, Lcom/google/android/gms/internal/zzfgx;->zzpgu:[Lcom/google/android/gms/internal/zzfgx;
+
+    return-void
+.end method
+
+.method private constructor <init>(Ljava/lang/String;I)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+.method synthetic constructor <init>(Ljava/lang/String;ILcom/google/android/gms/internal/zzfgq;)V
+    .locals 0
+
+    invoke-direct {p0, p1, p2}, Lcom/google/android/gms/internal/zzfgx;-><init>(Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+.method public static values()[Lcom/google/android/gms/internal/zzfgx;
+    .locals 1
+
+    sget-object v0, Lcom/google/android/gms/internal/zzfgx;->zzpgu:[Lcom/google/android/gms/internal/zzfgx;
+
+    invoke-virtual {v0}, [Lcom/google/android/gms/internal/zzfgx;->clone()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [Lcom/google/android/gms/internal/zzfgx;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method abstract zzb(Lcom/google/android/gms/internal/zzfdq;)Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method

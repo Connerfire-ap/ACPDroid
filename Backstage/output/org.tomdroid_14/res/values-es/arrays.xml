@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="firstNoteContent">
+        <item>"Bienvenido a Tomdroid!
+"</item>
+        <item>"No tiene notas aún. Para empezar, establezca en Configuración sus preferencias de sincronización. Hay dos opciones de sincronización que se describen a continuación.
+"</item>
+        <item>=Sincronización en línea=</item>
+        <item>"Si buscas sincronizar Tomdroid en línea necesitarás tu propio servidor Rainy/Snowy o algún otro con soporte para Tomdroid Web REST API. 
+"</item>
+        <item>Para usarlo, fije el servicio de sincronización a sincronización en línea en las preferencias, luego proporcione una URL de servidor. Aquí hay algunas públicas:</item>
+        <item>-Tomboy Online - https://edge.tomboy-online.org/</item>
+        <item>"-rainy.notesync.org - https://notesync.org:8080/[username]/[password]/
+"</item>
+        <item>"Una vez configurado, pulse el logo Sync en la barra superior Tomdroid para sincronizar sus notas. 
+"</item>
+        <item>Nota: Quizás quieras sincronizar tus notas en Tomdroid antes de sincronizar, como esta app aún está en desarrollo puede que ser corrompan algunos datos</item>
+        <item>"Por favor, visita http://live.gnome.org/Tomboy/Directories para encontrar los ficheros *.note de todas las plataformas.
+"</item>
+        <item>=SD Card=</item>
+        <item>"Coloca tus notas de Tomdroid (*.note) en el directorio /tomdroid de tu tarjeta SD. Una vez que las notas se copien, selecciona en Preferencias el Servicio de Sincronización con la tarjeta SD y después pulsa sobre el logo de Sincronización de la barra superior de Tomdroid.
+"</item>
+        <item>"Además, Tomdroid está buscando colaboradores en todo momento. Si estás interesado en entrar en el equipo de desarrollo dentro de Launchpad, visita http://launchpad.net/~tomdroid-dev.
+"</item>
+        <item>Por último, si tienes algún problema, por favor informelo a: https://bugs.launchpad.net/tomdroid</item>
+    </string-array>
+</resources>

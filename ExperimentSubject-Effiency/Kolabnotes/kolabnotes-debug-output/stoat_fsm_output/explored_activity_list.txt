@@ -1,0 +1,7 @@
+org.kore.kolabnotes.android.MainActivity
+org.kore.kolabnotes.android.MainActivity
+org.kore.kolabnotes.android.MainActivity
+org.kore.kolabnotes.android.setting.SettingsActivity
+org.kore.kolabnotes.android.setting.SettingsActivity
+org.kore.kolabnotes.android.security.AuthenticatorActivity
+org.kore.kolabnotes.android.security.AuthenticatorActivity

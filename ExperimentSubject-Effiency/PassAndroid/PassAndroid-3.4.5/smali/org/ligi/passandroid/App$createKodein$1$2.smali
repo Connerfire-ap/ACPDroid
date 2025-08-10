@@ -1,0 +1,113 @@
+.class final Lorg/ligi/passandroid/App$createKodein$1$2;
+.super Lkotlin/jvm/internal/Lambda;
+.source "App.kt"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lorg/ligi/passandroid/App$createKodein$1;->invoke(Lcom/github/salomonbrys/kodein/Kodein$Builder;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "Lkotlin/jvm/functions/Function1",
+        "<",
+        "Lcom/github/salomonbrys/kodein/bindings/NoArgBindingKodein;",
+        "Lorg/ligi/passandroid/model/AndroidSettings;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    bv = {
+        0x1,
+        0x0,
+        0x2
+    }
+    d1 = {
+        "\u0000\u000c\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\n\u00a2\u0006\u0002\u0008\u0003"
+    }
+    d2 = {
+        "<anonymous>",
+        "Lorg/ligi/passandroid/model/AndroidSettings;",
+        "Lcom/github/salomonbrys/kodein/bindings/NoArgBindingKodein;",
+        "invoke"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x1,
+        0x9
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lorg/ligi/passandroid/App$createKodein$1;
+
+
+# direct methods
+.method constructor <init>(Lorg/ligi/passandroid/App$createKodein$1;)V
+    .locals 1
+
+    iput-object p1, p0, Lorg/ligi/passandroid/App$createKodein$1$2;->this$0:Lorg/ligi/passandroid/App$createKodein$1;
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .prologue
+    .line 19
+    check-cast p1, Lcom/github/salomonbrys/kodein/bindings/NoArgBindingKodein;
+
+    invoke-virtual {p0, p1}, Lorg/ligi/passandroid/App$createKodein$1$2;->invoke(Lcom/github/salomonbrys/kodein/bindings/NoArgBindingKodein;)Lorg/ligi/passandroid/model/AndroidSettings;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final invoke(Lcom/github/salomonbrys/kodein/bindings/NoArgBindingKodein;)Lorg/ligi/passandroid/model/AndroidSettings;
+    .locals 2
+    .param p1, "$receiver"    # Lcom/github/salomonbrys/kodein/bindings/NoArgBindingKodein;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .prologue
+    const-string v0, "$receiver"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 46
+    new-instance v1, Lorg/ligi/passandroid/model/AndroidSettings;
+
+    iget-object v0, p0, Lorg/ligi/passandroid/App$createKodein$1$2;->this$0:Lorg/ligi/passandroid/App$createKodein$1;
+
+    iget-object v0, v0, Lorg/ligi/passandroid/App$createKodein$1;->this$0:Lorg/ligi/passandroid/App;
+
+    check-cast v0, Landroid/content/Context;
+
+    invoke-direct {v1, v0}, Lorg/ligi/passandroid/model/AndroidSettings;-><init>(Landroid/content/Context;)V
+
+    return-object v1
+.end method

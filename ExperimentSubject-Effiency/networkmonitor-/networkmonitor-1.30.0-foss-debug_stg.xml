@@ -1,0 +1,827 @@
+<ScreenTransitionGraph>
+  <transitionEdges>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.about.AboutActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.about.LicenseActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>textview</typeOfUiElement>
+        <handlerMethod>void onLegalClicked(android.view.View)</handlerMethod>
+        <resId>2131296463</resId>
+        <text>License/disclaimer</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>select_fields</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296287</resId>
+        <text>Select none</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>log</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>16908332</resId>
+        <text></text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.main.MainActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>ca.rmen.android.networkmonitor.app.prefs.NetMonPreferenceFragmentCompat</string>
+        </fragments>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ServiceNode">
+        <name>ca.rmen.android.networkmonitor.app.service.NetMonService</name>
+        <target>false</target>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>activitylifecyclemethod</typeOfUiElement>
+        <handlerMethod>void onCreate(android.os.Bundle)</handlerMethod>
+        <resId>100204</resId>
+        <text></text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>select_fields</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296288</resId>
+        <text>Location profile</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>log</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>menu</typeOfUiElement>
+        <handlerMethod>boolean onClickMenuIcon(int,android.Menu)</handlerMethod>
+        <resId>2131492865</resId>
+        <contentDesc>More options</contentDesc>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>filter_columns</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296287</resId>
+        <text>Select none</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>log</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296283</resId>
+        <text>Refresh</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>log</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296284</resId>
+        <text>Clear all filters</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>log</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296275</resId>
+        <text>Number of rows</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>select_fields</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296290</resId>
+        <text>Mobile profile (GSM)</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>log</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296286</resId>
+        <text>Fields to monitor</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>log</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296276</resId>
+        <text>Freeze header (beta)</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>select_fields</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296291</resId>
+        <text>WiFi profile</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.about.AboutActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.about.LicenseActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>textview</typeOfUiElement>
+        <handlerMethod>void onLegalClicked(android.view.View)</handlerMethod>
+        <resId>2131296465</resId>
+        <text>&quot;Privacy policy:
+https://github.com/caarmen/network-monitor/blob/master/PRIVACY.md&quot;</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>log</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296271</resId>
+        <text>Clear log file</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>select_fields</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>menu</typeOfUiElement>
+        <handlerMethod>boolean onClickMenuIcon(int,android.Menu)</handlerMethod>
+        <resId>2131492866</resId>
+        <contentDesc>More options</contentDesc>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>select_fields</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296285</resId>
+        <text>Select all</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>filter_columns</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296286</resId>
+        <text>Fields to monitor</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>select_fields</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296286</resId>
+        <text>Fields to monitor</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>filter_columns</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296285</resId>
+        <text>Select all</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.about.AboutActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>de.psdev.licensesdialog.LicensesDialogFragment</string>
+        </fragments>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.about.LicenseActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>textview</typeOfUiElement>
+        <handlerMethod>void onLegalClicked(android.view.View)</handlerMethod>
+        <resId>2131296465</resId>
+        <text>&quot;Privacy policy:
+https://github.com/caarmen/network-monitor/blob/master/PRIVACY.md&quot;</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>select_fields</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296289</resId>
+        <text>Mobile profile (CDMA)</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>log</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296270</resId>
+        <text>Cell id format</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.about.AboutActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>de.psdev.licensesdialog.LicensesDialogFragment</string>
+        </fragments>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.about.LicenseActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>textview</typeOfUiElement>
+        <handlerMethod>void onLegalClicked(android.view.View)</handlerMethod>
+        <resId>2131296463</resId>
+        <text>License/disclaimer</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>log</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296286</resId>
+        <parentId>100178</parentId>
+        <text>Fields to monitor</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>log</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296292</resId>
+        <text>Share log file</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.about.AboutActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.about.AboutActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>de.psdev.licensesdialog.LicensesDialogFragment</string>
+        </fragments>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>textview</typeOfUiElement>
+        <handlerMethod>void onClick(android.view.View)</handlerMethod>
+        <resId>2131296464</resId>
+        <text>3rd party libraries</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>filter_columns</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>menu</typeOfUiElement>
+        <handlerMethod>boolean onClickMenuIcon(int,android.Menu)</handlerMethod>
+        <resId>2131492864</resId>
+        <contentDesc>More options</contentDesc>
+      </edgeTag>
+    </TransitionEdge>
+  </transitionEdges>
+  <screenNodeSet>
+    <ScreenNode>
+      <name>ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity</name>
+      <target>false</target>
+      <fragments>
+        <string>ca.rmen.android.networkmonitor.app.prefs.NetMonPreferenceFragmentCompat</string>
+      </fragments>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity</name>
+      <target>false</target>
+      <fragments/>
+      <menu>filter_columns</menu>
+      <dialogs/>
+      <baseScreen>false</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>ca.rmen.android.networkmonitor.app.email.EmailHelpActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>ca.rmen.android.networkmonitor.app.about.AboutActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>ca.rmen.android.networkmonitor.app.dbops.ui.GnuplotSettingsActivity</name>
+      <target>false</target>
+      <fragments>
+        <string>ca.rmen.android.networkmonitor.app.prefs.NetMonPreferenceFragmentCompat</string>
+      </fragments>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>ca.rmen.android.networkmonitor.app.log.LogActivity</name>
+      <target>false</target>
+      <fragments/>
+      <menu>log</menu>
+      <dialogs/>
+      <baseScreen>false</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</name>
+      <target>false</target>
+      <fragments/>
+      <menu>select_fields</menu>
+      <dialogs/>
+      <baseScreen>false</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>ca.rmen.android.networkmonitor.app.email.EmailPreferencesActivity</name>
+      <target>false</target>
+      <fragments>
+        <string>ca.rmen.android.networkmonitor.app.prefs.NetMonPreferenceFragmentCompat</string>
+      </fragments>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>ca.rmen.android.networkmonitor.app.about.AboutActivity</name>
+      <target>false</target>
+      <fragments>
+        <string>de.psdev.licensesdialog.LicensesDialogFragment</string>
+      </fragments>
+      <dialogs/>
+      <baseScreen>false</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>ca.rmen.android.networkmonitor.app.savetostorage.SaveToStorageActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>ca.rmen.android.networkmonitor.app.about.LicenseActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>ca.rmen.android.networkmonitor.app.main.MainActivity</name>
+      <target>false</target>
+      <fragments>
+        <string>ca.rmen.android.networkmonitor.app.prefs.NetMonPreferenceFragmentCompat</string>
+      </fragments>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+  </screenNodeSet>
+  <serviceNodeSet>
+    <ServiceNode>
+      <name>ca.rmen.android.networkmonitor.app.service.NetMonService</name>
+      <target>false</target>
+    </ServiceNode>
+    <ServiceNode>
+      <name>ca.rmen.android.networkmonitor.app.savetostorage.SaveToStorageService</name>
+      <target>false</target>
+    </ServiceNode>
+    <ServiceNode>
+      <name>ca.rmen.android.networkmonitor.app.dbops.backend.DBOpIntentService</name>
+      <target>false</target>
+    </ServiceNode>
+  </serviceNodeSet>
+  <broadcastReceiverNodeSet>
+    <BroadcastReceiverNode>
+      <name>ca.rmen.android.networkmonitor.app.service.BootReceiver</name>
+      <target>false</target>
+    </BroadcastReceiverNode>
+  </broadcastReceiverNodeSet>
+</ScreenTransitionGraph>

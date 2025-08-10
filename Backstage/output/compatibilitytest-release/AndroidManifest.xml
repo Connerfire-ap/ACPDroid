@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="32" android:compileSdkVersionCodename="12" package="com.example.compatibilitytest" platformBuildVersionCode="32" platformBuildVersionName="12">
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:dataExtractionRules="@xml/data_extraction_rules" android:fullBackupContent="@xml/backup_rules" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/Theme.CompatibilityTest">
+        <activity android:exported="false" android:name="com.example.compatibilitytest.MainActivity4">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:exported="false" android:name="com.example.compatibilitytest.MainActivity3">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <service android:enabled="true" android:exported="true" android:name="com.example.compatibilitytest.MyService"/>
+        <activity android:exported="false" android:label="@string/title_activity_main2" android:name="com.example.compatibilitytest.MainActivity2" android:theme="@style/Theme.CompatibilityTest.NoActionBar">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:exported="true" android:name="com.example.compatibilitytest.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <provider android:authorities="com.example.compatibilitytest.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+    </application>
+</manifest>

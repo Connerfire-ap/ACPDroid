@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:measureWithLargestChild="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TableLayout android:id="@id/tableLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="@dimen/layout_paddingLandscape" android:layout_marginRight="5.0dip">
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settingsCardBackground0" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="wrap_content" android:layout_height="0.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/settings_cards_back" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settingsCardBackground1" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="wrap_content" android:layout_height="0.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/settings_cards_back" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settingsCardBackground2" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="wrap_content" android:layout_height="0.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/settings_cards_back" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settingsCardBackground3" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="wrap_content" android:layout_height="0.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/settings_cards_back" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settingsCardBackground4" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="wrap_content" android:layout_height="0.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/settings_cards_back" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settingsCardBackground5" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="wrap_content" android:layout_height="0.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/settings_cards_back" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settingsCardBackground6" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="wrap_content" android:layout_height="0.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/settings_cards_back" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="7" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settingsCardBackground7" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="wrap_content" android:layout_height="0.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/settings_cards_back" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="8" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settingsCardBackground8" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="wrap_content" android:layout_height="0.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/settings_cards_back" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tableLayout1">
+        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Title" android:id="@id/textView" android:paddingLeft="25.0dip" android:paddingTop="@dimen/layout_paddingLandscape" android:paddingBottom="@dimen/layout_paddingLandscape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_background_color" />
+        <TableLayout android:paddingLeft="@dimen/layout_padding" android:paddingRight="@dimen/layout_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialogBackgroundsCardsBlue" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:background="@drawable/image_border" android:layout_width="@dimen/dialogBackgroundColorBoxWidthLandscape" android:layout_height="@dimen/dialogBackgroundColorBoxWidthLandscape" app:srcCompat="@drawable/background_color_blue" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialogBackgroundsCardsRed" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:background="@drawable/image_border" android:layout_width="@dimen/dialogBackgroundColorBoxWidthLandscape" android:layout_height="@dimen/dialogBackgroundColorBoxWidthLandscape" app:srcCompat="@drawable/background_color_red" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialogBackgroundsCardsGreen" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:background="@drawable/image_border" android:layout_width="@dimen/dialogBackgroundColorBoxWidthLandscape" android:layout_height="@dimen/dialogBackgroundColorBoxWidthLandscape" app:srcCompat="@drawable/background_color_green" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialogBackgroundsCardsYellow" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:background="@drawable/image_border" android:layout_width="@dimen/dialogBackgroundColorBoxWidthLandscape" android:layout_height="@dimen/dialogBackgroundColorBoxWidthLandscape" app:srcCompat="@drawable/background_color_yellow" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</RelativeLayout>

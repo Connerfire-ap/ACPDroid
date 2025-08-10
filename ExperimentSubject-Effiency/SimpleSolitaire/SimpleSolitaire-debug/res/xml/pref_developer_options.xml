@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:summary="@string/settings_developer_options_lock_text" />
+    <CheckBoxPreference android:title="@string/settings_developer_options_move_card_everwhere_title" android:key="@string/pref_key_developer_option_move_cards_everywhere" android:summary="@string/settings_developer_options_move_card_everwhere_text" android:defaultValue="@bool/default_developer_option_move_cards_everywhere" />
+    <CheckBoxPreference android:title="@string/settings_developer_options_play_every_card_title" android:key="@string/pref_key_developer_option_play_every_card" android:summary="@string/settings_developer_options_play_every_card_text" android:defaultValue="@bool/default_developer_option_play_every_card" />
+    <CheckBoxPreference android:title="@string/settings_developer_options_instant_win_title" android:key="@string/pref_key_developer_option_instant_win" android:summary="@string/settings_developer_options_instant_win_text" android:defaultValue="@bool/default_developer_option_instant_win" />
+    <CheckBoxPreference android:title="@string/settings_developer_options_no_saving_title" android:key="@string/pref_key_developer_option_no_saving" android:summary="@string/settings_developer_options_no_saving_text" android:defaultValue="@bool/default_developer_option_no_saving" />
+    <de.tobiasbielefeld.solitaire.classes.ListPreferenceWithSummary android:entries="@array/pref_developer_option_deal_correct_sequences_titles" android:title="@string/settings_developer_options_deal_correct_sequences_title" android:key="@string/pref_key_developer_option_deal_correct_sequences" android:summary="%s" android:defaultValue="0" android:positiveButtonText="@null" android:negativeButtonText="@string/game_cancel" android:entryValues="@array/pref_developer_option_deal_correct_sequences_values" />
+</PreferenceScreen>

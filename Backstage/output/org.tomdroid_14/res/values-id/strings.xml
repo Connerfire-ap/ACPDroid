@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tomdroid</string>
+    <string name="app_desc">Tomboy kompatibel dengan wikiwiki aplikasi note-taking.</string>
+    <string name="author">Olivier Bilodeau</string>
+    <string name="strListEmptyWaiting">Harap tunggu sejenak ...</string>
+    <string name="strListEmptyNoNotes">Tidak ada catatan dalam database Tomdroid.</string>
+    <string name="menuSync">Sinkronisasi</string>
+    <string name="menuPrefs">Pengaturan</string>
+    <string name="menuAbout">Tentang</string>
+    <string name="titleWelcome">Peringatan</string>
+    <string name="titleAbout">Tentang Tomdroid</string>
+    <string name="strWelcome">"Selamat Datang di Tomdroid.
+
+Harap perhatikan bahwa ini adalah kualitas perangkat lunak beta dan bahwa itu mengandung masalah untuk diketahui.
+
+Kami sangat menyadari masalah ini dan berniat untuk bekerja pada mereka dengan cepat tetapi saya juga ingin mendapatkan sesuatu dan diuji secepat mungkin.
+
+Jika Anda ingin berkontribusi, membantu di semua tingkatan sangat diharapkan. Kontak pada launchpad.net/tomdroid dan hubungi kami!
+"</string>
+    <string name="strAbout">"%1$s
+
+Author: %2$s
+Version: %3$s
+Lisensi dibawah GPLv3"</string>
+    <string name="btnOk">Ok</string>
+    <string name="btnCancel">Batal</string>
+    <string name="btnClose">Tutup</string>
+    <string name="btnProjectPage">Halaman proyek</string>
+    <string name="btnSavetoSD">Simpan</string>
+    <string name="strWait">Harap tunggu sebentar</string>
+    <string name="prefSyncService">Layanan</string>
+    <string name="prefSyncServer">Server</string>
+    <string name="prefSDCard">SD Card</string>
+    <string name="prefTomboyWeb">Sikronisasi Online</string>
+    <string name="prefAuthenticate">Otentikasi</string>
+    <string name="prefLocation">Lokasi di SD Card</string>
+    <string name="prefSyncOnStart">Autosync pada Startup</string>
+    <string name="prefDescSyncOnStart">Mensinkronisasi catatan anda pada appstart</string>
+    <string name="prefFolderCreated">Folder \"%1$s\" belum ada. Silakan menghubungkan perangkat Anda ke komputer, membuat folder dan mengisinya dengan file * catatan..</string>
+    <string name="prefNoValidLocation">\"%1$s\" bukan lokasi folder yang valid. Silakan coba lagi!</string>
+    <string name="prefNoValidEntry">\"%1$s\" bukan entri yang valid. Silakan coba lagi!</string>
+    <string name="prefSyncCompleteAuth">Melengkapi otentikasi. Silakan tunggu ...</string>
+    <string name="prefSyncConnectionFailed">Koneksi ke server gagal, periksa bahwa alamat yang Anda masukkan sudah benar.</string>
+    <string name="prefServerEmpty">Alamat server berubah tetapi nilai baru kosong</string>
+    <string name="titleSyncService">Pilih penggunaan sikronisasi</string>
+    <string name="messageSyncComplete">Sinkronisasi dengan %1$s selesai.</string>
+    <string name="messageSyncNoNote">Tidak ada catatan ditemukan di %1$s.</string>
+    <string name="messageSyncNoConnection">Anda tidak terhubung ke Internet.</string>
+    <string name="messageSyncAlreadyInProgress">Sinkronisasi sudah berlangsung</string>
+    <string name="messageSyncError">Ada kesalahan mencoba untuk mengurai koleksi catatan Anda. Jika Anda mampu mereplikasi masalah, silahkan hubungi kami!</string>
+    <string name="error">Error</string>
+    <string name="titleNoteNotFound">Tidak ada Catatan tersebut</string>
+    <string name="messageNoteNotFound">Catatan yang diminta tidak dapat ditemukan. Mungkin itu dihapus atau dihapus melalui sinkronisasi.</string>
+    <string name="messageErrorNoteParsing">Kesalahan parsing catatan.</string>
+    <string name="messageCouldNotSave">Tidak dapat menyimpan catatan.</string>
+    <string name="messageNoSDCard">Penyimpanan SD Card tidak ditemukan.</string>
+    <string name="titleDefaultSorting">Pilih metode standar pemilahan</string>
+    <string name="prefDefaultSortingTitle">Metode Urutan Standar</string>
+    <string name="prefSorting">Urutan Berdasarkan:</string>
+    <string name="prefSortDate">Tanggal Diubah</string>
+    <string name="prefSortTitle">Judul Catatan</string>
+    <string name="sortByDate">Urutan berdasarkan tanggal</string>
+    <string name="sortByTitle">Urutan berdasarkan judul</string>
+    <string name="menuFilterNotebook">Filter:</string>
+    <string name="strListEmptyNoNotebooks">Tidak ada buku catatan dalam database</string>
+    <string name="allNotebooksFilter">Semua buku catatan</string>
+    <string name="view">Lihat</string>
+    <string name="noteOptions">Catatan Pilihan</string>
+    <string name="send">Kirim</string>
+    <string name="search_hint">Mencari Catatan</string>
+    <string name="search_description">Teks dalam catatan Anda</string>
+    <string name="strNoResults">Tidak ada catatan ditemukan % s \"</string>
+    <string name="menuSearch">Cari</string>
+    <string name="SearchResultTitle">Hasil Pencarian:</string>
+    <string name="clearSearchHistoryTitle">Hapus riwayat pencarian</string>
+    <string name="clearSearchHistory">Hapus semua pencarian yang telah dilakukan</string>
+    <string name="deletedSearchHistory">Riwayat pencarian telah dibersihkan.</string>
+    <string name="textModified">Diubah:</string>
+    <string name="textToday">Hari Ini</string>
+    <string name="textYexterday">Kemarin</string>
+    <string name="shortcuts_view_caption">Pilih sebuah catatan</string>
+    <string name="shortcut_menu_item_caption">Catatan Tomdroid</string>
+    <string name="btnRemoveShortcut">Hapus shortcut</string>
+    <string name="createShortcut">Buat shortcut</string>
+    <string name="delete">Hapus</string>
+    <string name="delete_note">Hapus Catatan</string>
+    <string name="delete_message">Apakah Anda yakin ingin menghapus catatan ini?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="delete_all">Hapus catatan</string>
+    <string name="delete_all_message">Apakah Anda yakin ingin menghapus catatan database?</string>
+    <string name="delete_remote_notes">Hapus Catatan Jarak Jauh</string>
+    <string name="delete_remote_notes_message">Apakah Anda yakin ingin menghapus semua catatan dari layanan remote?</string>
+    <string name="menuNew">Baru</string>
+    <string name="NewNoteTitle">Catatan Baru</string>
+    <string name="NewNoteTitleHint">Masukkan judul di sini</string>
+    <string name="NewNoteBodyHint">Masukkan catatan di sini</string>
+    <string name="edit">Ubah</string>
+    <string name="save">Simpan</string>
+    <string name="discard">Abaikan</string>
+    <string name="back">Kembali</string>
+    <string name="bold">B</string>
+    <string name="italic">i</string>
+    <string name="strike"><strike>S</strike></string>
+    <string name="mono">monospace</string>
+    <string name="highlight">menyoroti</string>
+    <string name="size">Ukuran</string>
+    <string name="titleErrorParsingXML">Kesalahan parsing catatan</string>
+    <string name="messageErrorParsingXML">Ada kesalahan parsing catatan. Silakan periksa XML Anda.</string>
+    <string name="messageNoteSaved">Simpan catatan di lokal.</string>
+    <string name="messageNoteDeleted">Hapus catatan di lokal.</string>
+    <string name="messageSelectSize">Pilih ukuran teks</string>
+    <string name="small">Kecil</string>
+    <string name="normal">Normal</string>
+    <string name="large">Besar</string>
+    <string name="huge">Raksasa</string>
+    <string name="messageDiscardChanges">Apakah Anda benar-benar ingin membuang perubahan dan kembali ke catatan yang terakhir disimpan?</string>
+    <string name="titleDiscardChanges">Abaikan Perubahan?</string>
+    <string name="gt"><b>></b></string>
+    <string name="lt"><b>&lt;</b></string>
+    <string name="view_title">Tomdroid - Lihat Catatan</string>
+    <string name="edit_title">Tomdroid - Ubah Catatan</string>
+    <string name="search_title">Tomdroid - Hasil Pencarian</string>
+    <string name="shortcut_title">Tomdroid - Shortcut</string>
+    <string name="pref_title">Tomdroid - Pengaturan</string>
+    <string name="compare_title">Tomdroid - Catatan Konflik</string>
+    <string name="filePickerTitle">Tomdroid - Impor Catatan</string>
+    <string name="prefDisplay">Preferensi Tampilan</string>
+    <string name="prefBaseSize">Basis Font Size</string>
+    <string name="prefSync">Sinkronisasi</string>
+    <string name="prefTools">Alat</string>
+    <string name="prefAutoSave">Menyimpan catatan secara otomatis pada saat keluar dari editor.</string>
+    <string name="prefDeletedNotesTitle">Tampilkan Catatan Dihapus</string>
+    <string name="prefDeletedNotes">Jika dicentang, akan menunjukkan catatan yang dihapus dalam daftar.</string>
+    <string name="prefNoteTemplatesTitle">Tampilkan catatan template</string>
+    <string name="prefNoteTemplates">Jika dicentang, akan menunjukkan template catatan dalam daftar.</string>
+    <string name="deleteAllNotesTitle">Hapus catatan</string>
+    <string name="deleteAllNotes">Menghapus semua catatan dari database lokal</string>
+    <string name="deleteRemoteNotesTitle">Hapus Catatan Jarak Jauh</string>
+    <string name="deleteRemoteNotes">Hapus semua catatan dari layanan remote</string>
+    <string name="illegalTextSize">Ukuran teks yang dipilih ilegal . Silakan pilih nomor.</string>
+    <string name="backupPrefTitle">Backup Catatan</string>
+    <string name="backupPref">Menyalin semua catatan ke SD Card</string>
+    <string name="autoBackupPrefTitle">Otomatis-Backup</string>
+    <string name="autoBackupPref">Salin catatan lokal ke SD Card saat disimpan</string>
+    <string name="prefLinks">Hyperlink Preferensi</string>
+    <string name="prefLinkTitlesTitle">Judul Tautan</string>
+    <string name="prefLinkTitles">Link ke judul catatan lain</string>
+    <string name="prefLinkUrlsTitle">Tautan Alamat Web</string>
+    <string name="prefLinkUrls">misalnya www.google.com</string>
+    <string name="prefLinkEmailsTitle">Tautan Surel</string>
+    <string name="prefLinkEmails">misalnya name@address.com</string>
+    <string name="prefLinkPhonesTitle">Tautan nomor telepone</string>
+    <string name="prefLinkPhones">Link nomor telepon ke aplikasi telepon</string>
+    <string name="prefLinkAddressesTitle">Tautan alamat peta</string>
+    <string name="prefLinkAddresses">Alamat link ke peta app</string>
+    <string name="syncing">Sinkronisasi dengan %1$s</string>
+    <string name="syncing_connect">sambungan ke layanan ...</string>
+    <string name="gettings_notes">mendapatkan daftar catatan jarak jauh ...</string>
+    <string name="syncing_local">memperbarui catatan lokal ...</string>
+    <string name="syncing_remote">memperbarui catatan jarak jauh ...</string>
+    <string name="sync_conflict_description">"Ada konflik sinkronisasi catatan '%1$s'"</string>
+    <string name="sync_conflict_message">Silakan pilih tindakan untuk menyelesaikan konflik. Anda dapat mengedit catatan baik sebelum memilih, atau melihat perbedaannya dengan mengklik pada label di bawah ini.</string>
+    <string name="sync_conflict_deleted">Versi lokal sudah dihapus. Silakan pilih salah satu dari tindakan di bawah.</string>
+    <string name="sync_conflict_titles_message">Sebuah catatan dengan judul yang sudah ada dalam database. Silakan pilih tindakan untuk menyelesaikan konflik. Anda dapat mengedit catatan baik sebelum memilih, atau melihat perbedaannya dengan mengklik pada label di bawah ini.</string>
+    <string name="overwrite_remote">"Timpa
+Remote"</string>
+    <string name="overwrite_local">"Timpa
+Local"</string>
+    <string name="delete_remote">"Hapus
+Remote"</string>
+    <string name="copy">"Buat
+Salin"</string>
+    <string name="diff_label">Perbedaan Antara Berkas</string>
+    <string name="diff_titles">-- Perbedaan Judul --</string>
+    <string name="diff_content">-- Perbedaan Konten --</string>
+    <string name="line_x">Baris %1$s:</string>
+    <string name="local_label">Versi Lokal</string>
+    <string name="remote_label">Versi Remote</string>
+    <string name="deleted">Telah Dihapus</string>
+    <string name="old">%1$s (tua)</string>
+    <string name="close">Tutup</string>
+    <string name="cancel">Batal</string>
+    <string name="messageAuthComplete">Otorisasi dengan sukses %1$s.</string>
+    <string name="messageAuthFailed">Otorisasi dengan %1$s gagal. Coba lagi nanti!</string>
+    <string name="messageSyncNoteDeleted">Catatan dihapus dari %1$s berhasil.</string>
+    <string name="messageSyncNotePushed">Catatan dikirim ke %1$s berhasil.</string>
+    <string name="messageSyncNotePulled">Catatan diterima dari %1$s berhasil.</string>
+    <string name="messageSyncNoteDeleteError">Kesalahan menghapus catatan dari %1$s.</string>
+    <string name="messageSyncNotePushError">Kesalahan mengirimkan catatan untuk %1$s.</string>
+    <string name="messageSyncNotePullError">Kesalahan menerima catatan untuk %1$s.</string>
+    <string name="messageSyncParseFailed">Kesalahan parsing tanggapan dari %1$s.</string>
+    <string name="messageSyncConnectingFailed">Kesalahan koneksi ke %1$s. Anda mungkin perlu untuk mengotentikasi dalam Pengaturan.</string>
+    <string name="messageRemoteNotesDeleted">Catatan dihapus dari %1$s berhasil.</string>
+    <string name="messageSyncCancelled">Sinkronisasi dengan %1$s dibatalkan.</string>
+    <string name="editTags">Ubah Tag</string>
+    <string name="contextRevert">Kembali</string>
+    <string name="note_x_tags">"Catatan '%1$s' Tag"</string>
+    <string name="edit_tags">Edit tag di bawah ini, memisahkan dengan koma</string>
+    <string name="undelete">Undelete Catatan</string>
+    <string name="menuImport">Impor Catatan</string>
+    <string name="menuRevert">Kembalikan Semua</string>
+    <string name="revert_notes">Kembalikan Catatan</string>
+    <string name="revert_notes_message">Ini akan mengembalikan catatan lokal Anda untuk apa pun versi ada di layanan remote. Apakah Anda ingin melakukan ini?</string>
+    <string name="revert_note">Kembalikan Catatan</string>
+    <string name="revert_note_message">Ini akan mengembalikan catatan lokal untuk versi apa pun ada di layanan remote. Apakah Anda ingin melakukan ini?</string>
+    <string name="backup_notes_title">Backup Catatan</string>
+    <string name="backup_notes">Menyalin semua catatan lokal ke SD Card? Hal ini mungkin menimpa catatan yang ada di SD Card.</string>
+    <string name="restorePrefTitle">Kembalikan Catatan</string>
+    <string name="restore_notes_title">Kembalikan Catatan?</string>
+    <string name="restore_notes">Tarik semua catatan dari SD Card? Hal ini mungkin menimpa catatan yang ada.</string>
+    <string name="messageNotesBackedUp">Catatan mundur ke SD card berhasil.</string>
+    <string name="messageNotesRestored">Catatan dikembalikan dari SD card berhasil.</string>
+    <string name="messageDatabaseReset">Catatan dibersihkan berhasil.</string>
+    <string name="sendChoiceTitle">Pilih Kirim Metode</string>
+    <string name="sendChoice">Bagaimana Anda ingin mengirim catatan?</string>
+    <string name="btnSendAsText">sebagai Teks</string>
+    <string name="btnSendAsFile">sebagai Berkas</string>
+    <string name="sync_conflict_import_message">Catatan sudah ada dalam database. Silakan pilih tindakan untuk menyelesaikan konflik. Anda dapat mengedit catatan baik sebelum memilih, atau melihat perbedaannya dengan mengklik pada label di bawah ini.</string>
+    <string name="btnCancelImport">"Batal
+Impor"</string>
+    <string name="messageFileTooBig">Berkas melebihi ukuran maksimum impor - apakah Anda yakin itu adalah teks biasa?</string>
+    <string name="messageFileNotReadable">Tidak dapat membaca file catatan.</string>
+    <string name="noFiles">Tidak ada berkas atau direktori</string>
+    <string name="chooseFile">Pilih berkas di bawah ini yang berupa catatan Tomboy (yang akan diimpor) atau berkas teks biasa (yang akan membuat catatan baru):</string>
+    <string name="firstNoteTitle">Catatan Pertama Tomdroid</string>
+    <string name="market_title">Catatan Tomdroid</string>
+    <string name="market_description">"Klien Tomboy untuk Android. Tomboy adalah desktop pengambilan catatan app menggunakan pendekatan wikiwiki dan antarmuka pengguna yang sederhana.
+
+* Format catatan kompatibilitas dengan Tomboy
+* Catatan sinkronisasi online dengan Rainy, Snowy atau Tomboy online
+* SD Card impor
+* Layar awal pintas
+* Mengirim dan menerima pesan teks atau catatan-file dari aplikasi apapun
+* Open source!"</string>
+    <string name="market_promotext">Mencatat aplikasi dengan sinkronisasi online yang kompatibel dengan Tomboy</string>
+    <string name="market_recent_changes">"* Catatan kini dapat dibuat, diedit dan dihapus
+* Sepenuhnya didesain ulang untuk kedua tablet dan ponsel
+* Sinkronisasi catatan Anda dengan layanan web yang kompatibel atau ke kartu SD Anda
+* Mengirim dan menerima file catatan atau teks dari aplikasi apapun
+* Dikonfigurasi lebih dari sebelumnya
+* Tersedia dalam bahasa bahkan lebih
+
+ Dan banyak lagi, untuk daftar lengkap perubahan silakan lihat https://launchpad.net/tomdroid/+announcements"</string>
+    <string name="about_translators">Launchpad Contributions: Mohammed Fiqhi Triansha https://launchpad.net/~fiqhiskaneltkj-3 Trisno Pamuji https://launchpad.net/~tri.snowman dhardiputra https://launchpad.net/~dhardiputra</string>
+</resources>

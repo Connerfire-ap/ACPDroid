@@ -1,0 +1,3 @@
+com.mikifus.padland.PadListActivity
+com.mikifus.padland.PadListActivity
+com.android.launcher2.Launcher

@@ -1,0 +1,360 @@
+zapp-1.10.0.apk minSdkVersion: 19, targetSdkVersion: 27
+BUG: <android.os.BaseBundle: boolean getBoolean(java.lang.String)> called in <eu.fiskur.markdownview.MarkdownActivity: void f()> on line -1 not in [19, 21]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: eu.fiskur.markdownview.MarkdownActivity dummyMainMethod_eu_fiskur_markdownview_MarkdownActivity(android.content.Intent)>
+		--><eu.fiskur.markdownview.MarkdownActivity: void onCreate(android.os.Bundle)>
+		--><eu.fiskur.markdownview.MarkdownActivity: void f()>
+
+BUG: <android.media.MediaCodec$CryptoInfo$Pattern: void <init>(int,int)> called in <com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo)> on line -1 not in [19, 21, 22, 23]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity dummyMainMethod_de_christinecoenen_code_zapp_app_mediathek_ui_detail_MediathekPlayerActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onCreate(android.os.Bundle)>
+		--><de.christinecoenen.code.zapp.app.mediathek.controller.a: void <init>(android.content.Context,de.christinecoenen.code.zapp.app.mediathek.model.MediathekShow,de.christinecoenen.code.zapp.utils.b.b$a,de.christinecoenen.code.zapp.utils.b.a$a)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(android.content.Context,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q,com.google.android.exoplayer2.k.b)>
+		--><com.google.android.exoplayer2.g: com.google.android.exoplayer2.aa[] a(android.os.Handler,com.google.android.exoplayer2.l.h,com.google.android.exoplayer2.a.e,com.google.android.exoplayer2.h.k,com.google.android.exoplayer2.f.f)>
+		--><com.google.android.exoplayer2.g: void a(android.content.Context,com.google.android.exoplayer2.f.f,android.os.Looper,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.f.g: void <init>(com.google.android.exoplayer2.f.f,android.os.Looper)>
+		--><com.google.android.exoplayer2.f.g: void <init>(com.google.android.exoplayer2.f.f,android.os.Looper,com.google.android.exoplayer2.f.d)>
+		--><com.google.android.exoplayer2.f.e: void <init>()>
+		--><com.google.android.exoplayer2.b.e: void <init>(int)>
+		--><com.google.android.exoplayer2.b.b: void <init>()>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.b.b$1)>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity dummyMainMethod_de_christinecoenen_code_zapp_app_livestream_ui_detail_ChannelDetailActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onCreate(android.os.Bundle)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(android.content.Context,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q,com.google.android.exoplayer2.k.b)>
+		--><com.google.android.exoplayer2.g: com.google.android.exoplayer2.aa[] a(android.os.Handler,com.google.android.exoplayer2.l.h,com.google.android.exoplayer2.a.e,com.google.android.exoplayer2.h.k,com.google.android.exoplayer2.f.f)>
+		--><com.google.android.exoplayer2.g: void a(android.content.Context,com.google.android.exoplayer2.f.f,android.os.Looper,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.f.g: void <init>(com.google.android.exoplayer2.f.f,android.os.Looper)>
+		--><com.google.android.exoplayer2.f.g: void <init>(com.google.android.exoplayer2.f.f,android.os.Looper,com.google.android.exoplayer2.f.d)>
+		--><com.google.android.exoplayer2.f.e: void <init>()>
+		--><com.google.android.exoplayer2.b.e: void <init>(int)>
+		--><com.google.android.exoplayer2.b.b: void <init>()>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.b.b$1)>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity dummyMainMethod_de_christinecoenen_code_zapp_app_mediathek_ui_detail_MediathekPlayerActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onCreate(android.os.Bundle)>
+		--><de.christinecoenen.code.zapp.app.mediathek.controller.a: void <init>(android.content.Context,de.christinecoenen.code.zapp.app.mediathek.model.MediathekShow,de.christinecoenen.code.zapp.utils.b.b$a,de.christinecoenen.code.zapp.utils.b.a$a)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(android.content.Context,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q,com.google.android.exoplayer2.k.b)>
+		--><com.google.android.exoplayer2.g: com.google.android.exoplayer2.aa[] a(android.os.Handler,com.google.android.exoplayer2.l.h,com.google.android.exoplayer2.a.e,com.google.android.exoplayer2.h.k,com.google.android.exoplayer2.f.f)>
+		--><com.google.android.exoplayer2.g: void a(android.content.Context,com.google.android.exoplayer2.c.c,com.google.android.exoplayer2.a.d[],android.os.Handler,com.google.android.exoplayer2.a.e,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.a.k: void <init>(com.google.android.exoplayer2.e.c,com.google.android.exoplayer2.c.c,boolean,android.os.Handler,com.google.android.exoplayer2.a.e,com.google.android.exoplayer2.a.c,com.google.android.exoplayer2.a.d[])>
+		--><com.google.android.exoplayer2.a.k: void <init>(com.google.android.exoplayer2.e.c,com.google.android.exoplayer2.c.c,boolean,android.os.Handler,com.google.android.exoplayer2.a.e,com.google.android.exoplayer2.a.f)>
+		--><com.google.android.exoplayer2.e.b: void <init>(int,com.google.android.exoplayer2.e.c,com.google.android.exoplayer2.c.c,boolean)>
+		--><com.google.android.exoplayer2.b.e: void <init>(int)>
+		--><com.google.android.exoplayer2.b.b: void <init>()>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.b.b$1)>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo)>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity dummyMainMethod_de_christinecoenen_code_zapp_app_livestream_ui_detail_ChannelDetailActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onCreate(android.os.Bundle)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(android.content.Context,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q,com.google.android.exoplayer2.k.b)>
+		--><com.google.android.exoplayer2.g: com.google.android.exoplayer2.aa[] a(android.os.Handler,com.google.android.exoplayer2.l.h,com.google.android.exoplayer2.a.e,com.google.android.exoplayer2.h.k,com.google.android.exoplayer2.f.f)>
+		--><com.google.android.exoplayer2.g: void a(android.content.Context,com.google.android.exoplayer2.c.c,com.google.android.exoplayer2.a.d[],android.os.Handler,com.google.android.exoplayer2.a.e,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.a.k: void <init>(com.google.android.exoplayer2.e.c,com.google.android.exoplayer2.c.c,boolean,android.os.Handler,com.google.android.exoplayer2.a.e,com.google.android.exoplayer2.a.c,com.google.android.exoplayer2.a.d[])>
+		--><com.google.android.exoplayer2.a.k: void <init>(com.google.android.exoplayer2.e.c,com.google.android.exoplayer2.c.c,boolean,android.os.Handler,com.google.android.exoplayer2.a.e,com.google.android.exoplayer2.a.f)>
+		--><com.google.android.exoplayer2.e.b: void <init>(int,com.google.android.exoplayer2.e.c,com.google.android.exoplayer2.c.c,boolean)>
+		--><com.google.android.exoplayer2.b.e: void <init>(int)>
+		--><com.google.android.exoplayer2.b.b: void <init>()>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.b.b$1)>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo)>
+	reachable path 5:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity dummyMainMethod_de_christinecoenen_code_zapp_app_mediathek_ui_detail_MediathekPlayerActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onCreate(android.os.Bundle)>
+		--><de.christinecoenen.code.zapp.app.mediathek.controller.a: void <init>(android.content.Context,de.christinecoenen.code.zapp.app.mediathek.model.MediathekShow,de.christinecoenen.code.zapp.utils.b.b$a,de.christinecoenen.code.zapp.utils.b.a$a)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(android.content.Context,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q,com.google.android.exoplayer2.k.b)>
+		--><com.google.android.exoplayer2.g: com.google.android.exoplayer2.aa[] a(android.os.Handler,com.google.android.exoplayer2.l.h,com.google.android.exoplayer2.a.e,com.google.android.exoplayer2.h.k,com.google.android.exoplayer2.f.f)>
+		--><com.google.android.exoplayer2.g: void a(android.content.Context,com.google.android.exoplayer2.c.c,long,android.os.Handler,com.google.android.exoplayer2.l.h,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.l.e: void <init>(android.content.Context,com.google.android.exoplayer2.e.c,long,com.google.android.exoplayer2.c.c,boolean,android.os.Handler,com.google.android.exoplayer2.l.h,int)>
+		--><com.google.android.exoplayer2.e.b: void <init>(int,com.google.android.exoplayer2.e.c,com.google.android.exoplayer2.c.c,boolean)>
+		--><com.google.android.exoplayer2.b.e: void <init>(int)>
+		--><com.google.android.exoplayer2.b.b: void <init>()>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.b.b$1)>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo)>
+	reachable path 6:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity dummyMainMethod_de_christinecoenen_code_zapp_app_livestream_ui_detail_ChannelDetailActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onCreate(android.os.Bundle)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(android.content.Context,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q,com.google.android.exoplayer2.k.b)>
+		--><com.google.android.exoplayer2.g: com.google.android.exoplayer2.aa[] a(android.os.Handler,com.google.android.exoplayer2.l.h,com.google.android.exoplayer2.a.e,com.google.android.exoplayer2.h.k,com.google.android.exoplayer2.f.f)>
+		--><com.google.android.exoplayer2.g: void a(android.content.Context,com.google.android.exoplayer2.c.c,long,android.os.Handler,com.google.android.exoplayer2.l.h,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.l.e: void <init>(android.content.Context,com.google.android.exoplayer2.e.c,long,com.google.android.exoplayer2.c.c,boolean,android.os.Handler,com.google.android.exoplayer2.l.h,int)>
+		--><com.google.android.exoplayer2.e.b: void <init>(int,com.google.android.exoplayer2.e.c,com.google.android.exoplayer2.c.c,boolean)>
+		--><com.google.android.exoplayer2.b.e: void <init>(int)>
+		--><com.google.android.exoplayer2.b.b: void <init>()>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.b.b$1)>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo)>
+	reachable path 7:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity dummyMainMethod_de_christinecoenen_code_zapp_app_mediathek_ui_detail_MediathekPlayerActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onCreate(android.os.Bundle)>
+		--><de.christinecoenen.code.zapp.app.mediathek.controller.a: void <init>(android.content.Context,de.christinecoenen.code.zapp.app.mediathek.model.MediathekShow,de.christinecoenen.code.zapp.utils.b.b$a,de.christinecoenen.code.zapp.utils.b.a$a)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(android.content.Context,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q,com.google.android.exoplayer2.k.b)>
+		--><com.google.android.exoplayer2.g: com.google.android.exoplayer2.aa[] a(android.os.Handler,com.google.android.exoplayer2.l.h,com.google.android.exoplayer2.a.e,com.google.android.exoplayer2.h.k,com.google.android.exoplayer2.f.f)>
+		--><com.google.android.exoplayer2.g: void a(android.content.Context,com.google.android.exoplayer2.c.c,com.google.android.exoplayer2.a.d[],android.os.Handler,com.google.android.exoplayer2.a.e,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.a.k: void <init>(com.google.android.exoplayer2.e.c,com.google.android.exoplayer2.c.c,boolean,android.os.Handler,com.google.android.exoplayer2.a.e,com.google.android.exoplayer2.a.c,com.google.android.exoplayer2.a.d[])>
+		--><com.google.android.exoplayer2.a.k: void <init>(com.google.android.exoplayer2.e.c,com.google.android.exoplayer2.c.c,boolean,android.os.Handler,com.google.android.exoplayer2.a.e,com.google.android.exoplayer2.a.f)>
+		--><com.google.android.exoplayer2.e.b: void <init>(int,com.google.android.exoplayer2.e.c,com.google.android.exoplayer2.c.c,boolean)>
+		--><com.google.android.exoplayer2.b.e: com.google.android.exoplayer2.b.e e()>
+		--><com.google.android.exoplayer2.b.e: void <init>(int)>
+		--><com.google.android.exoplayer2.b.b: void <init>()>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.b.b$1)>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo)>
+	reachable path 8:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity dummyMainMethod_de_christinecoenen_code_zapp_app_livestream_ui_detail_ChannelDetailActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onCreate(android.os.Bundle)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(android.content.Context,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q,com.google.android.exoplayer2.k.b)>
+		--><com.google.android.exoplayer2.g: com.google.android.exoplayer2.aa[] a(android.os.Handler,com.google.android.exoplayer2.l.h,com.google.android.exoplayer2.a.e,com.google.android.exoplayer2.h.k,com.google.android.exoplayer2.f.f)>
+		--><com.google.android.exoplayer2.g: void a(android.content.Context,com.google.android.exoplayer2.c.c,com.google.android.exoplayer2.a.d[],android.os.Handler,com.google.android.exoplayer2.a.e,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.a.k: void <init>(com.google.android.exoplayer2.e.c,com.google.android.exoplayer2.c.c,boolean,android.os.Handler,com.google.android.exoplayer2.a.e,com.google.android.exoplayer2.a.c,com.google.android.exoplayer2.a.d[])>
+		--><com.google.android.exoplayer2.a.k: void <init>(com.google.android.exoplayer2.e.c,com.google.android.exoplayer2.c.c,boolean,android.os.Handler,com.google.android.exoplayer2.a.e,com.google.android.exoplayer2.a.f)>
+		--><com.google.android.exoplayer2.e.b: void <init>(int,com.google.android.exoplayer2.e.c,com.google.android.exoplayer2.c.c,boolean)>
+		--><com.google.android.exoplayer2.b.e: com.google.android.exoplayer2.b.e e()>
+		--><com.google.android.exoplayer2.b.e: void <init>(int)>
+		--><com.google.android.exoplayer2.b.b: void <init>()>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.b.b$1)>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo)>
+	reachable path 9:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity dummyMainMethod_de_christinecoenen_code_zapp_app_mediathek_ui_detail_MediathekPlayerActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onCreate(android.os.Bundle)>
+		--><de.christinecoenen.code.zapp.app.mediathek.controller.a: void <init>(android.content.Context,de.christinecoenen.code.zapp.app.mediathek.model.MediathekShow,de.christinecoenen.code.zapp.utils.b.b$a,de.christinecoenen.code.zapp.utils.b.a$a)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(android.content.Context,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q,com.google.android.exoplayer2.k.b)>
+		--><com.google.android.exoplayer2.g: com.google.android.exoplayer2.aa[] a(android.os.Handler,com.google.android.exoplayer2.l.h,com.google.android.exoplayer2.a.e,com.google.android.exoplayer2.h.k,com.google.android.exoplayer2.f.f)>
+		--><com.google.android.exoplayer2.g: void a(android.content.Context,com.google.android.exoplayer2.c.c,long,android.os.Handler,com.google.android.exoplayer2.l.h,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.l.e: void <init>(android.content.Context,com.google.android.exoplayer2.e.c,long,com.google.android.exoplayer2.c.c,boolean,android.os.Handler,com.google.android.exoplayer2.l.h,int)>
+		--><com.google.android.exoplayer2.e.b: void <init>(int,com.google.android.exoplayer2.e.c,com.google.android.exoplayer2.c.c,boolean)>
+		--><com.google.android.exoplayer2.b.e: com.google.android.exoplayer2.b.e e()>
+		--><com.google.android.exoplayer2.b.e: void <init>(int)>
+		--><com.google.android.exoplayer2.b.b: void <init>()>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.b.b$1)>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo)>
+	reachable path 10:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity dummyMainMethod_de_christinecoenen_code_zapp_app_livestream_ui_detail_ChannelDetailActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onCreate(android.os.Bundle)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(android.content.Context,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h)>
+		--><com.google.android.exoplayer2.j: com.google.android.exoplayer2.af a(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q)>
+		--><com.google.android.exoplayer2.af: void <init>(com.google.android.exoplayer2.ad,com.google.android.exoplayer2.i.h,com.google.android.exoplayer2.q,com.google.android.exoplayer2.k.b)>
+		--><com.google.android.exoplayer2.g: com.google.android.exoplayer2.aa[] a(android.os.Handler,com.google.android.exoplayer2.l.h,com.google.android.exoplayer2.a.e,com.google.android.exoplayer2.h.k,com.google.android.exoplayer2.f.f)>
+		--><com.google.android.exoplayer2.g: void a(android.content.Context,com.google.android.exoplayer2.c.c,long,android.os.Handler,com.google.android.exoplayer2.l.h,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.l.e: void <init>(android.content.Context,com.google.android.exoplayer2.e.c,long,com.google.android.exoplayer2.c.c,boolean,android.os.Handler,com.google.android.exoplayer2.l.h,int)>
+		--><com.google.android.exoplayer2.e.b: void <init>(int,com.google.android.exoplayer2.e.c,com.google.android.exoplayer2.c.c,boolean)>
+		--><com.google.android.exoplayer2.b.e: com.google.android.exoplayer2.b.e e()>
+		--><com.google.android.exoplayer2.b.e: void <init>(int)>
+		--><com.google.android.exoplayer2.b.b: void <init>()>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.b.b$1)>
+		--><com.google.android.exoplayer2.b.b$a: void <init>(android.media.MediaCodec$CryptoInfo)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <eu.fiskur.markdownview.MarkdownActivity: void f()> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: eu.fiskur.markdownview.MarkdownActivity dummyMainMethod_eu_fiskur_markdownview_MarkdownActivity(android.content.Intent)>
+		--><eu.fiskur.markdownview.MarkdownActivity: void onCreate(android.os.Bundle)>
+		--><eu.fiskur.markdownview.MarkdownActivity: void f()>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <com.github.porokoro.paperboy.a.d: com.github.porokoro.paperboy.j b(android.content.Context,com.github.porokoro.paperboy.a.c)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.about.ui.ChangelogActivity dummyMainMethod_de_christinecoenen_code_zapp_app_about_ui_ChangelogActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.about.ui.ChangelogActivity: void onCreate(android.os.Bundle)>
+		--><com.github.porokoro.paperboy.a.e: com.github.porokoro.paperboy.j a()>
+		--><com.github.porokoro.paperboy.a.d: com.github.porokoro.paperboy.j a(android.content.Context,com.github.porokoro.paperboy.a.c)>
+		--><com.github.porokoro.paperboy.a.d: com.github.porokoro.paperboy.j b(android.content.Context,com.github.porokoro.paperboy.a.c)>
+
+BUG: <android.os.BaseBundle: void putLong(java.lang.String,long)> called in <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity dummyMainMethod_de_christinecoenen_code_zapp_app_mediathek_ui_detail_MediathekPlayerActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <de.christinecoenen.code.zapp.app.MainActivity: void onRestoreInstanceState(android.os.Bundle)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.MainActivity dummyMainMethod_de_christinecoenen_code_zapp_app_MainActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.MainActivity: void onRestoreInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: int getInt(java.lang.String,int)> called in <com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikepenz.aboutlibraries.ui.LibsActivity dummyMainMethod_com_mikepenz_aboutlibraries_ui_LibsActivity(android.content.Intent)>
+		--><com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.about.ui.AboutActivity dummyMainMethod_de_christinecoenen_code_zapp_app_about_ui_AboutActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.about.ui.AboutActivity: void onCreate(android.os.Bundle)>
+		--><com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: boolean containsKey(java.lang.String)> called in <com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikepenz.aboutlibraries.ui.LibsActivity dummyMainMethod_com_mikepenz_aboutlibraries_ui_LibsActivity(android.content.Intent)>
+		--><com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.about.ui.AboutActivity dummyMainMethod_de_christinecoenen_code_zapp_app_about_ui_AboutActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.about.ui.AboutActivity: void onCreate(android.os.Bundle)>
+		--><com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void c(android.content.Intent)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity dummyMainMethod_de_christinecoenen_code_zapp_app_livestream_ui_detail_ChannelDetailActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onNewIntent(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void c(android.content.Intent)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity dummyMainMethod_de_christinecoenen_code_zapp_app_livestream_ui_detail_ChannelDetailActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onCreate(android.os.Bundle)>
+		--><de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void c(android.content.Intent)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <eu.fiskur.markdownview.MarkdownActivity: void f()> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: eu.fiskur.markdownview.MarkdownActivity dummyMainMethod_eu_fiskur_markdownview_MarkdownActivity(android.content.Intent)>
+		--><eu.fiskur.markdownview.MarkdownActivity: void onCreate(android.os.Bundle)>
+		--><eu.fiskur.markdownview.MarkdownActivity: void f()>
+
+BUG: <android.os.BaseBundle: int getInt(java.lang.String,int)> called in <eu.fiskur.markdownview.MarkdownActivity: void f()> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: eu.fiskur.markdownview.MarkdownActivity dummyMainMethod_eu_fiskur_markdownview_MarkdownActivity(android.content.Intent)>
+		--><eu.fiskur.markdownview.MarkdownActivity: void onCreate(android.os.Bundle)>
+		--><eu.fiskur.markdownview.MarkdownActivity: void f()>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.acra.dialog.CrashReportDialog: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.acra.dialog.CrashReportDialog dummyMainMethod_org_acra_dialog_CrashReportDialog(android.content.Intent)>
+		--><org.acra.dialog.CrashReportDialog: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: boolean getBoolean(java.lang.String)> called in <eu.fiskur.markdownview.MarkdownActivity: void f()> on line -1 not in [19, 21]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: eu.fiskur.markdownview.MarkdownActivity dummyMainMethod_eu_fiskur_markdownview_MarkdownActivity(android.content.Intent)>
+		--><eu.fiskur.markdownview.MarkdownActivity: void onCreate(android.os.Bundle)>
+		--><eu.fiskur.markdownview.MarkdownActivity: void f()>
+
+WARNING: <android.content.SharedPreferences$Editor: boolean commit()> called in <org.acra.prefs.PrefUtils: void save(android.content.SharedPreferences$Editor)> on line -1 no living Level
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <de.christinecoenen.code.zapp.app.MainActivity: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.MainActivity dummyMainMethod_de_christinecoenen_code_zapp_app_MainActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.MainActivity: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: long getLong(java.lang.String)> called in <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onRestoreInstanceState(android.os.Bundle)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity dummyMainMethod_de_christinecoenen_code_zapp_app_mediathek_ui_detail_MediathekPlayerActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onRestoreInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String,java.lang.String)> called in <com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikepenz.aboutlibraries.ui.LibsActivity dummyMainMethod_com_mikepenz_aboutlibraries_ui_LibsActivity(android.content.Intent)>
+		--><com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.about.ui.AboutActivity dummyMainMethod_de_christinecoenen_code_zapp_app_about_ui_AboutActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.about.ui.AboutActivity: void onCreate(android.os.Bundle)>
+		--><com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikepenz.aboutlibraries.ui.LibsActivity dummyMainMethod_com_mikepenz_aboutlibraries_ui_LibsActivity(android.content.Intent)>
+		--><com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.about.ui.AboutActivity dummyMainMethod_de_christinecoenen_code_zapp_app_about_ui_AboutActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.about.ui.AboutActivity: void onCreate(android.os.Bundle)>
+		--><com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.acra.dialog.CrashReportDialog: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.acra.dialog.CrashReportDialog dummyMainMethod_org_acra_dialog_CrashReportDialog(android.content.Intent)>
+		--><org.acra.dialog.CrashReportDialog: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: boolean getBoolean(java.lang.String)> called in <eu.fiskur.markdownview.MarkdownActivity: void f()> on line -1 not in [19, 21]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: eu.fiskur.markdownview.MarkdownActivity dummyMainMethod_eu_fiskur_markdownview_MarkdownActivity(android.content.Intent)>
+		--><eu.fiskur.markdownview.MarkdownActivity: void onCreate(android.os.Bundle)>
+		--><eu.fiskur.markdownview.MarkdownActivity: void f()>
+
+BUG: <android.os.BaseBundle: int getInt(java.lang.String,int)> called in <eu.fiskur.markdownview.MarkdownActivity: void f()> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: eu.fiskur.markdownview.MarkdownActivity dummyMainMethod_eu_fiskur_markdownview_MarkdownActivity(android.content.Intent)>
+		--><eu.fiskur.markdownview.MarkdownActivity: void onCreate(android.os.Bundle)>
+		--><eu.fiskur.markdownview.MarkdownActivity: void f()>
+

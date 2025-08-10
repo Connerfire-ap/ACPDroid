@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/nav_header_vertical_spacing"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/layout_bg" android:padding="@dimen/activity_horizontal_margin" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/marginMedium" android:layout_marginBottom="@dimen/marginBig">
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Headline" android:textColor="@color/colorPinkText" android:id="@id/torrentName" android:background="@drawable/borderbottom" android:paddingBottom="@dimen/nav_header_vertical_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/nav_header_vertical_spacing" android:text="@string/loading" android:textAlignment="center" />
+            <LinearLayout android:orientation="vertical" android:id="@id/torrentDetails" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textStyle="bold" android:textColor="@color/colorDarkLink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/category" android:layout_marginEnd="@dimen/nav_header_vertical_spacing" />
+                        <TextView android:textColor="@color/colorDarkLink" android:id="@id/torrentCategory" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textStyle="bold" android:textColor="@color/colorDarkLink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uploaded_by" android:layout_marginEnd="@dimen/nav_header_vertical_spacing" />
+                        <TextView android:textColor="@color/colorDarkLink" android:id="@id/torrentUser" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textStyle="bold" android:textColor="@color/colorDarkLink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/date" android:layout_marginEnd="@dimen/nav_header_vertical_spacing" />
+                        <TextView android:textColor="@color/colorDarkLink" android:id="@id/torrentDate" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textStyle="bold" android:textColor="@color/colorDarkLink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/size" android:layout_marginEnd="@dimen/nav_header_vertical_spacing" />
+                        <TextView android:textColor="@color/colorDarkLink" android:id="@id/torrentSize" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textStyle="bold" android:textColor="@color/colorDarkLink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/downloads" android:layout_marginEnd="@dimen/nav_header_vertical_spacing" />
+                        <TextView android:textColor="@color/colorDarkLink" android:id="@id/torrentDownloads" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableLayout>
+                <ProgressBar android:id="@id/torrentProgress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:progress="50" android:progressTint="@android:color/holo_green_light" android:progressBackgroundTint="@android:color/holo_red_dark" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textColor="@android:color/holo_green_light" android:id="@id/torrentSeeders" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="S: 0" android:layout_weight="1.0" android:contentDescription="Seeders" />
+                    <TextView android:textColor="@android:color/holo_red_dark" android:id="@id/torrentLeechers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="L: 0" android:layout_weight="1.0" android:contentDescription="Leechers" android:textAlignment="textEnd" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/activity_horizontal_margin">
+                    <Button android:id="@id/downloadButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Colored" />
+                    <Button android:id="@id/copyButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copy" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+                    <Button android:id="@id/streamButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stream" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+                </LinearLayout>
+                <RelativeLayout android:background="@drawable/layout_bg_grey" android:padding="@dimen/fab_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/nav_header_vertical_spacing">
+                    <TextView android:textColor="@color/colorDarkBlue" android:autoLink="web" android:linksClickable="true" android:id="@id/torrentDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </RelativeLayout>
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Button" android:id="@id/showMoreToggle" android:padding="@dimen/nav_header_vertical_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nav_header_vertical_spacing" android:layout_marginTop="@dimen/nav_header_vertical_spacing" android:layout_marginRight="@dimen/nav_header_vertical_spacing" android:layout_marginBottom="0.0dip" android:text="@string/show_more" />
+                <TableLayout android:id="@id/moreDetails" android:background="@drawable/layout_bg_grey" android:padding="@dimen/activity_horizontal_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/nav_header_vertical_spacing" android:layout_marginTop="0.0dip" android:layout_marginRight="@dimen/nav_header_vertical_spacing" android:layout_marginBottom="@dimen/nav_header_vertical_spacing">
+                    <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textStyle="bold" android:textColor="@color/colorDarkBlue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/website" android:layout_marginEnd="@dimen/nav_header_vertical_spacing" />
+                        <TextView android:textColor="@color/colorDarkBlue" android:autoLink="web" android:linksClickable="true" android:id="@id/torrentWebsite" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textStyle="bold" android:textColor="@color/colorDarkBlue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hash" android:layout_marginEnd="@dimen/nav_header_vertical_spacing" />
+                        <TextView android:textColor="@color/colorDarkBlue" android:id="@id/torrentHash" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textStyle="bold" android:textColor="@color/colorDarkBlue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Files" android:layout_marginEnd="@dimen/nav_header_vertical_spacing" />
+                        <TextView android:textColor="@color/colorDarkBlue" android:id="@id/torrentFiles" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textStyle="bold" android:textColor="@color/colorDarkBlue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/last_scraped" android:layout_marginEnd="@dimen/nav_header_vertical_spacing" />
+                        <TextView android:textColor="@color/colorDarkBlue" android:id="@id/torrentLastScraped" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

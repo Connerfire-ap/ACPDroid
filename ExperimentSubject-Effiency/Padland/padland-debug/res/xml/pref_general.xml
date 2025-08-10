@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_header_general">
+        <CheckBoxPreference android:title="@string/settings_save_new_pads_title" android:key="auto_save_new_pads" android:summary="@string/settings_save_new_pads_desc" android:defaultValue="true" />
+        <PreferenceScreen android:title="@string/title_activity_server_list" android:key="padland_server_list" android:summary="@string/pref_server_list_summary">
+            <intent android:targetPackage="com.mikifus.padland" android:targetClass="com.mikifus.padland.ServerListActivity" />
+        </PreferenceScreen>
+        <ListPreference android:title="@string/default_pad_server" android:key="padland_default_server" android:summary="@string/choose_default_pad_server" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/user_preferences">
+        <EditTextPreference android:title="@string/settings_default_username" android:key="padland_default_username" android:summary="@string/settings_default_username_explanation" android:defaultValue="" android:dialogTitle="@string/settings_default_username_dialog_title" android:dialogMessage="" />
+        <com.mikifus.padland.Utils.ColorPickerListPreference android:title="@string/settings_default_color" android:key="padland_default_color" android:summary="@string/settings_default_color_explanation" android:defaultValue="\#555" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_miscellaneous">
+        <PreferenceScreen android:title="@string/about" android:key="padland_about" android:summary="@string/about">
+            <intent android:targetPackage="com.mikifus.padland" android:targetClass="com.mikifus.padland.About" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/title_activity_intro" android:key="padland_intro" android:summary="@string/launch_intro">
+            <intent android:targetPackage="com.mikifus.padland" android:targetClass="com.mikifus.padland.IntroActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

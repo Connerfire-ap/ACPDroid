@@ -1,0 +1,78 @@
+<ScreenTransitionGraph>
+  <transitionEdges>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>de.tobiasbielefeld.solitaire.ui.GameSelector</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>de.tobiasbielefeld.solitaire.ui.GameSelector</name>
+        <target>false</target>
+        <fragments/>
+        <drawer>drawer_view</drawer>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>drawer</typeOfUiElement>
+        <handlerMethod>boolean onClickDrawerIcon(android.view.View)</handlerMethod>
+        <class>android.widget.ImageButton</class>
+        <resId>0</resId>
+        <contentDesc>Open navigation drawer</contentDesc>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>de.tobiasbielefeld.solitaire.ui.GameSelector</name>
+        <target>false</target>
+        <fragments/>
+        <drawer>drawer_view</drawer>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>de.tobiasbielefeld.solitaire.ui.manual.Manual</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onClickDrawerIcon(android.view.View)</handlerMethod>
+        <class>android.widget.ImageButton</class>
+        <resId>0</resId>
+        <text>Manual</text>
+      </edgeTag>
+    </TransitionEdge>
+  </transitionEdges>
+  <screenNodeSet>
+    <ScreenNode>
+      <name>de.tobiasbielefeld.solitaire.ui.GameSelector</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>de.tobiasbielefeld.solitaire.ui.GameSelector</name>
+      <target>false</target>
+      <fragments/>
+      <drawer>drawer_view</drawer>
+      <dialogs/>
+      <baseScreen>false</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>de.tobiasbielefeld.solitaire.ui.manual.Manual</name>
+      <target>true</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+  </screenNodeSet>
+  <serviceNodeSet/>
+  <broadcastReceiverNodeSet/>
+</ScreenTransitionGraph>

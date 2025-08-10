@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:background="@color/colorBluePastelLight" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageView4" android:layout_width="212.0dip" android:layout_height="290.0dip" android:layout_marginBottom="0.0dip" android:contentDescription="@string/renchon" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:srcCompat="@drawable/renchon" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/login_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large" />
+    <ScrollView android:id="@id/login_form" android:padding="@dimen/nav_header_vertical_spacing" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/layout_bg" android:padding="@dimen/activity_horizontal_margin" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/marginBig">
+            <AutoCompleteTextView android:id="@id/username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/prompt_username" />
+            <EditText android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/prompt_password" android:ems="10" android:inputType="textPassword" android:imeActionId="@id/login" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/fab_margin">
+                <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <Button android:id="@id/email_sign_in_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action_sign_in" android:layout_weight="1.0" android:textAlignment="center" style="@style/Widget.AppCompat.Button.Colored" />
+                <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

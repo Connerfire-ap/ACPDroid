@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="firstNoteContent">
+        <item>"Dobrodošli u Tomdroid!
+"</item>
+        <item>"Još nemate bilješki. Za početak namjestite postavke usklađivanja pod Postavkama. Dva načina usklađivanja su opisani ispod.
+"</item>
+        <item>=Mrežno usklađivanje=</item>
+        <item>"Mrežno usklađivanje koristite za sinkronizaciju s Tomboy-Online, vlastiti Rainy/Snowy server ili neki drugi server koji podržava Tomboy Web REST API.
+"</item>
+        <item>Za korištenje, postavite Sinkronizacijski servis na mrežno usklađivanje u Postavkama te zatim unesite URL servera. Nekoliko javnih primjera:</item>
+        <item>-Tomboy Online - https://edge.tomboy-online.org/</item>
+        <item>"-rainy.notesync.org - https://notesync.org:8080/[username]/[password]/
+"</item>
+        <item>"Jednom postavljeno, odaberite sinkronizacijski logo u traci na vrhu za usklađivanje.
+"</item>
+        <item>"Napomena:poželjno je napraviti sigurnosnu kopiju prije sinkronizacije, ova aplikacija je i dalje u razvoju te može oštetiti Tomboy bilješke.
+"</item>
+        <item>"Pogledajte http://live.gnome.org/Tomboy/Directories za lokaciju *.note datoteka na svim platformama.
+"</item>
+        <item>=SD kartica=</item>
+        <item>"Postavite Tomboy bilješke (*.note) na SD karticu pod tomdroid/. Nakon kopiranja bilješki, postavite Sinkronizacijski servis na SD karticu pod Postavkama i zatim učinite usklađivanje odabirom ikone u gornjoj traci.
+"</item>
+        <item>"Također, Tomdroid uvijek traži nove suradnike. Ako ste zainteresirani za posao, pridružite se tomdroid-dev timu na Launchpad: http://launchpad.net/~tomdroid-dev.
+"</item>
+        <item>Na kraju ako susretnete problem ili grešku, molimo javite na: https://bugs.launchpad.net/tomdroid</item>
+    </string-array>
+</resources>

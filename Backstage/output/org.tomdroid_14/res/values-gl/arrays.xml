@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="firstNoteContent">
+        <item>"Benvido a Tomdroid!
+"</item>
+        <item>"Aínda non tes notas. Para comezar, axusta as túas preferencias de sincronización no menú Axustes. As dúas opcións que tes descrébense debaixo.
+"</item>
+        <item>= Sincronización en liña=</item>
+        <item>"Se queres sincronizar en liña precisas o teu propio servidor Rainy/Snowy ou calquera outro servidor que ature o Tomdroid Web REST API.
+"</item>
+        <item>Para usalo, escolle o Servizo de Sincronización en liña nas túas preferencias, despois engade a URL de servidor. Aquí hai algunhas que son públicas:</item>
+        <item>-Tomboy en liña- https://edge.tomboy-online.org/</item>
+        <item>"-rainy.notesync.org - https://notesync.org:8080/[username]/[password]/
+"</item>
+        <item>"Cando o selecciones, pulsa no icono de Sincronización da barra superior de Tomdroid para sincroniza-las túas notas.
+"</item>
+        <item>Nota: Quizais desexes facer unha copia das túas notas de Tomdroid antes de sincronizar, como esta app aínda está en desenvolvemento pode estragar algúns datos.</item>
+        <item>"Por favor, visita http://live.gnome.org/Tomboy/Directories para atopar os ficheiros *.note en tódalas plataformas.
+"</item>
+        <item>=Tarxeta SD=</item>
+        <item>"Engade as túas notas de Tomdroid (*.note) na túa tarxeta SD no directorio /tomdroid. Cando as notas se copien, axusta o Servizo de sincronización cara a tarxeta SD no menú preferencias, entón pulsa o icono de Sincronización na barra superior de Tomdroid.
+"</item>
+        <item>"Tamén, Tomdroid está sempre buscando novos colaboradores. Se estás interesado en pertencer ó equipo de desenvolvemento de Tomdroid en Launchpad: http://launchpad.net/~tomdroid-dev.
+"</item>
+        <item>Para rematar, se te atopas con algún erro, por favor, infórmanos en https://bugs.launchpad.net/tomdroid</item>
+    </string-array>
+</resources>

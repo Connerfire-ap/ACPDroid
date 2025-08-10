@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="firstNoteContent">
+        <item>"欢迎使用 Tomdroid！
+"</item>
+        <item>"您现在还没有便笺。可在“设置”下设置同步首选项。如下描述，有两种同步选项。
+"</item>
+        <item>=在线同步=</item>
+        <item>"Online Synchronization is what you are looking for if you want to sync to Tomboy-Online, your own Rainy/Snowy server or any server supporting the Tomboy Web REST API.
+"</item>
+        <item>要使用该功能，可在首选项里将同步服务设为在线同步，并提供一个服务器 URL。下面是部分公共服务器：</item>
+        <item>-Tomboy 网页版 - https://edge.tomboy-online.org/</item>
+        <item>"-rainy.notesync.org - https://notesync.org:8080/[用户名]/[密码]/
+"</item>
+        <item>"一旦设置，点击 Tomdroid 顶部处的同步标志就可以同步您的便笺。
+"</item>
+        <item>"请注意：本应用软件还在发展中，偶尔会出现问题，所以请你经常做备份。
+"</item>
+        <item>"为了了解你的笔记文件（*.note）保存的地方，请看看 http://live.gnome.org/Tomboy/Directories。
+"</item>
+        <item>=SD 卡=</item>
+        <item>"Put your Tomboy notes (*.note) on your SD Card under tomdroid/. Once the notes are copied, set Sync Service to SD Card in preferences then hit the Sync logo on Tomdroid's top bar.
+"</item>
+        <item>"Tomdroid还在寻找开发者。如果你愿意为Tomdroid做出贡献的话，请在Launchpad: http://launchpad.net/~tomdroid-dev 参加Tomdroid的开发者团队。
+"</item>
+        <item>最后，如果您遇到任何问题，请将其报告至 https://bugs.launchpad.net/tomdroid</item>
+    </string-array>
+</resources>

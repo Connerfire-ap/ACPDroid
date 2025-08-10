@@ -1,0 +1,441 @@
+<ScreenTransitionGraph>
+  <transitionEdges>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.MainActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>org.openobservatory.ooniprobe.fragment.PastTestsFragment</string>
+        </fragments>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.MainActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>org.openobservatory.ooniprobe.fragment.RunTestsFragment</string>
+        </fragments>
+        <drawer>drawer_view</drawer>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>drawer</typeOfUiElement>
+        <handlerMethod>boolean onClickDrawerIcon(android.view.View)</handlerMethod>
+        <class>android.widget.ImageButton</class>
+        <resId>999999999999999999999999999</resId>
+        <contentDesc>Open navigation drawer</contentDesc>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.MainActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>org.openobservatory.ooniprobe.fragment.RunTestsFragment</string>
+        </fragments>
+        <drawer>drawer_view</drawer>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.PastTestActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onClickDrawerIcon(android.view.View)</handlerMethod>
+        <class>android.widget.ImageButton</class>
+        <resId>999999999999999999999999999</resId>
+        <text>Past Tests</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.ResultActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>org.openobservatory.ooniprobe.fragment.ResultFragment</string>
+        </fragments>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.ResultActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>org.openobservatory.ooniprobe.fragment.ResultFragment</string>
+        </fragments>
+        <menu>view_log_menu</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>menu</typeOfUiElement>
+        <handlerMethod>boolean onClickMenuIcon(int,android.Menu)</handlerMethod>
+        <resId>2131427331</resId>
+        <contentDesc>More options</contentDesc>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.RunTestActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.RunTestActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>close_screen</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>menu</typeOfUiElement>
+        <handlerMethod>boolean onClickMenuIcon(int,android.Menu)</handlerMethod>
+        <resId>2131427328</resId>
+        <contentDesc>More options</contentDesc>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.MainActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>org.openobservatory.ooniprobe.fragment.RunTestsFragment</string>
+        </fragments>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.InformedConsentActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>activitylifecyclemethod</typeOfUiElement>
+        <handlerMethod>void onCreate(android.os.Bundle)</handlerMethod>
+        <resId>100120</resId>
+        <text></text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.MainActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>org.openobservatory.ooniprobe.fragment.RunTestsFragment</string>
+        </fragments>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.MainActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>org.openobservatory.ooniprobe.fragment.SettingsFragment</string>
+        </fragments>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>listview</typeOfUiElement>
+        <handlerMethod>void onItemClick(android.widget.AdapterView,android.view.View,int,long)</handlerMethod>
+        <resId>2131230825</resId>
+        <text></text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.MainActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>org.openobservatory.ooniprobe.fragment.SettingsFragment</string>
+        </fragments>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.InformedConsentActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>activitylifecyclemethod</typeOfUiElement>
+        <handlerMethod>void onCreate(android.os.Bundle)</handlerMethod>
+        <resId>100120</resId>
+        <text></text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.RunTestActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.InformedConsentActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>android.support.v7.widget.appcompatbutton</typeOfUiElement>
+        <handlerMethod>void onClick(android.view.View)</handlerMethod>
+        <resId>2131230882</resId>
+        <text>Run</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.RunTestActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>close_screen</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.RunTestActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131230777</resId>
+        <text>Close</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.MainActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>org.openobservatory.ooniprobe.fragment.AboutFragment</string>
+        </fragments>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.RunTestActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>android.support.v7.widget.appcompatbutton</typeOfUiElement>
+        <handlerMethod>void onClick(android.view.View)</handlerMethod>
+        <resId>2131230866</resId>
+        <text>Click here to view our data policy</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.MainActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>org.openobservatory.ooniprobe.fragment.AboutFragment</string>
+        </fragments>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.RunTestActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>android.support.v7.widget.appcompatbutton</typeOfUiElement>
+        <handlerMethod>void onClick(android.view.View)</handlerMethod>
+        <resId>2131230823</resId>
+        <text>Learn more</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.MainActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>org.openobservatory.ooniprobe.fragment.RunTestsFragment</string>
+        </fragments>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>org.openobservatory.ooniprobe.activity.MainActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>org.openobservatory.ooniprobe.fragment.AboutFragment</string>
+        </fragments>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>listview</typeOfUiElement>
+        <handlerMethod>void onItemClick(android.widget.AdapterView,android.view.View,int,long)</handlerMethod>
+        <resId>2131230825</resId>
+        <text></text>
+      </edgeTag>
+    </TransitionEdge>
+  </transitionEdges>
+  <screenNodeSet>
+    <ScreenNode>
+      <name>org.openobservatory.ooniprobe.activity.InformedConsentActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>org.openobservatory.ooniprobe.activity.MainActivity</name>
+      <target>false</target>
+      <fragments>
+        <string>org.openobservatory.ooniprobe.fragment.PastTestsFragment</string>
+      </fragments>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>org.openobservatory.ooniprobe.activity.MainActivity</name>
+      <target>false</target>
+      <fragments>
+        <string>org.openobservatory.ooniprobe.fragment.SettingsFragment</string>
+      </fragments>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>org.openobservatory.ooniprobe.activity.MainActivity</name>
+      <target>false</target>
+      <fragments>
+        <string>org.openobservatory.ooniprobe.fragment.RunTestsFragment</string>
+      </fragments>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>org.openobservatory.ooniprobe.activity.NotificationDialog</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>org.openobservatory.ooniprobe.activity.ResultActivity</name>
+      <target>false</target>
+      <fragments>
+        <string>org.openobservatory.ooniprobe.fragment.ResultFragment</string>
+      </fragments>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>org.openobservatory.ooniprobe.activity.BrowserActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>org.openobservatory.ooniprobe.activity.MainActivity</name>
+      <target>false</target>
+      <fragments>
+        <string>org.openobservatory.ooniprobe.fragment.AboutFragment</string>
+      </fragments>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>org.openobservatory.ooniprobe.activity.ResultActivity</name>
+      <target>false</target>
+      <fragments>
+        <string>org.openobservatory.ooniprobe.fragment.ResultFragment</string>
+      </fragments>
+      <menu>view_log_menu</menu>
+      <dialogs/>
+      <baseScreen>false</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>org.openobservatory.ooniprobe.activity.RunTestActivity</name>
+      <target>false</target>
+      <fragments/>
+      <menu>close_screen</menu>
+      <dialogs/>
+      <baseScreen>false</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>org.openobservatory.ooniprobe.activity.MainActivity</name>
+      <target>false</target>
+      <fragments>
+        <string>org.openobservatory.ooniprobe.fragment.PastTestsFragment</string>
+      </fragments>
+      <menu>menu_clean_tests</menu>
+      <dialogs/>
+      <baseScreen>false</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>org.openobservatory.ooniprobe.activity.RunTestActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+        <name>org.openobservatory.ooniprobe.activity.MainActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>org.openobservatory.ooniprobe.fragment.RunTestsFragment</string>
+        </fragments>
+        <drawer>drawer_view</drawer>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>org.openobservatory.ooniprobe.activity.PastTestActivity</name>
+      <target>true</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>false</baseScreen>
+    </ScreenNode>
+  </screenNodeSet>
+  <serviceNodeSet>
+    <ServiceNode>
+      <name>org.openobservatory.ooniprobe.utils.NotificationsRouter</name>
+      <target>false</target>
+    </ServiceNode>
+    <ServiceNode>
+      <name>org.openobservatory.ooniprobe.utils.NotificationRegister</name>
+      <target>false</target>
+    </ServiceNode>
+  </serviceNodeSet>
+  <broadcastReceiverNodeSet>
+    <BroadcastReceiverNode>
+      <name>org.openobservatory.ooniprobe.utils.OnBootReceiver</name>
+      <target>false</target>
+    </BroadcastReceiverNode>
+    <BroadcastReceiverNode>
+      <name>org.openobservatory.ooniprobe.utils.AlarmReceiver</name>
+      <target>false</target>
+    </BroadcastReceiverNode>
+  </broadcastReceiverNodeSet>
+</ScreenTransitionGraph>

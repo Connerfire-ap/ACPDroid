@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_rules">
+        <CheckBoxPreference android:title="@string/settings_calculation_alternative_title" android:key="@string/pref_key_calculation_alternative" android:summary="@string/settings_calculation_alternative_text" android:defaultValue="@bool/default_calculation_alternative" />
+    </PreferenceCategory>
+</PreferenceScreen>

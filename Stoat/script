@@ -1,0 +1,60 @@
+From: [Activity=org.kore.kolabnotes.android.MainActivity, Base=true, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+To: [Activity=org.kore.kolabnotes.android.MainActivity, Base=false, Menu=menu_statistics, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+Action: [Type=menu, Method=boolean onClickMenuIcon(int,android.Menu), ResourceID=99999999999, ResName=, Text=, ContentDesc=More options]
+Attempts: 0
+From: [Activity=org.kore.kolabnotes.android.MainActivity, Base=false, Menu=menu_statistics, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+To: [Activity=org.kore.kolabnotes.android.setting.SettingsActivity, Base=true, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+Action: [Type=item, Method=boolean onClickMenuIcon(int,android.Menu), ResourceID=99999999999, ResName=, Text=Settings, ContentDesc=]
+Attempts: 0
+From: [Activity=org.kore.kolabnotes.android.setting.SettingsActivity, Base=true, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+To: [Activity=org.kore.kolabnotes.android.setting.SettingsActivity, Base=false, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+Action: [Type=item, Method=boolean onClickMenuIcon(int,android.Menu), ResourceID=99999999999, ResName=, Text=Data & sync, ContentDesc=]
+Attempts: 0
+From: [Activity=org.kore.kolabnotes.android.setting.SettingsActivity, Base=false, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+To: [Activity=org.kore.kolabnotes.android.security.AuthenticatorActivity, Base=true, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+Action: [Type=item, Method=boolean onClickMenuIcon(int,android.Menu), ResourceID=99999999999, ResName=, Text=Add Account, ContentDesc=]
+Attempts: 0
+From: [Activity=org.kore.kolabnotes.android.security.AuthenticatorActivity, Base=true, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+To: [Activity=org.kore.kolabnotes.android.security.AuthenticatorActivity, Base=false, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+Action: [Type=item, Method=boolean onClickMenuIcon(int,android.Menu), ResourceID=99999999999, ResName=, Text=Sign In, ContentDesc=]
+Attempts: 0
+From: [Activity=org.kore.kolabnotes.android.MainActivity, Base=true, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+To: [Activity=org.kore.kolabnotes.android.MainActivity, Base=false, Menu=menu_statistics, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+Action: [Type=menu, Method=boolean onClickMenuIcon(int,android.Menu), ResourceID=99999999999, ResName=, Text=, ContentDesc=More options]
+Attempts: 0
+From: [Activity=org.kore.kolabnotes.android.MainActivity, Base=false, Menu=menu_statistics, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+To: [Activity=org.kore.kolabnotes.android.setting.SettingsActivity, Base=true, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+Action: [Type=item, Method=boolean onClickMenuIcon(int,android.Menu), ResourceID=99999999999, ResName=, Text=Settings, ContentDesc=]
+Attempts: 0
+From: [Activity=org.kore.kolabnotes.android.setting.SettingsActivity, Base=true, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+To: [Activity=org.kore.kolabnotes.android.setting.SettingsActivity, Base=false, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+Action: [Type=item, Method=boolean onClickMenuIcon(int,android.Menu), ResourceID=99999999999, ResName=, Text=Data & sync, ContentDesc=]
+Attempts: 0
+From: [Activity=org.kore.kolabnotes.android.setting.SettingsActivity, Base=false, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+To: [Activity=org.kore.kolabnotes.android.security.AuthenticatorActivity, Base=true, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+Action: [Type=item, Method=boolean onClickMenuIcon(int,android.Menu), ResourceID=99999999999, ResName=, Text=Add Account, ContentDesc=]
+Attempts: 0
+From: [Activity=org.kore.kolabnotes.android.security.AuthenticatorActivity, Base=true, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+To: [Activity=org.kore.kolabnotes.android.security.AuthenticatorActivity, Base=false, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+Action: [Type=item, Method=boolean onClickMenuIcon(int,android.Menu), ResourceID=99999999999, ResName=, Text=Sign In, ContentDesc=]
+Attempts: 0
+From: [Activity=org.kore.kolabnotes.android.MainActivity, Base=true, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+To: [Activity=org.kore.kolabnotes.android.MainActivity, Base=false, Menu=menu_statistics, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+Action: [Type=menu, Method=boolean onClickMenuIcon(int,android.Menu), ResourceID=99999999999, ResName=, Text=, ContentDesc=More options]
+Attempts: 0
+From: [Activity=org.kore.kolabnotes.android.MainActivity, Base=false, Menu=menu_statistics, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+To: [Activity=org.kore.kolabnotes.android.setting.SettingsActivity, Base=true, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+Action: [Type=item, Method=boolean onClickMenuIcon(int,android.Menu), ResourceID=99999999999, ResName=, Text=Settings, ContentDesc=]
+Attempts: 0
+From: [Activity=org.kore.kolabnotes.android.setting.SettingsActivity, Base=true, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+To: [Activity=org.kore.kolabnotes.android.setting.SettingsActivity, Base=false, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+Action: [Type=item, Method=boolean onClickMenuIcon(int,android.Menu), ResourceID=99999999999, ResName=, Text=Data & sync, ContentDesc=]
+Attempts: 0
+From: [Activity=org.kore.kolabnotes.android.setting.SettingsActivity, Base=false, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+To: [Activity=org.kore.kolabnotes.android.security.AuthenticatorActivity, Base=true, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+Action: [Type=item, Method=boolean onClickMenuIcon(int,android.Menu), ResourceID=99999999999, ResName=, Text=Add Account, ContentDesc=]
+Attempts: 0
+From: [Activity=org.kore.kolabnotes.android.security.AuthenticatorActivity, Base=true, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+To: [Activity=org.kore.kolabnotes.android.security.AuthenticatorActivity, Base=false, Menu=, ContextMenu=, Drawer=, Dialogs=[], Tab=]
+Action: [Type=item, Method=boolean onClickMenuIcon(int,android.Menu), ResourceID=99999999999, ResName=, Text=Sign In, ContentDesc=]
+Attempts: 0

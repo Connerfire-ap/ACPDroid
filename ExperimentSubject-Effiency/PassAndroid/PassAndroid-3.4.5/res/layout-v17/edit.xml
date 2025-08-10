@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android.support.v7.cardview="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView android:orientation="vertical" android:id="@id/pass_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip" android.support.v7.cardview:cardMaxElevation="@dimen/card_longclick_elevation_half">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/pass_top" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@id/date" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <EditText android:textAppearance="?android:textAppearanceMedium" android:id="@id/passTitle" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <org.ligi.passandroid.ui.views.CategoryIndicatorViewWithIcon android:layout_gravity="center" android:id="@id/categoryView" android:layout_width="48.0dip" android:layout_height="74.0dip" android:layout_margin="8.0dip" />
+                </LinearLayout>
+                <View android:id="@id/actionsSeparator" android:background="#ffdfdfdf" android:padding="7.0dip" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+                <org.ligi.passandroid.ui.views.TimeAndNavBar android:id="@id/timeAndNavBar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:orientation="vertical" android:id="@id/passExtrasContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/strip_img" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                    <Button android:layout_gravity="center_horizontal" android:id="@id/add_strip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_header_image" />
+                    <FrameLayout android:id="@id/container_for_primary_fields" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <include layout="@layout/barcode" />
+                    <Button android:layout_gravity="center_horizontal" android:id="@id/add_barcode_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_barcode" />
+                    <FrameLayout android:id="@id/container_for_secondary_fields" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/logo_img" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                    <Button android:layout_gravity="center_horizontal" android:id="@id/add_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/add_logo_image" />
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/footer_img" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                    <Button android:layout_gravity="center_horizontal" android:id="@id/add_footer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_footer_image" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

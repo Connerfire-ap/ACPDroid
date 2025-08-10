@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_header_general" android:key="pref_key_settings_general">
+        <SwitchPreference android:title="@string/pref_title_double_back_to_exit" android:key="double_back_to_exit" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/pref_title_enable_mascot_voice" android:key="mascot_voice_switch" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_header_account" android:key="pref_key_settings_account">
+        <SwitchPreference android:title="@string/pref_title_keep_login" android:key="keep_login_switch" android:summary="@string/pref_description_keep_login" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

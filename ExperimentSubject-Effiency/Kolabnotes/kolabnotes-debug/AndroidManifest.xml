@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.kore.kolabnotes.android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <supports-screens android:largeScreens="true" android:xlargeScreens="true"/>
+    <application android:allowBackup="true" android:debuggable="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:testOnly="true" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="org.kore.kolabnotes.android.MainActivity" android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <layout android:defaultWidth="700.0dip"/>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
+        </activity>
+        <activity android:label="@string/app_name" android:name="org.kore.kolabnotes.android.DetailActivity" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/html"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="org.kore.kolabnotes.android.TagListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="org.kore.kolabnotes.android.DrawEditorActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="org.kore.kolabnotes.android.AttachmentActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/login_label" android:name="org.kore.kolabnotes.android.security.AuthenticatorActivity" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="org.kore.kolabnotes.android.security.AuthenticatorActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="kore.kolabnotes" android:enabled="true" android:exported="true" android:name="org.kore.kolabnotes.android.content.KolabNotesContentProvider"/>
+        <service android:exported="true" android:name="org.kore.kolabnotes.android.async.KolabSyncService" android:process=":sync">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter"/>
+        </service>
+        <service android:name="org.kore.kolabnotes.android.security.AccountAuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator"/>
+        </service>
+        <service android:name="org.kore.kolabnotes.android.widget.ListWidgetService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <receiver android:icon="@mipmap/ic_kolabnotes_breeze" android:label="@string/app_name" android:name="org.kore.kolabnotes.android.widget.ListWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/list_widget_info"/>
+        </receiver>
+        <activity android:icon="@mipmap/ic_kolabnotes_breeze" android:label="@string/app_name" android:name="org.kore.kolabnotes.android.widget.ListWidgetConfigureActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <receiver android:icon="@mipmap/ic_kolabnotes_breeze" android:label="@string/sticky_note_name" android:name="org.kore.kolabnotes.android.widget.StickyNoteWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/sticky_note_widget_info"/>
+        </receiver>
+        <provider android:authorities="kore.kolabnotes.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <activity android:icon="@mipmap/ic_kolabnotes_breeze" android:label="@string/sticky_note_name" android:name="org.kore.kolabnotes.android.widget.StickyNoteWidgetConfigureActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_settings" android:name="org.kore.kolabnotes.android.setting.SettingsActivity" android:theme="@style/SettingsTheme"/>
+        <meta-data android:name="android.support.VERSION" android:value="26.1.0"/>
+        <meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT"/>
+    </application>
+</manifest>

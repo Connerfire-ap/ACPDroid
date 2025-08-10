@@ -1,0 +1,94 @@
+<ScreenTransitionGraph>
+  <transitionEdges>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>com.duckduckgo.app.browser.BrowserActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>com.duckduckgo.app.browser.BrowserActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>menu_browser_activity</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>menu</typeOfUiElement>
+        <handlerMethod>boolean onClickMenuIcon(int,android.Menu)</handlerMethod>
+        <resId>9999999999</resId>
+        <contentDesc>More options</contentDesc>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>com.duckduckgo.app.browser.BrowserActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>menu_browser_activity</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>com.duckduckgo.app.browser.BrowserActivity</name>
+        <target>false</target>
+        <fragments>
+         <string>com.duckduckgo.app.browser.refresh</string>
+        </fragments>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>99999999999</resId>
+        <text>Refresh</text>
+      </edgeTag>
+    </TransitionEdge>
+  </transitionEdges>
+  <screenNodeSet>
+    <ScreenNode>
+      <name>com.duckduckgo.app.browser.BrowserActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>com.duckduckgo.app.browser.BrowserActivity</name>
+      <target>true</target>
+      <fragments>
+        <string>com.duckduckgo.app.browser.refresh</string>
+      </fragments>
+      <dialogs/>
+      <baseScreen>false</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>com.duckduckgo.app.home.HomeActivity</name>
+      <target>true</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>com.duckduckgo.app.privacymonitor.ui.PrivacyDashboardActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>com.duckduckgo.app.browser.BrowserActivity</name>
+      <target>false</target>
+      <fragments/>
+      <menu>menu_browser_activity</menu>
+      <dialogs/>
+      <baseScreen>false</baseScreen>
+    </ScreenNode>
+  </screenNodeSet>
+  <serviceNodeSet/>
+  <broadcastReceiverNodeSet/>
+</ScreenTransitionGraph>

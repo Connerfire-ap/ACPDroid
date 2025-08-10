@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:background="@color/colorBluePastelLight" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageView4" android:layout_width="212.0dip" android:layout_height="290.0dip" android:layout_marginBottom="0.0dip" android:contentDescription="@string/renchon" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:srcCompat="@drawable/renchon" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/nav_header_vertical_spacing" android:paddingEnd="@dimen/nav_header_vertical_spacing">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/layout_bg" android:padding="@dimen/activity_horizontal_margin" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/colorAccent" android:id="@id/errorText" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Spinner android:id="@id/upload_type_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <android.support.design.widget.TextInputLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hintEnabled="false">
+                    <TextView android:gravity="end" android:id="@id/choose_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/choose" />
+                    <android.support.design.widget.TextInputEditText android:textColor="@color/colorDarkLink" android:id="@id/magnet_edit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/magnet" android:lines="1" android:inputType="text" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <TextView android:textStyle="bold" android:textColor="@color/colorDarkLink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/category" />
+                <Spinner android:id="@id/categorySpin" android:padding="@dimen/nav_header_vertical_spacing" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip">
+                <TextView android:textStyle="bold" android:textColor="@color/colorDarkLink" android:id="@id/langLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/language" />
+                <com.pchmn.materialchips.ChipsInput android:id="@id/langsInput" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:chip_deletable="true" app:chip_deleteIconColor="@color/grey" app:chip_hasAvatarIcon="true" app:hint="@string/type_languages" app:maxRows="5" />
+            </LinearLayout>
+            <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <android.support.design.widget.TextInputEditText android:textColor="@color/colorDarkLink" android:id="@id/name_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/name" android:lines="1" android:inputType="text" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <android.support.design.widget.TextInputEditText android:textColor="@color/colorDarkLink" android:id="@id/website_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/website" android:lines="1" android:inputType="text" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <android.support.design.widget.TextInputEditText android:textColor="@color/colorDarkLink" android:gravity="bottom" android:id="@id/desc_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/description" android:lines="3" android:inputType="textAutoCorrect|textMultiLine" />
+            </android.support.design.widget.TextInputLayout>
+            <Switch android:textStyle="bold" android:textColor="@color/colorDarkLink" android:id="@id/remakeSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/mark_as_remake" />
+            <Switch android:textStyle="bold" android:textColor="@color/colorDarkLink" android:id="@id/anonSwitch" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/mark_as_anon" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

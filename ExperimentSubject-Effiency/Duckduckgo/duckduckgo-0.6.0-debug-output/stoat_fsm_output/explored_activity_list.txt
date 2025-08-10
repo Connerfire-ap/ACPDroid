@@ -1,0 +1,7 @@
+com.duckduckgo.app.home.HomeActivity
+com.duckduckgo.app.home.HomeActivity
+com.duckduckgo.app.home.HomeActivity
+com.duckduckgo.app.browser.BrowserActivity
+com.duckduckgo.app.browser.BrowserActivity
+com.duckduckgo.app.browser.BrowserActivity
+com.duckduckgo.app.home.HomeActivity

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="firstNoteContent">
+        <item>"Selamat Datang ke Tomdroid!
+"</item>
+        <item>Anda tidak mempunyai nota disini. Untuk mula, tetapkan keutamaan Penyegerakan anda dibawah Tetapam. Terdapat dua pilihan penyegerakan yang diterangkan dibawah.</item>
+        <item>=Penyegerakan Atas Talian=</item>
+        <item>"Penyegerakan atas talian adalah apa yang anda cari jika anda mahu segerak ke Tomboy-Online, pelayan Rainy/Snowy atau mana-mana pelayan yang menyokong API REST Web Tomboy.
+"</item>
+        <item>Untuk gunakannya, tetapkan Perkhidmatan kepada Penyegerakan Atas Talian dalam keutmamaan kemudian sediakan URL Pelayan. Disini terdapat beberapa pelayan awam:</item>
+        <item>-Tomboy Atas Talian - https://edge.tomboy-online.org/</item>
+        <item>"-rainy.notesync.org - https://notesync.org:8080/[username]/[password]/
+"</item>
+        <item>"Bila sudah ditetapkan, tekan logo segerak pada palang atas Tomdroid untuk segerakam nota anda.
+"</item>
+        <item>"Perhatian: anda mungkin mahu sandar nota Tomboy anda sebelum menyegerak, kerana aplikasi ini masih dibawah pembangunan dan mungkin merosakkan nota Tomboy.
+"</item>
+        <item>"Sila rujuk http://live.gnome.org/Tomboy/Directories untuk lokasi fail *.note pada semua platform.
+"</item>
+        <item>=Kad SD=</item>
+        <item>"Letak nota Tomboy anda (*.n0ote) ke dalam Kad CD anda dibawah tomdroid/. Bila nota telah disalin, tetapkan Perkhidmatan Segerak ke Kad SD dalam keutamaan kemudian tekan logo Segerak pada palang atas Tomdroid.
+"</item>
+        <item>"Juga, Tomdroid juga sentiasa mencari penyumbang baru. Jika anda berminat sertai pasukan tomdroid-dev di Launchpad: http://launchpad.net/~tomdroid-dev.
+"</item>
+        <item>AKhir sekali, jika anda mengalami sebarang masalah, sila laporkannya di: https://bugs.launchpad.net/tomdroid</item>
+    </string-array>
+</resources>

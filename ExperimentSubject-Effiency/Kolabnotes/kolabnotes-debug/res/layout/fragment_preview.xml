@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="30.0sp" android:textColor="@android:color/darker_gray" android:gravity="center" android:id="@id/empty_view_preview" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_preview" />
+    <EditText android:textColor="@color/primary_text_default_material_light" android:gravity="center|left|top" android:id="@id/preview_text" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:editable="false" android:inputType="textMultiLine" />
+    <WebView android:id="@id/preview_html" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/preview_picture" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <VideoView android:id="@id/preview_video" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/main_audio_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/attachment_now_playing" />
+        <TextView android:textSize="16.0sp" android:textStyle="italic" android:textColor="@color/primary_text" android:layout_gravity="center" android:id="@id/now_playing_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:text="Now playing.." />
+    </LinearLayout>
+</FrameLayout>

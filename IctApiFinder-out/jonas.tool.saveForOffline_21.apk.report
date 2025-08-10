@@ -1,0 +1,8 @@
+jonas.tool.saveForOffline_21.apk minSdkVersion: 16, targetSdkVersion: 27
+BUG: <android.webkit.WebSettings: void setMediaPlaybackRequiresUserGesture(boolean)> called in <jonas.tool.saveForOffline.ViewActivity: void setupWebView()> on line -1 not in [16]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: jonas.tool.saveForOffline.ViewActivity dummyMainMethod_jonas_tool_saveForOffline_ViewActivity(android.content.Intent)>
+	--><jonas.tool.saveForOffline.ViewActivity: void onCreate(android.os.Bundle)>
+	--><jonas.tool.saveForOffline.ViewActivity: void setupWebView()>
+

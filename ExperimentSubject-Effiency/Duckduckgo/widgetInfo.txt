@@ -1,0 +1,10 @@
+Method: <com.duckduckgo.app.browser.BrowserActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131230848, GlobalId: 2131230848
+Method: <com.duckduckgo.app.browser.BrowserActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131230753, GlobalId: 2131230753
+Method: <com.duckduckgo.app.browser.BrowserActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131230852, GlobalId: 2131230852
+Method: <com.duckduckgo.app.browser.BrowserActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131230799, GlobalId: 2131230799
+Method: <com.duckduckgo.app.browser.BrowserActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131427328, GlobalId: 2131427328
+Method: <com.duckduckgo.app.privacymonitor.ui.PrivacyDashboardActivity: void onCreate(android.os.Bundle)>, ElementId: 100066, GlobalId: 100066
+Method: <com.duckduckgo.app.browser.BrowserActivity: void onCreate(android.os.Bundle)>, ElementId: 100067, GlobalId: 100067
+Method: <com.duckduckgo.app.browser.BrowserActivity: void onSaveInstanceState(android.os.Bundle)>, ElementId: 100068, GlobalId: 100068
+Method: <com.duckduckgo.app.browser.BrowserActivity: void onRestoreInstanceState(android.os.Bundle)>, ElementId: 100069, GlobalId: 100069
+Method: <com.duckduckgo.app.home.HomeActivity: void onCreate(android.os.Bundle)>, ElementId: 100070, GlobalId: 100070

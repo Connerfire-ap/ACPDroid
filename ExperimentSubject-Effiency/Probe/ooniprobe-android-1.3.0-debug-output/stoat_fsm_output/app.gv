@@ -1,0 +1,5 @@
+digraph graphtest {
+  S_1 -> S_1  [ label="@3"] ;
+  S_1 -> S_1  [ label="@3"] ;
+  S_1 -> S_1  [ label="@3"] ;
+}

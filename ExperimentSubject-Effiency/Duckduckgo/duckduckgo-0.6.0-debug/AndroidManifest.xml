@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.duckduckgo.app">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:allowBackup="false" android:debuggable="true" android:icon="@mipmap/ic_launcher" android:label="@string/appName" android:name="com.duckduckgo.app.global.DuckDuckGoApplication" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.duckduckgo.app.browser.BrowserActivity" android:screenOrientation="fullSensor" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/appName" android:name="com.duckduckgo.app.home.HomeActivity" android:parentActivityName="com.duckduckgo.app.home.HomeActivity" android:screenOrientation="fullSensor" android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/privacyDashboardActivityTitle" android:name="com.duckduckgo.app.privacymonitor.ui.PrivacyDashboardActivity" android:parentActivityName="com.duckduckgo.app.browser.BrowserActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <provider android:authorities="com.duckduckgo.app.lifecycle-trojan" android:exported="false" android:multiprocess="true" android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"/>
+    </application>
+</manifest>

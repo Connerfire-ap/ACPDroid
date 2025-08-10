@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" android:installLocation="auto" package="de.tobiasbielefeld.solitaire" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <meta-data android:name="android.support.VERSION" android:value="25.3.1"/>
+    <application android:allowBackup="true" android:debuggable="true" android:fullBackupContent="@xml/my_backup_rules" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="de.tobiasbielefeld.solitaire.MainApplication" android:testOnly="true" android:theme="@style/AppThemeNoActionBar">
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/about_name" android:name="de.tobiasbielefeld.solitaire.ui.about.AboutActivity" android:theme="@style/AppThemeActionBar"/>
+        <activity android:label="@string/title_activity_statistics" android:name="de.tobiasbielefeld.solitaire.ui.Statistics" android:theme="@style/AppThemeActionBar"/>
+        <activity android:label="@string/title_activity_settings" android:name="de.tobiasbielefeld.solitaire.ui.settings.Settings" android:theme="@style/AppThemeActionBar"/>
+        <activity android:label="@string/settings_games" android:name="de.tobiasbielefeld.solitaire.ui.settings.SettingsGames" android:theme="@style/AppThemeActionBar"/>
+        <activity android:name="de.tobiasbielefeld.solitaire.ui.GameManager"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/game_manual" android:name="de.tobiasbielefeld.solitaire.ui.manual.Manual" android:theme="@style/AppThemeNoActionBar"/>
+        <activity android:label="@string/app_name" android:name="de.tobiasbielefeld.solitaire.ui.GameSelector" android:theme="@style/AppThemeNoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

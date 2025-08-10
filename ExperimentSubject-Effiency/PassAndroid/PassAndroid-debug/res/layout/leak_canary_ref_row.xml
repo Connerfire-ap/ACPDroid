@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<leakcanary.internal.RowElementLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <leakcanary.internal.DisplayLeakConnectorView android:id="@id/leak_canary_row_connector" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:id="@id/leak_canary_row_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</leakcanary.internal.RowElementLayout>

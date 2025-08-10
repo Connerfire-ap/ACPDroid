@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="firstNoteContent">
+        <item>"Selamat Datang di Tomdroid!
+"</item>
+        <item>"Anda tidak memiliki catatan di sini. Untuk memulai, menetapkan preferensi Sinkronisasi Anda di bawah Setelan. Ada dua pilihan sinkronisasi dijelaskan di bawah ini.
+"</item>
+        <item>=Sinkronisasi Online=</item>
+        <item>"Singkronisasi Online adalah apa yang anda cari jika anda ingin mensingkronisasi Tomboy-Online, server Berhujan/Bersalju server yang mendukung Tomboy Web REST API.
+"</item>
+        <item>Untuk menggunakannya, atur Layanan untuk Sinkronisasi Online di preferensi kemudian memberikan URL Server. Berikut adalah beberapa yang umum:</item>
+        <item>-Tomboy Online - https://edge.tomboy-online.org/</item>
+        <item>"-rainy.notesync.org - https://notesync.org:8080/[username]/[password]/
+"</item>
+        <item>"Setelah ditetapkan, tekan logo Sinkronisasi pada bar di atas Tomdroid untuk menyinkronkan catatan Anda.
+"</item>
+        <item>"Catatan: Anda mungkin ingin membuat cadangan catatan Tomboy Anda sebelum syncing, karena aplikasi ini masih dalam pengembangan dan dapat merusak catatan Tomboy Anda.
+"</item>
+        <item>"Silakan lihat http://live.gnome.org/Tomboy/Directories untuk lokasi *.note file pada semua platform.
+"</item>
+        <item>=SD Card=</item>
+        <item>"Masukan catatan Tomboy Anda (*.note) pada SD Card Anda di bawah tomdroid/. Setelah catatan yang disalin, mengatur Layanan Sync ke SD Card dalam preferensi lalu tekan logo Sync pada bar di atas Tomdroid ini.
+"</item>
+        <item>"Juga, Tomdroid selalu mencari kontributor baru. Jika Anda tertarik bergabung dengan tim tomdroid-dev di Launchpad: http://launchpad.net/~tomdroid-dev.
+"</item>
+        <item>Terakhir, jika Anda menemukan masalah apapun, tolong laporkan pada: https://bugs.launchpad.net/tomdroid</item>
+    </string-array>
+</resources>

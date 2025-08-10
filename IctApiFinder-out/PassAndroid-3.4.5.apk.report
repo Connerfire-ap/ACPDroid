@@ -1,0 +1,43 @@
+PassAndroid-3.4.5.apk minSdkVersion: 15, targetSdkVersion: 27
+
+BUG: <android.print.PrintManager: android.print.PrintJob print(java.lang.String,android.print.PrintDocumentAdapter,android.print.PrintAttributes)> called in <org.ligi.passandroid.printing.PrintHelperKt: void doPrint(android.content.Context,org.ligi.passandroid.model.pass.Pass)> on line -1 not in [16, 17, 18, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.ligi.passandroid.ui.PassViewActivity dummyMainMethod_org_ligi_passandroid_ui_PassViewActivity(android.content.Intent)>
+		--><org.ligi.passandroid.ui.PassViewActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+		--><org.ligi.passandroid.ui.PassViewActivityBase: boolean onOptionsItemSelected(android.view.MenuItem)>
+		--><org.ligi.passandroid.ui.PassMenuOptions: boolean process(android.view.MenuItem)>
+		--><org.ligi.passandroid.printing.PrintHelperKt: void doPrint(android.content.Context,org.ligi.passandroid.model.pass.Pass)>
+
+WARNING: <android.view.Display: int getWidth()> called in <org.ligi.kaxt.WindowManagerExtensionsKt: android.graphics.Point getSizeAsPointCompat(android.view.WindowManager)> on line -1 no living Level
+
+WARNING: <android.widget.Scroller: void <init>(android.content.Context)> called in <com.ortiz.touch.TouchImageView$CompatScroller: void <init>(com.ortiz.touch.TouchImageView,android.content.Context)> on line -1 no living Level
+
+WARNING: <java.util.HashSet: void <init>()> called in <org.ligi.passandroid.model.PastLocationsStore: java.util.Set getLocations()> on line -1 no living Level
+
+WARNING: <android.view.WindowManager: android.view.Display getDefaultDisplay()> called in <org.ligi.kaxt.WindowManagerExtensionsKt: android.graphics.Point getSizeAsPointCompat(android.view.WindowManager)> on line -1 no living Level
+
+WARNING: <android.app.Activity: void setRequestedOrientation(int)> called in <org.ligi.kaxt.ActivityExtensionsKt: void lockOrientation(android.app.Activity,int)> on line -1 no living Level
+
+WARNING: <android.app.Activity: void setRequestedOrientation(int)> called in <org.ligi.kaxt.ActivityExtensionsKt: void lockOrientation(android.app.Activity,int)> on line -1 no living Level
+
+WARNING: <android.view.WindowManager: android.view.Display getDefaultDisplay()> called in <org.ligi.kaxt.WindowManagerExtensionsKt: android.graphics.Point getSizeAsPointCompat(android.view.WindowManager)> on line -1 no living Level
+
+WARNING: <android.view.Display: int getHeight()> called in <org.ligi.kaxt.WindowManagerExtensionsKt: android.graphics.Point getSizeAsPointCompat(android.view.WindowManager)> on line -1 no living Level
+
+WARNING: <android.graphics.Point: void set(int,int)> called in <org.ligi.kaxt.WindowManagerExtensionsKt: android.graphics.Point getSizeAsPointCompat(android.view.WindowManager)> on line -1 no living Level
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <org.ligi.passandroid.ui.edit.FieldsEditFragment$Companion: org.ligi.passandroid.ui.edit.FieldsEditFragment create(boolean)> on line -1 not in [16, 17, 18, 19, 21, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.ligi.passandroid.ui.PassEditActivity dummyMainMethod_org_ligi_passandroid_ui_PassEditActivity(android.content.Intent)>
+		--><org.ligi.passandroid.ui.PassEditActivity: void onCreate(android.os.Bundle)>
+		--><org.ligi.passandroid.ui.edit.FieldsEditFragment$Companion: org.ligi.passandroid.ui.edit.FieldsEditFragment create(boolean)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.ligi.passandroid.ui.PassEditActivity dummyMainMethod_org_ligi_passandroid_ui_PassEditActivity(android.content.Intent)>
+		--><org.ligi.passandroid.ui.PassEditActivity: void onCreate(android.os.Bundle)>
+		--><org.ligi.passandroid.ui.edit.FieldsEditFragment$Companion: org.ligi.passandroid.ui.edit.FieldsEditFragment create(boolean)>
+

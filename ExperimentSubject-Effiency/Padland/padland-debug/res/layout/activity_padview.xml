@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wheel="http://schemas.android.com/apk/res-auto">
+    <WebView android:id="@id/activity_main_webview" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.pnikosis.materialishprogress.ProgressWheel android:gravity="center" android:id="@id/progress_wheel" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" wheel:matProg_barColor="#ff000000" wheel:matProg_progressIndeterminate="true" />
+    </RelativeLayout>
+</RelativeLayout>

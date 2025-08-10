@@ -1,0 +1,4 @@
+# the app FSM, including all unique app states and transitions. Please keep this file unchanged. 
+1;0
+/home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/ExperimentSubject-Effiency/PassAndroid/PassAndroid-3.4.5-output/stoat_fsm_output/ui/S_1.xml
+S_1;org.ligi.passandroid.ui.PassListActivity;0

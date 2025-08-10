@@ -1,0 +1,10 @@
+the state file name: /RESET_APP_STATE.xml
+com.android.launcher2.Launcher
+
+-----------
+
+the state file name: /EMPTY_APP_STATE.xml
+com.android.launcher2.Launcher
+
+-----------
+

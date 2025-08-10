@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_action_settings" android:id="@id/menu_settings" android:title="@string/nav_settings" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_github" android:id="@id/menu_github" android:title="@string/nav_github" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_social_share" android:id="@id/menu_share" android:title="@string/nav_share" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_bug_report" android:id="@id/menu_beta" android:title="@string/nav_betatest_opt_in_out" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_translate" android:id="@id/menu_language" android:title="@string/nav_improve_translation" app:showAsAction="ifRoom" />
+</menu>

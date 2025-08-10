@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="firstNoteContent">
+        <item>"Tomdroid'e Hoşgeldiniz!
+"</item>
+        <item>"Burada henüz bir notunuz yok. Başlamak için, ayarların içinde bulunan eşitleme ayarlarından size uygun olanı seçin. 2 adet senkronizasyon seçeneği mevcuttur.
+"</item>
+        <item>= Çevrimiçi Eşitleme=</item>
+        <item>"Eğer Tomboy-Çevrimiçi'ye, kendi Rainy/Snowy sunucunuza veya Tomboy Web REST API'ı destekleyen herhangi bir sunucuya eşitleme yapmak istiyorsanız Çevrimiçi Eşzamanlama, tam olarak aradığınız şeydir.
+"</item>
+        <item>"Çevrimiçi Eşitleme seçeneğinden Eşitleme Hizmetini kullanın, ardından da Sunucu URL'nizi girin. Herkesin kullanabildiği birkaç sunucu:"</item>
+        <item>-Tomboy Online - https://edge.tomboy-online.org/</item>
+        <item>"-rainy.notesync.org - https://notesync.org:8080/[kullanıcıadı]/[parola]/
+"</item>
+        <item>"Başlamadan önce, Tomdroid üst çubuğunda bulunan Eşitleme simgesine tıklayarak notlarınızı eşitleyebilirsiniz.
+"</item>
+        <item>Not: Bu uygulama hala geliştirme aşamasında olduğundan ve Tomboy notlarınız zarar görebileceğinden, eşitlemeden önce Tomboy notlarınızı yedeklemek isteyebilirsiniz.</item>
+        <item>"Tüm platformlardaki *.note dosyalarının konumunu içi http://live.gnome.org/Tomboy/Directories sayfasına bakın.
+"</item>
+        <item>= SD Card=</item>
+        <item>"Tomboy notlarınızı (*.note), SD Kartınızın tomdroid/ dizini altına koyun. Notlar kopyalandıktan sonra, Tercihler içerisinden Eşitleme Hizmetini SD Kart olarak ayarlayın ve Tomdroid'in üst çubuğundaki Eşitleme logosuna dokunun.
+"</item>
+        <item>"Ayrıca, Tomdroid her zaman yeni katkıcılara ihtiyaç duyar. Eğer tomdroid-dev takımına ilgi duyuyorsanız, Launchpad'de bize katılın: http://launchpad.net/~tomdroid-dev.
+"</item>
+        <item>Son olarak, herhangi bir sorunla karşılaştığınızda , lütfen https://bugs.launchpad.net/tomdroid bu siteye rapor edin ki biz de geliştirmeye yardımcı olalım.</item>
+    </string-array>
+</resources>

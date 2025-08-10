@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_attachment_white_48dp" android:id="@id/attachments" android:title="@string/attachments" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_discard" android:id="@id/delete_menu" android:title="@string/title_delete" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_action_labels_white" android:id="@id/edit_tag_menu" android:title="@string/title_edit_tag" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_choose_color" android:id="@id/colorpicker" android:title="@string/title_colorpicker" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_info_white_48dp" android:id="@id/metainformation" android:title="@string/title_metainformation" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_share" android:id="@id/share" android:title="@string/title_share" app:actionProviderClass="android.support.v7.widget.ShareActionProvider" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_accept" android:id="@id/ok_menu" android:title="@string/title_ok" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_print_white_48dp" android:id="@id/print" android:title="@string/print" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_assignment_ind_white_48dp" android:id="@id/changeAccount" android:title="@string/changeAccount" app:showAsAction="ifRoom" />
+</menu>

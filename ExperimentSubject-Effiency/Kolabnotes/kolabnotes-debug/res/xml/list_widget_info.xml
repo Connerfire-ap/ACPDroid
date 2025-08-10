@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="180.0dip" android:minHeight="40.0dip" android:updatePeriodMillis="86400000" android:initialLayout="@layout/list_widget" android:configure="org.kore.kolabnotes.android.widget.ListWidgetConfigureActivity" android:previewImage="@drawable/preview_list_widget" android:resizeMode="horizontal|vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

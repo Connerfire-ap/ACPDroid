@@ -1,0 +1,478 @@
+padland.apk minSdkVersion: 14, targetSdkVersion: 27
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putStringArray(java.lang.String,java.lang.String[])> called in <com.mikifus.padland.SettingsActivity: void onResume()> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.SettingsActivity dummyMainMethod_com_mikifus_padland_SettingsActivity(android.content.Intent)>
+		--><com.mikifus.padland.SettingsActivity: void onResume()>
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: boolean getBoolean(java.lang.String)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+
+BUG: <android.os.BaseBundle: boolean getBoolean(java.lang.String)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+
+BUG: <android.os.BaseBundle: void putStringArray(java.lang.String,java.lang.String[])> called in <com.mikifus.padland.SettingsActivity: void onPostCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.SettingsActivity dummyMainMethod_com_mikifus_padland_SettingsActivity(android.content.Intent)>
+		--><com.mikifus.padland.SettingsActivity: void onPostCreate(android.os.Bundle)>
+
+WARNING: <android.app.Activity: java.lang.Object getSystemService(java.lang.String)> called in <com.mikifus.padland.PadListActivity: void a()> on line -1 no living Level
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+
+BUG: <android.app.Activity: void onCreate(android.os.Bundle,android.os.PersistableBundle)> called in <com.mikifus.padland.PadViewActivity: void onCreate(android.os.Bundle,android.os.PersistableBundle)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.PadViewActivity dummyMainMethod_com_mikifus_padland_PadViewActivity(android.content.Intent)>
+		--><com.mikifus.padland.PadViewActivity: void onCreate(android.os.Bundle,android.os.PersistableBundle)>
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+
+BUG: <android.os.BaseBundle: boolean getBoolean(java.lang.String)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+
+BUG: <android.os.BaseBundle: boolean getBoolean(java.lang.String)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: int getInt(java.lang.String)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: boolean getBoolean(java.lang.String)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: int getInt(java.lang.String)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+
+BUG: <android.os.BaseBundle: long getLong(java.lang.String,long)> called in <com.mikifus.padland.PadListActivity: void c()> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.PadListActivity dummyMainMethod_com_mikifus_padland_PadListActivity(android.content.Intent)>
+		--><com.mikifus.padland.PadListActivity: void onCreate(android.os.Bundle)>
+		--><com.mikifus.padland.PadListActivity: void c()>
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+
+BUG: <android.os.BaseBundle: boolean getBoolean(java.lang.String)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+
+BUG: <android.os.BaseBundle: java.lang.Object get(java.lang.String)> called in <com.mikifus.padland.SettingsActivity$SettingsFragment: void a()> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.SettingsActivity dummyMainMethod_com_mikifus_padland_SettingsActivity(android.content.Intent)>
+		--><dummyMainClass: com.mikifus.padland.SettingsActivity$SettingsFragment dummyMainMethod_com_mikifus_padland_SettingsActivity$SettingsFragment(android.content.Intent,android.app.Activity)>
+		--><com.mikifus.padland.SettingsActivity$SettingsFragment: void onCreate(android.os.Bundle)>
+		--><com.mikifus.padland.SettingsActivity$SettingsFragment: void a()>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.SettingsActivity dummyMainMethod_com_mikifus_padland_SettingsActivity(android.content.Intent)>
+		--><com.mikifus.padland.SettingsActivity: void onResume()>
+		--><com.mikifus.padland.SettingsActivity$SettingsFragment: void a(com.mikifus.padland.SettingsActivity$SettingsFragment)>
+		--><com.mikifus.padland.SettingsActivity$SettingsFragment: void a()>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+
+BUG: <android.os.BaseBundle: boolean getBoolean(java.lang.String)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: boolean getBoolean(java.lang.String)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.mikifus.padland.Intro.CustomAppIntroFragment: com.mikifus.padland.Intro.LinkableAppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)> on line -1 not in [16, 17, 18, 19, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int)>
+		--><com.github.paolorotolo.appintro.AppIntroFragment: com.github.paolorotolo.appintro.AppIntroFragment newInstance(java.lang.CharSequence,java.lang.CharSequence,int,int,int,int)>
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikifus.padland.IntroActivity dummyMainMethod_com_mikifus_padland_IntroActivity(android.content.Intent)>
+		--><com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)>
+
+WARNING: <android.text.ClipboardManager: void setText(java.lang.CharSequence)> called in <com.mikifus.padland.PadListActivity: void a()> on line -1 no living Level
+

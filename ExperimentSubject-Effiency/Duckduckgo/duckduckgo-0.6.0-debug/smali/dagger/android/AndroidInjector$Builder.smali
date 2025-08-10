@@ -1,0 +1,107 @@
+.class public abstract Ldagger/android/AndroidInjector$Builder;
+.super Ljava/lang/Object;
+.source "AndroidInjector.java"
+
+# interfaces
+.implements Ldagger/android/AndroidInjector$Factory;
+
+
+# annotations
+.annotation runtime Lcom/google/errorprone/annotations/DoNotMock;
+.end annotation
+
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Ldagger/android/AndroidInjector;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "Builder"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Ldagger/android/AndroidInjector$Factory<",
+        "TT;>;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 64
+    .local p0, "this":Ldagger/android/AndroidInjector$Builder;, "Ldagger/android/AndroidInjector$Builder<TT;>;"
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract build()Ldagger/android/AndroidInjector;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ldagger/android/AndroidInjector<",
+            "TT;>;"
+        }
+    .end annotation
+.end method
+
+.method public final create(Ljava/lang/Object;)Ldagger/android/AndroidInjector;
+    .locals 1
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "instance"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)",
+            "Ldagger/android/AndroidInjector<",
+            "TT;>;"
+        }
+    .end annotation
+
+    .line 67
+    .local p0, "this":Ldagger/android/AndroidInjector$Builder;, "Ldagger/android/AndroidInjector$Builder<TT;>;"
+    .local p1, "instance":Ljava/lang/Object;, "TT;"
+    invoke-virtual {p0, p1}, Ldagger/android/AndroidInjector$Builder;->seedInstance(Ljava/lang/Object;)V
+
+    .line 68
+    invoke-virtual {p0}, Ldagger/android/AndroidInjector$Builder;->build()Ldagger/android/AndroidInjector;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public abstract seedInstance(Ljava/lang/Object;)V
+    .annotation runtime Ldagger/BindsInstance;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "instance"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)V"
+        }
+    .end annotation
+.end method

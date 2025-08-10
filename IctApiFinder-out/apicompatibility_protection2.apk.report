@@ -1,0 +1,9 @@
+apicompatibility_protection2.apk minSdkVersion: 10, targetSdkVersion: 27
+BUG: <android.app.AlarmManager: void setExact(int,long,android.app.PendingIntent)> called in <lu.uni.snt.apicompatibility_protection2.MainActivity: void checkAlarmSetExact(android.app.AlarmManager)> on line -1 not in [16, 17, 18, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: lu.uni.snt.apicompatibility_protection2.MainActivity dummyMainMethod_lu_uni_snt_apicompatibility__protection2_MainActivity(android.content.Intent)>
+		--><lu.uni.snt.apicompatibility_protection2.MainActivity: void onCreate(android.os.Bundle)>
+		--><lu.uni.snt.apicompatibility_protection2.MainActivity: void checkAlarmSetExact(android.app.AlarmManager)>
+

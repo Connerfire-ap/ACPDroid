@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="leak_canary_distinct_leaks">
+        <item quantity="other">%d Distinct Leaks</item>
+        <item quantity="one">%d Distinct Leak</item>
+    </plurals>
+    <plurals name="leak_canary_group_screen_title">
+        <item quantity="other">%1$d leaks at %2$s</item>
+        <item quantity="one">%1$d leak at %2$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+</resources>

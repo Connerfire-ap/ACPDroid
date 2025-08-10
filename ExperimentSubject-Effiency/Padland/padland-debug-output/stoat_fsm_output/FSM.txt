@@ -1,0 +1,4 @@
+# the app FSM, including all unique app states and transitions. Please keep this file unchanged. 
+1;0
+/EMPTY_APP_STATE.xml
+EMPTY_APP_STATE;com.android.launcher2.Launcher;0

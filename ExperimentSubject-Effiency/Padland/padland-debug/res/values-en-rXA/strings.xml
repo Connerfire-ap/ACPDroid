@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">[ÑåVîĝåţé ĥöḿé one two]</string>
+    <string name="abc_action_bar_home_description_format">[»%1$s«, »%2$s« one]</string>
+    <string name="abc_action_bar_home_subtitle_description_format">[»%1$s«, »%2$s«, »%3$s« one]</string>
+    <string name="abc_action_bar_up_description">[ÑåVîĝåţé ûþ one two]</string>
+    <string name="abc_action_menu_overflow_description">[Ḿöŕé öþţîöñš one two]</string>
+    <string name="abc_action_mode_done">[Ðöñé one]</string>
+    <string name="abc_activity_chooser_view_see_all">[Šéé åļļ one two]</string>
+    <string name="abc_activitychooserview_choose_application">[Çĥööšé åñ åþþ one two]</string>
+    <string name="abc_capital_off">[ÖFF one]</string>
+    <string name="abc_capital_on">[ÖÑ one]</string>
+    <string name="abc_font_family_body_1_material">[šåñš-šéŕîƒ one two]</string>
+    <string name="abc_font_family_body_2_material">[šåñš-šéŕîƒ-ḿéðîûḿ one two three]</string>
+    <string name="abc_font_family_button_material">[šåñš-šéŕîƒ-ḿéðîûḿ one two three]</string>
+    <string name="abc_font_family_caption_material">[šåñš-šéŕîƒ one two]</string>
+    <string name="abc_font_family_display_1_material">[šåñš-šéŕîƒ one two]</string>
+    <string name="abc_font_family_display_2_material">[šåñš-šéŕîƒ one two]</string>
+    <string name="abc_font_family_display_3_material">[šåñš-šéŕîƒ one two]</string>
+    <string name="abc_font_family_display_4_material">[šåñš-šéŕîƒ-ļîĝĥţ one two three]</string>
+    <string name="abc_font_family_headline_material">[šåñš-šéŕîƒ one two]</string>
+    <string name="abc_font_family_menu_material">[šåñš-šéŕîƒ one two]</string>
+    <string name="abc_font_family_subhead_material">[šåñš-šéŕîƒ one two]</string>
+    <string name="abc_font_family_title_material">[šåñš-šéŕîƒ-ḿéðîûḿ one two three]</string>
+    <string name="abc_search_hint">[Šéåŕçĥ… one two]</string>
+    <string name="abc_searchview_description_clear">[Çļéåŕ Qûéŕý one two]</string>
+    <string name="abc_searchview_description_query">[Šéåŕçĥ Qûéŕý one two]</string>
+    <string name="abc_searchview_description_search">[Šéåŕçĥ one two]</string>
+    <string name="abc_searchview_description_submit">[Šûɓḿîţ Qûéŕý one two]</string>
+    <string name="abc_searchview_description_voice">[νöîçé šéåŕçĥ one two]</string>
+    <string name="abc_shareactionprovider_share_with">[Šĥåŕé ŵîţĥ one two]</string>
+    <string name="abc_shareactionprovider_share_with_application">[Šĥåŕé ŵîţĥ »%s« one two]</string>
+    <string name="abc_toolbar_collapse_description">[Çöļļåþšé one two]</string>
+    <string name="about">[Åɓöûţ one]</string>
+    <string name="about_support_text">[ <p>Ţĥîš åþþ îš ûñðéŕ ðéVéļöþḿéñţ. Ţö þŕöVîðé ƒééðɓåçķ åñð ŕéþöŕţ ɓûĝš þļéåšé öþéñ å ñéŵ îššûé öñ ĜîţĤûɓ.</p>"
+ 
+ "<p>"Îƒ ýöû'ð ļîķé ţö çöñţŕîɓûţé ĥéŕé îš ţĥé ŕéþöšîţöŕý:
+ "<a href="https://github.com/mikifus/padland">ĥţţþš://ĝîţĥûɓ.çöḿ/ḿîķîƒûš/þåðļåñð</a> </p>"
+
+ "<p>"Ĝéŕḿåñ ţŕåñšļåţîöñ ɓý ŕûĝķ:
+ "<a href="https://github.com/rugk">ĥţţþš://ĝîţĥûɓ.çöḿ/ŕûĝķ</a> </p>"
+
+ "<p>"Ĵåþåñéšé ţŕåñšļåţîöñ ɓý ñåöƒûḿ:
+ "<a href="https://github.com/naofum">ĥţţþš://ĝîţĥûɓ.çöḿ/ñåöƒûḿ</a> </p>"
+
+ "<p>"Ḿåļåýåļåḿ ţŕåñšļåţîöñ ɓý ñåVî:
+ "<a href="https://github.com/naviknair">ĥţţþš://ĝîţĥûɓ.çöḿ/ñåVîķñåîŕ</a> </p>"
+
+  one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three]"</string>
+    <string name="about_text">[ <p>Ļîçéñšéð ûñðéŕ ţĥé <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Åþåçĥé Ļîçéñšé</a>.</p>"  one two three four five]"</string>
+    <string name="action_go_to_list">[βåçķ ţö þåð ļîšţ one two three]</string>
+    <string name="action_newpad">[Åðð ðöçûḿéñţ one two]</string>
+    <string name="action_settings">[Šéţţîñĝš one two]</string>
+    <string name="activity_padlist_implicitintent_text_copied">[Ţĥé ţéхţ ĥåVé ɓééñ çöþîéð îñţö ţĥé çļîþɓöåŕð. Þåšţé ýöûŕ çļîþɓöåŕð ðåţå ţö ûšé îţ. one two three four five six seven eight nine]</string>
+    <string name="app_name">[Þåðļåñð one two]</string>
+    <string name="basic_auth_error">[Åûţĥéñţîçåţîöñ ƒåîļéð one two three]</string>
+    <string name="basic_auth_warning">[Ţĥé çŕéðéñţîåļš ŵîļļ ɓé šéñţ ŵîţĥöûţ ŠŠĻ éñçŕýþţîöñ. Ţĥîš îš ĥîĝĥļý ðîšçöûŕåĝéð. Ţŕý ţö ûšé ĤŢŢÞŠ þŕöţöçöļ ŵĥéñ åVåîļåɓļé. one two three four five six seven eight nine ten eleven twelve]</string>
+    <string name="cancel">[Çåñçéļ one two]</string>
+    <string name="choose_a_server">[Çĥööšé å šéŕVéŕ (öþţîöñåļ): one two three four]</string>
+    <string name="choose_default_pad_server">[Çĥööšé å ðéƒåûļţ þåð šéŕVéŕ ŵĥéñ öþéñîñĝ å ñéŵ öñé. one two three four five six]</string>
+    <string name="default_pad_server">[Ðéƒåûļţ þåð šéŕVéŕ one two three]</string>
+    <string name="default_progressbar">[Ðéƒåûļţ Þŕöĝŕéššɓåŕ: one two three]</string>
+    <string name="define_appintro">[]</string>
+    <string name="delete">[Ðéļéţé one two]</string>
+    <string name="done_button">[ÐÖÑÉ one]</string>
+    <string name="download_pad">[ŠåVé þåð one two]</string>
+    <string name="error_ssl_date_invalid">[ŠŠĻ çéŕţîƒîçåţé ðåţé îš îñVåļîð one two three four]</string>
+    <string name="error_ssl_expired">[ŠŠĻ çéŕţîƒîçåţé éхþîŕéð one two three]</string>
+    <string name="error_ssl_id_mismatch">[ŠŠĻ çéŕţîƒîçåţé ÎÐ ḿîšḿåţçĥ one two three four]</string>
+    <string name="error_ssl_not_yet_valid">[ŠŠĻ çéŕţîƒîçåţé îš ñöţ Våļîð ýéţ one two three four]</string>
+    <string name="error_ssl_untrusted">[ŠŠĻ çéŕţîƒîçåţé îš ûñţŕûšţéð one two three four]</string>
+    <string name="go_pad">[Çŕéåţé öŕ ĝö ţö one two three]</string>
+    <string name="intro_fifth_desc">"[ŔéQûéšţ ñéŵ ƒéåţûŕéš öŕ ŕéþöŕţ ɓûĝš îñ ţĥé ĝîţĥûɓ ŕéþöšîţöŕý.
+ "<a href="https://github.com/mikifus/padland">ĥţţþš://ĝîţĥûɓ.çöḿ/ḿîķîƒûš/þåðļåñð</a>" 
+
+Þŕéšš ðöñé ţö šţåŕţ¡ one two three four five six seven eight nine ten eleven twelve]"</string>
+    <string name="intro_fifth_title">[Ŕéåðý ţö ĝö¡ one two]</string>
+    <string name="intro_first_desc">"[Þåðļåñð åļļöŵš ýöû ţö Vîéŵ, éðîţ, öŕĝåñîžé åñð šĥåŕé çöļļåɓöŕåţîVé ðöçûḿéñţš.
+ Þŕéšš ñéхţ ţö šéé ĥöŵ îţ ŵöŕķš¡ one two three four five six seven eight nine ten eleven twelve]"</string>
+    <string name="intro_first_title">[Ŵéļçöḿé ţö Þåðļåñð¡ one two three]</string>
+    <string name="intro_fourth_desc">[Ñö þŕöɓļéḿ¡ Ýöû çåñ åðð ýöûŕ ƒåVöŕîţé šéŕVéŕš. Çĥéçķ ţĥé šéţţîñĝš ƒöŕ ţĥîš åñð ḿåñý öţĥéŕ öþţîöñš¡ one two three four five six seven eight nine ten eleven]</string>
+    <string name="intro_fourth_title">[Çûšţöḿ šéŕVéŕ¿ one two three]</string>
+    <string name="intro_second_desc">[Çŕéåţé ðöçûḿéñţš îñ ýöûŕ ƒåVöŕîţé šéŕVéŕ. Ýöû çåñ ţĥéñ öŕĝåñîžé ţĥéḿ îñ ĝŕöûþš åñð ţéļļ ýöûŕ ƒŕîéñðš ţö ĵöîñ ţĥéḿ¡ one two three four five six seven eight nine ten eleven twelve]</string>
+    <string name="intro_second_title">[Çŕéåţé ñéŵ ðöçûḿéñţš one two three]</string>
+    <string name="intro_third_desc">[Šĥåŕé å ðöçûḿéñţ ûŕļ ţö Þåðļåñð ţö öþéñ îţ ƒöŕ éðîţîöñ. one two three four five six seven]</string>
+    <string name="intro_third_title">[Éðîţ éхîšţîñĝ ðöçûḿéñţš one two three]</string>
+    <string name="launch_intro">[Ļåûñçĥ îñţŕöðûçţîöñ šçŕééñš one two three four]</string>
+    <string name="library_appintro_author">[Þåöļö Ŕöţöļö one two]</string>
+    <string name="library_appintro_authorWebsite">[ĥţţþ://þåöļöŕöţöļö.ĝîţĥûɓ.îö/ one two three four]</string>
+    <string name="library_appintro_classPath">[çöḿ.ĝîţĥûɓ.þåöļöŕöţöļö.åþþîñţŕö one two three four]</string>
+    <string name="library_appintro_isOpenSource">[ţŕûé one]</string>
+    <string name="library_appintro_libraryDescription">[ÅþþÎñţŕö îš å ļîɓŕåŕý ƒöŕ ḿåķîñĝ å çööļ îñţŕö îñ ýöûŕ Åñðŕöîð åþþš. one two three four five six seven eight]</string>
+    <string name="library_appintro_libraryName">[ÅþþÎñţŕö one two]</string>
+    <string name="library_appintro_libraryVersion">[3.2.0 one]</string>
+    <string name="library_appintro_libraryWebsite">[ĥţţþš://ĝîţĥûɓ.çöḿ/ÞåöļöŔöţöļö/ÅþþÎñţŕö one two three four five]</string>
+    <string name="library_appintro_licenseId">[åþåçĥé_2_0 one two]</string>
+    <string name="library_appintro_repositoryLink">[ĥţţþš://ĝîţĥûɓ.çöḿ/ÞåöļöŔöţöļö/ÅþþÎñţŕö one two three four five]</string>
+    <string name="network_is_unreachable">[Ñéţŵöŕķ îš ûñŕéåçĥåɓļé. one two three]</string>
+    <string name="new_pad_explanation">[Îñţŕöðûçé ţĥé þåð ñåḿé. Îƒ îţ ðöéš ñöţ éхîšţ îţ ŵîļļ ɓé çŕéåţéð, öţĥéŕŵîšé îţ ŵîļļ ţåķé ýöû ţö ţĥé þåð. one two three four five six seven eight nine ten eleven]</string>
+    <string name="newpad_noname_warning">[Ýöû ḿûšţ šþéçîƒý å ñåḿé ƒöŕ ţĥé ðöçûḿéñţ. one two three four five]</string>
+    <string name="no_custom_servers">[Ñö šéŕVéŕš åððéð. one two three]</string>
+    <string name="no_pads">[Ţĥéŕé åŕé ñö šåVéð ðöçûḿéñţš. one two three four]</string>
+    <string name="ok">[ÖĶ one]</string>
+    <string name="padinfo_createdate">[Åððéð ţö ļîšţ one two]</string>
+    <string name="padinfo_lastuseddate">[Ļåšţ Vîéŵéð one two]</string>
+    <string name="padinfo_pad_info">[Ðöçûḿéñţ îñƒöŕḿåţîöñ one two three]</string>
+    <string name="padinfo_pad_url">[Ðöçûḿéñţ ÛŔĻ one two]</string>
+    <string name="padinfo_times_accessed">[Ţîḿéš åççéššéð one two three]</string>
+    <string name="padinfo_view_pad_button">[νîéŵ þåð one two]</string>
+    <string name="padlist_dialog_new_padgroup_invalid">[ÎñVåļîð ĝŕöûþ ñåḿé. one two three]</string>
+    <string name="padlist_dialog_new_padgroup_label">[Îñšéŕţ ţĥé ñåḿé öƒ ţĥé ñéŵ ĝŕöûþ one two three four]</string>
+    <string name="padlist_dialog_new_padgroup_title">[Ñéŵ ĝŕöûþ one two]</string>
+    <string name="padlist_document_deleted">[Ţĥé šéļéçţéð ðöçûḿéñţš ĥåVé ɓééñ ðéļéţéð one two three four five]</string>
+    <string name="padlist_empty_createnew">[Çŕéåţé å ñéŵ ðöçûḿéñţ one two three]</string>
+    <string name="padlist_group_deleted">[Ĝŕöûþ ðéļéţéð one two]</string>
+    <string name="padlist_group_select_dialog">[Šéļéçţ ĝŕöûþ one two]</string>
+    <string name="padlist_group_unclassified_name">[Ûñçļåššîƒîéð one two]</string>
+    <string name="padview_dialog_basicatuh_password">[Þåššŵöŕð one two]</string>
+    <string name="padview_dialog_basicatuh_title">[Åûţĥéñţîçåţîöñ ŕéQûîŕéð one two three]</string>
+    <string name="padview_dialog_basicatuh_username">[Ûšéŕ ñåḿé one two]</string>
+    <string name="padview_toast_blacklist_url">"[Ţĥé ĥöšţ öƒ ýöûŕ ÛŔĻ îš ñöţ îñ ţĥé ŵĥîţéļîšţ. Åðð å ñéŵ šéŕVéŕ îñ Þåðļåñð'š šéţţîñĝš öŕ çĥööšé åñöţĥéŕ åþþ. one two three four five six seven eight nine ten eleven]"</string>
+    <string name="padview_toast_invalid_url">[Ţĥé ÛŔĻ šééḿš îñVåļîð. one two three]</string>
+    <string name="password_toggle_content_description">[Ţöĝĝļé þåššŵöŕð Vîšîɓîļîţý one two three four]</string>
+    <string name="pref_default_display_name">[Åñöñýḿöûš one two]</string>
+    <string name="pref_header_general">[Šéţţîñĝš one two]</string>
+    <string name="pref_server_list_summary">[Åðð ýöûŕ çûšţöḿ éţĥéŕþåð šéŕVéŕš one two three four]</string>
+    <string name="save_pad">[ŠåVé þåð one two]</string>
+    <string name="search_menu_title">[Šéåŕçĥ one two]</string>
+    <string name="serverlist_dialog_delete_server_deleted">[Ţĥé šéļéçţéð šéŕVéŕš ĥåVé ɓééñ ŕéḿöVéð one two three four five]</string>
+    <string name="serverlist_dialog_delete_sure_to_delete">[Åŕé ýöû šûŕé ýöû ŵåñţ ţö ðéļéţé ţĥé šéļéçţéð šéŕVéŕš¿ one two three four five six]</string>
+    <string name="serverlist_dialog_edit_server_title">[Éðîţ šéŕVéŕ one two]</string>
+    <string name="serverlist_dialog_new_server_advanced">[ÅðVåñçéð Öþţîöñš one two three]</string>
+    <string name="serverlist_dialog_new_server_jquery_label">[ŠéŕVéŕ îš šûþþöŕţéð ɓý çļîéñţ-šîðé \"éţĥéŕþåð-ļîţé-ĵQûéŕý-þļûĝîñ\". one two three four five six seven]</string>
+    <string name="serverlist_dialog_new_server_jquery_title">[Éḿɓéððîñĝ öþţîöñš one two three]</string>
+    <string name="serverlist_dialog_new_server_lite_label">[Î ķñöŵ ţĥåţ ţĥîš šéŕVéŕ ûšéš Éţĥéŕþåð Ļîţé. one two three four five]</string>
+    <string name="serverlist_dialog_new_server_lite_title">[Ŕûñš Éţĥéŕþåð Ļîţé one two three]</string>
+    <string name="serverlist_dialog_new_server_name_invalid">[ÎñVåļîð šéŕVéŕ ñåḿé. one two three]</string>
+    <string name="serverlist_dialog_new_server_name_label">[Ţĥé ñåḿé ýöû ŵåñţ ţö åššîĝñ ţö ţĥé šéŕVéŕ (öþţîöñåļ) one two three four five six]</string>
+    <string name="serverlist_dialog_new_server_name_title">[ŠéŕVéŕ ñåḿé one two]</string>
+    <string name="serverlist_dialog_new_server_padprefix_invalid">[ÎñVåļîð þåð þŕéƒîх. one two three]</string>
+    <string name="serverlist_dialog_new_server_padprefix_label">[Ñéŵ šéŕVéŕš (Éţĥéŕþåð Ļîţé) ĥåVé åñ ûŕļ šéĝḿéñţ ɓéţŵééñ ţĥé šéŕVéŕ ðöḿåîñ åñð ţĥé þåð ñåḿé. βý ðéƒåûļţ îţ îš \"þ/\". Çĥåñĝé îţ ĥéŕé îƒ îţ îš ðîƒƒéŕéñţ. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six]</string>
+    <string name="serverlist_dialog_new_server_padprefix_title">[Ûŕļ þåð þŕéƒîх one two three]</string>
+    <string name="serverlist_dialog_new_server_title">[Ñéŵ šéŕVéŕ one two]</string>
+    <string name="serverlist_dialog_new_server_url_invalid">[ÎñVåļîð šéŕVéŕ ûŕļ one two three]</string>
+    <string name="serverlist_dialog_new_server_url_label">[Ţĥé ûŕļ ŵĥéŕé ţĥé šéŕVéŕ îš åççéššîɓļé. Åðð ĥţţþš:// îƒ åVåîļåɓļé. one two three four five six seven eight]</string>
+    <string name="serverlist_dialog_new_server_url_title">[ŠéŕVéŕ ûŕļ one two]</string>
+    <string name="settings_default_color">[Ðéƒåûļţ çöļöŕ one two]</string>
+    <string name="settings_default_color_dialogdesc">[Föŕḿåţ éхåḿþļé (ĥéх): #FF0000 one two three four]</string>
+    <string name="settings_default_color_dialogtitle">[Çĥööšé çöļöŕ one two]</string>
+    <string name="settings_default_color_explanation">[Þåðļåñð ŵîļļ ţŕý ţö šéţ ýöûŕ ðéƒåûļţ çöļöŕ îñ åļļ ðöçûḿéñţš ýöû öþéñ. one two three four five six seven eight]</string>
+    <string name="settings_default_username">[Ðéƒåûļţ ûšéŕñåḿé one two three]</string>
+    <string name="settings_default_username_dialog_title">[Šéţ ûšéŕñåḿé one two]</string>
+    <string name="settings_default_username_explanation">[Þåðļåñð ŵîļļ ţŕý ţö šéţ ýöûŕ ðéƒåûļţ ûšéŕñåḿé îñ åļļ ðöçûḿéñţš ýöû öþéñ. one two three four five six seven eight]</string>
+    <string name="settings_miscellaneous">[Ḿîšçéļļåñéöûš one two]</string>
+    <string name="settings_save_new_pads_desc">[Åûţöḿåţîçåļļý åðð ýöûŕ ñéŵļý Vîšîţéð ðöçûḿéñţš ţö ýöûŕ ļîšţ one two three four five six seven]</string>
+    <string name="settings_save_new_pads_title">[Åûţö-šåVé ñéŵ ðöçûḿéñţš one two three]</string>
+    <string name="share">[Šĥåŕé one]</string>
+    <string name="share_auto_text">[Ðöçûḿéñţ šĥåŕéð ŵîţĥ Þåðļåñð åþþ: one two three four]</string>
+    <string name="share_document">[Šĥåŕé ðöçûḿéñţ one two three]</string>
+    <string name="skip_button">[ŠĶÎÞ one]</string>
+    <string name="ssl_error">[ŠŠĻ Éŕŕöŕ one two]</string>
+    <string name="ssl_learn_more">[Ļéåŕñ ḿöŕé one two]</string>
+    <string name="ssl_learn_more_link">[ĥţţþš://šûþþöŕţ.ĝööĝļé.çöḿ/ñéхûš/åñšŵéŕ/2844832 one two three four five six]</string>
+    <string name="status_bar_notification_info_overflow">[999+ one]</string>
+    <string name="sure_to_delete_group">[Ðö ýöû ŵåñţ ţö ðéļéţé ţĥé šéļéçţéð ĝŕöûþ¿ one two three four five]</string>
+    <string name="sure_to_delete_pad">[Åŕé ýöû šûŕé ýöû ŵåñţ ţö ðéļéţé ţĥé šéļéçţéð ðöçûḿéñţš¿ one two three four five six seven]</string>
+    <string name="titanpad_deprecated_text">[Öñ 1šţ Ḿåý 2017 åļļ ðöçûḿéñţš ŵîļļ ɓéçöḿé ŕéåð-öñļý. Öñ 31šţ Ðéç 2017 Ţîţåñþåð.çöḿ ŵîļļ šĥûţ ðöŵñ. Ḿåķé šûŕé ýöû ɓåçķûþ ýöûŕ ðöçûḿéñţš åñð åVöîð çŕéåţîñĝ ñéŵ öñéš. one two three four five six seven eight nine ten eleven twelve thirteen fourteen fiveteen sixteen seventeen nineteen twenty one two three four five six seven eight nine]</string>
+    <string name="titanpad_deprecated_title">[Ŵåŕñîñĝ: Ţîţåñþåð.çöḿ îš ðéþŕéçåţéð one two three four]</string>
+    <string name="title_activity_about">[Åɓöûţ Þåðļåñð one two]</string>
+    <string name="title_activity_intro">[Îñţŕöðûçţîöñ one two]</string>
+    <string name="title_activity_new_pad">[Çŕéåţé þåð one two]</string>
+    <string name="title_activity_pad_info">[Ðöçûḿéñţ îñƒö one two]</string>
+    <string name="title_activity_pad_land_data">[ÞåðĻåñðÐåţåÅçţîVîţý one two three]</string>
+    <string name="title_activity_pad_view">[Þåðļåñð νîéŵéŕ one two three]</string>
+    <string name="title_activity_padlist">[Þåðļåñð ðöçûḿéñţš one two three]</string>
+    <string name="title_activity_server_list">[ŠéŕVéŕ ļîšţ one two]</string>
+    <string name="title_activity_settings">[Šéţţîñĝš one two]</string>
+    <string name="unexpected_error">[Åñ ûñéхþéçţéð éŕŕöŕ ĥåþþéñéð. one two three four]</string>
+    <string name="user_preferences">[Ûšéŕ þŕéƒéŕéñçéš one two three]</string>
+    <string name="write_pad_name">[Þåð ñåḿé one two]</string>
+</resources>

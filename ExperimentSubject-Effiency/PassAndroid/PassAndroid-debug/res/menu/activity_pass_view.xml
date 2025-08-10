@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_social_share" android:id="@id/menu_share" android:title="@string/menu_share" custom:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_device_brightness_high" android:id="@id/menu_light" android:title="light" custom:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_editor_mode_edit" android:id="@id/menu_edit" android:title="@string/menu_edit" custom:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_print" android:id="@id/menu_print" android:title="@string/menu_print" custom:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_delete" android:id="@id/menu_delete" android:title="@string/menu_delete" custom:showAsAction="ifRoom" />
+</menu>

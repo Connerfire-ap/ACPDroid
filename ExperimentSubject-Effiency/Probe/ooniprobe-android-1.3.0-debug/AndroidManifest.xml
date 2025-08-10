@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="org.openobservatory.ooniprobe" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <permission android:name="org.openobservatory.ooniprobe.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="org.openobservatory.ooniprobe.permission.C2D_MESSAGE"/>
+    <application android:allowBackup="true" android:debuggable="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="org.openobservatory.ooniprobe.ooniprobeApp" android:supportsRtl="true" android:testOnly="true" android:theme="@style/AppTheme">
+        <activity android:configChanges="orientation" android:name="org.openobservatory.ooniprobe.activity.MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation" android:name="org.openobservatory.ooniprobe.activity.InformedConsentActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:name="org.openobservatory.ooniprobe.activity.ResultActivity" android:screenOrientation="portrait"/>
+        <receiver android:enabled="true" android:exported="false" android:name="org.openobservatory.ooniprobe.utils.AlarmReceiver" android:permission="android.permission.INTERNET"/>
+        <receiver android:enabled="true" android:exported="false" android:name="org.openobservatory.ooniprobe.utils.OnBootReceiver" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="org.openobservatory.ooniprobe.utils.NotificationRegister">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="io.fabric.ApiKey" android:value="529a3ff33bd5359fe86c53f6252035178bdb03a1"/>
+        <service android:name="org.openobservatory.ooniprobe.utils.NotificationsRouter">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/notification_icon"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/color_ooni_blue"/>
+        <activity android:label="" android:name="org.openobservatory.ooniprobe.activity.BrowserActivity" android:theme="@style/FullScreen">
+            <intent-filter>
+                <action android:name="org.openobservatory.ooniprobe.OPEN_BROWSER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="org.openobservatory.ooniprobe.activity.NotificationDialog" android:theme="@style/Theme.Transparent"/>
+        <activity android:label="@string/app_name" android:launchMode="singleInstance" android:name="org.openobservatory.ooniprobe.activity.RunTestActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <action android:name="org.openobservatory.ooniprobe.nettest"/>
+                <data android:host="run.ooni.io" android:pathPrefix="/nettest" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <action android:name="org.openobservatory.ooniprobe.nettest"/>
+                <data android:host="run.ooni.io" android:pathPrefix="/nettest" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="nettest" android:scheme="ooni"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="android.support.VERSION" android:value="26.1.0"/>
+        <service android:exported="true" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="org.openobservatory.ooniprobe"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="org.openobservatory.ooniprobe.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT"/>
+    </application>
+</manifest>

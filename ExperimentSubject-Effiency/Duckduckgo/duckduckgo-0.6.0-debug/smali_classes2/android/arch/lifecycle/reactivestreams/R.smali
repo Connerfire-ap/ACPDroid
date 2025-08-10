@@ -1,0 +1,67 @@
+.class public final Landroid/arch/lifecycle/reactivestreams/R;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroid/arch/lifecycle/reactivestreams/R$attr;,
+        Landroid/arch/lifecycle/reactivestreams/R$bool;,
+        Landroid/arch/lifecycle/reactivestreams/R$color;,
+        Landroid/arch/lifecycle/reactivestreams/R$dimen;,
+        Landroid/arch/lifecycle/reactivestreams/R$drawable;,
+        Landroid/arch/lifecycle/reactivestreams/R$id;,
+        Landroid/arch/lifecycle/reactivestreams/R$integer;,
+        Landroid/arch/lifecycle/reactivestreams/R$layout;,
+        Landroid/arch/lifecycle/reactivestreams/R$string;,
+        Landroid/arch/lifecycle/reactivestreams/R$style;,
+        Landroid/arch/lifecycle/reactivestreams/R$styleable;
+    }
+.end annotation
+
+
+# static fields
+.field private static transient synthetic $jacocoData:[Z
+
+
+# direct methods
+.method private static synthetic $jacocoInit()[Z
+    .locals 4
+
+    sget-object v0, Landroid/arch/lifecycle/reactivestreams/R;->$jacocoData:[Z
+
+    if-nez v0, :cond_0
+
+    const-wide v0, 0x3c21f35f42b91810L    # 4.865539479551432E-19
+
+    const/4 v2, 0x1
+
+    const-string v3, "android/arch/lifecycle/reactivestreams/R"
+
+    invoke-static {v0, v1, v3, v2}, Lorg/jacoco/agent/rt/internal_8ff85ea/Offline;->getProbes(JLjava/lang/String;I)[Z
+
+    move-result-object v0
+
+    sput-object v0, Landroid/arch/lifecycle/reactivestreams/R;->$jacocoData:[Z
+
+    :cond_0
+    return-object v0
+.end method
+
+.method private constructor <init>()V
+    .locals 3
+
+    invoke-static {}, Landroid/arch/lifecycle/reactivestreams/R;->$jacocoInit()[Z
+
+    move-result-object v0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x1
+
+    aput-boolean v2, v0, v1
+
+    return-void
+.end method

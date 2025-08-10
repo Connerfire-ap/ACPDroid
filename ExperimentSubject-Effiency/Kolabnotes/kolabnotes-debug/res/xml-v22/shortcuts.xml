@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/ic_compose" android:enabled="true" android:shortcutId="newnote" android:shortcutShortLabel="@string/note_created" android:shortcutLongLabel="@string/note_created">
+        <intent android:targetPackage="org.kore.kolabnotes.android" android:action="android.intent.action.VIEW" android:targetClass="org.kore.kolabnotes.android.MainActivity" />
+        <intent android:targetPackage="org.kore.kolabnotes.android" android:action="android.intent.action.VIEW" android:targetClass="org.kore.kolabnotes.android.DetailActivity" />
+    </shortcut>
+</shortcuts>

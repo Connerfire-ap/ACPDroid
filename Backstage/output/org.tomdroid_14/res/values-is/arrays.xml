@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="firstNoteContent">
+        <item>"Velkomin í Tomdroid!
+"</item>
+        <item>"Þú hefur engar glósur hér enn. Til að byrja, stilltu samstillingar í stillingum. Það eru tveir samstillingarmöguleikar útskýrðir fyrir neðan.
+"</item>
+        <item>=Samstilling yfir net=</item>
+        <item>"Samstilling yfir net er það sem þú ert að leita eftir til að samstilla við Tomboy-Online, þinn eigin Rainy/Snowy þjón eða hvaða þjón sem styður Tomboy Web REST API.
+"</item>
+        <item>Til að nota það, stilltu samstillingaþjónustu á samstillingu yfir net í stillingum og veittu síðan slóð á þjón. Hér eru nokkrir opinberir:</item>
+        <item>-Tomboy Online - https://edge.tomboy-online.org/</item>
+        <item>"-rainy.notesync.org - https://notesync.org:8080/[username]/[password]/
+"</item>
+        <item>"Þegar stillt er, smelltu á samstillingatáknið í efstu stiku Tomdroid til að samstilla glósur þínar.
+"</item>
+        <item>"Athugaðu: þú vilt kannski taka afrit af Tomboy glósum þínum fyrir samstillingu, þar sem þetta forrit er ennþá í þróun og gæti skemmt Tomboy glósur þínar.
+"</item>
+        <item>"Vinsamlegast athugaðu http://live.gnome.org/Tomboy/Directories til að sjá staðsetningu *.note skráa á öllum kerfum.
+"</item>
+        <item>=SD kort=</item>
+        <item>Settu Tomboy glósur (*.note) á SD kortið þitt undir tomdroid/. Þegar glósurnar hafa verið afritaðar, stilltu samstillingaþjónustu á SD kort í stillingum og smelltu síðan á samstillingatáknið í efstu stiku Tomdroid.</item>
+        <item>"Einnig, þá er Tomdroid alltaf að leita að nýjum framleggjendum. Ef þú hefur áhuga gakktu í tomdroid-dev liðið á Launchpad: http://launchpad.net/~tomdroid-dev.
+"</item>
+        <item>Í síðasta lagi, ef þú lendir í einhverju vandamáli, vinsamlegast tilkynntu það á: https://bugs.launchpad.net/tomdroid</item>
+    </string-array>
+</resources>

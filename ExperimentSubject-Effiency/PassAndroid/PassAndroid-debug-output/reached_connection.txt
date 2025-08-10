@@ -1,0 +1,14 @@
+reached_open_conn  #id #time_to_reach (sec)
+reached_open_conn  #id #time_to_reach (sec)
+reached_open_conn  #id #time_to_reach (sec)
+reached_open_conn  #id #time_to_reach (sec)
+reached_open_conn  #id #time_to_reach (sec)
+reached_open_conn  #id #time_to_reach (sec)
+reached_open_conn  #id #time_to_reach (sec)
+reached_open_conn  #id #time_to_reach (sec)
+reached_open_conn  #id #time_to_reach (sec)
+Avg time to reach one open connection: 0.0
+reached_open_conn  #id #time_to_reach (sec)
+Avg time to reach one open connection: 0.0
+reached_open_conn  #id #time_to_reach (sec)
+reached_open_conn  #id #time_to_reach (sec)

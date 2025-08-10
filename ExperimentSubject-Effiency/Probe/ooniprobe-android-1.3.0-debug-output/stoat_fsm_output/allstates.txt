@@ -1,0 +1,15 @@
+the state file name: /RESET_APP_STATE.xml
+com.android.launcher2.Launcher
+
+-----------
+
+the state file name: /EMPTY_APP_STATE.xml
+com.android.launcher2.Launcher
+
+-----------
+
+the state file name: /home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/ExperimentSubject-Effiency/Probe/ooniprobe-android-1.3.0-debug-output/stoat_fsm_output/ui/S_1.xml
+org.openobservatory.ooniprobe.activity.MainActivity
+
+-----------
+

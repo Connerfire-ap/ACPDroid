@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/settings_force_tablet_layout_title" android:key="@string/pref_key_force_tablet_layout" android:summary="@string/settings_force_tablet_layout_text" android:defaultValue="@bool/default_force_tablet_layout" />
+    <CheckBoxPreference android:title="@string/settings_use_true_randomisation_title" android:key="@string/pref_key_use_true_randomisation" android:summary="@string/settings_use_true_randomisation_text" android:defaultValue="@bool/default_use_true_randomisation" />
+    <de.tobiasbielefeld.solitaire.dialogs.DialogPreferenceMaxNumberUndos android:title="@string/settings_max_number_undos" android:key="@string/pref_key_max_number_undos" android:summary="" android:positiveButtonText="@string/game_confirm" android:negativeButtonText="@string/game_cancel" />
+</PreferenceScreen>

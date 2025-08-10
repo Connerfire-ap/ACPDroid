@@ -1,0 +1,2 @@
+reached_screen_node  #time_to_reach (sec)
+com.duckduckgo.app.home.HomeActivity 19

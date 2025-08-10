@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.ConstraintLayout android:background="@color/colorBluePastelLight" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <ImageView android:id="@id/imageView4" android:layout_width="212.0dip" android:layout_height="290.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="0.0dip" android:contentDescription="@string/renchon" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:srcCompat="@drawable/renchon" />
+        <ScrollView android:paddingLeft="@dimen/nav_header_vertical_spacing" android:paddingRight="@dimen/nav_header_vertical_spacing" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/nav_header_vertical_spacing" android:paddingEnd="@dimen/nav_header_vertical_spacing">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:background="@drawable/layout_bg" android:padding="@dimen/activity_horizontal_margin" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/marginBig" android:layout_marginBottom="@dimen/marginBig">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/activity_vertical_margin">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Headline" android:textStyle="bold" android:textColor="@color/colorPinkText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search" android:layout_weight="1.0" />
+                        <EditText android:id="@id/queryText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" android:layout_weight="1.0" android:inputType="textPersonName" />
+                    </LinearLayout>
+                    <TextView android:textStyle="bold" android:textColor="@color/colorDarkLink" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/category" android:layout_weight="1.0" />
+                    <Spinner android:id="@id/catSpinner" android:padding="@dimen/nav_header_vertical_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/nav_header_vertical_spacing" android:layout_weight="1.0" />
+                    <TextView android:textStyle="bold" android:textColor="@color/colorDarkLink" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status" />
+                    <Spinner android:id="@id/statSpinner" android:padding="@dimen/nav_header_vertical_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/nav_header_vertical_spacing" />
+                    <TextView android:textStyle="bold" android:textColor="@color/colorDarkLink" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/max" />
+                    <EditText android:id="@id/maxNumber" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="numberSigned" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textStyle="bold" android:textColor="@color/colorDarkLink" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/size" android:layout_weight="1.0" />
+                        <Spinner android:id="@id/sizeFormat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    </LinearLayout>
+                    <TableLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/activity_horizontal_margin" android:paddingEnd="@dimen/activity_horizontal_margin">
+                        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/from" android:layout_weight="1.0" />
+                            <EditText android:id="@id/fromSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" android:layout_weight="1.0" android:inputType="number" />
+                        </TableRow>
+                        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/to" android:layout_weight="1.0" />
+                            <EditText android:id="@id/toSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" android:layout_weight="1.0" android:inputType="number" />
+                        </TableRow>
+                    </TableLayout>
+                    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textStyle="bold" android:textColor="@color/colorDarkLink" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/date" android:layout_weight="1.0" />
+                    <TableLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/activity_horizontal_margin" android:paddingEnd="@dimen/activity_horizontal_margin">
+                        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/from" android:layout_weight="1.0" />
+                            <EditText android:id="@id/fromDate" android:focusable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" android:layout_weight="1.0" android:inputType="date" />
+                        </TableRow>
+                        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/to" android:layout_weight="1.0" />
+                            <EditText android:id="@id/toDate" android:focusable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" android:layout_weight="1.0" android:inputType="date" />
+                        </TableRow>
+                    </TableLayout>
+                    <Button android:id="@id/searchButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fab_margin" android:text="@string/search" style="@style/Widget.AppCompat.Button.Colored" />
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

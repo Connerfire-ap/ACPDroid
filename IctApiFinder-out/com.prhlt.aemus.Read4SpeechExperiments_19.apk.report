@@ -1,0 +1,8 @@
+com.prhlt.aemus.Read4SpeechExperiments_19.apk minSdkVersion: 9, targetSdkVersion: 27
+BUG: <android.app.AlertDialog$Builder: void <init>(android.content.Context,int)> called in <com.prhlt.aemus.Read4SpeechExperiments.MainActivity: void showInstructions(java.lang.Boolean)> on line -1 not in [9, 10]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: com.prhlt.aemus.Read4SpeechExperiments.MainActivity dummyMainMethod_com_prhlt_aemus_Read4SpeechExperiments_MainActivity(android.content.Intent)>
+	--><com.prhlt.aemus.Read4SpeechExperiments.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+	--><com.prhlt.aemus.Read4SpeechExperiments.MainActivity: void showInstructions(java.lang.Boolean)>
+

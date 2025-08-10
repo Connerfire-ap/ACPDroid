@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_rules">
+        <de.tobiasbielefeld.solitaire.classes.ListPreferenceWithSummary android:entries="@array/pref_pyramid_difficulty_titles" android:title="@string/settings_pyramid_difficulty" android:key="@string/pref_key_pyramid_difficulty" android:summary="%s" android:defaultValue="1" android:positiveButtonText="@null" android:negativeButtonText="@string/game_cancel" android:entryValues="@array/pref_pyramid_difficulty_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_support">
+        <CheckBoxPreference android:title="@string/settings_auto_move_title" android:key="@string/pref_key_pyramid_auto_move" android:summary="@string/settings_pyramid_auto_move_text" android:defaultValue="@bool/default_pyramid_auto_move" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_cards">
+        <CheckBoxPreference android:title="@string/settings_limit_number_of_recycles" android:key="@string/pref_key_pyramid_limit_recycles" android:summary="@string/settings_limit_number_of_recycles_text" android:defaultValue="@bool/default_pyramid_limited_recycles" />
+        <de.tobiasbielefeld.solitaire.classes.ListPreferenceWithSummary android:entries="@array/pref_number_of_recycles_values" android:title="@string/settings_number_of_recycles" android:key="@string/pref_key_pyramid_number_of_recycles" android:summary="%s" android:dependency="@string/pref_key_pyramid_limit_recycles" android:defaultValue="@string/default_pyramid_number_of_recycles" android:positiveButtonText="@null" android:negativeButtonText="@string/game_cancel" android:entryValues="@array/pref_number_of_recycles_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

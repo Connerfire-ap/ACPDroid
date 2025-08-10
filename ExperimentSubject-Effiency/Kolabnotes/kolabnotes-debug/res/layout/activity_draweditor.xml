@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/activity_draweditor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:background="?colorPrimary" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar_draweditor" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:minHeight="?actionBarSize" />
+        <LinearLayout android:orientation="horizontal" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar_draweditor">
+            <fragment android:id="@id/draweditor_fragment" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" class="org.kore.kolabnotes.android.fragment.DrawEditorFragment" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

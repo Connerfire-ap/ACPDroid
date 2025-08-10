@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/settings_hide_status_bar" android:key="@string/pref_key_hide_status_bar" android:defaultValue="false" />
+    <de.tobiasbielefeld.solitaire.classes.ListPreferenceWithSummary android:entries="@array/pref_orientation_titles" android:title="@string/settings_orientation" android:key="@string/pref_key_orientation" android:summary="%s" android:defaultValue="1" android:positiveButtonText="@null" android:negativeButtonText="@string/game_cancel" android:entryValues="@array/pref_orientation_values" />
+    <de.tobiasbielefeld.solitaire.classes.ListPreferenceWithSummary android:entries="@array/pref_language_titles" android:title="@string/settings_change_language" android:key="@string/pref_key_language" android:summary="%s" android:defaultValue="default" android:positiveButtonText="@null" android:negativeButtonText="@string/game_cancel" android:entryValues="@array/pref_language_values" />
+    <de.tobiasbielefeld.solitaire.classes.ListPreferenceWithSummary android:entries="@array/pref_movement_speed_titles" android:title="@string/settings_movement_speed" android:key="@string/pref_key_movement_speed" android:summary="%s" android:defaultValue="@string/default_movement_speed" android:positiveButtonText="@null" android:negativeButtonText="@string/game_cancel" android:entryValues="@array/pref_movement_speed_values" />
+    <CheckBoxPreference android:title="@string/settings_left_handed_mode" android:key="@string/pref_key_left_handed_mode" android:summary="@string/settings_left_handed_mode_description" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/settings_show_main_menu" android:key="@string/pref_key_start_menu" android:summary="@string/settings_show_main_menu_description" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/settings_show_advanced_settings" android:key="@string/pref_key_show_advanced_settings" android:summary="@string/settings_show_advanced_settings_text" android:defaultValue="@bool/default_show_advaced_settings" />
+    <CheckBoxPreference android:title="@string/settings_auto_start_new_game_title" android:key="@string/pref_key_auto_start_new_game" android:summary="@string/settings_auto_start_new_game_text" android:defaultValue="@bool/default_auto_start_new_game" />
+</PreferenceScreen>

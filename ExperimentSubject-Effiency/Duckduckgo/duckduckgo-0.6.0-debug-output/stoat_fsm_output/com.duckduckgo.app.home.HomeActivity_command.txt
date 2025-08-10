@@ -1,0 +1,6 @@
+    1@click(resource-id='com.android.systemui:id/back'):android.widget.ImageView@""
+    2@clickLong(resource-id='com.android.systemui:id/back'):android.widget.ImageView@""
+    3@click(resource-id='com.android.systemui:id/home'):android.widget.ImageView@""
+    4@click(resource-id='com.android.systemui:id/recent_apps'):android.widget.ImageView@""
+    5@clickLong(resource-id='com.android.systemui:id/recent_apps'):android.widget.ImageView@""
+    14@click(className='android.widget.Button',instance='0'):android.widget.Button@"OK"

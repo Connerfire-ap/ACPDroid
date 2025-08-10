@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:padding="@dimen/layout_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialogBackgroundColorBlue" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:background="@drawable/image_border" android:layout_width="@dimen/dialogBackgroundColorBoxWidth" android:layout_height="@dimen/dialogBackgroundColorBoxWidth" app:srcCompat="@drawable/background_color_blue" />
+            <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/blue" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialogBackgroundColorGreen" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:background="@drawable/image_border" android:layout_width="@dimen/dialogBackgroundColorBoxWidth" android:layout_height="@dimen/dialogBackgroundColorBoxWidth" app:srcCompat="@drawable/background_color_green" />
+            <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/green" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialogBackgroundColorRed" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:background="@drawable/image_border" android:layout_width="@dimen/dialogBackgroundColorBoxWidth" android:layout_height="@dimen/dialogBackgroundColorBoxWidth" app:srcCompat="@drawable/background_color_red" />
+            <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/red" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialogBackgroundColorYellow" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:background="@drawable/image_border" android:layout_width="@dimen/dialogBackgroundColorBoxWidth" android:layout_height="@dimen/dialogBackgroundColorBoxWidth" app:srcCompat="@drawable/background_color_yellow" />
+            <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/yellow" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialogBackgroundColorOrange" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:background="@drawable/image_border" android:layout_width="@dimen/dialogBackgroundColorBoxWidth" android:layout_height="@dimen/dialogBackgroundColorBoxWidth" app:srcCompat="@drawable/background_color_orange" />
+            <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/orange" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialogBackgroundColorPurple" android:background="?selectableItemBackground" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:background="@drawable/image_border" android:layout_width="@dimen/dialogBackgroundColorBoxWidth" android:layout_height="@dimen/dialogBackgroundColorBoxWidth" app:srcCompat="@drawable/background_color_purple" />
+            <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/purple" />
+        </LinearLayout>
+    </TableRow>
+</TableLayout>

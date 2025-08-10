@@ -1,0 +1,5 @@
+the state file name: /home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/ExperimentSubject-Effiency/PassAndroid/PassAndroid-3.4.5-output/stoat_fsm_output/ui/S_1.xml
+org.ligi.passandroid.ui.PassListActivity
+
+-----------
+

@@ -1,0 +1,30 @@
+com.easytarget.micopi_32.apk minSdkVersion: 14, targetSdkVersion: 27
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.eztarget.micopi.ui.BatchActivity: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: org.eztarget.micopi.ui.BatchActivity dummyMainMethod_org_eztarget_micopi_ui_BatchActivity(android.content.Intent)>
+	--><org.eztarget.micopi.ui.BatchActivity: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.graphics.Canvas: void drawRoundRect(float,float,float,float,float,float,android.graphics.Paint)> called in <org.eztarget.micopi.engine.Painter: void paintRoundedSquare(int,float,float,float)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: org.eztarget.micopi.ImageService dummyMainMethod_org_eztarget_micopi_ImageService(android.content.Intent)>
+	--><org.eztarget.micopi.ImageService: void onHandleIntent(android.content.Intent)>
+	--><org.eztarget.micopi.ImageService: void processContacts(org.eztarget.micopi.ImageService$CrawlMode)>
+	--><org.eztarget.micopi.engine.ImageFactory: android.graphics.Bitmap bitmapFrom(android.content.Context,org.eztarget.micopi.Contact,int)>
+	--><org.eztarget.micopi.engine.ImageFactory: android.graphics.Bitmap generateBitmap(android.content.Context)>
+	--><org.eztarget.micopi.engine.PlatesGenerator: void generate(org.eztarget.micopi.engine.Painter,org.eztarget.micopi.Contact)>
+	--><org.eztarget.micopi.engine.Painter: void paintRoundedSquare(int,float,float,float)>
+
+BUG: <android.os.BaseBundle: boolean containsKey(java.lang.String)> called in <org.eztarget.micopi.ui.ContactActivity: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: org.eztarget.micopi.ui.ContactActivity dummyMainMethod_org_eztarget_micopi_ui_ContactActivity(android.content.Intent)>
+	--><org.eztarget.micopi.ui.ContactActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <org.eztarget.micopi.ui.BatchActivity: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 14, 15]
+reachable path:
+	--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+	--><dummyMainClass: org.eztarget.micopi.ui.BatchActivity dummyMainMethod_org_eztarget_micopi_ui_BatchActivity(android.content.Intent)>
+	--><org.eztarget.micopi.ui.BatchActivity: void onCreate(android.os.Bundle)>
+

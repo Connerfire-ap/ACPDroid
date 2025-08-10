@@ -1,0 +1,148 @@
+kolabnotes.apk minSdkVersion: 16, targetSdkVersion: 27
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.kore.kolabnotes.android.security.AuthenticatorActivity dummyMainMethod_org_kore_kolabnotes_android_security_AuthenticatorActivity(android.content.Intent)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity$1: void onClick(android.view.View)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: void submit()>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)>
+
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <org.kore.kolabnotes.android.fragment.PreviewFragment: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.kore.kolabnotes.android.AttachmentActivity dummyMainMethod_org_kore_kolabnotes_android_AttachmentActivity(android.content.Intent)>
+		--><dummyMainClass: org.kore.kolabnotes.android.fragment.PreviewFragment dummyMainMethod_org_kore_kolabnotes_android_fragment_PreviewFragment(android.content.Intent,android.app.Activity)>
+		--><org.kore.kolabnotes.android.fragment.PreviewFragment: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.kore.kolabnotes.android.security.AuthenticatorActivity dummyMainMethod_org_kore_kolabnotes_android_security_AuthenticatorActivity(android.content.Intent)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity$1: void onClick(android.view.View)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: void submit()>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.kore.kolabnotes.android.security.AuthenticatorActivity dummyMainMethod_org_kore_kolabnotes_android_security_AuthenticatorActivity(android.content.Intent)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity$1: void onClick(android.view.View)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: void submit()>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.kore.kolabnotes.android.security.AuthenticatorActivity dummyMainMethod_org_kore_kolabnotes_android_security_AuthenticatorActivity(android.content.Intent)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity$1: void onClick(android.view.View)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: void submit()>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)>
+
+BUG: <android.os.BaseBundle: int getInt(java.lang.String,int)> called in <org.kore.kolabnotes.android.widget.ListWidgetConfigureActivity: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.kore.kolabnotes.android.widget.ListWidgetConfigureActivity dummyMainMethod_org_kore_kolabnotes_android_widget_ListWidgetConfigureActivity(android.content.Intent)>
+		--><org.kore.kolabnotes.android.widget.ListWidgetConfigureActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.kore.kolabnotes.android.security.AuthenticatorActivity dummyMainMethod_org_kore_kolabnotes_android_security_AuthenticatorActivity(android.content.Intent)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity$1: void onClick(android.view.View)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: void submit()>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.kore.kolabnotes.android.fragment.PreviewFragment: org.kore.kolabnotes.android.fragment.PreviewFragment newInstance(java.lang.String,java.lang.String)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.kore.kolabnotes.android.AttachmentActivity dummyMainMethod_org_kore_kolabnotes_android_AttachmentActivity(android.content.Intent)>
+		--><org.kore.kolabnotes.android.AttachmentActivity: void onCreate(android.os.Bundle)>
+		--><org.kore.kolabnotes.android.fragment.PreviewFragment: org.kore.kolabnotes.android.fragment.PreviewFragment newInstance(java.lang.String,java.lang.String)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.kore.kolabnotes.android.security.AuthenticatorActivity dummyMainMethod_org_kore_kolabnotes_android_security_AuthenticatorActivity(android.content.Intent)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity$1: void onClick(android.view.View)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: void submit()>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.kore.kolabnotes.android.security.AuthenticatorActivity dummyMainMethod_org_kore_kolabnotes_android_security_AuthenticatorActivity(android.content.Intent)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity$1: void onClick(android.view.View)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: void submit()>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <org.kore.kolabnotes.android.fragment.PreviewFragment: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.kore.kolabnotes.android.AttachmentActivity dummyMainMethod_org_kore_kolabnotes_android_AttachmentActivity(android.content.Intent)>
+		--><dummyMainClass: org.kore.kolabnotes.android.fragment.PreviewFragment dummyMainMethod_org_kore_kolabnotes_android_fragment_PreviewFragment(android.content.Intent,android.app.Activity)>
+		--><org.kore.kolabnotes.android.fragment.PreviewFragment: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.kore.kolabnotes.android.security.AuthenticatorActivity dummyMainMethod_org_kore_kolabnotes_android_security_AuthenticatorActivity(android.content.Intent)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity$1: void onClick(android.view.View)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: void submit()>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)>
+
+BUG: <android.os.BaseBundle: int getInt(java.lang.String,int)> called in <org.kore.kolabnotes.android.widget.StickyNoteWidgetConfigureActivity: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.kore.kolabnotes.android.widget.StickyNoteWidgetConfigureActivity dummyMainMethod_org_kore_kolabnotes_android_widget_StickyNoteWidgetConfigureActivity(android.content.Intent)>
+		--><org.kore.kolabnotes.android.widget.StickyNoteWidgetConfigureActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.kore.kolabnotes.android.security.AuthenticatorActivity dummyMainMethod_org_kore_kolabnotes_android_security_AuthenticatorActivity(android.content.Intent)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity$1: void onClick(android.view.View)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: void submit()>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.kore.kolabnotes.android.fragment.PreviewFragment: org.kore.kolabnotes.android.fragment.PreviewFragment newInstance(java.lang.String,java.lang.String)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.kore.kolabnotes.android.AttachmentActivity dummyMainMethod_org_kore_kolabnotes_android_AttachmentActivity(android.content.Intent)>
+		--><org.kore.kolabnotes.android.AttachmentActivity: void onCreate(android.os.Bundle)>
+		--><org.kore.kolabnotes.android.fragment.PreviewFragment: org.kore.kolabnotes.android.fragment.PreviewFragment newInstance(java.lang.String,java.lang.String)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.kore.kolabnotes.android.security.AuthenticatorActivity dummyMainMethod_org_kore_kolabnotes_android_security_AuthenticatorActivity(android.content.Intent)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity$1: void onClick(android.view.View)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: void submit()>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.kore.kolabnotes.android.security.AuthenticatorActivity dummyMainMethod_org_kore_kolabnotes_android_security_AuthenticatorActivity(android.content.Intent)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity$1: void onClick(android.view.View)>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: void submit()>
+		--><org.kore.kolabnotes.android.security.AuthenticatorActivity: android.os.Bundle createAuthBundle(org.kore.kolabnotes.android.security.KolabAccount,long)>
+

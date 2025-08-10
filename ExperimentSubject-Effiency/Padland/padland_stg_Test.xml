@@ -1,0 +1,401 @@
+<ScreenTransitionGraph>
+  <transitionEdges>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>com.mikifus.padland.PadInfoActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>com.mikifus.padland.PadViewActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>button</typeOfUiElement>
+        <handlerMethod>void onViewButtonClick(android.view.View)</handlerMethod>
+        <resId>2131624080</resId>
+        <text>View pad</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>com.mikifus.padland.PadInfoActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>pad_info</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>com.mikifus.padland.PadViewActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131624155</resId>
+        <parentId>100107</parentId>
+        <text>Share</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>com.mikifus.padland.PadListActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>com.mikifus.padland.PadViewActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>activitylifecyclemethod</typeOfUiElement>
+        <handlerMethod>void onCreate(android.os.Bundle)</handlerMethod>
+        <resId>100139</resId>
+        <text></text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>com.mikifus.padland.PadListActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>com.mikifus.padland.SettingsActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>com.mikifus.padland.SettingsActivity$SettingsFragment</string>
+        </fragments>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131296279</resId>
+        <contentDesc>Settings</contentDesc>
+        <text></text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>com.mikifus.padland.PadInfoActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>pad_info</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>com.mikifus.padland.PadInfoActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131624156</resId>
+        <text>Delete</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>com.mikifus.padland.NewPadActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>new_pad</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>com.mikifus.padland.NewPadActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131624154</resId>
+        <text>Settings</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>com.mikifus.padland.NewPadActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>com.mikifus.padland.PadViewActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>button</typeOfUiElement>
+        <handlerMethod>void onCreateButtonClick(android.view.View)</handlerMethod>
+        <resId>2131624078</resId>
+        <text>Create or go to</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>com.mikifus.padland.PadInfoActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>pad_info</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>com.mikifus.padland.PadInfoActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131624155</resId>
+        <text>Share</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>com.mikifus.padland.PadInfoActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>com.mikifus.padland.PadInfoActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>pad_info</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>menu</typeOfUiElement>
+        <handlerMethod>boolean onClickMenuIcon(int,android.Menu)</handlerMethod>
+        <resId>2131689473</resId>
+        <contentDesc>More options</contentDesc>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>com.mikifus.padland.ServerListActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>com.mikifus.padland.ServerListActivity</name>
+        <target>false</target>
+        <fragments>
+          <string>com.mikifus.padland.Dialog.NewServerDialog</string>
+        </fragments>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <handlerMethod>void onItemClick(android.widget.AdapterView,android.view.View,int,long)</handlerMethod>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>com.mikifus.padland.PadInfoActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>pad_info</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>com.mikifus.padland.PadInfoActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>item</typeOfUiElement>
+        <handlerMethod>boolean onOptionsItemSelected(android.view.MenuItem)</handlerMethod>
+        <resId>2131624154</resId>
+        <text>Settings</text>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>com.mikifus.padland.NewPadActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>com.mikifus.padland.NewPadActivity</name>
+        <target>false</target>
+        <fragments/>
+        <menu>new_pad</menu>
+        <dialogs/>
+        <baseScreen>false</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>menu</typeOfUiElement>
+        <handlerMethod>boolean onClickMenuIcon(int,android.Menu)</handlerMethod>
+        <resId>2131689472</resId>
+        <contentDesc>More options</contentDesc>
+      </edgeTag>
+    </TransitionEdge>
+    <TransitionEdge>
+      <srcNode class="ScreenNode">
+        <name>com.mikifus.padland.PadListActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </srcNode>
+      <tgtNode class="ScreenNode">
+        <name>com.mikifus.padland.NewPadActivity</name>
+        <target>false</target>
+        <fragments/>
+        <dialogs/>
+        <baseScreen>true</baseScreen>
+      </tgtNode>
+      <edgeTag>
+        <typeOfUiElement>android.support.design.widget.floatingactionbutton</typeOfUiElement>
+        <handlerMethod>void onNewPadClick(android.view.View)</handlerMethod>
+        <resId>100092</resId>
+        <text></text>
+      </edgeTag>
+    </TransitionEdge>
+  </transitionEdges>
+  <screenNodeSet>
+    <ScreenNode>
+      <name>com.mikifus.padland.ServerListActivity</name>
+      <target>false</target>
+      <fragments>
+        <string>com.mikifus.padland.Dialog.NewServerDialog</string>
+      </fragments>
+      <dialogs/>
+      <baseScreen>false</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>com.mikifus.padland.NewPadActivity</name>
+      <target>false</target>
+      <fragments/>
+      <menu>new_pad</menu>
+      <dialogs/>
+      <baseScreen>false</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>com.mikifus.padland.PadInfoActivity</name>
+      <target>false</target>
+      <fragments/>
+      <menu>pad_info</menu>
+      <dialogs/>
+      <baseScreen>false</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>com.mikifus.padland.SettingsActivity</name>
+      <target>true</target>
+      <fragments>
+        <string>com.mikifus.padland.SettingsActivity$SettingsFragment</string>
+      </fragments>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>com.mikifus.padland.PadViewActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>com.mikifus.padland.PadListActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>com.mikifus.padland.IntroActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>com.mikifus.padland.PadInfoActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>com.mikifus.padland.SplashActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>com.mikifus.padland.ServerListActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>com.mikifus.padland.NewPadActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>com.mikifus.padland.PadLandDataActivity</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+    <ScreenNode>
+      <name>com.mikifus.padland.About</name>
+      <target>false</target>
+      <fragments/>
+      <dialogs/>
+      <baseScreen>true</baseScreen>
+    </ScreenNode>
+  </screenNodeSet>
+  <serviceNodeSet/>
+  <broadcastReceiverNodeSet/>
+</ScreenTransitionGraph>

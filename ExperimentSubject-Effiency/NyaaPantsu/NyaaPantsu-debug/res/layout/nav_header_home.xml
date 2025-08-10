@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/ThemeOverlay.AppCompat.Dark" android:gravity="bottom" android:orientation="vertical" android:background="@drawable/bg_header_tile" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="@dimen/nav_header_height" android:tileMode="repeat"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/avatarUser" android:paddingTop="@dimen/nav_header_vertical_spacing" android:layout_width="90.0dip" android:layout_height="90.0dip" app:srcCompat="@mipmap/ic_anon" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textColor="@color/colorDarkBlue" android:id="@id/usernameBadge" android:paddingTop="@dimen/nav_header_vertical_spacing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/renchon" android:layout_weight="1.0" />
+        <Button android:id="@id/memberButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_activity_login" android:layout_weight="0.0" android:textAlignment="center" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+    </LinearLayout>
+</LinearLayout>

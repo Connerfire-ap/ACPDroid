@@ -1,0 +1,5 @@
+calendula-developDebug-decompile-2.5.2.apk minSdkVersion: 21, targetSdkVersion: 27
+WARNING: <java.io.File: java.lang.String getName()> called in <com.evernote.android.job.JobStorageDatabaseErrorHandler: void deleteApi14(android.content.Context,java.io.File)> on line -1 no living Level
+
+WARNING: <android.content.Context: boolean deleteDatabase(java.lang.String)> called in <com.evernote.android.job.JobStorageDatabaseErrorHandler: void deleteApi14(android.content.Context,java.io.File)> on line -1 no living Level
+

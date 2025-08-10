@@ -1,0 +1,6 @@
+BUG: <android.os.Bundle: void putString(java.lang.String,java.lang.String)> called in <com.example.compatibilitytest.MainActivity3$1: void onClick(android.view.View)> on line -1 not in [16, 17, 18, 19, 21, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.example.compatibilitytest.MainActivity3 dummyMainMethod_com_example_compatibilitytest_MainActivity3(android.content.Intent)>
+		--><com.example.compatibilitytest.MainActivity3$1: void onClick(android.view.View)>

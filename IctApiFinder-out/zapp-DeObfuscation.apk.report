@@ -1,0 +1,288 @@
+zapp-DeObfuscation.apk minSdkVersion: 19, targetSdkVersion: 27
+BUG: <android.os.BaseBundle: void putLong(java.lang.String,long)> called in <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity dummyMainMethod_de_christinecoenen_code_zapp_app_mediathek_ui_detail_MediathekPlayerActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String,java.lang.String)> called in <com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikepenz.aboutlibraries.ui.LibsActivity dummyMainMethod_com_mikepenz_aboutlibraries_ui_LibsActivity(android.content.Intent)>
+		--><com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.about.ui.AboutActivity dummyMainMethod_de_christinecoenen_code_zapp_app_about_ui_AboutActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.about.ui.AboutActivity: void onCreate(android.os.Bundle)>
+		--><com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <de.christinecoenen.code.zapp.app.MainActivity: void onRestoreInstanceState(android.os.Bundle)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.MainActivity dummyMainMethod_de_christinecoenen_code_zapp_app_MainActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.MainActivity: void onRestoreInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: long getLong(java.lang.String)> called in <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onRestoreInstanceState(android.os.Bundle)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity dummyMainMethod_de_christinecoenen_code_zapp_app_mediathek_ui_detail_MediathekPlayerActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onRestoreInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: int getInt(java.lang.String,int)> called in <com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikepenz.aboutlibraries.ui.LibsActivity dummyMainMethod_com_mikepenz_aboutlibraries_ui_LibsActivity(android.content.Intent)>
+		--><com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.about.ui.AboutActivity dummyMainMethod_de_christinecoenen_code_zapp_app_about_ui_AboutActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.about.ui.AboutActivity: void onCreate(android.os.Bundle)>
+		--><com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <de.christinecoenen.code.zapp.app.MainActivity: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.MainActivity dummyMainMethod_de_christinecoenen_code_zapp_app_MainActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.MainActivity: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <com.github.porokoro.paperboy.builders.PaperboyBuilderKt: com.github.porokoro.paperboy.PaperboyFragment build(android.content.Context,com.github.porokoro.paperboy.builders.PaperboyBuilder)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.about.ui.ChangelogActivity dummyMainMethod_de_christinecoenen_code_zapp_app_about_ui_ChangelogActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.about.ui.ChangelogActivity: void onCreate(android.os.Bundle)>
+		--><com.github.porokoro.paperboy.builders.PaperboyChainBuilder: com.github.porokoro.paperboy.PaperboyFragment buildFragment()>
+		--><com.github.porokoro.paperboy.builders.PaperboyBuilderKt: com.github.porokoro.paperboy.PaperboyFragment access$build(android.content.Context,com.github.porokoro.paperboy.builders.PaperboyBuilder)>
+		--><com.github.porokoro.paperboy.builders.PaperboyBuilderKt: com.github.porokoro.paperboy.PaperboyFragment build(android.content.Context,com.github.porokoro.paperboy.builders.PaperboyBuilder)>
+
+BUG: <android.os.BaseBundle: boolean containsKey(java.lang.String)> called in <com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikepenz.aboutlibraries.ui.LibsActivity dummyMainMethod_com_mikepenz_aboutlibraries_ui_LibsActivity(android.content.Intent)>
+		--><com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.about.ui.AboutActivity dummyMainMethod_de_christinecoenen_code_zapp_app_about_ui_AboutActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.about.ui.AboutActivity: void onCreate(android.os.Bundle)>
+		--><com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.media.MediaCodec$CryptoInfo$Pattern: void <init>(int,int)> called in <com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo)> on line -1 not in [19, 21, 22, 23]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity dummyMainMethod_de_christinecoenen_code_zapp_app_mediathek_ui_detail_MediathekPlayerActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onCreate(android.os.Bundle)>
+		--><de.christinecoenen.code.zapp.app.mediathek.controller.Player: void <init>(android.content.Context,de.christinecoenen.code.zapp.app.mediathek.model.MediathekShow,de.christinecoenen.code.zapp.utils.video.VideoErrorHandler$IVideoErrorListener,de.christinecoenen.code.zapp.utils.video.VideoBufferingHandler$IVideoBufferingListener)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(android.content.Context,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl,com.google.android.exoplayer2.util.Clock)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: com.google.android.exoplayer2.Renderer[] createRenderers(android.os.Handler,com.google.android.exoplayer2.video.VideoRendererEventListener,com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.text.TextOutput,com.google.android.exoplayer2.metadata.MetadataOutput)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: void buildMetadataRenderers(android.content.Context,com.google.android.exoplayer2.metadata.MetadataOutput,android.os.Looper,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.metadata.MetadataRenderer: void <init>(com.google.android.exoplayer2.metadata.MetadataOutput,android.os.Looper)>
+		--><com.google.android.exoplayer2.metadata.MetadataRenderer: void <init>(com.google.android.exoplayer2.metadata.MetadataOutput,android.os.Looper,com.google.android.exoplayer2.metadata.MetadataDecoderFactory)>
+		--><com.google.android.exoplayer2.metadata.MetadataInputBuffer: void <init>()>
+		--><com.google.android.exoplayer2.decoder.DecoderInputBuffer: void <init>(int)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo: void <init>()>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.decoder.CryptoInfo$1)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity dummyMainMethod_de_christinecoenen_code_zapp_app_livestream_ui_detail_ChannelDetailActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onCreate(android.os.Bundle)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(android.content.Context,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl,com.google.android.exoplayer2.util.Clock)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: com.google.android.exoplayer2.Renderer[] createRenderers(android.os.Handler,com.google.android.exoplayer2.video.VideoRendererEventListener,com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.text.TextOutput,com.google.android.exoplayer2.metadata.MetadataOutput)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: void buildMetadataRenderers(android.content.Context,com.google.android.exoplayer2.metadata.MetadataOutput,android.os.Looper,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.metadata.MetadataRenderer: void <init>(com.google.android.exoplayer2.metadata.MetadataOutput,android.os.Looper)>
+		--><com.google.android.exoplayer2.metadata.MetadataRenderer: void <init>(com.google.android.exoplayer2.metadata.MetadataOutput,android.os.Looper,com.google.android.exoplayer2.metadata.MetadataDecoderFactory)>
+		--><com.google.android.exoplayer2.metadata.MetadataInputBuffer: void <init>()>
+		--><com.google.android.exoplayer2.decoder.DecoderInputBuffer: void <init>(int)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo: void <init>()>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.decoder.CryptoInfo$1)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity dummyMainMethod_de_christinecoenen_code_zapp_app_mediathek_ui_detail_MediathekPlayerActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onCreate(android.os.Bundle)>
+		--><de.christinecoenen.code.zapp.app.mediathek.controller.Player: void <init>(android.content.Context,de.christinecoenen.code.zapp.app.mediathek.model.MediathekShow,de.christinecoenen.code.zapp.utils.video.VideoErrorHandler$IVideoErrorListener,de.christinecoenen.code.zapp.utils.video.VideoBufferingHandler$IVideoBufferingListener)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(android.content.Context,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl,com.google.android.exoplayer2.util.Clock)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: com.google.android.exoplayer2.Renderer[] createRenderers(android.os.Handler,com.google.android.exoplayer2.video.VideoRendererEventListener,com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.text.TextOutput,com.google.android.exoplayer2.metadata.MetadataOutput)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: void buildAudioRenderers(android.content.Context,com.google.android.exoplayer2.drm.DrmSessionManager,com.google.android.exoplayer2.audio.AudioProcessor[],android.os.Handler,com.google.android.exoplayer2.audio.AudioRendererEventListener,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.audio.MediaCodecAudioRenderer: void <init>(com.google.android.exoplayer2.mediacodec.MediaCodecSelector,com.google.android.exoplayer2.drm.DrmSessionManager,boolean,android.os.Handler,com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.audio.AudioCapabilities,com.google.android.exoplayer2.audio.AudioProcessor[])>
+		--><com.google.android.exoplayer2.audio.MediaCodecAudioRenderer: void <init>(com.google.android.exoplayer2.mediacodec.MediaCodecSelector,com.google.android.exoplayer2.drm.DrmSessionManager,boolean,android.os.Handler,com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.audio.AudioSink)>
+		--><com.google.android.exoplayer2.mediacodec.MediaCodecRenderer: void <init>(int,com.google.android.exoplayer2.mediacodec.MediaCodecSelector,com.google.android.exoplayer2.drm.DrmSessionManager,boolean)>
+		--><com.google.android.exoplayer2.decoder.DecoderInputBuffer: void <init>(int)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo: void <init>()>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.decoder.CryptoInfo$1)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo)>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity dummyMainMethod_de_christinecoenen_code_zapp_app_livestream_ui_detail_ChannelDetailActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onCreate(android.os.Bundle)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(android.content.Context,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl,com.google.android.exoplayer2.util.Clock)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: com.google.android.exoplayer2.Renderer[] createRenderers(android.os.Handler,com.google.android.exoplayer2.video.VideoRendererEventListener,com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.text.TextOutput,com.google.android.exoplayer2.metadata.MetadataOutput)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: void buildAudioRenderers(android.content.Context,com.google.android.exoplayer2.drm.DrmSessionManager,com.google.android.exoplayer2.audio.AudioProcessor[],android.os.Handler,com.google.android.exoplayer2.audio.AudioRendererEventListener,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.audio.MediaCodecAudioRenderer: void <init>(com.google.android.exoplayer2.mediacodec.MediaCodecSelector,com.google.android.exoplayer2.drm.DrmSessionManager,boolean,android.os.Handler,com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.audio.AudioCapabilities,com.google.android.exoplayer2.audio.AudioProcessor[])>
+		--><com.google.android.exoplayer2.audio.MediaCodecAudioRenderer: void <init>(com.google.android.exoplayer2.mediacodec.MediaCodecSelector,com.google.android.exoplayer2.drm.DrmSessionManager,boolean,android.os.Handler,com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.audio.AudioSink)>
+		--><com.google.android.exoplayer2.mediacodec.MediaCodecRenderer: void <init>(int,com.google.android.exoplayer2.mediacodec.MediaCodecSelector,com.google.android.exoplayer2.drm.DrmSessionManager,boolean)>
+		--><com.google.android.exoplayer2.decoder.DecoderInputBuffer: void <init>(int)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo: void <init>()>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.decoder.CryptoInfo$1)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo)>
+	reachable path 5:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity dummyMainMethod_de_christinecoenen_code_zapp_app_mediathek_ui_detail_MediathekPlayerActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onCreate(android.os.Bundle)>
+		--><de.christinecoenen.code.zapp.app.mediathek.controller.Player: void <init>(android.content.Context,de.christinecoenen.code.zapp.app.mediathek.model.MediathekShow,de.christinecoenen.code.zapp.utils.video.VideoErrorHandler$IVideoErrorListener,de.christinecoenen.code.zapp.utils.video.VideoBufferingHandler$IVideoBufferingListener)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(android.content.Context,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl,com.google.android.exoplayer2.util.Clock)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: com.google.android.exoplayer2.Renderer[] createRenderers(android.os.Handler,com.google.android.exoplayer2.video.VideoRendererEventListener,com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.text.TextOutput,com.google.android.exoplayer2.metadata.MetadataOutput)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: void buildVideoRenderers(android.content.Context,com.google.android.exoplayer2.drm.DrmSessionManager,long,android.os.Handler,com.google.android.exoplayer2.video.VideoRendererEventListener,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.video.MediaCodecVideoRenderer: void <init>(android.content.Context,com.google.android.exoplayer2.mediacodec.MediaCodecSelector,long,com.google.android.exoplayer2.drm.DrmSessionManager,boolean,android.os.Handler,com.google.android.exoplayer2.video.VideoRendererEventListener,int)>
+		--><com.google.android.exoplayer2.mediacodec.MediaCodecRenderer: void <init>(int,com.google.android.exoplayer2.mediacodec.MediaCodecSelector,com.google.android.exoplayer2.drm.DrmSessionManager,boolean)>
+		--><com.google.android.exoplayer2.decoder.DecoderInputBuffer: void <init>(int)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo: void <init>()>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.decoder.CryptoInfo$1)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo)>
+	reachable path 6:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity dummyMainMethod_de_christinecoenen_code_zapp_app_livestream_ui_detail_ChannelDetailActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onCreate(android.os.Bundle)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(android.content.Context,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl,com.google.android.exoplayer2.util.Clock)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: com.google.android.exoplayer2.Renderer[] createRenderers(android.os.Handler,com.google.android.exoplayer2.video.VideoRendererEventListener,com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.text.TextOutput,com.google.android.exoplayer2.metadata.MetadataOutput)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: void buildVideoRenderers(android.content.Context,com.google.android.exoplayer2.drm.DrmSessionManager,long,android.os.Handler,com.google.android.exoplayer2.video.VideoRendererEventListener,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.video.MediaCodecVideoRenderer: void <init>(android.content.Context,com.google.android.exoplayer2.mediacodec.MediaCodecSelector,long,com.google.android.exoplayer2.drm.DrmSessionManager,boolean,android.os.Handler,com.google.android.exoplayer2.video.VideoRendererEventListener,int)>
+		--><com.google.android.exoplayer2.mediacodec.MediaCodecRenderer: void <init>(int,com.google.android.exoplayer2.mediacodec.MediaCodecSelector,com.google.android.exoplayer2.drm.DrmSessionManager,boolean)>
+		--><com.google.android.exoplayer2.decoder.DecoderInputBuffer: void <init>(int)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo: void <init>()>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.decoder.CryptoInfo$1)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo)>
+	reachable path 7:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity dummyMainMethod_de_christinecoenen_code_zapp_app_mediathek_ui_detail_MediathekPlayerActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onCreate(android.os.Bundle)>
+		--><de.christinecoenen.code.zapp.app.mediathek.controller.Player: void <init>(android.content.Context,de.christinecoenen.code.zapp.app.mediathek.model.MediathekShow,de.christinecoenen.code.zapp.utils.video.VideoErrorHandler$IVideoErrorListener,de.christinecoenen.code.zapp.utils.video.VideoBufferingHandler$IVideoBufferingListener)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(android.content.Context,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl,com.google.android.exoplayer2.util.Clock)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: com.google.android.exoplayer2.Renderer[] createRenderers(android.os.Handler,com.google.android.exoplayer2.video.VideoRendererEventListener,com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.text.TextOutput,com.google.android.exoplayer2.metadata.MetadataOutput)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: void buildAudioRenderers(android.content.Context,com.google.android.exoplayer2.drm.DrmSessionManager,com.google.android.exoplayer2.audio.AudioProcessor[],android.os.Handler,com.google.android.exoplayer2.audio.AudioRendererEventListener,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.audio.MediaCodecAudioRenderer: void <init>(com.google.android.exoplayer2.mediacodec.MediaCodecSelector,com.google.android.exoplayer2.drm.DrmSessionManager,boolean,android.os.Handler,com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.audio.AudioCapabilities,com.google.android.exoplayer2.audio.AudioProcessor[])>
+		--><com.google.android.exoplayer2.audio.MediaCodecAudioRenderer: void <init>(com.google.android.exoplayer2.mediacodec.MediaCodecSelector,com.google.android.exoplayer2.drm.DrmSessionManager,boolean,android.os.Handler,com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.audio.AudioSink)>
+		--><com.google.android.exoplayer2.mediacodec.MediaCodecRenderer: void <init>(int,com.google.android.exoplayer2.mediacodec.MediaCodecSelector,com.google.android.exoplayer2.drm.DrmSessionManager,boolean)>
+		--><com.google.android.exoplayer2.decoder.DecoderInputBuffer: com.google.android.exoplayer2.decoder.DecoderInputBuffer newFlagsOnlyInstance()>
+		--><com.google.android.exoplayer2.decoder.DecoderInputBuffer: void <init>(int)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo: void <init>()>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.decoder.CryptoInfo$1)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo)>
+	reachable path 8:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity dummyMainMethod_de_christinecoenen_code_zapp_app_livestream_ui_detail_ChannelDetailActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onCreate(android.os.Bundle)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(android.content.Context,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl,com.google.android.exoplayer2.util.Clock)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: com.google.android.exoplayer2.Renderer[] createRenderers(android.os.Handler,com.google.android.exoplayer2.video.VideoRendererEventListener,com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.text.TextOutput,com.google.android.exoplayer2.metadata.MetadataOutput)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: void buildAudioRenderers(android.content.Context,com.google.android.exoplayer2.drm.DrmSessionManager,com.google.android.exoplayer2.audio.AudioProcessor[],android.os.Handler,com.google.android.exoplayer2.audio.AudioRendererEventListener,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.audio.MediaCodecAudioRenderer: void <init>(com.google.android.exoplayer2.mediacodec.MediaCodecSelector,com.google.android.exoplayer2.drm.DrmSessionManager,boolean,android.os.Handler,com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.audio.AudioCapabilities,com.google.android.exoplayer2.audio.AudioProcessor[])>
+		--><com.google.android.exoplayer2.audio.MediaCodecAudioRenderer: void <init>(com.google.android.exoplayer2.mediacodec.MediaCodecSelector,com.google.android.exoplayer2.drm.DrmSessionManager,boolean,android.os.Handler,com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.audio.AudioSink)>
+		--><com.google.android.exoplayer2.mediacodec.MediaCodecRenderer: void <init>(int,com.google.android.exoplayer2.mediacodec.MediaCodecSelector,com.google.android.exoplayer2.drm.DrmSessionManager,boolean)>
+		--><com.google.android.exoplayer2.decoder.DecoderInputBuffer: com.google.android.exoplayer2.decoder.DecoderInputBuffer newFlagsOnlyInstance()>
+		--><com.google.android.exoplayer2.decoder.DecoderInputBuffer: void <init>(int)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo: void <init>()>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.decoder.CryptoInfo$1)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo)>
+	reachable path 9:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity dummyMainMethod_de_christinecoenen_code_zapp_app_mediathek_ui_detail_MediathekPlayerActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onCreate(android.os.Bundle)>
+		--><de.christinecoenen.code.zapp.app.mediathek.controller.Player: void <init>(android.content.Context,de.christinecoenen.code.zapp.app.mediathek.model.MediathekShow,de.christinecoenen.code.zapp.utils.video.VideoErrorHandler$IVideoErrorListener,de.christinecoenen.code.zapp.utils.video.VideoBufferingHandler$IVideoBufferingListener)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(android.content.Context,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl,com.google.android.exoplayer2.util.Clock)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: com.google.android.exoplayer2.Renderer[] createRenderers(android.os.Handler,com.google.android.exoplayer2.video.VideoRendererEventListener,com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.text.TextOutput,com.google.android.exoplayer2.metadata.MetadataOutput)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: void buildVideoRenderers(android.content.Context,com.google.android.exoplayer2.drm.DrmSessionManager,long,android.os.Handler,com.google.android.exoplayer2.video.VideoRendererEventListener,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.video.MediaCodecVideoRenderer: void <init>(android.content.Context,com.google.android.exoplayer2.mediacodec.MediaCodecSelector,long,com.google.android.exoplayer2.drm.DrmSessionManager,boolean,android.os.Handler,com.google.android.exoplayer2.video.VideoRendererEventListener,int)>
+		--><com.google.android.exoplayer2.mediacodec.MediaCodecRenderer: void <init>(int,com.google.android.exoplayer2.mediacodec.MediaCodecSelector,com.google.android.exoplayer2.drm.DrmSessionManager,boolean)>
+		--><com.google.android.exoplayer2.decoder.DecoderInputBuffer: com.google.android.exoplayer2.decoder.DecoderInputBuffer newFlagsOnlyInstance()>
+		--><com.google.android.exoplayer2.decoder.DecoderInputBuffer: void <init>(int)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo: void <init>()>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.decoder.CryptoInfo$1)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo)>
+	reachable path 10:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity dummyMainMethod_de_christinecoenen_code_zapp_app_livestream_ui_detail_ChannelDetailActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onCreate(android.os.Bundle)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(android.content.Context,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector)>
+		--><com.google.android.exoplayer2.ExoPlayerFactory: com.google.android.exoplayer2.SimpleExoPlayer newSimpleInstance(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl)>
+		--><com.google.android.exoplayer2.SimpleExoPlayer: void <init>(com.google.android.exoplayer2.RenderersFactory,com.google.android.exoplayer2.trackselection.TrackSelector,com.google.android.exoplayer2.LoadControl,com.google.android.exoplayer2.util.Clock)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: com.google.android.exoplayer2.Renderer[] createRenderers(android.os.Handler,com.google.android.exoplayer2.video.VideoRendererEventListener,com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.text.TextOutput,com.google.android.exoplayer2.metadata.MetadataOutput)>
+		--><com.google.android.exoplayer2.DefaultRenderersFactory: void buildVideoRenderers(android.content.Context,com.google.android.exoplayer2.drm.DrmSessionManager,long,android.os.Handler,com.google.android.exoplayer2.video.VideoRendererEventListener,int,java.util.ArrayList)>
+		--><com.google.android.exoplayer2.video.MediaCodecVideoRenderer: void <init>(android.content.Context,com.google.android.exoplayer2.mediacodec.MediaCodecSelector,long,com.google.android.exoplayer2.drm.DrmSessionManager,boolean,android.os.Handler,com.google.android.exoplayer2.video.VideoRendererEventListener,int)>
+		--><com.google.android.exoplayer2.mediacodec.MediaCodecRenderer: void <init>(int,com.google.android.exoplayer2.mediacodec.MediaCodecSelector,com.google.android.exoplayer2.drm.DrmSessionManager,boolean)>
+		--><com.google.android.exoplayer2.decoder.DecoderInputBuffer: com.google.android.exoplayer2.decoder.DecoderInputBuffer newFlagsOnlyInstance()>
+		--><com.google.android.exoplayer2.decoder.DecoderInputBuffer: void <init>(int)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo: void <init>()>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo,com.google.android.exoplayer2.decoder.CryptoInfo$1)>
+		--><com.google.android.exoplayer2.decoder.CryptoInfo$PatternHolderV24: void <init>(android.media.MediaCodec$CryptoInfo)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void parseIntent(android.content.Intent)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity dummyMainMethod_de_christinecoenen_code_zapp_app_livestream_ui_detail_ChannelDetailActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onNewIntent(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void parseIntent(android.content.Intent)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity dummyMainMethod_de_christinecoenen_code_zapp_app_livestream_ui_detail_ChannelDetailActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onCreate(android.os.Bundle)>
+		--><de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void parseIntent(android.content.Intent)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)> on line -1 not in [19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.mikepenz.aboutlibraries.ui.LibsActivity dummyMainMethod_com_mikepenz_aboutlibraries_ui_LibsActivity(android.content.Intent)>
+		--><com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.christinecoenen.code.zapp.app.about.ui.AboutActivity dummyMainMethod_de_christinecoenen_code_zapp_app_about_ui_AboutActivity(android.content.Intent)>
+		--><de.christinecoenen.code.zapp.app.about.ui.AboutActivity: void onCreate(android.os.Bundle)>
+		--><com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)>
+

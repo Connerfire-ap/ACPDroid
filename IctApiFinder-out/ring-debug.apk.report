@@ -1,0 +1,861 @@
+ring-debug.apk minSdkVersion: 18, targetSdkVersion: 27
+BUG: <android.os.BaseBundle: boolean containsKey(java.lang.String)> called in <cx.ring.tv.about.AboutDetailsFragment: void setupUi()> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.about.AboutActivity dummyMainMethod_cx_ring_tv_about_AboutActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.about.AboutDetailsFragment dummyMainMethod_cx_ring_tv_about_AboutDetailsFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.about.AboutDetailsFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.about.AboutDetailsFragment: void setupUi()>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <cx.ring.client.ConversationActivity: void onResume()> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.ConversationActivity dummyMainMethod_cx_ring_client_ConversationActivity(android.content.Intent)>
+		--><cx.ring.client.ConversationActivity: void onResume()>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <cx.ring.tv.account.TVAccountWizard: void onCreate(android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.account.TVAccountWizard dummyMainMethod_cx_ring_tv_account_TVAccountWizard(android.content.Intent)>
+		--><cx.ring.tv.account.TVAccountWizard: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <cx.ring.client.HomeActivity: void onNewIntent(android.content.Intent)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNewIntent(android.content.Intent)>
+
+BUG: <android.os.BaseBundle: boolean containsKey(java.lang.String)> called in <cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNewIntent(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNavigationSectionSelected(cx.ring.navigation.RingNavigationFragment$Section)>
+		--><cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNewIntent(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void presentTrustRequestFragment(java.lang.String)>
+		--><cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onCreate(android.os.Bundle)>
+		--><cx.ring.client.HomeActivity: void presentTrustRequestFragment(java.lang.String)>
+		--><cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <cx.ring.tv.call.TVCallFragment: cx.ring.tv.call.TVCallFragment newInstance(java.lang.String,java.lang.String,java.lang.String,boolean)> on line -1 not in [18, 19, 21]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.call.TVCallActivity dummyMainMethod_cx_ring_tv_call_TVCallActivity(android.content.Intent)>
+		--><cx.ring.tv.call.TVCallActivity: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.call.TVCallFragment: cx.ring.tv.call.TVCallFragment newInstance(java.lang.String,java.lang.String,java.lang.String,boolean)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <cx.ring.service.DRingService: void handlePushReceived(android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.service.DRingService dummyMainMethod_cx_ring_service_DRingService(android.content.Intent)>
+		--><cx.ring.service.DRingService: int onStartCommand(android.content.Intent,int,int)>
+		--><cx.ring.service.DRingService: void parseIntent(android.content.Intent)>
+		--><cx.ring.service.DRingService: void handlePushReceived(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <cx.ring.fragments.CallFragment: cx.ring.fragments.CallFragment newInstance(java.lang.String,java.lang.String,java.lang.String,boolean)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.CallActivity dummyMainMethod_cx_ring_client_CallActivity(android.content.Intent)>
+		--><cx.ring.client.CallActivity: void onCreate(android.os.Bundle)>
+		--><cx.ring.fragments.CallFragment: cx.ring.fragments.CallFragment newInstance(java.lang.String,java.lang.String,java.lang.String,boolean)>
+
+BUG: <android.os.BaseBundle: int getInt(java.lang.String,int)> called in <com.journeyapps.barcodescanner.CaptureManager: void initializeFromIntent(android.content.Intent,android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.journeyapps.barcodescanner.CaptureActivity dummyMainMethod_com_journeyapps_barcodescanner_CaptureActivity(android.content.Intent)>
+		--><com.journeyapps.barcodescanner.CaptureActivity: void onCreate(android.os.Bundle)>
+		--><com.journeyapps.barcodescanner.CaptureManager: void initializeFromIntent(android.content.Intent,android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.QRCodeScannerActivity dummyMainMethod_cx_ring_client_QRCodeScannerActivity(android.content.Intent)>
+		--><com.journeyapps.barcodescanner.CaptureActivity: void onCreate(android.os.Bundle)>
+		--><com.journeyapps.barcodescanner.CaptureManager: void initializeFromIntent(android.content.Intent,android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <cx.ring.client.HomeActivity: void onNewIntent(android.content.Intent)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNewIntent(android.content.Intent)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <cx.ring.client.HomeActivity: void onNavigationSectionSelected(cx.ring.navigation.RingNavigationFragment$Section)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNewIntent(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNavigationSectionSelected(cx.ring.navigation.RingNavigationFragment$Section)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNewIntent(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNavigationSectionSelected(cx.ring.navigation.RingNavigationFragment$Section)>
+		--><cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNewIntent(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void presentTrustRequestFragment(java.lang.String)>
+		--><cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onCreate(android.os.Bundle)>
+		--><cx.ring.client.HomeActivity: void presentTrustRequestFragment(java.lang.String)>
+		--><cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)>
+
+WARNING: <java.lang.Object: void <init>()> called in <com.bumptech.glide.load.engine.bitmap_recycle.BitmapPoolAdapter: void <init>()> on line -1 no living Level
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <cx.ring.fragments.CallFragment: cx.ring.fragments.CallFragment newInstance(java.lang.String,java.lang.String,java.lang.String,boolean)> on line -1 not in [18, 19, 21]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.CallActivity dummyMainMethod_cx_ring_client_CallActivity(android.content.Intent)>
+		--><cx.ring.client.CallActivity: void onCreate(android.os.Bundle)>
+		--><cx.ring.fragments.CallFragment: cx.ring.fragments.CallFragment newInstance(java.lang.String,java.lang.String,java.lang.String,boolean)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <cx.ring.service.DRingService: void handleCallAction(java.lang.String,android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.service.DRingService dummyMainMethod_cx_ring_service_DRingService(android.content.Intent)>
+		--><cx.ring.service.DRingService: int onStartCommand(android.content.Intent,int,int)>
+		--><cx.ring.service.DRingService: void parseIntent(android.content.Intent)>
+		--><cx.ring.service.DRingService: void handleCallAction(java.lang.String,android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: boolean getBoolean(java.lang.String)> called in <cx.ring.tv.account.TVAccountWizard: void onCreate(android.os.Bundle)> on line -1 not in [18, 19, 21]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.account.TVAccountWizard dummyMainMethod_cx_ring_tv_account_TVAccountWizard(android.content.Intent)>
+		--><cx.ring.tv.account.TVAccountWizard: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <cx.ring.client.HomeActivity: void onCreate(android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <cx.ring.fragments.ConversationFragment: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [18, 19, 21]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.fragments.ConversationFragment dummyMainMethod_cx_ring_fragments_ConversationFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.fragments.ConversationFragment: void onSaveInstanceState(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.ConversationActivity dummyMainMethod_cx_ring_client_ConversationActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.fragments.ConversationFragment dummyMainMethod_cx_ring_fragments_ConversationFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.fragments.ConversationFragment: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <cx.ring.tv.account.TVAccountWizard: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.account.TVAccountWizard dummyMainMethod_cx_ring_tv_account_TVAccountWizard(android.content.Intent)>
+		--><cx.ring.tv.account.TVAccountWizard: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String,java.lang.String)> called in <cx.ring.service.DRingService: void handlePushTokenChanged(android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.service.DRingService dummyMainMethod_cx_ring_service_DRingService(android.content.Intent)>
+		--><cx.ring.service.DRingService: int onStartCommand(android.content.Intent,int,int)>
+		--><cx.ring.service.DRingService: void parseIntent(android.content.Intent)>
+		--><cx.ring.service.DRingService: void handlePushTokenChanged(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <cx.ring.service.DRingService: void handleTrustRequestAction(java.lang.String,android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.service.DRingService dummyMainMethod_cx_ring_service_DRingService(android.content.Intent)>
+		--><cx.ring.service.DRingService: int onStartCommand(android.content.Intent,int,int)>
+		--><cx.ring.service.DRingService: void parseIntent(android.content.Intent)>
+		--><cx.ring.service.DRingService: void handleTrustRequestAction(java.lang.String,android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <cx.ring.tv.account.TVAccountWizard: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [18, 19, 21]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.account.TVAccountWizard dummyMainMethod_cx_ring_tv_account_TVAccountWizard(android.content.Intent)>
+		--><cx.ring.tv.account.TVAccountWizard: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <cx.ring.client.HomeActivity: void onNewIntent(android.content.Intent)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNewIntent(android.content.Intent)>
+
+BUG: <android.os.BaseBundle: java.util.Set keySet()> called in <cx.ring.service.DRingService: void handlePushReceived(android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.service.DRingService dummyMainMethod_cx_ring_service_DRingService(android.content.Intent)>
+		--><cx.ring.service.DRingService: int onStartCommand(android.content.Intent,int,int)>
+		--><cx.ring.service.DRingService: void parseIntent(android.content.Intent)>
+		--><cx.ring.service.DRingService: void handlePushReceived(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <cx.ring.fragments.CallFragment: cx.ring.fragments.CallFragment newInstance(java.lang.String,java.lang.String,java.lang.String,boolean)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.CallActivity dummyMainMethod_cx_ring_client_CallActivity(android.content.Intent)>
+		--><cx.ring.client.CallActivity: void onCreate(android.os.Bundle)>
+		--><cx.ring.fragments.CallFragment: cx.ring.fragments.CallFragment newInstance(java.lang.String,java.lang.String,java.lang.String,boolean)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <cx.ring.client.HomeActivity: void onCreate(android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: boolean isEmpty()> called in <com.google.zxing.client.android.DecodeHintManager: java.util.Map parseDecodeHints(android.content.Intent)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.journeyapps.barcodescanner.CaptureActivity dummyMainMethod_com_journeyapps_barcodescanner_CaptureActivity(android.content.Intent)>
+		--><com.journeyapps.barcodescanner.CaptureActivity: void onCreate(android.os.Bundle)>
+		--><com.journeyapps.barcodescanner.CaptureManager: void initializeFromIntent(android.content.Intent,android.os.Bundle)>
+		--><com.journeyapps.barcodescanner.DecoratedBarcodeView: void initializeFromIntent(android.content.Intent)>
+		--><com.google.zxing.client.android.DecodeHintManager: java.util.Map parseDecodeHints(android.content.Intent)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.QRCodeScannerActivity dummyMainMethod_cx_ring_client_QRCodeScannerActivity(android.content.Intent)>
+		--><com.journeyapps.barcodescanner.CaptureActivity: void onCreate(android.os.Bundle)>
+		--><com.journeyapps.barcodescanner.CaptureManager: void initializeFromIntent(android.content.Intent,android.os.Bundle)>
+		--><com.journeyapps.barcodescanner.DecoratedBarcodeView: void initializeFromIntent(android.content.Intent)>
+		--><com.google.zxing.client.android.DecodeHintManager: java.util.Map parseDecodeHints(android.content.Intent)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <cx.ring.service.DRingService: void handleConvAction(java.lang.String,android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.service.DRingService dummyMainMethod_cx_ring_service_DRingService(android.content.Intent)>
+		--><cx.ring.service.DRingService: int onStartCommand(android.content.Intent,int,int)>
+		--><cx.ring.service.DRingService: void parseIntent(android.content.Intent)>
+		--><cx.ring.service.DRingService: void handleConvAction(java.lang.String,android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <com.journeyapps.barcodescanner.CaptureManager: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.journeyapps.barcodescanner.CaptureActivity dummyMainMethod_com_journeyapps_barcodescanner_CaptureActivity(android.content.Intent)>
+		--><com.journeyapps.barcodescanner.CaptureActivity: void onSaveInstanceState(android.os.Bundle)>
+		--><com.journeyapps.barcodescanner.CaptureManager: void onSaveInstanceState(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.QRCodeScannerActivity dummyMainMethod_cx_ring_client_QRCodeScannerActivity(android.content.Intent)>
+		--><com.journeyapps.barcodescanner.CaptureActivity: void onSaveInstanceState(android.os.Bundle)>
+		--><com.journeyapps.barcodescanner.CaptureManager: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <cx.ring.client.HomeActivity: void presentTrustRequestFragment(java.lang.String)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNewIntent(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void presentTrustRequestFragment(java.lang.String)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onCreate(android.os.Bundle)>
+		--><cx.ring.client.HomeActivity: void presentTrustRequestFragment(java.lang.String)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <cx.ring.tv.call.TVCallFragment: cx.ring.tv.call.TVCallFragment newInstance(java.lang.String,java.lang.String,java.lang.String,boolean)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.call.TVCallActivity dummyMainMethod_cx_ring_tv_call_TVCallActivity(android.content.Intent)>
+		--><cx.ring.tv.call.TVCallActivity: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.call.TVCallFragment: cx.ring.tv.call.TVCallFragment newInstance(java.lang.String,java.lang.String,java.lang.String,boolean)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <cx.ring.tv.call.TVCallFragment: cx.ring.tv.call.TVCallFragment newInstance(java.lang.String,java.lang.String,java.lang.String,boolean)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.call.TVCallActivity dummyMainMethod_cx_ring_tv_call_TVCallActivity(android.content.Intent)>
+		--><cx.ring.tv.call.TVCallActivity: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.call.TVCallFragment: cx.ring.tv.call.TVCallFragment newInstance(java.lang.String,java.lang.String,java.lang.String,boolean)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <cx.ring.account.AccountWizardActivity: void onCreate(android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.account.AccountWizardActivity dummyMainMethod_cx_ring_account_AccountWizardActivity(android.content.Intent)>
+		--><cx.ring.account.AccountWizardActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNewIntent(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNavigationSectionSelected(cx.ring.navigation.RingNavigationFragment$Section)>
+		--><cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNewIntent(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void presentTrustRequestFragment(java.lang.String)>
+		--><cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onCreate(android.os.Bundle)>
+		--><cx.ring.client.HomeActivity: void presentTrustRequestFragment(java.lang.String)>
+		--><cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: boolean getBoolean(java.lang.String)> called in <cx.ring.fragments.ConversationFragment: void onViewCreated(android.view.View,android.os.Bundle)> on line -1 not in [18, 19, 21]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.fragments.ConversationFragment dummyMainMethod_cx_ring_fragments_ConversationFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.fragments.ConversationFragment: void onViewCreated(android.view.View,android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.ConversationActivity dummyMainMethod_cx_ring_client_ConversationActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.fragments.ConversationFragment dummyMainMethod_cx_ring_fragments_ConversationFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.fragments.ConversationFragment: void onViewCreated(android.view.View,android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: boolean containsKey(java.lang.String)> called in <com.google.zxing.client.android.DecodeHintManager: java.util.Map parseDecodeHints(android.content.Intent)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.journeyapps.barcodescanner.CaptureActivity dummyMainMethod_com_journeyapps_barcodescanner_CaptureActivity(android.content.Intent)>
+		--><com.journeyapps.barcodescanner.CaptureActivity: void onCreate(android.os.Bundle)>
+		--><com.journeyapps.barcodescanner.CaptureManager: void initializeFromIntent(android.content.Intent,android.os.Bundle)>
+		--><com.journeyapps.barcodescanner.DecoratedBarcodeView: void initializeFromIntent(android.content.Intent)>
+		--><com.google.zxing.client.android.DecodeHintManager: java.util.Map parseDecodeHints(android.content.Intent)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.QRCodeScannerActivity dummyMainMethod_cx_ring_client_QRCodeScannerActivity(android.content.Intent)>
+		--><com.journeyapps.barcodescanner.CaptureActivity: void onCreate(android.os.Bundle)>
+		--><com.journeyapps.barcodescanner.CaptureManager: void initializeFromIntent(android.content.Intent,android.os.Bundle)>
+		--><com.journeyapps.barcodescanner.DecoratedBarcodeView: void initializeFromIntent(android.content.Intent)>
+		--><com.google.zxing.client.android.DecodeHintManager: java.util.Map parseDecodeHints(android.content.Intent)>
+
+BUG: <android.os.BaseBundle: java.util.Set keySet()> called in <com.bumptech.glide.module.ManifestParser: java.util.List parse()> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager fragmentGet(android.content.Context,android.app.FragmentManager)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager fragmentGet(android.content.Context,android.app.FragmentManager)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.content.Context)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Activity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager fragmentGet(android.content.Context,android.app.FragmentManager)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.content.Context)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Activity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager fragmentGet(android.content.Context,android.app.FragmentManager)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 5:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.content.Context)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.support.v4.app.FragmentActivity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager supportFragmentGet(android.content.Context,android.support.v4.app.FragmentManager)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 6:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.content.Context)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.support.v4.app.FragmentActivity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager supportFragmentGet(android.content.Context,android.support.v4.app.FragmentManager)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 7:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.content.Context)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager getApplicationManager(android.content.Context)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 8:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.content.Context)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager getApplicationManager(android.content.Context)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 9:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest load(java.lang.Integer)>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest fromResource()>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest loadGeneric(java.lang.Class)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildFileDescriptorModelLoader(java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildModelLoader(java.lang.Class,java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 10:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest load(byte[])>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest fromBytes()>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest loadGeneric(java.lang.Class)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildFileDescriptorModelLoader(java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildModelLoader(java.lang.Class,java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 11:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest load(java.lang.Integer)>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest fromResource()>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest loadGeneric(java.lang.Class)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildStreamModelLoader(java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildModelLoader(java.lang.Class,java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <cx.ring.client.ConversationActivity: void onResume()> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.ConversationActivity dummyMainMethod_cx_ring_client_ConversationActivity(android.content.Intent)>
+		--><cx.ring.client.ConversationActivity: void onResume()>
+
+BUG: <android.os.BaseBundle: long getLong(java.lang.String)> called in <cx.ring.service.DRingService: void handleFileAction(java.lang.String,android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.service.DRingService dummyMainMethod_cx_ring_service_DRingService(android.content.Intent)>
+		--><cx.ring.service.DRingService: int onStartCommand(android.content.Intent,int,int)>
+		--><cx.ring.service.DRingService: void parseIntent(android.content.Intent)>
+		--><cx.ring.service.DRingService: void handleFileAction(java.lang.String,android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: java.lang.Object get(java.lang.String)> called in <cx.ring.service.DRingService: void handlePushReceived(android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.service.DRingService dummyMainMethod_cx_ring_service_DRingService(android.content.Intent)>
+		--><cx.ring.service.DRingService: int onStartCommand(android.content.Intent,int,int)>
+		--><cx.ring.service.DRingService: void parseIntent(android.content.Intent)>
+		--><cx.ring.service.DRingService: void handlePushReceived(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <cx.ring.fragments.CallFragment: cx.ring.fragments.CallFragment newInstance(java.lang.String,java.lang.String,java.lang.String,boolean)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.CallActivity dummyMainMethod_cx_ring_client_CallActivity(android.content.Intent)>
+		--><cx.ring.client.CallActivity: void onCreate(android.os.Bundle)>
+		--><cx.ring.fragments.CallFragment: cx.ring.fragments.CallFragment newInstance(java.lang.String,java.lang.String,java.lang.String,boolean)>
+
+BUG: <android.os.BaseBundle: int getInt(java.lang.String,int)> called in <cx.ring.tv.about.AboutDetailsFragment: void setupUi()> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.about.AboutActivity dummyMainMethod_cx_ring_tv_about_AboutActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.about.AboutDetailsFragment dummyMainMethod_cx_ring_tv_about_AboutDetailsFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.about.AboutDetailsFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.about.AboutDetailsFragment: void setupUi()>
+
+BUG: <android.os.BaseBundle: java.lang.Object get(java.lang.String)> called in <cx.ring.tv.account.TVProfileEditingActivity: void onActivityResult(int,int,android.content.Intent)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.account.TVProfileEditingActivity dummyMainMethod_cx_ring_tv_account_TVProfileEditingActivity(android.content.Intent)>
+		--><cx.ring.tv.account.TVProfileEditingActivity: void onActivityResult(int,int,android.content.Intent)>
+
+WARNING: <java.lang.System: long currentTimeMillis()> called in <com.bumptech.glide.util.LogTime: long getLogTime()> on line -1 no living Level
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <cx.ring.fragments.CallFragment: cx.ring.fragments.CallFragment newInstance(java.lang.String,java.lang.String)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.CallActivity dummyMainMethod_cx_ring_client_CallActivity(android.content.Intent)>
+		--><cx.ring.client.CallActivity: void onCreate(android.os.Bundle)>
+		--><cx.ring.fragments.CallFragment: cx.ring.fragments.CallFragment newInstance(java.lang.String,java.lang.String)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <cx.ring.tv.call.TVCallFragment: cx.ring.tv.call.TVCallFragment newInstance(java.lang.String,java.lang.String)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.call.TVCallActivity dummyMainMethod_cx_ring_tv_call_TVCallActivity(android.content.Intent)>
+		--><cx.ring.tv.call.TVCallActivity: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.call.TVCallFragment: cx.ring.tv.call.TVCallFragment newInstance(java.lang.String,java.lang.String)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <cx.ring.fragments.CallFragment: cx.ring.fragments.CallFragment newInstance(java.lang.String,java.lang.String)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.CallActivity dummyMainMethod_cx_ring_client_CallActivity(android.content.Intent)>
+		--><cx.ring.client.CallActivity: void onCreate(android.os.Bundle)>
+		--><cx.ring.fragments.CallFragment: cx.ring.fragments.CallFragment newInstance(java.lang.String,java.lang.String)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <cx.ring.fragments.AccountMigrationFragment: void onResume()> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.account.AccountWizardActivity dummyMainMethod_cx_ring_account_AccountWizardActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.fragments.AccountMigrationFragment dummyMainMethod_cx_ring_fragments_AccountMigrationFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.fragments.AccountMigrationFragment: void onResume()>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <cx.ring.tv.call.TVCallFragment: cx.ring.tv.call.TVCallFragment newInstance(java.lang.String,java.lang.String)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.call.TVCallActivity dummyMainMethod_cx_ring_tv_call_TVCallActivity(android.content.Intent)>
+		--><cx.ring.tv.call.TVCallActivity: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.call.TVCallFragment: cx.ring.tv.call.TVCallFragment newInstance(java.lang.String,java.lang.String)>
+
+BUG: <android.os.BaseBundle: java.lang.Object get(java.lang.String)> called in <com.bumptech.glide.module.ManifestParser: java.util.List parse()> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager fragmentGet(android.content.Context,android.app.FragmentManager)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager fragmentGet(android.content.Context,android.app.FragmentManager)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.content.Context)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Activity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager fragmentGet(android.content.Context,android.app.FragmentManager)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.content.Context)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Activity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager fragmentGet(android.content.Context,android.app.FragmentManager)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 5:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.content.Context)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.support.v4.app.FragmentActivity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager supportFragmentGet(android.content.Context,android.support.v4.app.FragmentManager)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 6:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.content.Context)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.support.v4.app.FragmentActivity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager supportFragmentGet(android.content.Context,android.support.v4.app.FragmentManager)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 7:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.content.Context)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager getApplicationManager(android.content.Context)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 8:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Fragment)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.content.Context)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager getApplicationManager(android.content.Context)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 9:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest load(java.lang.Integer)>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest fromResource()>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest loadGeneric(java.lang.Class)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildFileDescriptorModelLoader(java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildModelLoader(java.lang.Class,java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 10:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest load(byte[])>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest fromBytes()>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest loadGeneric(java.lang.Class)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildFileDescriptorModelLoader(java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildModelLoader(java.lang.Class,java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 11:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestActivity dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestActivity(android.content.Intent)>
+		--><dummyMainClass: cx.ring.tv.contactrequest.TVContactRequestFragment dummyMainMethod_cx_ring_tv_contactrequest_TVContactRequestFragment(android.content.Intent,android.app.Activity)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void onCreate(android.os.Bundle)>
+		--><cx.ring.tv.contactrequest.TVContactRequestFragment: void setupDetailsOverviewRow()>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest load(java.lang.Integer)>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest fromResource()>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest loadGeneric(java.lang.Class)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildStreamModelLoader(java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildModelLoader(java.lang.Class,java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.Glide: java.util.List parseGlideModules(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <cx.ring.service.DRingService: void handleTrustRequestAction(java.lang.String,android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.service.DRingService dummyMainMethod_cx_ring_service_DRingService(android.content.Intent)>
+		--><cx.ring.service.DRingService: int onStartCommand(android.content.Intent,int,int)>
+		--><cx.ring.service.DRingService: void parseIntent(android.content.Intent)>
+		--><cx.ring.service.DRingService: void handleTrustRequestAction(java.lang.String,android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: java.lang.Object get(java.lang.String)> called in <cx.ring.client.HomeActivity: void onActivityResult(int,int,android.content.Intent)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onActivityResult(int,int,android.content.Intent)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNewIntent(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNavigationSectionSelected(cx.ring.navigation.RingNavigationFragment$Section)>
+		--><cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNewIntent(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void presentTrustRequestFragment(java.lang.String)>
+		--><cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onCreate(android.os.Bundle)>
+		--><cx.ring.client.HomeActivity: void presentTrustRequestFragment(java.lang.String)>
+		--><cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNewIntent(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNavigationSectionSelected(cx.ring.navigation.RingNavigationFragment$Section)>
+		--><cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onNewIntent(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void presentTrustRequestFragment(java.lang.String)>
+		--><cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.HomeActivity dummyMainMethod_cx_ring_client_HomeActivity(android.content.Intent)>
+		--><cx.ring.client.HomeActivity: void onCreate(android.os.Bundle)>
+		--><cx.ring.client.HomeActivity: void presentTrustRequestFragment(java.lang.String)>
+		--><cx.ring.contactrequests.ContactRequestsFragment: void presentForAccount(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: java.lang.Object get(java.lang.String)> called in <com.google.zxing.client.android.DecodeHintManager: java.util.Map parseDecodeHints(android.content.Intent)> on line -1 not in [18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.journeyapps.barcodescanner.CaptureActivity dummyMainMethod_com_journeyapps_barcodescanner_CaptureActivity(android.content.Intent)>
+		--><com.journeyapps.barcodescanner.CaptureActivity: void onCreate(android.os.Bundle)>
+		--><com.journeyapps.barcodescanner.CaptureManager: void initializeFromIntent(android.content.Intent,android.os.Bundle)>
+		--><com.journeyapps.barcodescanner.DecoratedBarcodeView: void initializeFromIntent(android.content.Intent)>
+		--><com.google.zxing.client.android.DecodeHintManager: java.util.Map parseDecodeHints(android.content.Intent)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: cx.ring.client.QRCodeScannerActivity dummyMainMethod_cx_ring_client_QRCodeScannerActivity(android.content.Intent)>
+		--><com.journeyapps.barcodescanner.CaptureActivity: void onCreate(android.os.Bundle)>
+		--><com.journeyapps.barcodescanner.CaptureManager: void initializeFromIntent(android.content.Intent,android.os.Bundle)>
+		--><com.journeyapps.barcodescanner.DecoratedBarcodeView: void initializeFromIntent(android.content.Intent)>
+		--><com.google.zxing.client.android.DecodeHintManager: java.util.Map parseDecodeHints(android.content.Intent)>
+

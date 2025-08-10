@@ -1,0 +1,5 @@
+targetActivity:
+com.example.compatibilitytest.MainActivity3$1 
+targetWidgetById:
+2131230825 
+2131230823 

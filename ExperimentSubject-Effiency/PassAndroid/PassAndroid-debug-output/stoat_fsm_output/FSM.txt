@@ -1,0 +1,2 @@
+# the app FSM, including all unique app states and transitions. Please keep this file unchanged. 
+0;0

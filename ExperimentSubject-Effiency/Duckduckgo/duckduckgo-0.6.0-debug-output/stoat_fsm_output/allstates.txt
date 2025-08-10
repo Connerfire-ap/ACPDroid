@@ -1,0 +1,10 @@
+the state file name: /home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/ExperimentSubject-Effiency/Duckduckgo/duckduckgo-0.6.0-debug-output/stoat_fsm_output/ui/S_2.xml
+com.duckduckgo.app.home.HomeActivity
+
+-----------
+
+the state file name: /home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/ExperimentSubject-Effiency/Duckduckgo/duckduckgo-0.6.0-debug-output/stoat_fsm_output/ui/S_3.xml
+com.duckduckgo.app.home.HomeActivity
+
+-----------
+

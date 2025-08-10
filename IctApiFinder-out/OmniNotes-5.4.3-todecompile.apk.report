@@ -1,0 +1,1615 @@
+OmniNotes-5.4.3-todecompile.apk minSdkVersion: 16, targetSdkVersion: 27
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <org.acra.dialog.CrashReportDialog: android.view.View buildCustomView(android.os.Bundle)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.acra.dialog.CrashReportDialog dummyMainMethod_org_acra_dialog_CrashReportDialog(android.content.Intent)>
+		--><org.acra.dialog.CrashReportDialog: void onCreate(android.os.Bundle)>
+		--><org.acra.dialog.CrashReportDialog: void buildAndShowDialog(android.os.Bundle)>
+		--><org.acra.dialog.CrashReportDialog: android.view.View buildCustomView(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.acra.CrashReportDialog dummyMainMethod_org_acra_CrashReportDialog(android.content.Intent)>
+		--><org.acra.dialog.CrashReportDialog: void onCreate(android.os.Bundle)>
+		--><org.acra.dialog.CrashReportDialog: void buildAndShowDialog(android.os.Bundle)>
+		--><org.acra.dialog.CrashReportDialog: android.view.View buildCustomView(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <it.feio.android.omninotes.SettingsFragment: void setTitle()> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SettingsActivity dummyMainMethod_it_feio_android_omninotes_SettingsActivity(android.content.Intent)>
+		--><dummyMainClass: it.feio.android.omninotes.SettingsFragment dummyMainMethod_it_feio_android_omninotes_SettingsFragment(android.content.Intent,android.app.Activity)>
+		--><it.feio.android.omninotes.SettingsFragment: void onAttach(android.app.Activity)>
+		--><it.feio.android.omninotes.SettingsFragment: void setTitle()>
+
+WARNING: <java.lang.System: long currentTimeMillis()> called in <it.feio.android.simplegallery.views.TouchImageView$DoubleTapZoom: float interpolate()> on line -1 no living Level
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <org.acra.dialog.CrashReportDialog: android.view.View buildCustomView(android.os.Bundle)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.acra.dialog.CrashReportDialog dummyMainMethod_org_acra_dialog_CrashReportDialog(android.content.Intent)>
+		--><org.acra.dialog.CrashReportDialog: void onCreate(android.os.Bundle)>
+		--><org.acra.dialog.CrashReportDialog: void buildAndShowDialog(android.os.Bundle)>
+		--><org.acra.dialog.CrashReportDialog: android.view.View buildCustomView(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.acra.CrashReportDialog dummyMainMethod_org_acra_CrashReportDialog(android.content.Intent)>
+		--><org.acra.dialog.CrashReportDialog: void onCreate(android.os.Bundle)>
+		--><org.acra.dialog.CrashReportDialog: void buildAndShowDialog(android.os.Bundle)>
+		--><org.acra.dialog.CrashReportDialog: android.view.View buildCustomView(android.os.Bundle)>
+
+WARNING: <java.lang.Class: java.lang.Class getComponentType()> called in <org.acra.config.ACRAConfiguration: java.lang.Object[] copyArray(java.lang.Object[])> on line -1 no living Level
+
+BUG: <android.os.BaseBundle: java.lang.Object get(java.lang.String)> called in <it.feio.android.omninotes.SettingsFragment: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SettingsActivity dummyMainMethod_it_feio_android_omninotes_SettingsActivity(android.content.Intent)>
+		--><dummyMainClass: it.feio.android.omninotes.SettingsFragment dummyMainMethod_it_feio_android_omninotes_SettingsFragment(android.content.Intent,android.app.Activity)>
+		--><it.feio.android.omninotes.SettingsFragment: void onCreate(android.os.Bundle)>
+
+BUG: <org.apache.commons.logging.Log: boolean isDebugEnabled()> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+
+WARNING: <android.graphics.PorterDuff$Mode: android.graphics.PorterDuff$Mode SRC_IN> called in <com.afollestad.materialdialogs.internal.MDTintHelper: void setTint(android.widget.ProgressBar,int,boolean)> on line -1 no living Level
+
+WARNING: <android.graphics.drawable.Drawable: void setColorFilter(int,android.graphics.PorterDuff$Mode)> called in <com.afollestad.materialdialogs.internal.MDTintHelper: void setTint(android.widget.ProgressBar,int,boolean)> on line -1 no living Level
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <it.feio.android.simplegallery.GalleryPagerFragment: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.GalleryActivity dummyMainMethod_it_feio_android_omninotes_GalleryActivity(android.content.Intent)>
+		--><dummyMainClass: it.feio.android.simplegallery.GalleryPagerFragment dummyMainMethod_it_feio_android_simplegallery_GalleryPagerFragment(android.content.Intent,android.app.Activity)>
+		--><it.feio.android.simplegallery.GalleryPagerFragment: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: boolean containsKey(java.lang.String)> called in <it.feio.android.omninotes.SettingsFragment: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SettingsActivity dummyMainMethod_it_feio_android_omninotes_SettingsActivity(android.content.Intent)>
+		--><dummyMainClass: it.feio.android.omninotes.SettingsFragment dummyMainMethod_it_feio_android_omninotes_SettingsFragment(android.content.Intent,android.app.Activity)>
+		--><it.feio.android.omninotes.SettingsFragment: void onCreate(android.os.Bundle)>
+
+WARNING: <android.view.View: android.view.ViewTreeObserver getViewTreeObserver()> called in <com.afollestad.materialdialogs.MaterialDialog$1: void onGlobalLayout()> on line -1 no living Level
+
+BUG: <org.apache.commons.logging.Log: void debug(java.lang.Object)> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+
+BUG: <android.provider.DocumentsContract: java.lang.String getDocumentId(android.net.Uri)> called in <it.feio.android.omninotes.utils.FileHelper: java.lang.String getPath(android.content.Context,android.net.Uri)> on line -1 not in [16, 17, 18]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void createNotification(android.content.Context,it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.utils.BitmapHelper: android.graphics.Bitmap getBitmapFromAttachment(android.content.Context,it.feio.android.omninotes.models.Attachment,int,int)>
+		--><it.feio.android.omninotes.utils.FileHelper: java.lang.String getPath(android.content.Context,android.net.Uri)>
+
+WARNING: <java.lang.Object: java.lang.Class getClass()> called in <org.acra.config.ACRAConfiguration: java.lang.Object[] copyArray(java.lang.Object[])> on line -1 no living Level
+
+BUG: <org.apache.commons.logging.Log: void debug(java.lang.Object)> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+
+WARNING: <android.widget.OverScroller: int getCurrY()> called in <it.feio.android.simplegallery.views.TouchImageView$CompatScroller: int getCurrY()> on line -1 no living Level
+
+WARNING: <android.graphics.Matrix: boolean postTranslate(float,float)> called in <it.feio.android.simplegallery.views.TouchImageView$DoubleTapZoom: void translateImageToCenterTouchPosition(float)> on line -1 no living Level
+
+WARNING: <android.widget.Scroller: boolean computeScrollOffset()> called in <it.feio.android.simplegallery.views.TouchImageView$CompatScroller: boolean computeScrollOffset()> on line -1 no living Level
+
+BUG: <org.apache.commons.logging.Log: void debug(java.lang.Object)> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+
+WARNING: <android.graphics.PointF: float y> called in <it.feio.android.simplegallery.views.TouchImageView$DoubleTapZoom: void translateImageToCenterTouchPosition(float)> on line -1 no living Level
+
+WARNING: <android.content.res.ColorStateList: android.content.res.ColorStateList valueOf(int)> called in <com.afollestad.materialdialogs.internal.MDTintHelper: void setTint(android.widget.ProgressBar,int,boolean)> on line -1 no living Level
+
+BUG: <org.apache.commons.logging.Log: void info(java.lang.Object)> called in <net.fortuna.ical4j.util.Configurator: void <clinit>()> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(long)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(long)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(long)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(long)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+	reachable path 5:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+	reachable path 6:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+	reachable path 7:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+	reachable path 8:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+	reachable path 9:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+	reachable path 10:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+	reachable path 11:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+
+BUG: <org.apache.commons.logging.Log: boolean isDebugEnabled()> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+
+WARNING: <android.widget.Scroller: int getCurrY()> called in <it.feio.android.simplegallery.views.TouchImageView$CompatScroller: int getCurrY()> on line -1 no living Level
+
+BUG: <org.apache.commons.logging.Log: boolean isDebugEnabled()> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <it.feio.android.omninotes.MainActivity: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.MainActivity dummyMainMethod_it_feio_android_omninotes_MainActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.MainActivity: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <org.apache.commons.logging.Log: boolean isDebugEnabled()> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+
+BUG: <org.apache.commons.logging.Log: boolean isDebugEnabled()> called in <net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(long)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(long)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(long)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(long)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 5:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 6:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 7:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 8:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 9:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 10:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 11:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+
+BUG: <android.os.BaseBundle: java.lang.Object get(java.lang.String)> called in <com.bumptech.glide.module.ManifestParser: java.util.List parse()> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.GalleryActivity dummyMainMethod_it_feio_android_omninotes_GalleryActivity(android.content.Intent)>
+		--><dummyMainClass: it.feio.android.simplegallery.GalleryPagerFragment dummyMainMethod_it_feio_android_simplegallery_GalleryPagerFragment(android.content.Intent,android.app.Activity)>
+		--><it.feio.android.simplegallery.GalleryPagerFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.support.v4.app.FragmentActivity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.support.v4.app.FragmentActivity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager supportFragmentGet(android.content.Context,android.support.v4.app.FragmentManager)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.GalleryActivity dummyMainMethod_it_feio_android_omninotes_GalleryActivity(android.content.Intent)>
+		--><dummyMainClass: it.feio.android.simplegallery.GalleryPagerFragment dummyMainMethod_it_feio_android_simplegallery_GalleryPagerFragment(android.content.Intent,android.app.Activity)>
+		--><it.feio.android.simplegallery.GalleryPagerFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.support.v4.app.FragmentActivity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.support.v4.app.FragmentActivity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.content.Context)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Activity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager fragmentGet(android.content.Context,android.app.FragmentManager)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.GalleryActivity dummyMainMethod_it_feio_android_omninotes_GalleryActivity(android.content.Intent)>
+		--><dummyMainClass: it.feio.android.simplegallery.GalleryPagerFragment dummyMainMethod_it_feio_android_simplegallery_GalleryPagerFragment(android.content.Intent,android.app.Activity)>
+		--><it.feio.android.simplegallery.GalleryPagerFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.support.v4.app.FragmentActivity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.support.v4.app.FragmentActivity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.content.Context)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager getApplicationManager(android.content.Context)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.GalleryActivity dummyMainMethod_it_feio_android_omninotes_GalleryActivity(android.content.Intent)>
+		--><dummyMainClass: it.feio.android.simplegallery.GalleryPagerFragment dummyMainMethod_it_feio_android_simplegallery_GalleryPagerFragment(android.content.Intent,android.app.Activity)>
+		--><it.feio.android.simplegallery.GalleryPagerFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest load(android.net.Uri)>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest fromUri()>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest loadGeneric(java.lang.Class)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildStreamModelLoader(java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildModelLoader(java.lang.Class,java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 5:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.GalleryActivity dummyMainMethod_it_feio_android_omninotes_GalleryActivity(android.content.Intent)>
+		--><dummyMainClass: it.feio.android.simplegallery.GalleryPagerFragment dummyMainMethod_it_feio_android_simplegallery_GalleryPagerFragment(android.content.Intent,android.app.Activity)>
+		--><it.feio.android.simplegallery.GalleryPagerFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest load(android.net.Uri)>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest fromUri()>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest loadGeneric(java.lang.Class)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildFileDescriptorModelLoader(java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildModelLoader(java.lang.Class,java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+
+WARNING: <android.widget.OverScroller: boolean isFinished()> called in <it.feio.android.simplegallery.views.TouchImageView$CompatScroller: boolean isFinished()> on line -1 no living Level
+
+BUG: <org.apache.commons.logging.Log: boolean isTraceEnabled()> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getMonthDayVariants(net.fortuna.ical4j.model.DateList)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getMonthDayVariants(net.fortuna.ical4j.model.DateList)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getMonthDayVariants(net.fortuna.ical4j.model.DateList)>
+
+WARNING: <android.widget.Scroller: int getCurrX()> called in <it.feio.android.simplegallery.views.TouchImageView$CompatScroller: int getCurrX()> on line -1 no living Level
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <it.feio.android.omninotes.utils.date.ReminderPickers: void showRecurrencePickerDialog(java.lang.String)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onTimeSet(android.widget.TimePicker,int,int)>
+		--><it.feio.android.omninotes.utils.date.ReminderPickers: void onTimeSet(android.widget.TimePicker,int,int)>
+		--><it.feio.android.omninotes.utils.date.ReminderPickers: void showRecurrencePickerDialog(java.lang.String)>
+
+BUG: <android.provider.DocumentsContract: java.lang.String getDocumentId(android.net.Uri)> called in <it.feio.android.omninotes.utils.FileHelper: java.lang.String getPath(android.content.Context,android.net.Uri)> on line -1 not in [16, 17, 18]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void createNotification(android.content.Context,it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.utils.BitmapHelper: android.graphics.Bitmap getBitmapFromAttachment(android.content.Context,it.feio.android.omninotes.models.Attachment,int,int)>
+		--><it.feio.android.omninotes.utils.FileHelper: java.lang.String getPath(android.content.Context,android.net.Uri)>
+
+WARNING: <android.graphics.PointF: float y> called in <it.feio.android.simplegallery.views.TouchImageView$DoubleTapZoom: void translateImageToCenterTouchPosition(float)> on line -1 no living Level
+
+BUG: <org.apache.commons.logging.Log: void debug(java.lang.Object)> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+
+BUG: <org.apache.commons.logging.Log: void debug(java.lang.Object)> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+
+BUG: <org.apache.commons.logging.Log: void info(java.lang.Object)> called in <net.fortuna.ical4j.util.ResourceLoader: java.io.InputStream getResourceAsStream(java.lang.String)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(long)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+		--><net.fortuna.ical4j.util.ResourceLoader: java.io.InputStream getResourceAsStream(java.lang.String)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(long)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+		--><net.fortuna.ical4j.util.ResourceLoader: java.io.InputStream getResourceAsStream(java.lang.String)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(long)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+		--><net.fortuna.ical4j.util.ResourceLoader: java.io.InputStream getResourceAsStream(java.lang.String)>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(long)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+		--><net.fortuna.ical4j.util.ResourceLoader: java.io.InputStream getResourceAsStream(java.lang.String)>
+	reachable path 5:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+		--><net.fortuna.ical4j.util.ResourceLoader: java.io.InputStream getResourceAsStream(java.lang.String)>
+	reachable path 6:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+		--><net.fortuna.ical4j.util.ResourceLoader: java.io.InputStream getResourceAsStream(java.lang.String)>
+	reachable path 7:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+		--><net.fortuna.ical4j.util.ResourceLoader: java.io.InputStream getResourceAsStream(java.lang.String)>
+	reachable path 8:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+		--><net.fortuna.ical4j.util.ResourceLoader: java.io.InputStream getResourceAsStream(java.lang.String)>
+	reachable path 9:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+		--><net.fortuna.ical4j.util.ResourceLoader: java.io.InputStream getResourceAsStream(java.lang.String)>
+	reachable path 10:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+		--><net.fortuna.ical4j.util.ResourceLoader: java.io.InputStream getResourceAsStream(java.lang.String)>
+	reachable path 11:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.util.CompatibilityHints: boolean isHintEnabled(java.lang.String)>
+		--><net.fortuna.ical4j.util.Configurator: void <clinit>()>
+		--><net.fortuna.ical4j.util.ResourceLoader: java.io.InputStream getResourceAsStream(java.lang.String)>
+
+WARNING: <android.view.View: boolean postDelayed(java.lang.Runnable,long)> called in <it.feio.android.simplegallery.views.TouchImageView: void compatPostOnAnimation(java.lang.Runnable)> on line -1 no living Level
+
+WARNING: <android.os.Build$VERSION: int SDK_INT> called in <com.afollestad.materialdialogs.internal.MDTintHelper: void setTint(android.widget.ProgressBar,int,boolean)> on line -1 no living Level
+
+WARNING: <android.view.ViewTreeObserver: void removeGlobalOnLayoutListener(android.view.ViewTreeObserver$OnGlobalLayoutListener)> called in <com.afollestad.materialdialogs.MaterialDialog$1: void onGlobalLayout()> on line -1 no living Level
+
+WARNING: <android.widget.ImageView: void setImageMatrix(android.graphics.Matrix)> called in <it.feio.android.simplegallery.views.TouchImageView$Fling: void run()> on line -1 no living Level
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.acra.dialog.CrashReportDialog: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.acra.dialog.CrashReportDialog dummyMainMethod_org_acra_dialog_CrashReportDialog(android.content.Intent)>
+		--><org.acra.dialog.CrashReportDialog: void onSaveInstanceState(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.acra.CrashReportDialog dummyMainMethod_org_acra_CrashReportDialog(android.content.Intent)>
+		--><org.acra.dialog.CrashReportDialog: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <org.apache.commons.logging.Log: void debug(java.lang.Object)> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+
+BUG: <android.os.BaseBundle: java.lang.Object get(java.lang.String)> called in <com.google.android.gms.location.ActivityRecognitionResult: com.google.android.gms.location.ActivityRecognitionResult extractResult(android.content.Intent)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService dummyMainMethod_io_nlopez_smartlocation_activity_providers_ActivityGooglePlayServicesProvider$ActivityRecognitionService(android.content.Intent)>
+		--><io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService: void onHandleIntent(android.content.Intent)>
+		--><com.google.android.gms.location.ActivityRecognitionResult: com.google.android.gms.location.ActivityRecognitionResult extractResult(android.content.Intent)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService dummyMainMethod_io_nlopez_smartlocation_activity_providers_ActivityGooglePlayServicesProvider$ActivityRecognitionService(android.content.Intent)>
+		--><io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService: void onHandleIntent(android.content.Intent)>
+		--><com.google.android.gms.location.ActivityRecognitionResult: com.google.android.gms.location.ActivityRecognitionResult extractResult(android.content.Intent)>
+
+BUG: <org.apache.commons.logging.Log: void debug(java.lang.Object)> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+
+BUG: <android.provider.DocumentsContract: java.lang.String getDocumentId(android.net.Uri)> called in <it.feio.android.omninotes.utils.FileHelper: java.lang.String getPath(android.content.Context,android.net.Uri)> on line -1 not in [16, 17, 18]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void createNotification(android.content.Context,it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.utils.BitmapHelper: android.graphics.Bitmap getBitmapFromAttachment(android.content.Context,it.feio.android.omninotes.models.Attachment,int,int)>
+		--><it.feio.android.omninotes.utils.FileHelper: java.lang.String getPath(android.content.Context,android.net.Uri)>
+
+WARNING: <android.graphics.PointF: float x> called in <it.feio.android.simplegallery.views.TouchImageView$DoubleTapZoom: void translateImageToCenterTouchPosition(float)> on line -1 no living Level
+
+WARNING: <java.lang.Math: float min(float,float)> called in <it.feio.android.simplegallery.views.TouchImageView$DoubleTapZoom: float interpolate()> on line -1 no living Level
+
+WARNING: <android.view.View: void setBackgroundDrawable(android.graphics.drawable.Drawable)> called in <com.afollestad.materialdialogs.util.DialogUtils: void setBackgroundCompat(android.view.View,android.graphics.drawable.Drawable)> on line -1 no living Level
+
+BUG: <android.os.BaseBundle: java.util.Set keySet()> called in <com.bumptech.glide.module.ManifestParser: java.util.List parse()> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.GalleryActivity dummyMainMethod_it_feio_android_omninotes_GalleryActivity(android.content.Intent)>
+		--><dummyMainClass: it.feio.android.simplegallery.GalleryPagerFragment dummyMainMethod_it_feio_android_simplegallery_GalleryPagerFragment(android.content.Intent,android.app.Activity)>
+		--><it.feio.android.simplegallery.GalleryPagerFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.support.v4.app.FragmentActivity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.support.v4.app.FragmentActivity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager supportFragmentGet(android.content.Context,android.support.v4.app.FragmentManager)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.GalleryActivity dummyMainMethod_it_feio_android_omninotes_GalleryActivity(android.content.Intent)>
+		--><dummyMainClass: it.feio.android.simplegallery.GalleryPagerFragment dummyMainMethod_it_feio_android_simplegallery_GalleryPagerFragment(android.content.Intent,android.app.Activity)>
+		--><it.feio.android.simplegallery.GalleryPagerFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.support.v4.app.FragmentActivity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.support.v4.app.FragmentActivity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.content.Context)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.app.Activity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager fragmentGet(android.content.Context,android.app.FragmentManager)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.GalleryActivity dummyMainMethod_it_feio_android_omninotes_GalleryActivity(android.content.Intent)>
+		--><dummyMainClass: it.feio.android.simplegallery.GalleryPagerFragment dummyMainMethod_it_feio_android_simplegallery_GalleryPagerFragment(android.content.Intent,android.app.Activity)>
+		--><it.feio.android.simplegallery.GalleryPagerFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.RequestManager 'with'(android.support.v4.app.FragmentActivity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.support.v4.app.FragmentActivity)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager get(android.content.Context)>
+		--><com.bumptech.glide.manager.RequestManagerRetriever: com.bumptech.glide.RequestManager getApplicationManager(android.content.Context)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode)>
+		--><com.bumptech.glide.RequestManager: void <init>(android.content.Context,com.bumptech.glide.manager.Lifecycle,com.bumptech.glide.manager.RequestManagerTreeNode,com.bumptech.glide.manager.RequestTracker,com.bumptech.glide.manager.ConnectivityMonitorFactory)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.GalleryActivity dummyMainMethod_it_feio_android_omninotes_GalleryActivity(android.content.Intent)>
+		--><dummyMainClass: it.feio.android.simplegallery.GalleryPagerFragment dummyMainMethod_it_feio_android_simplegallery_GalleryPagerFragment(android.content.Intent,android.app.Activity)>
+		--><it.feio.android.simplegallery.GalleryPagerFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest load(android.net.Uri)>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest fromUri()>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest loadGeneric(java.lang.Class)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildStreamModelLoader(java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildModelLoader(java.lang.Class,java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+	reachable path 5:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.GalleryActivity dummyMainMethod_it_feio_android_omninotes_GalleryActivity(android.content.Intent)>
+		--><dummyMainClass: it.feio.android.simplegallery.GalleryPagerFragment dummyMainMethod_it_feio_android_simplegallery_GalleryPagerFragment(android.content.Intent,android.app.Activity)>
+		--><it.feio.android.simplegallery.GalleryPagerFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest load(android.net.Uri)>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest fromUri()>
+		--><com.bumptech.glide.RequestManager: com.bumptech.glide.DrawableTypeRequest loadGeneric(java.lang.Class)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildFileDescriptorModelLoader(java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.load.model.ModelLoader buildModelLoader(java.lang.Class,java.lang.Class,android.content.Context)>
+		--><com.bumptech.glide.Glide: com.bumptech.glide.Glide get(android.content.Context)>
+		--><com.bumptech.glide.module.ManifestParser: java.util.List parse()>
+
+WARNING: <android.widget.OverScroller: int getCurrX()> called in <it.feio.android.simplegallery.views.TouchImageView$CompatScroller: int getCurrX()> on line -1 no living Level
+
+WARNING: <android.graphics.Point: void <init>(int,int)> called in <com.bumptech.glide.request.target.ViewTarget$SizeDeterminer: android.graphics.Point getDisplayDimens()> on line -1 no living Level
+
+BUG: <android.os.BaseBundle: void putLong(java.lang.String,long)> called in <it.feio.android.omninotes.utils.date.ReminderPickers: void showDatePickerDialog(long)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void postpone(android.content.SharedPreferences,java.lang.Long,java.lang.String)>
+		--><it.feio.android.omninotes.utils.date.ReminderPickers: void pick(java.lang.Long,java.lang.String)>
+		--><it.feio.android.omninotes.utils.date.ReminderPickers: void showDatePickerDialog(long)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void postpone(android.content.SharedPreferences,java.lang.Long,java.lang.String)>
+		--><it.feio.android.omninotes.utils.date.ReminderPickers: void pick(java.lang.Long,java.lang.String)>
+		--><it.feio.android.omninotes.utils.date.ReminderPickers: void showDatePickerDialog(long)>
+
+WARNING: <android.widget.OverScroller: boolean computeScrollOffset()> called in <it.feio.android.simplegallery.views.TouchImageView$CompatScroller: boolean computeScrollOffset()> on line -1 no living Level
+
+BUG: <org.apache.commons.logging.Log: boolean isDebugEnabled()> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+
+WARNING: <android.widget.ProgressBar: android.graphics.drawable.Drawable getIndeterminateDrawable()> called in <com.afollestad.materialdialogs.internal.MDTintHelper: void setTint(android.widget.ProgressBar,int,boolean)> on line -1 no living Level
+
+WARNING: <android.content.SharedPreferences$Editor: boolean commit()> called in <org.acra.prefs.PrefUtils: void save(android.content.SharedPreferences$Editor)> on line -1 no living Level
+
+WARNING: <android.view.Display: int getHeight()> called in <com.bumptech.glide.request.target.ViewTarget$SizeDeterminer: android.graphics.Point getDisplayDimens()> on line -1 no living Level
+
+BUG: <org.apache.commons.logging.Log: boolean isDebugEnabled()> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+
+WARNING: <android.graphics.PointF: float x> called in <it.feio.android.simplegallery.views.TouchImageView$DoubleTapZoom: void translateImageToCenterTouchPosition(float)> on line -1 no living Level
+
+WARNING: <android.view.animation.AccelerateDecelerateInterpolator: float getInterpolation(float)> called in <it.feio.android.simplegallery.views.TouchImageView$DoubleTapZoom: float interpolate()> on line -1 no living Level
+
+WARNING: <android.graphics.PointF: float y> called in <it.feio.android.simplegallery.views.TouchImageView$DoubleTapZoom: void translateImageToCenterTouchPosition(float)> on line -1 no living Level
+
+WARNING: <android.widget.ProgressBar: android.graphics.drawable.Drawable getProgressDrawable()> called in <com.afollestad.materialdialogs.internal.MDTintHelper: void setTint(android.widget.ProgressBar,int,boolean)> on line -1 no living Level
+
+WARNING: <android.view.Display: int getWidth()> called in <it.feio.android.simplegallery.util.Display: android.graphics.Point getUsableSize(android.content.Context)> on line -1 no living Level
+
+WARNING: <android.graphics.PointF: float y> called in <it.feio.android.simplegallery.views.TouchImageView$DoubleTapZoom: void translateImageToCenterTouchPosition(float)> on line -1 no living Level
+
+WARNING: <android.widget.OverScroller: boolean computeScrollOffset()> called in <it.feio.android.simplegallery.views.TouchImageView$CompatScroller: boolean computeScrollOffset()> on line -1 no living Level
+
+BUG: <android.provider.DocumentsContract: boolean isDocumentUri(android.content.Context,android.net.Uri)> called in <it.feio.android.omninotes.utils.FileHelper: java.lang.String getPath(android.content.Context,android.net.Uri)> on line -1 not in [16, 17, 18]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void createNotification(android.content.Context,it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.utils.BitmapHelper: android.graphics.Bitmap getBitmapFromAttachment(android.content.Context,it.feio.android.omninotes.models.Attachment,int,int)>
+		--><it.feio.android.omninotes.utils.FileHelper: java.lang.String getPath(android.content.Context,android.net.Uri)>
+
+BUG: <org.apache.commons.logging.Log: void debug(java.lang.Object)> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+
+WARNING: <java.lang.System: void arraycopy(java.lang.Object,int,java.lang.Object,int,int)> called in <org.acra.config.ACRAConfiguration: java.lang.Object[] copyArray(java.lang.Object[])> on line -1 no living Level
+
+BUG: <org.apache.commons.logging.Log: boolean isDebugEnabled()> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+
+BUG: <android.os.BaseBundle: int getInt(java.lang.String)> called in <it.feio.android.simplegallery.GalleryPagerFragment: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.GalleryActivity dummyMainMethod_it_feio_android_omninotes_GalleryActivity(android.content.Intent)>
+		--><dummyMainClass: it.feio.android.simplegallery.GalleryPagerFragment dummyMainMethod_it_feio_android_simplegallery_GalleryPagerFragment(android.content.Intent,android.app.Activity)>
+		--><it.feio.android.simplegallery.GalleryPagerFragment: void onCreate(android.os.Bundle)>
+
+BUG: <org.apache.commons.logging.Log: boolean isDebugEnabled()> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+
+BUG: <android.os.BaseBundle: java.lang.Object get(java.lang.String)> called in <it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.app.Activity: void requestPermissions(java.lang.String[],int)> called in <com.tbruyelle.rxpermissions.ShadowActivity: void handleIntent(android.content.Intent)> on line -1 not in [16, 17, 18, 19, 21, 22]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.tbruyelle.rxpermissions.ShadowActivity dummyMainMethod_com_tbruyelle_rxpermissions_ShadowActivity(android.content.Intent)>
+		--><com.tbruyelle.rxpermissions.ShadowActivity: void onNewIntent(android.content.Intent)>
+		--><com.tbruyelle.rxpermissions.ShadowActivity: void handleIntent(android.content.Intent)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.tbruyelle.rxpermissions.ShadowActivity dummyMainMethod_com_tbruyelle_rxpermissions_ShadowActivity(android.content.Intent)>
+		--><com.tbruyelle.rxpermissions.ShadowActivity: void onCreate(android.os.Bundle)>
+		--><com.tbruyelle.rxpermissions.ShadowActivity: void handleIntent(android.content.Intent)>
+
+WARNING: <android.view.Display: int getWidth()> called in <com.bumptech.glide.request.target.ViewTarget$SizeDeterminer: android.graphics.Point getDisplayDimens()> on line -1 no living Level
+
+WARNING: <android.graphics.Matrix: boolean postTranslate(float,float)> called in <it.feio.android.simplegallery.views.TouchImageView$Fling: void run()> on line -1 no living Level
+
+WARNING: <android.graphics.drawable.Drawable: void setColorFilter(int,android.graphics.PorterDuff$Mode)> called in <com.afollestad.materialdialogs.internal.MDTintHelper: void setTint(android.widget.ProgressBar,int,boolean)> on line -1 no living Level
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <org.acra.dialog.CrashReportDialog: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.acra.dialog.CrashReportDialog dummyMainMethod_org_acra_dialog_CrashReportDialog(android.content.Intent)>
+		--><org.acra.dialog.CrashReportDialog: void onSaveInstanceState(android.os.Bundle)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: org.acra.CrashReportDialog dummyMainMethod_org_acra_CrashReportDialog(android.content.Intent)>
+		--><org.acra.dialog.CrashReportDialog: void onSaveInstanceState(android.os.Bundle)>
+
+WARNING: <android.widget.ProgressBar: android.graphics.drawable.Drawable getProgressDrawable()> called in <com.afollestad.materialdialogs.internal.MDTintHelper: void setTint(android.widget.ProgressBar,int,boolean)> on line -1 no living Level
+
+WARNING: <android.graphics.Point: void set(int,int)> called in <it.feio.android.simplegallery.util.Display: android.graphics.Point getUsableSize(android.content.Context)> on line -1 no living Level
+
+WARNING: <java.lang.reflect.Array: java.lang.Object newInstance(java.lang.Class,int)> called in <org.acra.config.ACRAConfiguration: java.lang.Object[] copyArray(java.lang.Object[])> on line -1 no living Level
+
+WARNING: <android.graphics.PointF: float x> called in <it.feio.android.simplegallery.views.TouchImageView$DoubleTapZoom: void translateImageToCenterTouchPosition(float)> on line -1 no living Level
+
+BUG: <android.os.BaseBundle: void putLong(java.lang.String,long)> called in <it.feio.android.omninotes.utils.date.ReminderPickers: void showTimePickerDialog(long)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onDateSet(android.widget.DatePicker,int,int,int)>
+		--><it.feio.android.omninotes.utils.date.ReminderPickers: void onDateSet(android.widget.DatePicker,int,int,int)>
+		--><it.feio.android.omninotes.utils.date.ReminderPickers: void showTimePickerDialog(long)>
+
+WARNING: <android.graphics.PorterDuff$Mode: android.graphics.PorterDuff$Mode MULTIPLY> called in <com.afollestad.materialdialogs.internal.MDTintHelper: void setTint(android.widget.ProgressBar,int,boolean)> on line -1 no living Level
+
+BUG: <android.os.BaseBundle: boolean containsKey(java.lang.String)> called in <it.feio.android.omninotes.SettingsFragment: void setTitle()> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SettingsActivity dummyMainMethod_it_feio_android_omninotes_SettingsActivity(android.content.Intent)>
+		--><dummyMainClass: it.feio.android.omninotes.SettingsFragment dummyMainMethod_it_feio_android_omninotes_SettingsFragment(android.content.Intent,android.app.Activity)>
+		--><it.feio.android.omninotes.SettingsFragment: void onAttach(android.app.Activity)>
+		--><it.feio.android.omninotes.SettingsFragment: void setTitle()>
+
+BUG: <org.apache.commons.logging.Log: boolean isDebugEnabled()> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+
+WARNING: <android.widget.ProgressBar: android.graphics.drawable.Drawable getIndeterminateDrawable()> called in <com.afollestad.materialdialogs.internal.MDTintHelper: void setTint(android.widget.ProgressBar,int,boolean)> on line -1 no living Level
+
+WARNING: <android.widget.ImageView: void setImageMatrix(android.graphics.Matrix)> called in <it.feio.android.simplegallery.views.TouchImageView$DoubleTapZoom: void run()> on line -1 no living Level
+
+BUG: <org.apache.commons.logging.Log: void trace(java.lang.Object)> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getMonthDayVariants(net.fortuna.ical4j.model.DateList)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getMonthDayVariants(net.fortuna.ical4j.model.DateList)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getMonthDayVariants(net.fortuna.ical4j.model.DateList)>
+
+WARNING: <java.lang.Object: void <init>()> called in <com.bumptech.glide.load.engine.bitmap_recycle.BitmapPoolAdapter: void <init>()> on line -1 no living Level
+
+BUG: <org.apache.commons.logging.Log: void debug(java.lang.Object)> called in <net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+
+WARNING: <android.widget.Scroller: void <init>(android.content.Context)> called in <it.feio.android.simplegallery.views.TouchImageView$CompatScroller: void <init>(it.feio.android.simplegallery.views.TouchImageView,android.content.Context)> on line -1 no living Level
+
+WARNING: <android.graphics.PointF: float x> called in <it.feio.android.simplegallery.views.TouchImageView$DoubleTapZoom: void translateImageToCenterTouchPosition(float)> on line -1 no living Level
+
+WARNING: <android.widget.Scroller: boolean isFinished()> called in <it.feio.android.simplegallery.views.TouchImageView$CompatScroller: boolean isFinished()> on line -1 no living Level
+
+WARNING: <android.view.Display: int getHeight()> called in <it.feio.android.simplegallery.util.Display: android.graphics.Point getUsableSize(android.content.Context)> on line -1 no living Level
+
+BUG: <org.apache.commons.logging.Log: void debug(java.lang.Object)> called in <net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)> on line -1 not in [23, 24, 25, 26, 27]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(long)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(long)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(long)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 4:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(long)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 5:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 6:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 7:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 8:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 9:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 10:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.SnoozeActivity dummyMainMethod_it_feio_android_omninotes_SnoozeActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void onCreate(android.os.Bundle)>
+		--><it.feio.android.omninotes.SnoozeActivity: void manageNotification(android.content.SharedPreferences)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+	reachable path 11:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.receiver.AlarmReceiver dummyMainMethod_it_feio_android_omninotes_receiver_AlarmReceiver(android.content.Intent)>
+		--><it.feio.android.omninotes.receiver.AlarmReceiver: void onReceive(android.content.Context,android.content.Intent)>
+		--><it.feio.android.omninotes.SnoozeActivity: void setNextRecurrentReminder(it.feio.android.omninotes.models.Note)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,java.lang.String)>
+		--><it.feio.android.omninotes.helpers.date.DateHelper: java.lang.Long nextReminderFromRecurrenceRule(long,long,java.lang.String)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.Date getNextDate(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.Date)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getCandidates(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.Recur: net.fortuna.ical4j.model.DateList getDayVariants(net.fortuna.ical4j.model.DateList)>
+		--><net.fortuna.ical4j.model.Recur: java.util.List getAbsWeekDays(net.fortuna.ical4j.model.Date,net.fortuna.ical4j.model.parameter.Value,net.fortuna.ical4j.model.WeekDay)>
+		--><net.fortuna.ical4j.util.Dates: net.fortuna.ical4j.model.Date getInstance(java.util.Date,net.fortuna.ical4j.model.parameter.Value)>
+		--><net.fortuna.ical4j.model.DateTime: void <init>(java.util.Date)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.Time: void <init>(long,java.util.TimeZone,boolean)>
+		--><net.fortuna.ical4j.model.Iso8601: void <init>(long,java.lang.String,int,java.util.TimeZone)>
+		--><net.fortuna.ical4j.model.CalendarDateFormatFactory: java.text.DateFormat getInstance(java.lang.String)>
+
+BUG: <android.os.BaseBundle: int getInt(java.lang.String,int)> called in <it.feio.android.omninotes.widget.WidgetConfigurationActivity: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: it.feio.android.omninotes.widget.WidgetConfigurationActivity dummyMainMethod_it_feio_android_omninotes_widget_WidgetConfigurationActivity(android.content.Intent)>
+		--><it.feio.android.omninotes.widget.WidgetConfigurationActivity: void onCreate(android.os.Bundle)>
+
+WARNING: <android.os.Build$VERSION: int SDK_INT> called in <com.afollestad.materialdialogs.internal.MDTintHelper: void setTint(android.widget.ProgressBar,int,boolean)> on line -1 no living Level
+

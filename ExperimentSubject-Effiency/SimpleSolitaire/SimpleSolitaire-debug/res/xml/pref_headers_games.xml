@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:title="@string/games_Calculation" android:fragment="de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$CalculationPreferenceFragment" />
+    <header android:title="@string/games_Canfield" android:fragment="de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$CanfieldPreferenceFragment" />
+    <header android:title="@string/games_FortyEight" android:fragment="de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$FortyEightPreferenceFragment" />
+    <header android:title="@string/games_Golf" android:fragment="de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$GolfPreferenceFragment" />
+    <header android:title="@string/games_Klondike" android:fragment="de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$KlondikePreferenceFragment" />
+    <header android:title="@string/games_mod3" android:fragment="de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$Mod3PreferenceFragment" />
+    <header android:title="@string/games_Pyramid" android:fragment="de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$PyramidPreferenceFragment" />
+    <header android:title="@string/games_Spider" android:fragment="de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$SpiderPreferenceFragment" />
+    <header android:title="@string/games_Vegas" android:fragment="de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$VegasPreferenceFragment" />
+    <header android:title="@string/games_Yukon" android:fragment="de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$YukonPreferenceFragment" />
+</preference-headers>

@@ -1,0 +1,9 @@
+Simple-Solitaire.apk minSdkVersion: 11, targetSdkVersion: 27
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <de.tobiasbielefeld.solitaire.ui.manual.Manual: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: de.tobiasbielefeld.solitaire.ui.manual.Manual dummyMainMethod_de_tobiasbielefeld_solitaire_ui_manual_Manual(android.content.Intent)>
+		--><de.tobiasbielefeld.solitaire.ui.manual.Manual: void onCreate(android.os.Bundle)>
+

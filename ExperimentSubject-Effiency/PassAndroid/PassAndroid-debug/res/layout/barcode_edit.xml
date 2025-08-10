@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatEditText android:id="@id/messageInput" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/barcode_edit_message" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="center_vertical" android:id="@id/scanButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="scan" app:srcCompat="@drawable/ic_image_photo_camera" />
+        <androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="center_vertical" android:id="@id/randomButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="random" app:srcCompat="@drawable/ic_places_casino" />
+    </LinearLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatEditText android:id="@id/alternativeMessageInput" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/barcode_edit_hint_alternative_message" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <HorizontalScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioGroup android:orientation="horizontal" android:id="@id/barcodeRadioGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+    <include layout="@layout/barcode" />
+</LinearLayout>

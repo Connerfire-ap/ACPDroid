@@ -1,0 +1,341 @@
+com.xargsgrep.portknocker_12.apk minSdkVersion: 10, targetSdkVersion: 27
+BUG: <android.preference.PreferenceFragment: void onCreate(android.os.Bundle)> called in <com.xargsgrep.portknocker.fragment.SettingsFragment: void onCreate(android.os.Bundle)> on line -1 not in [10]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.SettingsActivity dummyMainMethod_com_xargsgrep_portknocker_activity_SettingsActivity(android.content.Intent)>
+		--><dummyMainClass: com.xargsgrep.portknocker.fragment.SettingsFragment dummyMainMethod_com_xargsgrep_portknocker_fragment_SettingsFragment(android.content.Intent,android.app.Activity)>
+		--><com.xargsgrep.portknocker.fragment.SettingsFragment: void onCreate(android.os.Bundle)>
+
+BUG: <android.app.Activity: android.app.ActionBar getActionBar()> called in <com.ipaulpro.afilechooser.FileChooserActivity: boolean onCreateOptionsMenu(android.view.Menu)> on line -1 not in [10]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ipaulpro.afilechooser.FileChooserActivity dummyMainMethod_com_ipaulpro_afilechooser_FileChooserActivity(android.content.Intent)>
+		--><com.ipaulpro.afilechooser.FileChooserActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+
+BUG: <android.app.Activity: android.app.FragmentManager getFragmentManager()> called in <com.xargsgrep.portknocker.activity.SettingsActivity: void onCreate(android.os.Bundle)> on line -1 not in [10]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.SettingsActivity dummyMainMethod_com_xargsgrep_portknocker_activity_SettingsActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.activity.SettingsActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: java.lang.String getString(java.lang.String)> called in <com.ipaulpro.afilechooser.FileChooserActivity: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ipaulpro.afilechooser.FileChooserActivity dummyMainMethod_com_ipaulpro_afilechooser_FileChooserActivity(android.content.Intent)>
+		--><com.ipaulpro.afilechooser.FileChooserActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <com.ipaulpro.afilechooser.FileChooserActivity: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ipaulpro.afilechooser.FileChooserActivity dummyMainMethod_com_ipaulpro_afilechooser_FileChooserActivity(android.content.Intent)>
+		--><com.ipaulpro.afilechooser.FileChooserActivity: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.app.ActionBar: void setDisplayHomeAsUpEnabled(boolean)> called in <com.ipaulpro.afilechooser.FileChooserActivity: boolean onCreateOptionsMenu(android.view.Menu)> on line -1 not in [10]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ipaulpro.afilechooser.FileChooserActivity dummyMainMethod_com_ipaulpro_afilechooser_FileChooserActivity(android.content.Intent)>
+		--><com.ipaulpro.afilechooser.FileChooserActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+
+BUG: <android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()> called in <com.xargsgrep.portknocker.activity.SettingsActivity: void onCreate(android.os.Bundle)> on line -1 not in [10]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.SettingsActivity dummyMainMethod_com_xargsgrep_portknocker_activity_SettingsActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.activity.SettingsActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: boolean getBoolean(java.lang.String)> called in <com.xargsgrep.portknocker.activity.EditHostActivity: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.EditHostActivity dummyMainMethod_com_xargsgrep_portknocker_activity_EditHostActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.activity.EditHostActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <com.xargsgrep.portknocker.activity.HostListActivity: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.HostListActivity dummyMainMethod_com_xargsgrep_portknocker_activity_HostListActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.activity.HostListActivity: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.preference.PreferenceFragment: android.preference.PreferenceScreen getPreferenceScreen()> called in <com.xargsgrep.portknocker.fragment.SettingsFragment: void onCreate(android.os.Bundle)> on line -1 not in [10]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.SettingsActivity dummyMainMethod_com_xargsgrep_portknocker_activity_SettingsActivity(android.content.Intent)>
+		--><dummyMainClass: com.xargsgrep.portknocker.fragment.SettingsFragment dummyMainMethod_com_xargsgrep_portknocker_fragment_SettingsFragment(android.content.Intent,android.app.Activity)>
+		--><com.xargsgrep.portknocker.fragment.SettingsFragment: void onCreate(android.os.Bundle)>
+
+BUG: <android.database.MatrixCursor$RowBuilder: android.database.MatrixCursor$RowBuilder add(java.lang.String,java.lang.Object)> called in <com.ianhanniballake.localstorage.LocalStorageProvider: void includeFile(android.database.MatrixCursor,java.io.File)> on line -1 not in [16, 17, 18, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ianhanniballake.localstorage.LocalStorageProvider dummyMainMethod_com_ianhanniballake_localstorage_LocalStorageProvider(android.content.Intent)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryChildDocuments(java.lang.String,java.lang.String[],java.lang.String)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: void includeFile(android.database.MatrixCursor,java.io.File)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ianhanniballake.localstorage.LocalStorageProvider dummyMainMethod_com_ianhanniballake_localstorage_LocalStorageProvider(android.content.Intent)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryDocument(java.lang.String,java.lang.String[])>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: void includeFile(android.database.MatrixCursor,java.io.File)>
+
+BUG: <android.database.MatrixCursor$RowBuilder: android.database.MatrixCursor$RowBuilder add(java.lang.String,java.lang.Object)> called in <com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryRoots(java.lang.String[])> on line -1 not in [16, 17, 18, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ianhanniballake.localstorage.LocalStorageProvider dummyMainMethod_com_ianhanniballake_localstorage_LocalStorageProvider(android.content.Intent)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryRoots(java.lang.String[])>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <com.xargsgrep.portknocker.fragment.ProgressDialogFragment: com.xargsgrep.portknocker.fragment.ProgressDialogFragment newInstance(android.os.AsyncTask,java.lang.String,boolean,int,int)> on line -1 not in [16, 17, 18, 19, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.HostListActivity dummyMainMethod_com_xargsgrep_portknocker_activity_HostListActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.activity.HostListActivity: void onCreate(android.os.Bundle)>
+		--><com.xargsgrep.portknocker.asynctask.KnockerAsyncTask: void onPreExecute()>
+		--><com.xargsgrep.portknocker.fragment.ProgressDialogFragment: com.xargsgrep.portknocker.fragment.ProgressDialogFragment newInstance(android.os.AsyncTask,java.lang.String,boolean,int,int)>
+
+BUG: <android.database.MatrixCursor$RowBuilder: android.database.MatrixCursor$RowBuilder add(java.lang.String,java.lang.Object)> called in <com.ianhanniballake.localstorage.LocalStorageProvider: void includeFile(android.database.MatrixCursor,java.io.File)> on line -1 not in [16, 17, 18, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ianhanniballake.localstorage.LocalStorageProvider dummyMainMethod_com_ianhanniballake_localstorage_LocalStorageProvider(android.content.Intent)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryChildDocuments(java.lang.String,java.lang.String[],java.lang.String)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: void includeFile(android.database.MatrixCursor,java.io.File)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ianhanniballake.localstorage.LocalStorageProvider dummyMainMethod_com_ianhanniballake_localstorage_LocalStorageProvider(android.content.Intent)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryDocument(java.lang.String,java.lang.String[])>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: void includeFile(android.database.MatrixCursor,java.io.File)>
+
+BUG: <android.app.FragmentTransaction: android.app.FragmentTransaction replace(int,android.app.Fragment)> called in <com.xargsgrep.portknocker.activity.SettingsActivity: void onCreate(android.os.Bundle)> on line -1 not in [10]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.SettingsActivity dummyMainMethod_com_xargsgrep_portknocker_activity_SettingsActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.activity.SettingsActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.app.Fragment: android.app.Activity getActivity()> called in <com.xargsgrep.portknocker.fragment.SettingsFragment: void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)> on line -1 not in [10]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.SettingsActivity dummyMainMethod_com_xargsgrep_portknocker_activity_SettingsActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.fragment.SettingsFragment: void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)>
+
+BUG: <android.app.Fragment: java.lang.String getString(int)> called in <com.xargsgrep.portknocker.fragment.SettingsFragment: void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)> on line -1 not in [10]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.SettingsActivity dummyMainMethod_com_xargsgrep_portknocker_activity_SettingsActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.fragment.SettingsFragment: void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)>
+
+BUG: <android.database.MatrixCursor$RowBuilder: android.database.MatrixCursor$RowBuilder add(java.lang.String,java.lang.Object)> called in <com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryRoots(java.lang.String[])> on line -1 not in [16, 17, 18, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ianhanniballake.localstorage.LocalStorageProvider dummyMainMethod_com_ianhanniballake_localstorage_LocalStorageProvider(android.content.Intent)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryRoots(java.lang.String[])>
+
+BUG: <android.os.BaseBundle: long getLong(java.lang.String)> called in <com.xargsgrep.portknocker.activity.EditHostActivity: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.EditHostActivity dummyMainMethod_com_xargsgrep_portknocker_activity_EditHostActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.activity.EditHostActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: void putInt(java.lang.String,int)> called in <com.xargsgrep.portknocker.fragment.ProgressDialogFragment: com.xargsgrep.portknocker.fragment.ProgressDialogFragment newInstance(android.os.AsyncTask,java.lang.String,boolean,int,int)> on line -1 not in [16, 17, 18, 19, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.HostListActivity dummyMainMethod_com_xargsgrep_portknocker_activity_HostListActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.activity.HostListActivity: void onCreate(android.os.Bundle)>
+		--><com.xargsgrep.portknocker.asynctask.KnockerAsyncTask: void onPreExecute()>
+		--><com.xargsgrep.portknocker.fragment.ProgressDialogFragment: com.xargsgrep.portknocker.fragment.ProgressDialogFragment newInstance(android.os.AsyncTask,java.lang.String,boolean,int,int)>
+
+BUG: <android.app.Fragment: boolean isAdded()> called in <com.xargsgrep.portknocker.fragment.SettingsFragment: void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)> on line -1 not in [10]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.SettingsActivity dummyMainMethod_com_xargsgrep_portknocker_activity_SettingsActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.fragment.SettingsFragment: void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)>
+
+BUG: <android.database.MatrixCursor$RowBuilder: android.database.MatrixCursor$RowBuilder add(java.lang.String,java.lang.Object)> called in <com.ianhanniballake.localstorage.LocalStorageProvider: void includeFile(android.database.MatrixCursor,java.io.File)> on line -1 not in [16, 17, 18, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ianhanniballake.localstorage.LocalStorageProvider dummyMainMethod_com_ianhanniballake_localstorage_LocalStorageProvider(android.content.Intent)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryChildDocuments(java.lang.String,java.lang.String[],java.lang.String)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: void includeFile(android.database.MatrixCursor,java.io.File)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ianhanniballake.localstorage.LocalStorageProvider dummyMainMethod_com_ianhanniballake_localstorage_LocalStorageProvider(android.content.Intent)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryDocument(java.lang.String,java.lang.String[])>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: void includeFile(android.database.MatrixCursor,java.io.File)>
+
+BUG: <android.database.MatrixCursor$RowBuilder: android.database.MatrixCursor$RowBuilder add(java.lang.String,java.lang.Object)> called in <com.ianhanniballake.localstorage.LocalStorageProvider: void includeFile(android.database.MatrixCursor,java.io.File)> on line -1 not in [16, 17, 18, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ianhanniballake.localstorage.LocalStorageProvider dummyMainMethod_com_ianhanniballake_localstorage_LocalStorageProvider(android.content.Intent)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryChildDocuments(java.lang.String,java.lang.String[],java.lang.String)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: void includeFile(android.database.MatrixCursor,java.io.File)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ianhanniballake.localstorage.LocalStorageProvider dummyMainMethod_com_ianhanniballake_localstorage_LocalStorageProvider(android.content.Intent)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryDocument(java.lang.String,java.lang.String[])>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: void includeFile(android.database.MatrixCursor,java.io.File)>
+
+BUG: <android.database.MatrixCursor$RowBuilder: android.database.MatrixCursor$RowBuilder add(java.lang.String,java.lang.Object)> called in <com.ianhanniballake.localstorage.LocalStorageProvider: void includeFile(android.database.MatrixCursor,java.io.File)> on line -1 not in [16, 17, 18, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ianhanniballake.localstorage.LocalStorageProvider dummyMainMethod_com_ianhanniballake_localstorage_LocalStorageProvider(android.content.Intent)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryChildDocuments(java.lang.String,java.lang.String[],java.lang.String)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: void includeFile(android.database.MatrixCursor,java.io.File)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ianhanniballake.localstorage.LocalStorageProvider dummyMainMethod_com_ianhanniballake_localstorage_LocalStorageProvider(android.content.Intent)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryDocument(java.lang.String,java.lang.String[])>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: void includeFile(android.database.MatrixCursor,java.io.File)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <com.xargsgrep.portknocker.fragment.ProgressDialogFragment: com.xargsgrep.portknocker.fragment.ProgressDialogFragment newInstance(android.os.AsyncTask,java.lang.String,boolean,int,int)> on line -1 not in [16, 17, 18, 19, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.HostListActivity dummyMainMethod_com_xargsgrep_portknocker_activity_HostListActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.activity.HostListActivity: void onCreate(android.os.Bundle)>
+		--><com.xargsgrep.portknocker.asynctask.KnockerAsyncTask: void onPreExecute()>
+		--><com.xargsgrep.portknocker.fragment.ProgressDialogFragment: com.xargsgrep.portknocker.fragment.ProgressDialogFragment newInstance(android.os.AsyncTask,java.lang.String,boolean,int,int)>
+
+BUG: <android.database.MatrixCursor$RowBuilder: android.database.MatrixCursor$RowBuilder add(java.lang.String,java.lang.Object)> called in <com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryRoots(java.lang.String[])> on line -1 not in [16, 17, 18, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ianhanniballake.localstorage.LocalStorageProvider dummyMainMethod_com_ianhanniballake_localstorage_LocalStorageProvider(android.content.Intent)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryRoots(java.lang.String[])>
+
+BUG: <android.os.BaseBundle: boolean getBoolean(java.lang.String)> called in <com.xargsgrep.portknocker.activity.HostListActivity: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.HostListActivity dummyMainMethod_com_xargsgrep_portknocker_activity_HostListActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.activity.HostListActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.app.ActionBar: void setHomeButtonEnabled(boolean)> called in <com.ipaulpro.afilechooser.FileChooserActivity: boolean onCreateOptionsMenu(android.view.Menu)> on line -1 not in [10, 11, 12, 13]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ipaulpro.afilechooser.FileChooserActivity dummyMainMethod_com_ipaulpro_afilechooser_FileChooserActivity(android.content.Intent)>
+		--><com.ipaulpro.afilechooser.FileChooserActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+
+BUG: <android.database.MatrixCursor$RowBuilder: android.database.MatrixCursor$RowBuilder add(java.lang.String,java.lang.Object)> called in <com.ianhanniballake.localstorage.LocalStorageProvider: void includeFile(android.database.MatrixCursor,java.io.File)> on line -1 not in [16, 17, 18, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ianhanniballake.localstorage.LocalStorageProvider dummyMainMethod_com_ianhanniballake_localstorage_LocalStorageProvider(android.content.Intent)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryChildDocuments(java.lang.String,java.lang.String[],java.lang.String)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: void includeFile(android.database.MatrixCursor,java.io.File)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ianhanniballake.localstorage.LocalStorageProvider dummyMainMethod_com_ianhanniballake_localstorage_LocalStorageProvider(android.content.Intent)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryDocument(java.lang.String,java.lang.String[])>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: void includeFile(android.database.MatrixCursor,java.io.File)>
+
+BUG: <android.os.BaseBundle: boolean getBoolean(java.lang.String)> called in <com.xargsgrep.portknocker.activity.HostListActivity: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.HostListActivity dummyMainMethod_com_xargsgrep_portknocker_activity_HostListActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.activity.HostListActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.database.MatrixCursor$RowBuilder: android.database.MatrixCursor$RowBuilder add(java.lang.String,java.lang.Object)> called in <com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryRoots(java.lang.String[])> on line -1 not in [16, 17, 18, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ianhanniballake.localstorage.LocalStorageProvider dummyMainMethod_com_ianhanniballake_localstorage_LocalStorageProvider(android.content.Intent)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryRoots(java.lang.String[])>
+
+BUG: <android.database.MatrixCursor$RowBuilder: android.database.MatrixCursor$RowBuilder add(java.lang.String,java.lang.Object)> called in <com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryRoots(java.lang.String[])> on line -1 not in [16, 17, 18, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ianhanniballake.localstorage.LocalStorageProvider dummyMainMethod_com_ianhanniballake_localstorage_LocalStorageProvider(android.content.Intent)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryRoots(java.lang.String[])>
+
+BUG: <android.os.BaseBundle: long getLong(java.lang.String)> called in <com.xargsgrep.portknocker.activity.HostListActivity: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.HostListActivity dummyMainMethod_com_xargsgrep_portknocker_activity_HostListActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.activity.HostListActivity: void onCreate(android.os.Bundle)>
+
+BUG: <android.preference.PreferenceFragment: void addPreferencesFromResource(int)> called in <com.xargsgrep.portknocker.fragment.SettingsFragment: void onCreate(android.os.Bundle)> on line -1 not in [10]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.SettingsActivity dummyMainMethod_com_xargsgrep_portknocker_activity_SettingsActivity(android.content.Intent)>
+		--><dummyMainClass: com.xargsgrep.portknocker.fragment.SettingsFragment dummyMainMethod_com_xargsgrep_portknocker_fragment_SettingsFragment(android.content.Intent,android.app.Activity)>
+		--><com.xargsgrep.portknocker.fragment.SettingsFragment: void onCreate(android.os.Bundle)>
+
+BUG: <android.database.MatrixCursor$RowBuilder: android.database.MatrixCursor$RowBuilder add(java.lang.String,java.lang.Object)> called in <com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryRoots(java.lang.String[])> on line -1 not in [16, 17, 18, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ianhanniballake.localstorage.LocalStorageProvider dummyMainMethod_com_ianhanniballake_localstorage_LocalStorageProvider(android.content.Intent)>
+		--><com.ianhanniballake.localstorage.LocalStorageProvider: android.database.Cursor queryRoots(java.lang.String[])>
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <com.xargsgrep.portknocker.activity.EditHostActivity: void onSaveInstanceState(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 21, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.EditHostActivity dummyMainMethod_com_xargsgrep_portknocker_activity_EditHostActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.activity.EditHostActivity: void onSaveInstanceState(android.os.Bundle)>
+
+BUG: <android.os.BaseBundle: boolean containsKey(java.lang.String)> called in <com.xargsgrep.portknocker.utils.BundleUtils: boolean contains(android.os.Bundle,java.lang.String)> on line -1 not in [16, 17, 18, 19, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.EditHostActivity dummyMainMethod_com_xargsgrep_portknocker_activity_EditHostActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.activity.EditHostActivity: void onCreate(android.os.Bundle)>
+		--><com.xargsgrep.portknocker.utils.BundleUtils: boolean contains(android.os.Bundle,java.lang.String)>
+	reachable path 2:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.HostListActivity dummyMainMethod_com_xargsgrep_portknocker_activity_HostListActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.activity.HostListActivity: void onCreate(android.os.Bundle)>
+		--><com.xargsgrep.portknocker.utils.BundleUtils: boolean contains(android.os.Bundle,java.lang.String)>
+	reachable path 3:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.HostListActivity dummyMainMethod_com_xargsgrep_portknocker_activity_HostListActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.activity.HostListActivity: void onCreate(android.os.Bundle)>
+		--><com.xargsgrep.portknocker.utils.BundleUtils: boolean contains(android.os.Bundle,java.lang.String)>
+
+BUG: <android.os.BaseBundle: void putString(java.lang.String,java.lang.String)> called in <com.ipaulpro.afilechooser.FileListFragment: com.ipaulpro.afilechooser.FileListFragment newInstance(java.lang.String)> on line -1 not in [16, 17, 18, 19, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.ipaulpro.afilechooser.FileChooserActivity dummyMainMethod_com_ipaulpro_afilechooser_FileChooserActivity(android.content.Intent)>
+		--><com.ipaulpro.afilechooser.FileChooserActivity: void onCreate(android.os.Bundle)>
+		--><com.ipaulpro.afilechooser.FileChooserActivity: void addFragment()>
+		--><com.ipaulpro.afilechooser.FileListFragment: com.ipaulpro.afilechooser.FileListFragment newInstance(java.lang.String)>
+
+BUG: <android.os.BaseBundle: void putBoolean(java.lang.String,boolean)> called in <com.xargsgrep.portknocker.fragment.ProgressDialogFragment: com.xargsgrep.portknocker.fragment.ProgressDialogFragment newInstance(android.os.AsyncTask,java.lang.String,boolean,int,int)> on line -1 not in [16, 17, 18, 19, 21, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.activity.HostListActivity dummyMainMethod_com_xargsgrep_portknocker_activity_HostListActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.activity.HostListActivity: void onCreate(android.os.Bundle)>
+		--><com.xargsgrep.portknocker.asynctask.KnockerAsyncTask: void onPreExecute()>
+		--><com.xargsgrep.portknocker.fragment.ProgressDialogFragment: com.xargsgrep.portknocker.fragment.ProgressDialogFragment newInstance(android.os.AsyncTask,java.lang.String,boolean,int,int)>
+
+BUG: <android.os.BaseBundle: int getInt(java.lang.String,int)> called in <com.xargsgrep.portknocker.widget.ConfigureWidgetActivity: void onCreate(android.os.Bundle)> on line -1 not in [16, 17, 18, 19, 10, 11, 12, 13, 14, 15]
+all reachable paths:
+	reachable path 1:
+		--><dummyMainClass: void dummyMainMethod(java.lang.String[])>
+		--><dummyMainClass: com.xargsgrep.portknocker.widget.ConfigureWidgetActivity dummyMainMethod_com_xargsgrep_portknocker_widget_ConfigureWidgetActivity(android.content.Intent)>
+		--><com.xargsgrep.portknocker.widget.ConfigureWidgetActivity: void onCreate(android.os.Bundle)>
+
