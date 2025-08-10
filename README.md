@@ -60,7 +60,7 @@ avdmanager create avd -n MyEmu -k "system-images;android-33;google_apis;x86_64" 
 ```
 
 ## Demo video of how to execute ACPDroid
-Youtube [ACPDroid](https://www.youtube.com/watch?v=6VdClNX3CDQ)
+Youtube [ACPDroid](https://www.youtube.com/watch?v=6VdClNX3CDQ) https://www.youtube.com/watch?v=6VdClNX3CDQ
 
 
 ## Usage 
