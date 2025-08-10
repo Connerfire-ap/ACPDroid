@@ -24,12 +24,13 @@ the provided image can be run on VMware® Workstation 16 Pro onwards as this ver
 This package will work on Linux system. There are many binaries that the scripts rely on so there are no guarantees on other platforms. 
 1. Install Ruby
 2. Install [Nokogiri](https://nokogiri.org/tutorials/installing_nokogiri.html)
-3. Install Python 3.7
-4. Install [uiautomator](https://github.com/xiaocong/uiautomator)
-5. Install [FlowDroid](https://github.com/secure-software-engineering/FlowDroid/)
-6. Install [Backstage](https://github.com/uds-se/backstage)
-7. Install [Gator](http://web.cse.ohio-state.edu/presto/software/gator/)
-8. Install [APKTool](https://apktool.org/)
+3. Install Python 3.8
+4. Install Java 1.8
+5. Install [uiautomator](https://github.com/xiaocong/uiautomator)
+6. Install [FlowDroid](https://github.com/secure-software-engineering/FlowDroid/)
+7. Install [Backstage](https://github.com/uds-se/backstage)
+8. Install [Gator](http://web.cse.ohio-state.edu/presto/software/gator/)
+9. Install [APKTool](https://apktool.org/)
 
 Backstage : Detecting Behavior Anomalies in Graphical User Interfaces
 
