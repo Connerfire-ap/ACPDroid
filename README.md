@@ -3,15 +3,21 @@
 ## Demo video of how to execute ACPDroid
 Youtube [ACPDroid](https://www.youtube.com/watch?v=6VdClNX3CDQ) https://www.youtube.com/watch?v=6VdClNX3CDQ
 
+![Project Logo](images/ACPDroid.png)
+
 ## License
 This project is licensed under the MIT License.
 
 # Option 1. Running in the virtual machine (recommended)
 Virtual VM download links: 
 - [download](https://drive.google.com/file/d/14K7R1qwWSTJDzpj1NwRj1rMQGjwQ1a0T/view?usp=sharing)
+The provided image can be run on VMware® Workstation 16 Pro onwards as this version starts supporting nested virtualisation for running Android Emulator on both Intel and AMD CPUs.
 
+## Prerequisites
 
-
+- VMware® Workstation 16 Pro onwards. Download from [VMware](https://www.vmware.com/)
+- Ensure your CPU supports nested virtualisation.
+- Download the VM file from this repository.
 
 # Option 2. Running on your local environment
 ## Installation Instructions
