@@ -29,6 +29,7 @@ This package will work on Linux system. There are many binaries that the scripts
 5. Install [FlowDroid](https://github.com/secure-software-engineering/FlowDroid/)
 6. Install [Backstage](https://github.com/uds-se/backstage)
 7. Install [Gator](http://web.cse.ohio-state.edu/presto/software/gator/)
+8. Install [APKTool](https://apktool.org/)
 
 Backstage : Detecting Behavior Anomalies in Graphical User Interfaces
 
