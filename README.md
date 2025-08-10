@@ -32,7 +32,6 @@ This package will work on Linux system. There are many binaries that the scripts
 8. Install [Gator](http://web.cse.ohio-state.edu/presto/software/gator/)
 9. Install [APKTool](https://apktool.org/)
 
-Backstage : Detecting Behavior Anomalies in Graphical User Interfaces
 
 Install Android SDK through [Android Studio](https://developer.android.com/studio).
 Through either Android Studio or the [sdkmanager](https://developer.android.com/studio/command-line/sdkmanager) binary, install the following packages.
