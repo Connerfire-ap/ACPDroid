@@ -1,0 +1,168 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+XMLLayoutFile:setName: couldn't find id of name: pref_headers_games
+XMLLayoutFile:setName: couldn't find id of name: pref_headers_with_advanced_settings
+XMLLayoutFile:setName: couldn't find id of name: pref_headers
+XMLLayoutFile:setName: couldn't find id of name: my_backup_rules
+/home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/GoalExplorer/sootOutput/Simple-Solitaire/res/navigation folder does not exists!
+Found 46 entrypoint classes and 41 methods in overall
+de.tobiasbielefeld.solitaire.dialogs.DialogMixCardsMovesAvailable: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.classes.CustomPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.about.LicenseFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$FortyEightPreferenceFragment: void onCreate(android.os.Bundle)>
+de.tobiasbielefeld.solitaire.dialogs.DialogHighScoreDelete: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$GolfPreferenceFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$Mod3PreferenceFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.Settings$CustomizationPreferenceFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.Settings$ExpertSettingsPreferenceFragment: void onCreate(android.os.Bundle)>
+de.tobiasbielefeld.solitaire.dialogs.DialogRedeal: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$PyramidPreferenceFragment: void onCreate(android.os.Bundle)>
+de.tobiasbielefeld.solitaire.dialogs.DialogWon: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.Settings$OtherPreferenceFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$CanfieldPreferenceFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$CalculationPreferenceFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.manual.ManualGames: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+de.tobiasbielefeld.solitaire.dialogs.DialogInGameMenu: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.Settings$SoundPreferenceFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.manual.ManualFeedback: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 4 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onPostCreate(android.os.Bundle)>
+Found 5 reachable methods from <de.tobiasbielefeld.solitaire.ui.about.ChangeLogFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.manual.ManualUserInterface: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$SpiderPreferenceFragment: void onCreate(android.os.Bundle)>
+de.tobiasbielefeld.solitaire.ui.settings.Settings$SoundPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.dialogs.DialogMixCards: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.manual.ManualMenu: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$SpiderPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$CanfieldPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$CalculationPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$PyramidPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$FortyEightPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$YukonPreferenceFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$KlondikePreferenceFragment: void onCreate(android.os.Bundle)>
+de.tobiasbielefeld.solitaire.ui.settings.Settings$OtherPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.Settings$MenuPreferenceFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$VegasPreferenceFragment: void onCreate(android.os.Bundle)>
+de.tobiasbielefeld.solitaire.ui.settings.Settings$CustomizationPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.ui.settings.Settings$ExpertSettingsPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.dialogs.DialogStartNewGame: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$GolfPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.dialogs.DialogInGameHelpMenu: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.Settings$DeveloperOptionsPreferenceFragment: void onCreate(android.os.Bundle)>
+de.tobiasbielefeld.solitaire.ui.about.LicenseFragment: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.ui.manual.ManualUserInterface: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.Settings$AdditionalMovementsPreferenceFragment: void onCreate(android.os.Bundle)>
+de.tobiasbielefeld.solitaire.ui.manual.ManualFeedback: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.ui.manual.ManualMenu: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$Mod3PreferenceFragment: Finished processing of entrypoints after 0 seconds.
+Found 17 reachable methods from <de.tobiasbielefeld.solitaire.ui.about.InformationFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+de.tobiasbielefeld.solitaire.ui.settings.Settings$DeveloperOptionsPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.manual.ManualStartPage: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$YukonPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+Found 4 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onCreate(android.os.Bundle)>
+de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$KlondikePreferenceFragment: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.ui.about.InformationFragment: Finished processing of entrypoints after 0 seconds.
+Found 19 reachable methods from <de.tobiasbielefeld.solitaire.ui.statistics.HighScoresFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.ui.settings.SettingsGames$VegasPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.ui.settings.Settings$AdditionalMovementsPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.ui.manual.ManualStartPage: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.ui.settings.Settings$MenuPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.ui.about.ChangeLogFragment: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.ui.manual.ManualGames: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.ui.statistics.HighScoresFragment: Finished processing of entrypoints after 0 seconds.
+Found 19 reachable methods from <de.tobiasbielefeld.solitaire.ui.statistics.RecentScoresFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+de.tobiasbielefeld.solitaire.ui.statistics.RecentScoresFragment: Finished processing of entrypoints after 0 seconds.
+Found 33 reachable methods from <de.tobiasbielefeld.solitaire.ui.GameSelector: void onCreate(android.os.Bundle)>
+Found 28 reachable methods from <de.tobiasbielefeld.solitaire.ui.statistics.StatisticsFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 38 reachable methods from <de.tobiasbielefeld.solitaire.ui.manual.Manual: void onCreate(android.os.Bundle)>
+Found 31 reachable methods from <de.tobiasbielefeld.solitaire.ui.statistics.StatisticsActivity: void onCreate(android.os.Bundle)>
+Found 42 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.SettingsGames: void onCreate(android.os.Bundle)>
+Found 31 reachable methods from <de.tobiasbielefeld.solitaire.ui.about.AboutActivity: void onCreate(android.os.Bundle)>
+Found 26 reachable methods from <de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onCreate(android.os.Bundle)>
+de.tobiasbielefeld.solitaire.ui.statistics.StatisticsFragment: Finished processing of entrypoints after 0 seconds.
+Found 48 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.Settings: void onCreate(android.os.Bundle)>
+de.tobiasbielefeld.solitaire.ui.manual.Manual: Finished processing of entrypoints after 1 seconds.
+de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: Finished processing of entrypoints after 1 seconds.
+de.tobiasbielefeld.solitaire.ui.GameSelector: Finished processing of entrypoints after 1 seconds.
+de.tobiasbielefeld.solitaire.ui.about.AboutActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <de.tobiasbielefeld.solitaire.ui.statistics.StatisticsActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 4 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onPostCreate(android.os.Bundle)>
+de.tobiasbielefeld.solitaire.ui.settings.SettingsGames: Finished processing of entrypoints after 0 seconds.
+de.tobiasbielefeld.solitaire.ui.statistics.StatisticsActivity: Finished processing of entrypoints after 1 seconds.
+Found 4 reachable methods from <de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onPostCreate(android.os.Bundle)>
+de.tobiasbielefeld.solitaire.ui.settings.Settings: Finished processing of entrypoints after 1 seconds.
+Found 154 reachable methods from <de.tobiasbielefeld.solitaire.ui.GameManager: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<de.tobiasbielefeld.solitaire.ui.GameManager: android.widget.TextView mainTextViewScore>
+de.tobiasbielefeld.solitaire.ui.GameManager: Finished processing of entrypoints after 2 seconds.
+AppController:addText: elementID not found for adding text: elementID: 2131296529
+AppController:addText: elementID not found for adding text: elementID: 2131296259
+AppController:addText: elementID not found for adding text: elementID: 2131296256
+AppController:addText: elementID not found for adding text: elementID: 2131296277
+AppController:addText: elementID not found for adding text: elementID: 2131296269
+AppController:addText: elementID not found for adding text: elementID: 2131296274
+AppController:addText: elementID not found for adding text: elementID: 2131296532
+AppController:addText: elementID not found for adding text: elementID: 2131296531
+AppController:addText: elementID not found for adding text: elementID: 2131296530
+AppController:addText: elementID not found for adding text: elementID: 2131296524
+AppController:addText: elementID not found for adding text: elementID: 2131296534
+AppController:addText: elementID not found for adding text: elementID: 2131296533
+AppsUIElement not found with id: 2131296447
+AppsUIElement not found with id: 2131296435
+AppsUIElement not found with id: 2131296455
+SpecXMLTag not found with id: 2131296455
+SpecXMLTag not found with id: 2131296455
+SpecXMLTag not found with id: 2131296455
+AppsUIElement not found with id: 2131296424
+AppsUIElement not found with id: 2131296447
+AppsUIElement not found with id: 2131296423
+AppsUIElement not found with id: 2131296455
+SpecXMLTag not found with id: 2131296455
+SpecXMLTag not found with id: 2131296455
+SpecXMLTag not found with id: 2131296455
+AppsUIElement not found with id: 2131296372
+AppsUIElement not found with id: 2131296372
+AppsUIElement not found with id: 2131296372
+AppsUIElement not found with id: 2131296372
+Dynamical declared elements, found: 0
+Found 1 callback classes and 1 methods overall
+Found 2 reachable methods from <de.tobiasbielefeld.solitaire.ui.statistics.StatisticsActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+de.tobiasbielefeld.solitaire.ui.statistics.StatisticsActivity: Finished processing of entrypoints after 0 seconds.
+UI Analysis has run for 5.772969761 seconds
+Entry point creation has run for 0.003312356 seconds
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 31 callback methods from UI Analysis
+Found 31 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Method: <de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onDestroy()>, ElementId: 100921, GlobalId: 100921 -> 0 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.about.AboutActivity: void onCreate(android.os.Bundle)>, ElementId: 100898, GlobalId: 100898 -> 6 APIs
+Method: <de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onPause()>, ElementId: 100902, GlobalId: 100902 -> 1 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.GameManager: void onCreate(android.os.Bundle)>, ElementId: 100917, GlobalId: 100917 -> 18 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.GameSelector: void onCreate(android.os.Bundle)>, ElementId: 100904, GlobalId: 100904 -> 23 APIs
+Method: <de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onResume()>, ElementId: 100916, GlobalId: 100916 -> 6 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.settings.Settings: void onResume()>, ElementId: 100910, GlobalId: 100910 -> 6 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.settings.SettingsGames: void onPause()>, ElementId: 100922, GlobalId: 100922 -> 1 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.statistics.StatisticsActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 100763, GlobalId: 100763 -> 0 APIs
+Method: <de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onPause()>, ElementId: 100905, GlobalId: 100905 -> 1 APIs
+Method: <de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onResume()>, ElementId: 100900, GlobalId: 100900 -> 6 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.GameSelector: void onResume()>, ElementId: 100906, GlobalId: 100906 -> 21 APIs
+Method: <de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onPause()>, ElementId: 100899, GlobalId: 100899 -> 1 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.settings.SettingsGames: void onCreate(android.os.Bundle)>, ElementId: 100920, GlobalId: 100920 -> 10 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.GameManager: void onPause()>, ElementId: 100918, GlobalId: 100918 -> 7 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.settings.SettingsGames: void onResume()>, ElementId: 100923, GlobalId: 100923 -> 6 APIs
+Method: <de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onResume()>, ElementId: 100903, GlobalId: 100903 -> 6 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.manual.Manual: void onCreate(android.os.Bundle)>, ElementId: 100901, GlobalId: 100901 -> 13 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.settings.Settings: void onCreate(android.os.Bundle)>, ElementId: 100907, GlobalId: 100907 -> 12 APIs
+Method: <de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onPause()>, ElementId: 100915, GlobalId: 100915 -> 1 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onPostResume()>, ElementId: 100926, GlobalId: 100926 -> 0 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onPostResume()>, ElementId: 100913, GlobalId: 100913 -> 0 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.GameManager: void onResume()>, ElementId: 100919, GlobalId: 100919 -> 12 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onDestroy()>, ElementId: 100908, GlobalId: 100908 -> 0 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.settings.Settings: void onPause()>, ElementId: 100909, GlobalId: 100909 -> 1 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onStop()>, ElementId: 100924, GlobalId: 100924 -> 0 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100912, GlobalId: 100912 -> 0 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.statistics.StatisticsActivity: void onCreate(android.os.Bundle)>, ElementId: 100914, GlobalId: 100914 -> 6 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100925, GlobalId: 100925 -> 0 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onStop()>, ElementId: 100911, GlobalId: 100911 -> 0 APIs
+Method: <de.tobiasbielefeld.solitaire.ui.statistics.StatisticsActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131492866, GlobalId: 2131492866 -> 0 APIs
+Found 1 partitions
+Reachability Analysis has run for 0.573768601 seconds

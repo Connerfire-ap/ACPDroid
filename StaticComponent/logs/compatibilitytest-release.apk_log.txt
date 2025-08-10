@@ -1,0 +1,81 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+XMLLayoutFile:setName: couldn't find id of name: data_extraction_rules
+XMLLayoutFile:setName: couldn't find id of name: standalone_badge_gravity_top_start
+XMLLayoutFile:setName: couldn't find id of name: standalone_badge_gravity_bottom_start
+XMLLayoutFile:setName: couldn't find id of name: backup_rules
+XMLLayoutFile:setName: couldn't find id of name: standalone_badge_offset
+XMLLayoutFile:setName: couldn't find id of name: standalone_badge
+XMLLayoutFile:setName: couldn't find id of name: standalone_badge_gravity_bottom_end
+XMLLayoutFile:setName: couldn't find id of name: nav_graph
+Found 4 entrypoint classes and 4 methods in overall
+Found 3 reachable methods from <com.example.compatibilitytest.MainActivity3: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.example.compatibilitytest.MainActivity4: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.example.compatibilitytest.MainActivity: void onCreate(android.os.Bundle)>
+Found 7 reachable methods from <com.example.compatibilitytest.MainActivity2: void onCreate(android.os.Bundle)>
+com.example.compatibilitytest.MainActivity3: Finished processing of entrypoints after 0 seconds.
+com.example.compatibilitytest.MainActivity: Finished processing of entrypoints after 0 seconds.
+com.example.compatibilitytest.MainActivity4: Finished processing of entrypoints after 0 seconds.
+Error ListenerSwitch: Doesn't find SearchedReg in initializationOfField: $r10 = $r3.<com.example.compatibilitytest.databinding.ActivityMain2Binding: com.google.android.material.floatingactionbutton.FloatingActionButton fab>
+com.example.compatibilitytest.MainActivity2: Finished processing of entrypoints after 0 seconds.
+Dynamical declared elements, found: 0
+Found 3 callback classes and 6 methods overall
+Found 1 reachable methods from <com.example.compatibilitytest.MainActivity4$1: void onClick(android.view.View)>
+Found 1 reachable methods from <com.example.compatibilitytest.MainActivity$2: void onClick(android.view.View)>
+Found 1 reachable methods from <com.example.compatibilitytest.MainActivity3$1: void onClick(android.view.View)>
+Found 1 reachable methods from <com.example.compatibilitytest.MainActivity4$2: void onClick(android.view.View)>
+com.example.compatibilitytest.MainActivity4: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.example.compatibilitytest.MainActivity$1: void onClick(android.view.View)>
+Found 1 reachable methods from <com.example.compatibilitytest.MainActivity3$2: void onClick(android.view.View)>
+com.example.compatibilitytest.MainActivity3: Finished processing of entrypoints after 0 seconds.
+com.example.compatibilitytest.MainActivity: Finished processing of entrypoints after 0 seconds.
+UI Analysis has run for 3.90147666 seconds
+Entry point creation has run for 0.003542602 seconds
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 42 callback methods from UI Analysis
+Found 42 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Method: <androidx.activity.ComponentActivity: void onSaveInstanceState(android.os.Bundle)>, ElementId: 100160, GlobalId: 100160 -> 0 APIs
+Method: <com.example.compatibilitytest.MainActivity4: void onCreate(android.os.Bundle)>, ElementId: 100163, GlobalId: 100163 -> 0 APIs
+Method: <com.example.compatibilitytest.MainActivity3: void onCreate(android.os.Bundle)>, ElementId: 100154, GlobalId: 100154 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onStop()>, ElementId: 100168, GlobalId: 100168 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onDestroy()>, ElementId: 100155, GlobalId: 100155 -> 0 APIs
+Method: <androidx.fragment.app.FragmentActivity: void onPause()>, ElementId: 100156, GlobalId: 100156 -> 0 APIs
+Method: <androidx.fragment.app.FragmentActivity: void onResume()>, ElementId: 100157, GlobalId: 100157 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onPostResume()>, ElementId: 100162, GlobalId: 100162 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onStart()>, ElementId: 100158, GlobalId: 100158 -> 0 APIs
+Method: <com.example.compatibilitytest.MainActivity3$2: void onClick(android.view.View)>, ElementId: 2131230929, GlobalId: 2131230929 -> 0 APIs
+Method: <com.example.compatibilitytest.MainActivity$1: void onClick(android.view.View)>, ElementId: 2131230927, GlobalId: 2131230927 -> 3 APIs
+Method: <com.example.compatibilitytest.MainActivity: void onCreate(android.os.Bundle)>, ElementId: 100145, GlobalId: 100145 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onPostResume()>, ElementId: 100180, GlobalId: 100180 -> 0 APIs
+Method: <com.example.compatibilitytest.MainActivity4$2: void onClick(android.view.View)>, ElementId: 2131230825, GlobalId: 2131230825 -> 1 APIs
+Method: <androidx.fragment.app.FragmentActivity: void onPause()>, ElementId: 100165, GlobalId: 100165 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100170, GlobalId: 100170 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100152, GlobalId: 100152 -> 0 APIs
+Method: <com.example.compatibilitytest.MainActivity4$1: void onClick(android.view.View)>, ElementId: 2131230824, GlobalId: 2131230824 -> 1 APIs
+Method: <androidx.activity.ComponentActivity: void onSaveInstanceState(android.os.Bundle)>, ElementId: 100178, GlobalId: 100178 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onDestroy()>, ElementId: 100164, GlobalId: 100164 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onStop()>, ElementId: 100150, GlobalId: 100150 -> 0 APIs
+Method: <androidx.activity.ComponentActivity: void onSaveInstanceState(android.os.Bundle)>, ElementId: 100151, GlobalId: 100151 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onDestroy()>, ElementId: 100146, GlobalId: 100146 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onStop()>, ElementId: 100177, GlobalId: 100177 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onStop()>, ElementId: 100159, GlobalId: 100159 -> 0 APIs
+Method: <com.example.compatibilitytest.MainActivity2: void onCreate(android.os.Bundle)>, ElementId: 100172, GlobalId: 100172 -> 3 APIs
+Method: <com.example.compatibilitytest.MainActivity$2: void onClick(android.view.View)>, ElementId: 2131230928, GlobalId: 2131230928 -> 0 APIs
+Method: <androidx.fragment.app.FragmentActivity: void onResume()>, ElementId: 100166, GlobalId: 100166 -> 0 APIs
+Method: <androidx.fragment.app.FragmentActivity: void onResume()>, ElementId: 100148, GlobalId: 100148 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onPostResume()>, ElementId: 100153, GlobalId: 100153 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onPostResume()>, ElementId: 100171, GlobalId: 100171 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onStart()>, ElementId: 100149, GlobalId: 100149 -> 0 APIs
+Method: <androidx.fragment.app.FragmentActivity: void onPause()>, ElementId: 100147, GlobalId: 100147 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100179, GlobalId: 100179 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onStart()>, ElementId: 100167, GlobalId: 100167 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onStart()>, ElementId: 100176, GlobalId: 100176 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100161, GlobalId: 100161 -> 0 APIs
+Method: <androidx.fragment.app.FragmentActivity: void onPause()>, ElementId: 100174, GlobalId: 100174 -> 0 APIs
+Method: <androidx.fragment.app.FragmentActivity: void onResume()>, ElementId: 100175, GlobalId: 100175 -> 0 APIs
+Method: <androidx.activity.ComponentActivity: void onSaveInstanceState(android.os.Bundle)>, ElementId: 100169, GlobalId: 100169 -> 0 APIs
+Method: <androidx.appcompat.app.AppCompatActivity: void onDestroy()>, ElementId: 100173, GlobalId: 100173 -> 0 APIs
+Method: <com.example.compatibilitytest.MainActivity3$1: void onClick(android.view.View)>, ElementId: 2131230823, GlobalId: 2131230823 -> 2 APIs
+Found 1 partitions
+Reachability Analysis has run for 0.489681429 seconds

@@ -1,0 +1,152 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+XMLLayoutFile:setName: couldn't find id of name: nnf_provider_paths
+/home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/GoalExplorer/sootOutput/nyaapantsu-debug/res/navigation folder does not exists!
+Found 21 entrypoint classes and 46 methods in overall
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.BaseActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.BaseActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.TorrentViewFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.AboutFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.SearchFragment: void onCreate(android.os.Bundle)>
+com.nononsenseapps.filepicker.NewItemFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.BaseActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.SettingsFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.TorrentListFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <com.nononsenseapps.filepicker.AbstractFilePickerFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.UploadFragment: void onCreate(android.os.Bundle)>
+com.nononsenseapps.filepicker.FilePickerFragment: Finished processing of entrypoints after 0 seconds.
+com.nononsenseapps.filepicker.NewFolderFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.RecentFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.ProfileFragment: void onCreate(android.os.Bundle)>
+cat.pantsu.nyaapantsu.ui.fragment.SettingsFragment: Finished processing of entrypoints after 0 seconds.
+Found 3 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.SettingsActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.UploadFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.BaseActivity: void onPostCreate(android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.RecentFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.TorrentListFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.AboutFragment: void onViewCreated(android.view.View,android.os.Bundle)>
+cat.pantsu.nyaapantsu.ui.activity.BaseActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.SearchFragment: void onViewCreated(android.view.View,android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.TorrentViewFragment: void onViewCreated(android.view.View,android.os.Bundle)>
+Found 1 reachable methods from <com.nononsenseapps.filepicker.AbstractFilePickerFragment: void onActivityCreated(android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.ProfileFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.UploadFragment: void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.TorrentViewFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.AboutFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+cat.pantsu.nyaapantsu.ui.activity.SettingsActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.TorrentListFragment: void onViewCreated(android.view.View,android.os.Bundle)>
+cat.pantsu.nyaapantsu.ui.fragment.AboutFragment: Finished processing of entrypoints after 0 seconds.
+Found 10 reachable methods from <com.nononsenseapps.filepicker.AbstractFilePickerActivity: void onCreate(android.os.Bundle)>
+cat.pantsu.nyaapantsu.ui.fragment.TorrentViewFragment: Finished processing of entrypoints after 0 seconds.
+Found 10 reachable methods from <com.nononsenseapps.filepicker.AbstractFilePickerActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.RecentFragment: void onViewCreated(android.view.View,android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.SearchFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.ProfileFragment: void onViewCreated(android.view.View,android.os.Bundle)>
+cat.pantsu.nyaapantsu.ui.fragment.ProfileFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.UploadFragment: void onViewCreated(android.view.View,android.os.Bundle)>
+Found 1 reachable methods from <com.nononsenseapps.filepicker.AbstractFilePickerFragment: void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)>
+Found 7 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.SplashActivity: void onCreate(android.os.Bundle)>
+cat.pantsu.nyaapantsu.ui.fragment.SearchFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.RecentFragment: void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)>
+cat.pantsu.nyaapantsu.ui.fragment.RecentFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.nononsenseapps.filepicker.AbstractFilePickerFragment: void onCreate(android.os.Bundle)>
+cat.pantsu.nyaapantsu.ui.fragment.UploadFragment: Finished processing of entrypoints after 0 seconds.
+com.nononsenseapps.filepicker.AbstractFilePickerFragment: Finished processing of entrypoints after 0 seconds.
+cat.pantsu.nyaapantsu.ui.activity.SplashActivity: Finished processing of entrypoints after 0 seconds.
+com.nononsenseapps.filepicker.AbstractFilePickerActivity: Finished processing of entrypoints after 0 seconds.
+com.nononsenseapps.filepicker.FilePickerActivity: Finished processing of entrypoints after 0 seconds.
+Found 20 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.ProfileActivity: void onCreate(android.os.Bundle)>
+cat.pantsu.nyaapantsu.ui.fragment.TorrentListFragment: Finished processing of entrypoints after 0 seconds.
+Found 21 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.LoginActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.BaseActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.BaseActivity: void onPostCreate(android.os.Bundle)>
+Found 23 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.TorrentActivity: void onCreate(android.os.Bundle)>
+cat.pantsu.nyaapantsu.ui.activity.ProfileActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.BaseActivity: void onPostCreate(android.os.Bundle)>
+cat.pantsu.nyaapantsu.ui.activity.LoginActivity: Finished processing of entrypoints after 0 seconds.
+Found 27 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.HomeActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.BaseActivity: void onPostCreate(android.os.Bundle)>
+cat.pantsu.nyaapantsu.ui.activity.HomeActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.BaseActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.BaseActivity: void onPostCreate(android.os.Bundle)>
+cat.pantsu.nyaapantsu.ui.activity.TorrentActivity: Finished processing of entrypoints after 1 seconds.
+SpecXMLTag not found with id: 2131296366
+AppController:addText: elementID not found for adding text: elementID: 0
+AppsUIElement not found with id: 0
+SpecXMLTag not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+Dynamical declared elements, found: 0
+Found 7 callback classes and 14 methods overall
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.SettingsActivity$onCreate$1: void onClick(android.view.View)>
+Found 1 reachable methods from <com.nononsenseapps.filepicker.AbstractFilePickerFragment$3: void onClick(android.view.View)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.TorrentListFragment$onViewCreated$1: void onClick(android.view.View)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.RecentFragment: boolean onOptionsItemSelected(android.view.MenuItem)>
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.UploadFragment: boolean onOptionsItemSelected(android.view.MenuItem)>
+cat.pantsu.nyaapantsu.ui.activity.SettingsActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.nononsenseapps.filepicker.AbstractFilePickerFragment$4: void onTextChanged(java.lang.CharSequence,int,int,int)>
+cat.pantsu.nyaapantsu.ui.fragment.RecentFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <cat.pantsu.nyaapantsu.ui.fragment.TorrentListFragment$onViewCreated$2: void onClick(android.view.View)>
+Found 1 reachable methods from <com.nononsenseapps.filepicker.AbstractFilePickerFragment$1: void onClick(android.view.View)>
+cat.pantsu.nyaapantsu.ui.fragment.TorrentListFragment: Finished processing of entrypoints after 0 seconds.
+cat.pantsu.nyaapantsu.ui.fragment.UploadFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.nononsenseapps.filepicker.AbstractFilePickerFragment: boolean onOptionsItemSelected(android.view.MenuItem)>
+Found 1 reachable methods from <com.nononsenseapps.filepicker.AbstractFilePickerFragment$4: void afterTextChanged(android.text.Editable)>
+Found 1 reachable methods from <com.nononsenseapps.filepicker.AbstractFilePickerFragment$4: void beforeTextChanged(java.lang.CharSequence,int,int,int)>
+Found 1 reachable methods from <com.nononsenseapps.filepicker.AbstractFilePickerFragment$2: void onClick(android.view.View)>
+com.nononsenseapps.filepicker.AbstractFilePickerFragment: Finished processing of entrypoints after 0 seconds.
+Found 6 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.BaseActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+cat.pantsu.nyaapantsu.ui.activity.BaseActivity: Finished processing of entrypoints after 0 seconds.
+Found 12 reachable methods from <cat.pantsu.nyaapantsu.ui.activity.HomeActivity$onCreate$2: void onClick(android.view.View)>
+cat.pantsu.nyaapantsu.ui.activity.HomeActivity: Finished processing of entrypoints after 0 seconds.
+UI Analysis has run for 6.528849716 seconds
+AppController:createUIElementsFromListener: listener method was not found!!!: <cat.pantsu.nyaapantsu.ui.activity.TorrentActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+AppController:createUIElementsFromListener: listener method was not found!!!: <cat.pantsu.nyaapantsu.ui.activity.LoginActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+AppController:createUIElementsFromListener: listener method was not found!!!: <cat.pantsu.nyaapantsu.ui.activity.ProfileActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+AppController:createUIElementsFromListener: listener method was not found!!!: <cat.pantsu.nyaapantsu.ui.activity.HomeActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+AppController:createUIElementsFromListener: listener method was not found!!!: <cat.pantsu.nyaapantsu.ui.activity.LoginActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+AppController:createUIElementsFromListener: listener method was not found!!!: <cat.pantsu.nyaapantsu.ui.activity.HomeActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+AppController:createUIElementsFromListener: listener method was not found!!!: <cat.pantsu.nyaapantsu.ui.activity.TorrentActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+AppController:createUIElementsFromListener: listener method was not found!!!: <cat.pantsu.nyaapantsu.ui.activity.ProfileActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Entry point creation has run for 0.005793652 seconds
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 30 callback methods from UI Analysis
+Found 30 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Method: <cat.pantsu.nyaapantsu.ui.activity.ProfileActivity: void onCreate(android.os.Bundle)>, ElementId: 100185, GlobalId: 100185 -> 3 APIs
+Method: <cat.pantsu.nyaapantsu.ui.activity.HomeActivity$onCreate$2: void onClick(android.view.View)>, ElementId: 2131296404, GlobalId: 2131296404 -> 2 APIs
+Method: <com.nononsenseapps.filepicker.AbstractFilePickerFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296424, GlobalId: 2131296424 -> 0 APIs
+Method: <com.nononsenseapps.filepicker.AbstractFilePickerFragment$4: void beforeTextChanged(java.lang.CharSequence,int,int,int)>, ElementId: 2131296434, GlobalId: 2131296434 -> 0 APIs
+Method: <cat.pantsu.nyaapantsu.ui.activity.SettingsActivity: void onCreate(android.os.Bundle)>, ElementId: 100182, GlobalId: 100182 -> 1 APIs
+Method: <cat.pantsu.nyaapantsu.ui.activity.BaseActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100181, GlobalId: 100181 -> 0 APIs
+Method: <cat.pantsu.nyaapantsu.ui.activity.HomeActivity: void onCreate(android.os.Bundle)>, ElementId: 100183, GlobalId: 100183 -> 3 APIs
+Method: <cat.pantsu.nyaapantsu.ui.fragment.RecentFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131492868, GlobalId: 2131492868 -> 0 APIs
+Method: <cat.pantsu.nyaapantsu.ui.fragment.TorrentListFragment$onViewCreated$1: void onClick(android.view.View)>, ElementId: 2131296297, GlobalId: 2131296297 -> 2 APIs
+Method: <cat.pantsu.nyaapantsu.ui.activity.BaseActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100190, GlobalId: 100190 -> 0 APIs
+Method: <cat.pantsu.nyaapantsu.ui.activity.LoginActivity: void onCreate(android.os.Bundle)>, ElementId: 100180, GlobalId: 100180 -> 2 APIs
+Method: <com.nononsenseapps.filepicker.AbstractFilePickerFragment$1: void onClick(android.view.View)>, ElementId: 2131296425, GlobalId: 2131296425 -> 0 APIs
+Method: <com.nononsenseapps.filepicker.AbstractFilePickerFragment$3: void onClick(android.view.View)>, ElementId: 2131296428, GlobalId: 2131296428 -> 0 APIs
+Method: <com.nononsenseapps.filepicker.AbstractFilePickerFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131492867, GlobalId: 2131492867 -> 0 APIs
+Method: <com.nononsenseapps.filepicker.AbstractFilePickerFragment$4: void onTextChanged(java.lang.CharSequence,int,int,int)>, ElementId: 2131296434, GlobalId: 2131296434 -> 0 APIs
+Method: <com.nononsenseapps.filepicker.AbstractFilePickerFragment$4: void afterTextChanged(android.text.Editable)>, ElementId: 2131296434, GlobalId: 2131296434 -> 0 APIs
+Method: <cat.pantsu.nyaapantsu.ui.activity.BaseActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100186, GlobalId: 100186 -> 0 APIs
+Method: <cat.pantsu.nyaapantsu.ui.activity.SettingsActivity$onCreate$1: void onClick(android.view.View)>, ElementId: 2131296521, GlobalId: 2131296521 -> 0 APIs
+Method: <cat.pantsu.nyaapantsu.ui.activity.BaseActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131492866, GlobalId: 2131492866 -> 0 APIs
+Method: <cat.pantsu.nyaapantsu.ui.fragment.TorrentListFragment$onViewCreated$2: void onClick(android.view.View)>, ElementId: 2131296297, GlobalId: 2131296297 -> 0 APIs
+Method: <com.nononsenseapps.filepicker.AbstractFilePickerActivity: void onSaveInstanceState(android.os.Bundle)>, ElementId: 100188, GlobalId: 100188 -> 0 APIs
+Method: <com.nononsenseapps.filepicker.AbstractFilePickerActivity: void onCreate(android.os.Bundle)>, ElementId: 100187, GlobalId: 100187 -> 4 APIs
+Method: <cat.pantsu.nyaapantsu.ui.fragment.UploadFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296405, GlobalId: 2131296405 -> 7 APIs
+Method: <cat.pantsu.nyaapantsu.ui.activity.BaseActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100184, GlobalId: 100184 -> 0 APIs
+Method: <cat.pantsu.nyaapantsu.ui.fragment.UploadFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131492865, GlobalId: 2131492865 -> 7 APIs
+Method: <com.nononsenseapps.filepicker.AbstractFilePickerFragment$2: void onClick(android.view.View)>, ElementId: 2131296427, GlobalId: 2131296427 -> 0 APIs
+Method: <cat.pantsu.nyaapantsu.ui.activity.SplashActivity: void onCreate(android.os.Bundle)>, ElementId: 100191, GlobalId: 100191 -> 0 APIs
+Method: <cat.pantsu.nyaapantsu.ui.fragment.RecentFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296314, GlobalId: 2131296314 -> 1 APIs
+Method: <cat.pantsu.nyaapantsu.ui.activity.TorrentActivity: void onCreate(android.os.Bundle)>, ElementId: 100189, GlobalId: 100189 -> 5 APIs
+Method: <cat.pantsu.nyaapantsu.ui.activity.BaseActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296406, GlobalId: 2131296406 -> 1 APIs
+Found 1 partitions
+Reachability Analysis has run for 0.529041906 seconds

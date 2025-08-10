@@ -1,0 +1,187 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+XMLLayoutFile:setName: couldn't find id of name: filepaths
+/home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/GoalExplorer/sootOutput/PassAndroid-3.4.5/res/navigation folder does not exists!
+XMLParserMain:resolveIncludeTags: found XMLLayoutFile that was not parsed: name:notification_media_cancel_action; id:2130903106
+XMLParserMain:resolveIncludeTags: found XMLLayoutFile that was not parsed: name:notification_media_cancel_action; id:2130903106
+Found 19 entrypoint classes and 27 methods in overall
+org.ligi.passandroid.ui.PrefsFragment: Finished processing of entrypoints after 0 seconds.
+org.ligi.passandroid.ui.edit.BarcodeEditController$IntentFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.ligi.passandroid.ui.PassListFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <com.squareup.leakcanary.internal.DisplayLeakActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <org.ligi.passandroid.ui.edit.FieldsEditFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <org.ligi.passandroid.ui.PassViewActivityBase: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.ligi.passandroid.ui.PreferenceActivity: void onCreate(android.os.Bundle)>
+Found 2 reachable methods from <org.ligi.passandroid.ui.TouchImageActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <com.squareup.leakcanary.internal.RequestStoragePermissionActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.ligi.passandroid.ui.PassViewActivityBase: boolean onPrepareOptionsMenu(android.view.Menu)>
+Found 5 reachable methods from <org.ligi.passandroid.ui.HelpActivity: void onCreate(android.os.Bundle)>
+Found 5 reachable methods from <org.ligi.passandroid.ui.quirk_fix.OpenIphoneWebView: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity: void onCreate(android.os.Bundle)>
+Found 13 reachable methods from <org.ligi.passandroid.ui.quirk_fix.URLRewriteActivity: void onCreate(android.os.Bundle)>
+org.ligi.passandroid.ui.PreferenceActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.ligi.passandroid.ui.PassViewActivityBase: boolean onPrepareOptionsMenu(android.view.Menu)>
+com.squareup.leakcanary.internal.RequestStoragePermissionActivity: Finished processing of entrypoints after 0 seconds.
+org.ligi.passandroid.ui.PassListFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.squareup.leakcanary.internal.DisplayLeakActivity: void onCreate(android.os.Bundle)>
+org.ligi.passandroid.ui.TouchImageActivity: Finished processing of entrypoints after 0 seconds.
+com.squareup.leakcanary.internal.DisplayLeakActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.ligi.passandroid.ui.PassViewActivityBase: boolean onCreateOptionsMenu(android.view.Menu)>
+org.ligi.passandroid.ui.edit.FieldsEditFragment: Finished processing of entrypoints after 0 seconds.
+org.ligi.passandroid.ui.quirk_fix.OpenIphoneWebView: Finished processing of entrypoints after 0 seconds.
+org.ligi.passandroid.ui.PassViewActivityBase: Finished processing of entrypoints after 0 seconds.
+Found 14 reachable methods from <org.ligi.passandroid.ui.PassImportActivity: void onCreate(android.os.Bundle)>
+Found 18 reachable methods from <org.ligi.passandroid.ui.PassViewActivity: boolean onPrepareOptionsMenu(android.view.Menu)>
+org.ligi.passandroid.ui.HelpActivity: Finished processing of entrypoints after 0 seconds.
+Found 15 reachable methods from <org.ligi.passandroid.ui.ExtractURLAsIphoneActivity: void onCreate(android.os.Bundle)>
+org.ligi.passandroid.ui.PassImportActivity: Finished processing of entrypoints after 0 seconds.
+org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity: Finished processing of entrypoints after 0 seconds.
+org.ligi.passandroid.ui.quirk_fix.URLRewriteActivity: Finished processing of entrypoints after 0 seconds.
+Found 19 reachable methods from <org.ligi.passandroid.ui.PassListActivity: void onPostCreate(android.os.Bundle)>
+Found 16 reachable methods from <org.ligi.passandroid.ui.FullscreenBarcodeActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.ligi.passandroid.ui.PassViewActivityBase: boolean onCreateOptionsMenu(android.view.Menu)>
+org.ligi.passandroid.ui.FullscreenBarcodeActivity: Finished processing of entrypoints after 0 seconds.
+org.ligi.passandroid.ui.ExtractURLAsIphoneActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.ligi.passandroid.ui.PassListActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 19 reachable methods from <org.ligi.passandroid.ui.PassViewActivity: void onCreate(android.os.Bundle)>
+Found 16 reachable methods from <org.ligi.passandroid.ui.PassViewActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+org.ligi.passandroid.ui.PassViewActivity: Finished processing of entrypoints after 0 seconds.
+Found 94 reachable methods from <org.ligi.passandroid.ui.PassEditActivity: void onCreate(android.os.Bundle)>
+Found 73 reachable methods from <org.ligi.passandroid.ui.PassListActivity: void onCreate(android.os.Bundle)>
+org.ligi.passandroid.ui.PassEditActivity: Finished processing of entrypoints after 1 seconds.
+Found 22 reachable methods from <org.ligi.passandroid.ui.PassListActivity: boolean onPrepareOptionsMenu(android.view.Menu)>
+org.ligi.passandroid.ui.PassListActivity: Finished processing of entrypoints after 1 seconds.
+AppController:addText: elementID not found for adding text: elementID: 0
+AppController:addDataToMenuObject: XMLLayoutFile not found with id: 100116   com.squareup.leakcanary.internal.DisplayLeakActivity {=SearchedEReg: $r3; text: []} static: false activity: com.squareup.leakcanary.internal.DisplayLeakActivity
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+Dynamical declared elements, found: 0
+Found 5 callback classes and 7 methods overall
+Found 1 reachable methods from <org.ligi.passandroid.ui.edit.FieldsEditFragment$onCreateView$3: void onClick(android.view.View)>
+org.ligi.passandroid.ui.edit.FieldsEditFragment: Finished processing of entrypoints after 0 seconds.
+Found 14 reachable methods from <org.ligi.passandroid.ui.BarcodeUIController$1: void onClick(android.view.View)>
+Found 21 reachable methods from <org.ligi.passandroid.ui.PassListActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+org.ligi.passandroid.ui.PassListActivity: Finished processing of entrypoints after 0 seconds.
+Found 14 reachable methods from <org.ligi.passandroid.ui.BarcodeUIController$2: void onClick(android.view.View)>
+org.ligi.passandroid.ui.PassEditActivity: Finished processing of entrypoints after 0 seconds.
+Found 59 reachable methods from <org.ligi.passandroid.ui.PassViewActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Found 58 reachable methods from <org.ligi.passandroid.ui.PassViewActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+org.ligi.passandroid.ui.PassViewActivity: Finished processing of entrypoints after 0 seconds.
+Found 58 reachable methods from <org.ligi.passandroid.ui.PassViewActivityBase: boolean onOptionsItemSelected(android.view.MenuItem)>
+org.ligi.passandroid.ui.PassViewActivityBase: Finished processing of entrypoints after 0 seconds.
+UI Analysis has run for 7.322005176 seconds
+AppController:createUIElementsFromListener: listener method was not found!!!: <org.ligi.passandroid.ui.FullscreenBarcodeActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+AppController:createUIElementsFromListener: listener method was not found!!!: <org.ligi.passandroid.ui.FullscreenBarcodeActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+AppController:createUIElementsFromListener: listener method was not found!!!: <org.ligi.passandroid.ui.FullscreenBarcodeActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+AppController:createUIElementsFromListener: listener method was not found!!!: <org.ligi.passandroid.ui.FullscreenBarcodeActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+AppController:createUIElementsFromListener: listener method was not found!!!: <org.ligi.passandroid.ui.FullscreenBarcodeActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+AppController:createUIElementsFromListener: listener method was not found!!!: <org.ligi.passandroid.ui.FullscreenBarcodeActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Entry point creation has run for 0.004336867 seconds
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 56 callback methods from UI Analysis
+Found 56 callback methods in overall
+java.util.concurrent.ExecutionException: java.lang.NumberFormatException: For input string: ""
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.ReachabilityAnalysis.lambda$null$2(ReachabilityAnalysis.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.StringPropagatorSwitch.processArrayRef(StringPropagatorSwitch.java:163)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.StringPropagatorSwitch.caseAssignStmt(StringPropagatorSwitch.java:143)
+	at soot.jimple.internal.JAssignStmt.apply(JAssignStmt.java:217)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.StringPropagator.run(StringPropagator.java:55)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.StringBuilderSwitch.caseAssignStmt(StringBuilderSwitch.java:58)
+	at soot.jimple.internal.JAssignStmt.apply(JAssignStmt.java:217)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.StringBuilderPropagator.run(StringBuilderPropagator.java:39)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.StringPropagatorSwitch.caseAssignStmt(StringPropagatorSwitch.java:85)
+	at soot.jimple.internal.JAssignStmt.apply(JAssignStmt.java:217)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.StringPropagator.run(StringPropagator.java:55)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.StringBuilderSwitch.caseAssignStmt(StringBuilderSwitch.java:58)
+	at soot.jimple.internal.JAssignStmt.apply(JAssignStmt.java:217)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.StringBuilderPropagator.run(StringBuilderPropagator.java:39)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.UriFinderSwitch.processAssignStmt(UriFinderSwitch.java:106)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.UriFinderSwitch.caseAssignStmt(UriFinderSwitch.java:49)
+	at soot.jimple.internal.JAssignStmt.apply(JAssignStmt.java:217)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.RAHelper.analyzeInvokeExpressionToFindUris(RAHelper.java:167)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.AnalyseIntentSwitch.processUri(AnalyseIntentSwitch.java:210)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.AnalyseIntentSwitch.processInvokeExpr(AnalyseIntentSwitch.java:161)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.AnalyseIntentSwitch.caseInvokeStmt(AnalyseIntentSwitch.java:73)
+	at soot.jimple.internal.JInvokeStmt.apply(JInvokeStmt.java:99)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.AnalyzeIntents.run(AnalyzeIntents.java:51)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:498)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	... 4 more
+
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Method: <org.ligi.passandroid.ui.PassEditActivity: void onPause()>, ElementId: 100139, GlobalId: 100139 -> 0 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131689477, GlobalId: 2131689477 -> 5 APIs
+Method: <org.ligi.passandroid.ui.quirk_fix.OpenIphoneWebView: void onCreate(android.os.Bundle)>, ElementId: 100146, GlobalId: 100146 -> 8 APIs
+Method: <org.ligi.passandroid.ui.PassListActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131624174, GlobalId: 2131624174 -> 1 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131689476, GlobalId: 2131689476 -> 5 APIs
+Method: <org.ligi.passandroid.ui.PassListActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131624173, GlobalId: 2131624173 -> 1 APIs
+Method: <org.ligi.passandroid.ui.PassListActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100160, GlobalId: 100160 -> 0 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131689473, GlobalId: 2131689473 -> 5 APIs
+Method: <org.ligi.passandroid.ui.PassListActivity: void onPause()>, ElementId: 100158, GlobalId: 100158 -> 0 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivityBase: void onPause()>, ElementId: 100155, GlobalId: 100155 -> 0 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131689474, GlobalId: 2131689474 -> 5 APIs
+Method: <org.ligi.passandroid.ui.TouchImageActivity: void onCreate(android.os.Bundle)>, ElementId: 100145, GlobalId: 100145 -> 1 APIs
+Method: <org.ligi.passandroid.ui.PassAndroidActivity: void onResume()>, ElementId: 100150, GlobalId: 100150 -> 0 APIs
+Method: <org.ligi.passandroid.ui.PreferenceActivity: void onCreate(android.os.Bundle)>, ElementId: 100153, GlobalId: 100153 -> 0 APIs
+Method: <org.ligi.passandroid.ui.PassListActivity: void onResume()>, ElementId: 100159, GlobalId: 100159 -> 1 APIs
+Method: <com.squareup.leakcanary.internal.RequestStoragePermissionActivity: void onCreate(android.os.Bundle)>, ElementId: 100164, GlobalId: 100164 -> 1 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131624179, GlobalId: 2131624179 -> 5 APIs
+Method: <org.ligi.passandroid.ui.PassImportActivity: void onCreate(android.os.Bundle)>, ElementId: 100165, GlobalId: 100165 -> 2 APIs
+Method: <org.ligi.tracedroid.sending.TraceDroidEmailSender$3: void onClick(android.content.DialogInterface,int)>, ElementId: -1, GlobalId: 100135 -> 6 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131624178, GlobalId: 2131624178 -> 5 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131624177, GlobalId: 2131624177 -> 5 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131624176, GlobalId: 2131624176 -> 8 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivity: void onCreate(android.os.Bundle)>, ElementId: 100154, GlobalId: 100154 -> 6 APIs
+Method: <org.ligi.passandroid.ui.PassListActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131689472, GlobalId: 2131689472 -> 0 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131624175, GlobalId: 2131624175 -> 5 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivityBase: void onResume()>, ElementId: 100156, GlobalId: 100156 -> 4 APIs
+Method: <org.ligi.tracedroid.sending.TraceDroidEmailSender$1: void onClick(android.content.DialogInterface,int)>, ElementId: -3, GlobalId: 100136 -> 0 APIs
+Method: <com.squareup.leakcanary.internal.DisplayLeakActivity: void onSaveInstanceState(android.os.Bundle)>, ElementId: 100144, GlobalId: 100144 -> 0 APIs
+Method: <org.ligi.passandroid.ui.PassAndroidActivity: void onResume()>, ElementId: 100152, GlobalId: 100152 -> 0 APIs
+Method: <org.ligi.passandroid.ui.PassListActivity: void onCreate(android.os.Bundle)>, ElementId: 100157, GlobalId: 100157 -> 8 APIs
+Method: <org.ligi.passandroid.ui.HelpActivity: void onCreate(android.os.Bundle)>, ElementId: 100140, GlobalId: 100140 -> 1 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131624186, GlobalId: 2131624186 -> 9 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131624187, GlobalId: 2131624187 -> 5 APIs
+Method: <org.ligi.passandroid.ui.edit.FieldsEditFragment$onCreateView$3: void onClick(android.view.View)>, ElementId: 2131624106, GlobalId: 2131624106 -> 0 APIs
+Method: <com.squareup.leakcanary.internal.DisplayLeakActivity: void onCreate(android.os.Bundle)>, ElementId: 100141, GlobalId: 100141 -> 13 APIs
+Method: <org.ligi.passandroid.ui.PassAndroidActivity: void onResume()>, ElementId: 100148, GlobalId: 100148 -> 0 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivityBase: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131624176, GlobalId: 2131624176 -> 8 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivityBase: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131624175, GlobalId: 2131624175 -> 5 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivityBase: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131624178, GlobalId: 2131624178 -> 5 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivityBase: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131624177, GlobalId: 2131624177 -> 5 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivityBase: void onPause()>, ElementId: 100162, GlobalId: 100162 -> 0 APIs
+Method: <org.ligi.passandroid.ui.FullscreenBarcodeActivity: void onCreate(android.os.Bundle)>, ElementId: 100161, GlobalId: 100161 -> 1 APIs
+Method: <org.ligi.passandroid.ui.ExtractURLAsIphoneActivity: void onCreate(android.os.Bundle)>, ElementId: 100149, GlobalId: 100149 -> 11 APIs
+Method: <com.squareup.leakcanary.internal.DisplayLeakActivity: void onResume()>, ElementId: 100143, GlobalId: 100143 -> 1 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivityBase: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131624179, GlobalId: 2131624179 -> 5 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131624180, GlobalId: 2131624180 -> 5 APIs
+Method: <org.ligi.tracedroid.sending.TraceDroidEmailSender$2: void onClick(android.content.DialogInterface,int)>, ElementId: -2, GlobalId: 100134 -> 0 APIs
+Method: <org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity: void onCreate(android.os.Bundle)>, ElementId: 100151, GlobalId: 100151 -> 1 APIs
+Method: <org.ligi.passandroid.ui.BarcodeUIController$1: void onClick(android.view.View)>, ElementId: 2131624060, GlobalId: 2131624060 -> 1 APIs
+Method: <org.ligi.passandroid.ui.quirk_fix.URLRewriteActivity: void onCreate(android.os.Bundle)>, ElementId: 100147, GlobalId: 100147 -> 5 APIs
+Method: <org.ligi.passandroid.ui.PassImportActivity$showDeniedDialog$1: void onClick(android.content.DialogInterface,int)>, ElementId: -1, GlobalId: 100137 -> 0 APIs
+Method: <org.ligi.passandroid.ui.PassEditActivity: void onCreate(android.os.Bundle)>, ElementId: 100138, GlobalId: 100138 -> 0 APIs
+Method: <org.ligi.passandroid.ui.BarcodeUIController$2: void onClick(android.view.View)>, ElementId: 2131624058, GlobalId: 2131624058 -> 1 APIs
+Method: <org.ligi.passandroid.ui.PassViewActivityBase: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131689473, GlobalId: 2131689473 -> 5 APIs
+Method: <com.squareup.leakcanary.internal.DisplayLeakActivity: void onDestroy()>, ElementId: 100142, GlobalId: 100142 -> 0 APIs
+Method: <org.ligi.passandroid.ui.FullscreenBarcodeActivity: void onResume()>, ElementId: 100163, GlobalId: 100163 -> 15 APIs
+Found 1 partitions
+Reachability Analysis has run for 0.593208067 seconds

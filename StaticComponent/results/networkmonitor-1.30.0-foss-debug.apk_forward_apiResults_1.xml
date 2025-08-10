@@ -1,0 +1,3101 @@
+<map>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100194</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.log.LogActivity</declaringSootClass>
+          <elementID>100194</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>4</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: android.view.ViewTreeObserver getViewTreeObserver()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: void setBackgroundColor(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100193</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.email.EmailHelpActivity</declaringSootClass>
+          <elementID>100193</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.email.EmailHelpActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>5</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: void setBackgroundColor(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.email.EmailHelpActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: void loadUrl(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.email.EmailHelpActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: android.webkit.WebSettings getSettings()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.email.EmailHelpActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebSettings: void setDefaultFontSize(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.email.EmailHelpActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.email.EmailHelpActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296289</globalId>
+          <parentId>100179</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</declaringSootClass>
+          <elementID>2131296289</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Mobile profile (CDMA)</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>2</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String[] getStringArray(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.TextView: void setEnabled(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100210</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</declaringSootClass>
+          <elementID>100210</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>10</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: java.util.List getSelectedColumns()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String[] getStringArray(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.provider.NetMonColumns: java.lang.String[] getDefaultVisibleColumnNames(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.res.Resources getResources()&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.provider.NetMonColumns: java.lang.String[] getDefaultVisibleColumnNames(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: void &lt;init&gt;(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.Context getApplicationContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences getInstance(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.lang.String getPackageName()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectedFieldsAdapter: void &lt;init&gt;(android.support.v4.app.FragmentActivity)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: int getIdentifier(java.lang.String,java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectedFieldsAdapter: void &lt;init&gt;(android.support.v4.app.FragmentActivity)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectedFieldsAdapter: void &lt;init&gt;(android.support.v4.app.FragmentActivity)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296464</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>default_value</declaringSootClass>
+          <elementID>2131296464</elementID>
+          <intentFilters/>
+          <kindOfElement>TextView</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLibrariesClicked(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>3rd party libraries</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>2</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int w(java.lang.String,java.lang.String,java.lang.Throwable)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLibrariesClicked(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLibrariesClicked(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296288</globalId>
+          <parentId>100179</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</declaringSootClass>
+          <elementID>2131296288</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Location profile</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>2</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.TextView: void setEnabled(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String[] getStringArray(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100192</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity</declaringSootClass>
+          <elementID>100192</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>7</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: int getIdentifier(java.lang.String,java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.provider.NetMonColumns: java.lang.String getColumnLabel(android.content.Context,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.provider.NetMonColumns: java.lang.String getColumnLabel(android.content.Context,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.res.Resources getResources()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.provider.NetMonColumns: java.lang.String getColumnLabel(android.content.Context,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.lang.String getPackageName()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.provider.NetMonColumns: java.lang.String getColumnLabel(android.content.Context,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int,java.lang.Object[])&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100196</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.log.LogActivity</declaringSootClass>
+          <elementID>100196</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void onPause()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>3</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.bus.NetMonBus: org.greenrobot.eventbus.EventBus getBus()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void onPause()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void onPause()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100195</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.log.LogActivity</declaringSootClass>
+          <elementID>100195</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void onDestroy()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>4</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void onDestroy()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebSettings: void setDisplayZoomControls(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void onDestroy()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: android.webkit.WebSettings getSettings()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void onDestroy()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: android.view.ViewParent getParent()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void onDestroy()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100207</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity</declaringSootClass>
+          <elementID>100207</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>10</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: void &lt;init&gt;(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.Context getApplicationContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences getInstance(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: int getIntPreference(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int,java.lang.Object[])&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity: void updatePreferenceSummary(java.lang.String,int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;android.os.AsyncTask: android.os.AsyncTask execute(java.lang.Object[])&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.media.Ringtone: java.lang.String getTitle(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;android.os.AsyncTask: android.os.AsyncTask execute(java.lang.Object[])&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.media.RingtoneManager: android.media.Ringtone getRingtone(android.content.Context,android.net.Uri)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;android.os.AsyncTask: android.os.AsyncTask execute(java.lang.Object[])&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity: void updatePreferenceSummary(java.lang.String,int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: void setStringPreference(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.media.RingtoneManager: android.net.Uri getDefaultUri(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: void setDefaultNotificationSoundUri()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296291</globalId>
+          <parentId>100179</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</declaringSootClass>
+          <elementID>2131296291</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>WiFi profile</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>2</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.TextView: void setEnabled(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String[] getStringArray(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100199</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.dbops.ui.GnuplotSettingsActivity</declaringSootClass>
+          <elementID>100199</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.dbops.ui.GnuplotSettingsActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>7</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: int getIdentifier(java.lang.String,java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.provider.NetMonColumns: java.lang.String getColumnLabel(android.content.Context,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.provider.NetMonColumns: java.lang.String getColumnLabel(android.content.Context,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.res.Resources getResources()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.provider.NetMonColumns: java.lang.String getColumnLabel(android.content.Context,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.lang.String getPackageName()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.provider.NetMonColumns: java.lang.String getColumnLabel(android.content.Context,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int,java.lang.Object[])&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dbops.ui.GnuplotSettingsActivity: void updateFilterPreferenceTitle(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.TextView: void setText(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dbops.ui.GnuplotSettingsActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dbops.ui.GnuplotSettingsActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131492866</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</declaringSootClass>
+          <elementID>2131492866</elementID>
+          <intentFilters/>
+          <kindOfElement></kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296290</globalId>
+          <parentId>100179</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</declaringSootClass>
+          <elementID>2131296290</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Mobile profile (GSM)</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>2</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String[] getStringArray(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.TextView: void setEnabled(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100202</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.email.EmailPreferencesActivity</declaringSootClass>
+          <elementID>100202</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.email.EmailPreferencesActivity: void onStart()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.email.EmailPreferencesActivity: void onStart()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100209</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity</declaringSootClass>
+          <elementID>100209</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity: void onStop()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.bus.NetMonBus: org.greenrobot.eventbus.EventBus getBus()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100200</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.about.AboutActivity</declaringSootClass>
+          <elementID>100200</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.about.AboutActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>8</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.about.AboutActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.about.AboutActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: int getInteger(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.Theme: void tintCompoundDrawables(android.content.Context,android.widget.TextView)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.TextView: android.graphics.drawable.Drawable[] getCompoundDrawables()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.Theme: void tintCompoundDrawables(android.content.Context,android.widget.TextView)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.about.AboutActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.lang.String getPackageName()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.about.AboutActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int,java.lang.Object[])&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.about.AboutActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.text.SpannableString: void setSpan(java.lang.Object,int,int,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.about.AboutActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100198</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.about.LicenseActivity</declaringSootClass>
+          <elementID>100198</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.about.LicenseActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296287</globalId>
+          <parentId>100180</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</declaringSootClass>
+          <elementID>2131296287</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Select none</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.TextView: void setEnabled(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296285</globalId>
+          <parentId>100179</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</declaringSootClass>
+          <elementID>2131296285</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Select all</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.TextView: void setEnabled(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296276</globalId>
+          <parentId>100178</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.log.LogActivity</declaringSootClass>
+          <elementID>2131296276</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Freeze header (beta)</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>10</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: boolean getFreezeHtmlTableHeader()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: void &lt;init&gt;(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.Context getApplicationContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences getInstance(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: void setBooleanPreference(java.lang.String,java.lang.Boolean)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: int getHeight()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void loadHTMLFile()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void loadHTMLFile()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void loadHTMLFile()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.animation.AnimationUtils: android.view.animation.Animation loadAnimation(android.content.Context,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void startRefreshIconAnimation()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void loadHTMLFile()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296275</globalId>
+          <parentId>100178</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.log.LogActivity</declaringSootClass>
+          <elementID>2131296275</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Number of rows</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>5</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String[] getStringArray(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dialog.PreferenceDialog: android.app.Dialog showPreferenceChoiceDialog(android.content.Context,java.lang.String,java.lang.String,int,int,int,ca.rmen.android.networkmonitor.app.dialog.PreferenceDialog$PreferenceChoiceDialogListener)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dialog.PreferenceDialog: android.app.Dialog showPreferenceChoiceDialog(android.content.Context,java.lang.String,java.lang.String,int,java.lang.String[],int,ca.rmen.android.networkmonitor.app.dialog.PreferenceDialog$PreferenceChoiceDialogListener)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dialog.PreferenceDialog: android.app.Dialog showPreferenceChoiceDialog(android.content.Context,java.lang.String,java.lang.String,int,java.lang.String[],int,ca.rmen.android.networkmonitor.app.dialog.PreferenceDialog$PreferenceChoiceDialogListener)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dialog.PreferenceDialog: android.app.Dialog showPreferenceChoiceDialog(android.content.Context,java.lang.String,java.lang.String,int,java.lang.String[],int,ca.rmen.android.networkmonitor.app.dialog.PreferenceDialog$PreferenceChoiceDialogListener)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296271</globalId>
+          <parentId>100178</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.log.LogActivity</declaringSootClass>
+          <elementID>2131296271</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Clear log file</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>5</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showConfirmDialog(android.support.v4.app.FragmentActivity,java.lang.CharSequence,java.lang.CharSequence,int,android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Bundle: void putCharSequence(java.lang.String,java.lang.CharSequence)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showConfirmDialog(android.support.v4.app.FragmentActivity,java.lang.CharSequence,java.lang.CharSequence,int,android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Bundle: void putBundle(java.lang.String,android.os.Bundle)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showConfirmDialog(android.support.v4.app.FragmentActivity,java.lang.CharSequence,java.lang.CharSequence,int,android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296270</globalId>
+          <parentId>100178</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.log.LogActivity</declaringSootClass>
+          <elementID>2131296270</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Cell id format</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>5</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String[] getStringArray(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dialog.PreferenceDialog: android.app.Dialog showPreferenceChoiceDialog(android.content.Context,java.lang.String,java.lang.String,int,int,int,ca.rmen.android.networkmonitor.app.dialog.PreferenceDialog$PreferenceChoiceDialogListener)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dialog.PreferenceDialog: android.app.Dialog showPreferenceChoiceDialog(android.content.Context,java.lang.String,java.lang.String,int,java.lang.String[],int,ca.rmen.android.networkmonitor.app.dialog.PreferenceDialog$PreferenceChoiceDialogListener)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dialog.PreferenceDialog: android.app.Dialog showPreferenceChoiceDialog(android.content.Context,java.lang.String,java.lang.String,int,java.lang.String[],int,ca.rmen.android.networkmonitor.app.dialog.PreferenceDialog$PreferenceChoiceDialogListener)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dialog.PreferenceDialog: android.app.Dialog showPreferenceChoiceDialog(android.content.Context,java.lang.String,java.lang.String,int,java.lang.String[],int,ca.rmen.android.networkmonitor.app.dialog.PreferenceDialog$PreferenceChoiceDialogListener)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296287</globalId>
+          <parentId>100180</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity</declaringSootClass>
+          <elementID>2131296287</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Select none</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>2</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.AdapterView: int getCount()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.AbsListView: void setItemChecked(int,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100190</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity</declaringSootClass>
+          <elementID>100190</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity: void onStop()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>8</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity: void onStop()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferences: boolean isEnabled()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.io.File getCacheDir()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.util.FileUtil: java.io.File getCacheFile(android.content.Context,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Environment: java.lang.String getExternalStorageState()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.util.FileUtil: java.io.File getCacheFile(android.content.Context,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.io.File getExternalCacheDir()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.util.FileUtil: java.io.File getCacheFile(android.content.Context,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferences: ca.rmen.android.networkmonitor.app.speedtest.SpeedTestDownloadConfig getDownloadConfig(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferences: void disable()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity: void onStop()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296285</globalId>
+          <parentId>100179</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity</declaringSootClass>
+          <elementID>2131296285</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Select all</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>2</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.AbsListView: void setItemChecked(int,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.AdapterView: int getCount()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100212</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.savetostorage.SaveToStorageActivity</declaringSootClass>
+          <elementID>100212</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.savetostorage.SaveToStorageActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>7</int>
+        <st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+          <api>
+            <signature>&lt;android.support.v4.app.FragmentActivity: void startActivityForResult(android.content.Intent,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.savetostorage.SaveToStorageActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+          <classNameReg></classNameReg>
+          <actionTargets/>
+          <action>android.intent.action.CREATE_DOCUMENT</action>
+          <extras/>
+        </st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.os.Parcelable getParcelableExtra(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.savetostorage.SaveToStorageActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Looper: android.os.Looper getMainLooper()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.savetostorage.SaveToStorage: void displayErrorToast(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: java.lang.String getType()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.savetostorage.SaveToStorageActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.savetostorage.SaveToStorageActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.savetostorage.SaveToStorageActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.Uri: java.lang.String getLastPathSegment()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.savetostorage.SaveToStorageActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100205</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.main.MainActivity</declaringSootClass>
+          <elementID>100205</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.main.MainActivity: void onStart()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.bus.NetMonBus: org.greenrobot.eventbus.EventBus getBus()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100189</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity</declaringSootClass>
+          <elementID>100189</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity: void onStart()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity: void onStart()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100197</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.log.LogActivity</declaringSootClass>
+          <elementID>100197</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void onResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>3</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void onResume()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void onResume()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.bus.NetMonBus: org.greenrobot.eventbus.EventBus getBus()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100204</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.main.MainActivity</declaringSootClass>
+          <elementID>100204</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.main.MainActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string>ca.rmen.android.networkmonitor.app.service.NetMonService</string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>5</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.StrictMode: void setThreadPolicy(android.os.StrictMode$ThreadPolicy)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.main.MainActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: boolean isServiceEnabled()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: void &lt;init&gt;(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.Context getApplicationContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences getInstance(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.main.MainActivity: void requestPermissions()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100211</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</declaringSootClass>
+          <elementID>100211</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: void onDestroy()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296381</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>default_value</declaringSootClass>
+          <elementID>2131296381</elementID>
+          <intentFilters/>
+          <kindOfElement>Button</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: void onOk(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>OK</string>
+            </entry>
+            <entry>
+              <string>ca.rmen.android.networkmonitor.app.dbops.ui.GnuplotSettingsActivity</string>
+              <string>Export</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>4</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.AdapterView: int getCount()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: void onOk(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.AbsListView: android.util.SparseBooleanArray getCheckedItemPositions()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: void onOk(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: void onOk(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.Adapter: java.lang.Object getItem(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: void onOk(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296286</globalId>
+          <parentId>100178</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.log.LogActivity</declaringSootClass>
+          <elementID>2131296286</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Fields to monitor</string>
+            </entry>
+          </text>
+        </default>
+        <string>ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity</string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>11</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: java.util.List getSelectedColumns()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String[] getStringArray(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.provider.NetMonColumns: java.lang.String[] getDefaultVisibleColumnNames(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.res.Resources getResources()&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.provider.NetMonColumns: java.lang.String[] getDefaultVisibleColumnNames(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: void &lt;init&gt;(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.Context getApplicationContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences getInstance(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.lang.String getPackageName()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectedFieldsAdapter: void &lt;init&gt;(android.support.v4.app.FragmentActivity)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: int getIdentifier(java.lang.String,java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectedFieldsAdapter: void &lt;init&gt;(android.support.v4.app.FragmentActivity)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.SelectedFieldsAdapter: void &lt;init&gt;(android.support.v4.app.FragmentActivity)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296463</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>default_value</declaringSootClass>
+          <elementID>2131296463</elementID>
+          <intentFilters/>
+          <kindOfElement>TextView</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLegalClicked(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>License/disclaimer</string>
+            </entry>
+          </text>
+        </default>
+        <string>ca.rmen.android.networkmonitor.app.about.LicenseActivity</string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296284</globalId>
+          <parentId>100178</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.log.LogActivity</declaringSootClass>
+          <elementID>2131296284</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Clear all filters</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>5</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showConfirmDialog(android.support.v4.app.FragmentActivity,java.lang.CharSequence,java.lang.CharSequence,int,android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Bundle: void putCharSequence(java.lang.String,java.lang.CharSequence)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showConfirmDialog(android.support.v4.app.FragmentActivity,java.lang.CharSequence,java.lang.CharSequence,int,android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Bundle: void putBundle(java.lang.String,android.os.Bundle)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showConfirmDialog(android.support.v4.app.FragmentActivity,java.lang.CharSequence,java.lang.CharSequence,int,android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100191</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity</declaringSootClass>
+          <elementID>100191</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>5</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: android.webkit.WebSettings getSettings()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: void setBackgroundColor(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: void loadUrl(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebSettings: void setDefaultFontSize(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296283</globalId>
+          <parentId>100178</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.log.LogActivity</declaringSootClass>
+          <elementID>2131296283</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Refresh</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>9</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: boolean getFreezeHtmlTableHeader()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: void &lt;init&gt;(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.Context getApplicationContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences getInstance(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: int getHeight()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void loadHTMLFile()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void loadHTMLFile()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void loadHTMLFile()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.animation.AnimationUtils: android.view.animation.Animation loadAnimation(android.content.Context,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void startRefreshIconAnimation()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: void loadHTMLFile()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100201</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.email.EmailPreferencesActivity</declaringSootClass>
+          <elementID>100201</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.email.EmailPreferencesActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>5</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.email.EmailPreferencesActivity: void updatePreferenceSummary(java.lang.CharSequence,int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: long getLong(java.lang.String,long)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.email.EmailPreferences: long getLastEmailSent()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.email.EmailPreferences: void &lt;init&gt;(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int,java.lang.Object[])&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.email.EmailPreferencesActivity: void updatePreferenceSummary(java.lang.CharSequence,int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.email.EmailPreferencesActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131492864</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity</declaringSootClass>
+          <elementID>2131492864</elementID>
+          <intentFilters/>
+          <kindOfElement></kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296465</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>default_value</declaringSootClass>
+          <elementID>2131296465</elementID>
+          <intentFilters/>
+          <kindOfElement>TextView</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLegalClicked(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>&quot;Privacy policy:
+https://github.com/caarmen/network-monitor/blob/master/PRIVACY.md&quot;</string>
+            </entry>
+          </text>
+        </default>
+        <string>ca.rmen.android.networkmonitor.app.about.LicenseActivity</string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100208</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity</declaringSootClass>
+          <elementID>100208</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity: void onStart()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity: void onStart()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296309</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>default_value</declaringSootClass>
+          <elementID>2131296309</elementID>
+          <intentFilters/>
+          <kindOfElement>Button</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: void onCancel(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Cancel</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: void onCancel(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100206</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.main.MainActivity</declaringSootClass>
+          <elementID>100206</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.main.MainActivity: void onStop()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.bus.NetMonBus: org.greenrobot.eventbus.EventBus getBus()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100188</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity</declaringSootClass>
+          <elementID>100188</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>16</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int,java.lang.Object[])&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity: void updatePreferenceSummary(java.lang.CharSequence,int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: void &lt;init&gt;(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.Context getApplicationContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences getInstance(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int w(java.lang.String,java.lang.String,java.lang.Throwable)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestDownload: ca.rmen.android.networkmonitor.app.speedtest.SpeedTestResult download(ca.rmen.android.networkmonitor.app.speedtest.SpeedTestDownloadConfig)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.TrafficStats: long getTotalRxBytes()&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestDownload: ca.rmen.android.networkmonitor.app.speedtest.SpeedTestResult download(ca.rmen.android.networkmonitor.app.speedtest.SpeedTestDownloadConfig)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int d(java.lang.String,java.lang.String,java.lang.Throwable)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestDownload: ca.rmen.android.networkmonitor.app.speedtest.SpeedTestResult download(ca.rmen.android.networkmonitor.app.speedtest.SpeedTestDownloadConfig)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestDownload: ca.rmen.android.networkmonitor.app.speedtest.SpeedTestResult download(ca.rmen.android.networkmonitor.app.speedtest.SpeedTestDownloadConfig)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.io.File getCacheDir()&gt;</signature>
+          </api>
+          <depthMethodLevel>9</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.util.FileUtil: java.io.File getCacheFile(android.content.Context,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Environment: java.lang.String getExternalStorageState()&gt;</signature>
+          </api>
+          <depthMethodLevel>9</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.util.FileUtil: java.io.File getCacheFile(android.content.Context,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.io.File getExternalCacheDir()&gt;</signature>
+          </api>
+          <depthMethodLevel>9</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.util.FileUtil: java.io.File getCacheFile(android.content.Context,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: long getLong(java.lang.String,long)&gt;</signature>
+          </api>
+          <depthMethodLevel>9</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestDownload: ca.rmen.android.networkmonitor.app.speedtest.SpeedTestResult read(android.content.SharedPreferences)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: int getInt(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>9</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestDownload: ca.rmen.android.networkmonitor.app.speedtest.SpeedTestResult read(android.content.SharedPreferences)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)&gt;</signature>
+          </api>
+          <depthMethodLevel>8</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestDownload: void save(android.content.SharedPreferences,ca.rmen.android.networkmonitor.app.speedtest.SpeedTestResult)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>8</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestDownload: void save(android.content.SharedPreferences,ca.rmen.android.networkmonitor.app.speedtest.SpeedTestResult)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.prefs.NetMonPreferences: int getIntPreference(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100203</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.email.EmailPreferencesActivity</declaringSootClass>
+          <elementID>100203</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.email.EmailPreferencesActivity: void onStop()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.email.EmailPreferencesActivity: void onStop()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296307</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>default_value</declaringSootClass>
+          <elementID>2131296307</elementID>
+          <intentFilters/>
+          <kindOfElement>Button</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity: void playStoreClicked(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>I want more…</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>2</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity: void playStoreClicked(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+        <st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+          <api>
+            <signature>&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity: void playStoreClicked(android.view.View)&gt;</callerSignature>
+          <classNameReg></classNameReg>
+          <actionTargets/>
+          <data>https://play.google.com/store/search?c=apps&amp;q=speed test</data>
+          <action>android.intent.action.VIEW</action>
+          <extras/>
+        </st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131492865</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.log.LogActivity</declaringSootClass>
+          <elementID>2131492865</elementID>
+          <intentFilters/>
+          <kindOfElement></kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296308</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>default_value</declaringSootClass>
+          <elementID>2131296308</elementID>
+          <intentFilters/>
+          <kindOfElement>Button</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity: void okClicked(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Good enough!</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity: void okClicked(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296292</globalId>
+          <parentId>100178</parentId>
+          <declaringSootClass>ca.rmen.android.networkmonitor.app.log.LogActivity</declaringSootClass>
+          <elementID>2131296292</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Share log file</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>5</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showChoiceDialog(android.support.v4.app.FragmentActivity,java.lang.String,java.lang.CharSequence[],int,int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Bundle: void putCharSequenceArray(java.lang.String,java.lang.CharSequence[])&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: void showChoiceDialog(android.support.v4.app.FragmentActivity,java.lang.String,java.lang.CharSequence[],int,int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String[] getStringArray(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+</map>

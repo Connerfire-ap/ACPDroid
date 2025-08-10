@@ -1,0 +1,44 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+/home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/GoalExplorer/sootOutput/duckduckgo-0.6.0-debug/res/xml folder does not exists!
+/home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/GoalExplorer/sootOutput/duckduckgo-0.6.0-debug/res/navigation folder does not exists!
+Found 4 entrypoint classes and 5 methods in overall
+Found 2 reachable methods from <com.duckduckgo.app.global.DuckDuckGoActivity: void onCreate(android.os.Bundle)>
+Found 6 reachable methods from <com.duckduckgo.app.home.HomeActivity: void onCreate(android.os.Bundle)>
+Found 7 reachable methods from <com.duckduckgo.app.browser.BrowserActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+com.duckduckgo.app.global.DuckDuckGoActivity: Finished processing of entrypoints after 0 seconds.
+com.duckduckgo.app.home.HomeActivity: Finished processing of entrypoints after 0 seconds.
+Found 20 reachable methods from <com.duckduckgo.app.privacymonitor.ui.PrivacyDashboardActivity: void onCreate(android.os.Bundle)>
+com.duckduckgo.app.privacymonitor.ui.PrivacyDashboardActivity: Finished processing of entrypoints after 0 seconds.
+Found 48 reachable methods from <com.duckduckgo.app.browser.BrowserActivity: void onCreate(android.os.Bundle)>
+com.duckduckgo.app.browser.BrowserActivity: Finished processing of entrypoints after 0 seconds.
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+AppsUIElement not found with id: 0
+Dynamical declared elements, found: 0
+Found 1 callback classes and 1 methods overall
+Found 18 reachable methods from <com.duckduckgo.app.browser.BrowserActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+com.duckduckgo.app.browser.BrowserActivity: Finished processing of entrypoints after 0 seconds.
+UI Analysis has run for 5.10206873 seconds
+Entry point creation has run for 0.004020777 seconds
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 10 callback methods from UI Analysis
+Found 10 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Method: <com.duckduckgo.app.home.HomeActivity: void onCreate(android.os.Bundle)>, ElementId: 100070, GlobalId: 100070 -> 0 APIs
+Method: <com.duckduckgo.app.privacymonitor.ui.PrivacyDashboardActivity: void onCreate(android.os.Bundle)>, ElementId: 100066, GlobalId: 100066 -> 0 APIs
+Method: <com.duckduckgo.app.browser.BrowserActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131230799, GlobalId: 2131230799 -> 0 APIs
+Method: <com.duckduckgo.app.browser.BrowserActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131230852, GlobalId: 2131230852 -> 0 APIs
+Method: <com.duckduckgo.app.browser.BrowserActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131230753, GlobalId: 2131230753 -> 0 APIs
+Method: <com.duckduckgo.app.browser.BrowserActivity: void onSaveInstanceState(android.os.Bundle)>, ElementId: 100068, GlobalId: 100068 -> 1 APIs
+Method: <com.duckduckgo.app.browser.BrowserActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131427328, GlobalId: 2131427328 -> 0 APIs
+Method: <com.duckduckgo.app.browser.BrowserActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131230848, GlobalId: 2131230848 -> 1 APIs
+Method: <com.duckduckgo.app.browser.BrowserActivity: void onRestoreInstanceState(android.os.Bundle)>, ElementId: 100069, GlobalId: 100069 -> 2 APIs
+Method: <com.duckduckgo.app.browser.BrowserActivity: void onCreate(android.os.Bundle)>, ElementId: 100067, GlobalId: 100067 -> 10 APIs
+Found 1 partitions
+Reachability Analysis has run for 0.446012303 seconds

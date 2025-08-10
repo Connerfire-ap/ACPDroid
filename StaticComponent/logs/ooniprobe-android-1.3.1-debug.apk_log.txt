@@ -1,0 +1,147 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+/home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/GoalExplorer/sootOutput/ooniprobe-android-1.3.1-debug/res/xml folder does not exists!
+/home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/GoalExplorer/sootOutput/ooniprobe-android-1.3.1-debug/res/navigation folder does not exists!
+Found 19 entrypoint classes and 33 methods in overall
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.IConsentPage4Fragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.PastTestsFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.IConsentPage2Fragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.TestInfoFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.IConsentPage3Fragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.RunTestsFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.SettingsFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.activity.RunTestActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.ResultFragment: void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.AboutFragment: void onCreate(android.os.Bundle)>
+Found 2 reachable methods from <org.openobservatory.ooniprobe.fragment.TestLogFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.IConsentPage5Fragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.IConsentPage1Fragment: void onCreate(android.os.Bundle)>
+Found 5 reachable methods from <org.openobservatory.ooniprobe.activity.NotificationDialog: void onCreate(android.os.Bundle)>
+Found 11 reachable methods from <org.openobservatory.ooniprobe.fragment.ResultListFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 8 reachable methods from <org.openobservatory.ooniprobe.activity.InformedConsentActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.AboutFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.IConsentPage1Fragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.IConsentPage2Fragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.RunTestsFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.IConsentPage5Fragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.TestInfoFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.IConsentPage3Fragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.IConsentPage4Fragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 11 reachable methods from <org.openobservatory.ooniprobe.activity.BrowserActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.SettingsFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+org.openobservatory.ooniprobe.fragment.IConsentPage5Fragment: Finished processing of entrypoints after 0 seconds.
+org.openobservatory.ooniprobe.fragment.RunTestsFragment: Finished processing of entrypoints after 0 seconds.
+org.openobservatory.ooniprobe.fragment.IConsentPage3Fragment: Finished processing of entrypoints after 0 seconds.
+org.openobservatory.ooniprobe.fragment.IConsentPage2Fragment: Finished processing of entrypoints after 0 seconds.
+org.openobservatory.ooniprobe.fragment.IConsentPage4Fragment: Finished processing of entrypoints after 0 seconds.
+org.openobservatory.ooniprobe.fragment.AboutFragment: Finished processing of entrypoints after 0 seconds.
+org.openobservatory.ooniprobe.fragment.IConsentPage1Fragment: Finished processing of entrypoints after 0 seconds.
+org.openobservatory.ooniprobe.activity.NotificationDialog: Finished processing of entrypoints after 0 seconds.
+Found 14 reachable methods from <org.openobservatory.ooniprobe.activity.ResultActivity: void onCreate(android.os.Bundle)>
+Found 5 reachable methods from <org.openobservatory.ooniprobe.fragment.ResultFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+org.openobservatory.ooniprobe.fragment.TestInfoFragment: Finished processing of entrypoints after 0 seconds.
+org.openobservatory.ooniprobe.fragment.TestLogFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.PastTestsFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.PastTestsFragment: void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)>
+org.openobservatory.ooniprobe.fragment.PastTestsFragment: Finished processing of entrypoints after 0 seconds.
+org.openobservatory.ooniprobe.activity.InformedConsentActivity: Finished processing of entrypoints after 0 seconds.
+org.openobservatory.ooniprobe.fragment.ResultFragment: Finished processing of entrypoints after 0 seconds.
+Found 19 reachable methods from <org.openobservatory.ooniprobe.activity.RunTestActivity: void onCreate(android.os.Bundle)>
+org.openobservatory.ooniprobe.fragment.SettingsFragment: Finished processing of entrypoints after 0 seconds.
+Found 27 reachable methods from <org.openobservatory.ooniprobe.activity.MainActivity: void onCreate(android.os.Bundle)>
+org.openobservatory.ooniprobe.activity.BrowserActivity: Finished processing of entrypoints after 0 seconds.
+org.openobservatory.ooniprobe.fragment.ResultListFragment: Finished processing of entrypoints after 0 seconds.
+org.openobservatory.ooniprobe.activity.ResultActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.openobservatory.ooniprobe.activity.MainActivity: void onPostCreate(android.os.Bundle)>
+org.openobservatory.ooniprobe.activity.MainActivity: Finished processing of entrypoints after 0 seconds.
+org.openobservatory.ooniprobe.activity.RunTestActivity: Finished processing of entrypoints after 0 seconds.
+Dynamical declared elements, found: 0
+Found 12 callback classes and 27 methods overall
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.PastTestsFragment$1: void onClick(android.view.View)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.IConsentPage1Fragment$1: void onClick(android.view.View)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.IConsentPage2Fragment$1: void onClick(android.view.View)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.IConsentPage4Fragment$1: void onClick(android.view.View)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.AboutFragment$2: void onClick(android.view.View)>
+org.openobservatory.ooniprobe.fragment.IConsentPage2Fragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.openobservatory.ooniprobe.activity.RunTestActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.IConsentPage5Fragment$1: void onClick(android.view.View)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.IConsentPage3Fragment$1: void onClick(android.view.View)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.SettingsFragment$6: void beforeTextChanged(java.lang.CharSequence,int,int,int)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.TestInfoFragment$1: void onClick(android.view.View)>
+org.openobservatory.ooniprobe.fragment.PastTestsFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.AboutFragment$1: void onClick(android.view.View)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.IConsentPage3Fragment$2: void onClick(android.view.View)>
+org.openobservatory.ooniprobe.fragment.IConsentPage3Fragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.SettingsFragment$4: void onCheckedChanged(android.widget.CompoundButton,boolean)>
+org.openobservatory.ooniprobe.fragment.AboutFragment: Finished processing of entrypoints after 0 seconds.
+org.openobservatory.ooniprobe.fragment.IConsentPage5Fragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.SettingsFragment$7: void onCheckedChanged(android.widget.CompoundButton,boolean)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.SettingsFragment$8: void onClick(android.view.View)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.TestInfoFragment$2: void onClick(android.view.View)>
+org.openobservatory.ooniprobe.fragment.TestInfoFragment: Finished processing of entrypoints after 0 seconds.
+org.openobservatory.ooniprobe.fragment.IConsentPage4Fragment: Finished processing of entrypoints after 0 seconds.
+org.openobservatory.ooniprobe.fragment.IConsentPage1Fragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.SettingsFragment$6: void afterTextChanged(android.text.Editable)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.SettingsFragment$3: void onCheckedChanged(android.widget.CompoundButton,boolean)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.SettingsFragment$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.SettingsFragment$9: void onCheckedChanged(android.widget.CompoundButton,boolean)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.SettingsFragment$6: void onTextChanged(java.lang.CharSequence,int,int,int)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.fragment.SettingsFragment$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>
+org.openobservatory.ooniprobe.fragment.SettingsFragment: Finished processing of entrypoints after 0 seconds.
+Found 13 reachable methods from <org.openobservatory.ooniprobe.activity.MainActivity$DrawerItemClickListener: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>
+Found 8 reachable methods from <org.openobservatory.ooniprobe.activity.BrowserActivity: void onClick(android.view.View)>
+org.openobservatory.ooniprobe.activity.BrowserActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.openobservatory.ooniprobe.activity.MainActivity$1: void onDrawerOpened(android.view.View)>
+Found 1 reachable methods from <org.openobservatory.ooniprobe.activity.MainActivity$1: void onDrawerClosed(android.view.View)>
+org.openobservatory.ooniprobe.activity.MainActivity: Finished processing of entrypoints after 0 seconds.
+Found 168 reachable methods from <org.openobservatory.ooniprobe.activity.RunTestActivity$6: void onClick(android.view.View)>
+org.openobservatory.ooniprobe.activity.RunTestActivity: Finished processing of entrypoints after 1 seconds.
+UI Analysis has run for 5.845334505 seconds
+Entry point creation has run for 0.003480979 seconds
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 41 callback methods from UI Analysis
+Found 41 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Method: <org.openobservatory.ooniprobe.fragment.SettingsFragment$4: void onCheckedChanged(android.widget.CompoundButton,boolean)>, ElementId: 2131230906, GlobalId: 2131230906 -> 3 APIs
+Method: <org.openobservatory.ooniprobe.fragment.SettingsFragment$6: void onTextChanged(java.lang.CharSequence,int,int,int)>, ElementId: 2131230837, GlobalId: 2131230837 -> 0 APIs
+Method: <org.openobservatory.ooniprobe.activity.NotificationDialog: void onCreate(android.os.Bundle)>, ElementId: 100127, GlobalId: 100127 -> 3 APIs
+Method: <org.openobservatory.ooniprobe.activity.ResultActivity: void onCreate(android.os.Bundle)>, ElementId: 100126, GlobalId: 100126 -> 5 APIs
+Method: <org.openobservatory.ooniprobe.activity.BrowserActivity: void onClick(android.view.View)>, ElementId: 2131230962, GlobalId: 2131230962 -> 4 APIs
+Method: <org.openobservatory.ooniprobe.activity.RunTestActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131230777, GlobalId: 2131230777 -> 0 APIs
+Method: <org.openobservatory.ooniprobe.activity.BrowserActivity: void onClick(android.view.View)>, ElementId: 2131230909, GlobalId: 2131230909 -> 4 APIs
+Method: <org.openobservatory.ooniprobe.fragment.SettingsFragment$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>, ElementId: 2131230773, GlobalId: 2131230773 -> 1 APIs
+Method: <org.openobservatory.ooniprobe.activity.MainActivity$1: void onDrawerOpened(android.view.View)>, ElementId: 2131230794, GlobalId: 2131230794 -> 0 APIs
+Method: <org.openobservatory.ooniprobe.fragment.AboutFragment$2: void onClick(android.view.View)>, ElementId: 2131230866, GlobalId: 2131230866 -> 9 APIs
+Method: <org.openobservatory.ooniprobe.fragment.SettingsFragment$6: void beforeTextChanged(java.lang.CharSequence,int,int,int)>, ElementId: 2131230837, GlobalId: 2131230837 -> 0 APIs
+Method: <org.openobservatory.ooniprobe.fragment.SettingsFragment$3: void onCheckedChanged(android.widget.CompoundButton,boolean)>, ElementId: 2131230772, GlobalId: 2131230772 -> 1 APIs
+Method: <org.openobservatory.ooniprobe.fragment.IConsentPage3Fragment$1: void onClick(android.view.View)>, ElementId: 2131230850, GlobalId: 2131230850 -> 0 APIs
+Method: <org.openobservatory.ooniprobe.fragment.TestInfoFragment$1: void onClick(android.view.View)>, ElementId: 2131230823, GlobalId: 2131230823 -> 9 APIs
+Method: <org.openobservatory.ooniprobe.fragment.IConsentPage1Fragment$1: void onClick(android.view.View)>, ElementId: 2131230850, GlobalId: 2131230850 -> 0 APIs
+Method: <org.openobservatory.ooniprobe.activity.BrowserActivity: void onCreate(android.os.Bundle)>, ElementId: 100124, GlobalId: 100124 -> 17 APIs
+Method: <org.openobservatory.ooniprobe.fragment.SettingsFragment$9: void onCheckedChanged(android.widget.CompoundButton,boolean)>, ElementId: 2131230774, GlobalId: 2131230774 -> 2 APIs
+Method: <org.openobservatory.ooniprobe.fragment.SettingsFragment$6: void afterTextChanged(android.text.Editable)>, ElementId: 2131230837, GlobalId: 2131230837 -> 0 APIs
+Method: <org.openobservatory.ooniprobe.fragment.SettingsFragment$7: void onCheckedChanged(android.widget.CompoundButton,boolean)>, ElementId: 2131230830, GlobalId: 2131230830 -> 7 APIs
+Method: <org.openobservatory.ooniprobe.activity.BrowserActivity: void onClick(android.view.View)>, ElementId: 2131230977, GlobalId: 2131230977 -> 0 APIs
+Method: <org.openobservatory.ooniprobe.activity.BrowserActivity: void onClick(android.view.View)>, ElementId: 2131230978, GlobalId: 2131230978 -> 0 APIs
+Method: <org.openobservatory.ooniprobe.activity.RunTestActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131427328, GlobalId: 2131427328 -> 0 APIs
+Method: <org.openobservatory.ooniprobe.fragment.IConsentPage3Fragment$2: void onClick(android.view.View)>, ElementId: 2131230823, GlobalId: 2131230823 -> 9 APIs
+Method: <org.openobservatory.ooniprobe.activity.BrowserActivity: void onClick(android.view.View)>, ElementId: 2131230979, GlobalId: 2131230979 -> 0 APIs
+Method: <org.openobservatory.ooniprobe.activity.MainActivity: void onCreate(android.os.Bundle)>, ElementId: 100120, GlobalId: 100120 -> 18 APIs
+Method: <org.openobservatory.ooniprobe.activity.MainActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100122, GlobalId: 100122 -> 0 APIs
+Method: <org.openobservatory.ooniprobe.fragment.SettingsFragment$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>, ElementId: 2131230771, GlobalId: 2131230771 -> 1 APIs
+Method: <org.openobservatory.ooniprobe.fragment.SettingsFragment$8: void onClick(android.view.View)>, ElementId: 2131230831, GlobalId: 2131230831 -> 0 APIs
+Method: <org.openobservatory.ooniprobe.activity.RunTestActivity: void onCreate(android.os.Bundle)>, ElementId: 100125, GlobalId: 100125 -> 9 APIs
+Method: <org.openobservatory.ooniprobe.fragment.IConsentPage4Fragment$1: void onClick(android.view.View)>, ElementId: 2131230850, GlobalId: 2131230850 -> 5 APIs
+Method: <org.openobservatory.ooniprobe.fragment.TestInfoFragment$2: void onClick(android.view.View)>, ElementId: 2131230882, GlobalId: 2131230882 -> 7 APIs
+Method: <org.openobservatory.ooniprobe.activity.MainActivity$DrawerItemClickListener: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>, ElementId: 2131230825, GlobalId: 2131230825 -> 4 APIs
+Method: <org.openobservatory.ooniprobe.fragment.PastTestsFragment$1: void onClick(android.view.View)>, ElementId: 2131230882, GlobalId: 2131230882 -> 4 APIs
+Method: <org.openobservatory.ooniprobe.fragment.IConsentPage2Fragment$1: void onClick(android.view.View)>, ElementId: 2131230850, GlobalId: 2131230850 -> 0 APIs
+Method: <org.openobservatory.ooniprobe.activity.InformedConsentActivity: void onCreate(android.os.Bundle)>, ElementId: 100123, GlobalId: 100123 -> 1 APIs
+Method: <org.openobservatory.ooniprobe.activity.MainActivity$1: void onDrawerClosed(android.view.View)>, ElementId: 2131230794, GlobalId: 2131230794 -> 0 APIs
+Method: <org.openobservatory.ooniprobe.activity.RunTestActivity$6: void onClick(android.view.View)>, ElementId: 2131230882, GlobalId: 2131230882 -> 22 APIs
+Method: <org.openobservatory.ooniprobe.fragment.AboutFragment$1: void onClick(android.view.View)>, ElementId: 2131230823, GlobalId: 2131230823 -> 9 APIs
+Method: <org.openobservatory.ooniprobe.fragment.IConsentPage5Fragment$1: void onClick(android.view.View)>, ElementId: 2131230850, GlobalId: 2131230850 -> 2 APIs
+Method: <org.openobservatory.ooniprobe.activity.BrowserActivity: void onClick(android.view.View)>, ElementId: 2131230980, GlobalId: 2131230980 -> 5 APIs
+Method: <org.openobservatory.ooniprobe.activity.MainActivity: void onResume()>, ElementId: 100121, GlobalId: 100121 -> 2 APIs
+Found 1 partitions
+Reachability Analysis has run for 0.473377873 seconds

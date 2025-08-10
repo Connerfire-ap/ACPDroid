@@ -1,0 +1,1133 @@
+<map>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100163</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity4</declaringSootClass>
+          <elementID>100163</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;com.example.compatibilitytest.MainActivity4: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100160</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity3</declaringSootClass>
+          <elementID>100160</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.activity.ComponentActivity: void onSaveInstanceState(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100168</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity4</declaringSootClass>
+          <elementID>100168</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onStop()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100154</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity3</declaringSootClass>
+          <elementID>100154</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;com.example.compatibilitytest.MainActivity3: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100155</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity3</declaringSootClass>
+          <elementID>100155</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onDestroy()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100157</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity3</declaringSootClass>
+          <elementID>100157</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.fragment.app.FragmentActivity: void onResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100156</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity3</declaringSootClass>
+          <elementID>100156</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.fragment.app.FragmentActivity: void onPause()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100162</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity3</declaringSootClass>
+          <elementID>100162</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onPostResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230927</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity</declaringSootClass>
+          <elementID>2131230927</elementID>
+          <intentFilters/>
+          <kindOfElement>Button</kindOfElement>
+          <handlerMethod>&lt;com.example.compatibilitytest.MainActivity$1: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>gotoAC2</string>
+            </entry>
+          </text>
+        </default>
+        <string>com.example.compatibilitytest.MainActivity2</string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>3</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.LayoutInflater getLayoutInflater()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.example.compatibilitytest.MainActivity2: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String getResourceName(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.example.compatibilitytest.databinding.ActivityMain2Binding: com.example.compatibilitytest.databinding.ActivityMain2Binding bind(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: android.content.res.Resources getResources()&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.example.compatibilitytest.databinding.ActivityMain2Binding: com.example.compatibilitytest.databinding.ActivityMain2Binding bind(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230929</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity3</declaringSootClass>
+          <elementID>2131230929</elementID>
+          <intentFilters/>
+          <kindOfElement>Button</kindOfElement>
+          <handlerMethod>&lt;com.example.compatibilitytest.MainActivity3$2: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>gotoAC4</string>
+            </entry>
+          </text>
+        </default>
+        <string>com.example.compatibilitytest.MainActivity4</string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100158</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity3</declaringSootClass>
+          <elementID>100158</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onStart()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230825</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity4</declaringSootClass>
+          <elementID>2131230825</elementID>
+          <intentFilters/>
+          <kindOfElement>Button</kindOfElement>
+          <handlerMethod>&lt;com.example.compatibilitytest.MainActivity4$2: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Button5</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.Context getApplicationContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.example.compatibilitytest.MainActivity4$2: void onClick(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100180</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity2</declaringSootClass>
+          <elementID>100180</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onPostResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100145</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity</declaringSootClass>
+          <elementID>100145</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;com.example.compatibilitytest.MainActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100170</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity4</declaringSootClass>
+          <elementID>100170</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onPostCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100165</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity4</declaringSootClass>
+          <elementID>100165</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.fragment.app.FragmentActivity: void onPause()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100152</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity</declaringSootClass>
+          <elementID>100152</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onPostCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230824</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity4</declaringSootClass>
+          <elementID>2131230824</elementID>
+          <intentFilters/>
+          <kindOfElement>Button</kindOfElement>
+          <handlerMethod>&lt;com.example.compatibilitytest.MainActivity4$1: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Button4</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.Context getApplicationContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.example.compatibilitytest.MainActivity4$1: void onClick(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100178</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity2</declaringSootClass>
+          <elementID>100178</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.activity.ComponentActivity: void onSaveInstanceState(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100164</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity4</declaringSootClass>
+          <elementID>100164</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onDestroy()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100150</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity</declaringSootClass>
+          <elementID>100150</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onStop()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100177</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity2</declaringSootClass>
+          <elementID>100177</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onStop()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100146</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity</declaringSootClass>
+          <elementID>100146</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onDestroy()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100151</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity</declaringSootClass>
+          <elementID>100151</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.activity.ComponentActivity: void onSaveInstanceState(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100172</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity2</declaringSootClass>
+          <elementID>100172</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;com.example.compatibilitytest.MainActivity2: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>3</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.LayoutInflater getLayoutInflater()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.example.compatibilitytest.MainActivity2: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String getResourceName(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.example.compatibilitytest.databinding.ActivityMain2Binding: com.example.compatibilitytest.databinding.ActivityMain2Binding bind(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: android.content.res.Resources getResources()&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.example.compatibilitytest.databinding.ActivityMain2Binding: com.example.compatibilitytest.databinding.ActivityMain2Binding bind(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100159</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity3</declaringSootClass>
+          <elementID>100159</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onStop()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230928</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity</declaringSootClass>
+          <elementID>2131230928</elementID>
+          <intentFilters/>
+          <kindOfElement>Button</kindOfElement>
+          <handlerMethod>&lt;com.example.compatibilitytest.MainActivity$2: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>gotoAC3</string>
+            </entry>
+          </text>
+        </default>
+        <string>com.example.compatibilitytest.MainActivity3</string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100166</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity4</declaringSootClass>
+          <elementID>100166</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.fragment.app.FragmentActivity: void onResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100148</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity</declaringSootClass>
+          <elementID>100148</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.fragment.app.FragmentActivity: void onResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100153</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity</declaringSootClass>
+          <elementID>100153</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onPostResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100171</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity4</declaringSootClass>
+          <elementID>100171</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onPostResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100149</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity</declaringSootClass>
+          <elementID>100149</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onStart()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100167</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity4</declaringSootClass>
+          <elementID>100167</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onStart()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100179</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity2</declaringSootClass>
+          <elementID>100179</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onPostCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100147</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity</declaringSootClass>
+          <elementID>100147</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.fragment.app.FragmentActivity: void onPause()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100176</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity2</declaringSootClass>
+          <elementID>100176</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onStart()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100161</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity3</declaringSootClass>
+          <elementID>100161</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onPostCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100175</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity2</declaringSootClass>
+          <elementID>100175</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.fragment.app.FragmentActivity: void onResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100174</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity2</declaringSootClass>
+          <elementID>100174</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.fragment.app.FragmentActivity: void onPause()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100169</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity4</declaringSootClass>
+          <elementID>100169</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.activity.ComponentActivity: void onSaveInstanceState(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100173</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity2</declaringSootClass>
+          <elementID>100173</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;androidx.appcompat.app.AppCompatActivity: void onDestroy()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230823</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.example.compatibilitytest.MainActivity3</declaringSootClass>
+          <elementID>2131230823</elementID>
+          <intentFilters/>
+          <kindOfElement>Button</kindOfElement>
+          <handlerMethod>&lt;com.example.compatibilitytest.MainActivity3$1: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Button3</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>2</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.content.Intent putExtras(android.os.Bundle)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.example.compatibilitytest.MainActivity3$1: void onClick(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+        <st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.example.compatibilitytest.MainActivity3$1: void onClick(android.view.View)&gt;</callerSignature>
+          <classNameReg></classNameReg>
+          <actionTargets/>
+          <extras/>
+        </st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+</map>

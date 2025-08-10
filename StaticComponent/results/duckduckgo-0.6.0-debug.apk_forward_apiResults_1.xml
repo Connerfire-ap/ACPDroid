@@ -1,0 +1,391 @@
+<map>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100070</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.duckduckgo.app.home.HomeActivity</declaringSootClass>
+          <elementID>100070</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;com.duckduckgo.app.home.HomeActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230799</globalId>
+          <parentId>100062</parentId>
+          <declaringSootClass>com.duckduckgo.app.browser.BrowserActivity</declaringSootClass>
+          <elementID>2131230799</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;com.duckduckgo.app.browser.BrowserActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Forward</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100066</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.duckduckgo.app.privacymonitor.ui.PrivacyDashboardActivity</declaringSootClass>
+          <elementID>100066</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;com.duckduckgo.app.privacymonitor.ui.PrivacyDashboardActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230753</globalId>
+          <parentId>100062</parentId>
+          <declaringSootClass>com.duckduckgo.app.browser.BrowserActivity</declaringSootClass>
+          <elementID>2131230753</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;com.duckduckgo.app.browser.BrowserActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Back</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230852</globalId>
+          <parentId>100062</parentId>
+          <declaringSootClass>com.duckduckgo.app.browser.BrowserActivity</declaringSootClass>
+          <elementID>2131230852</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;com.duckduckgo.app.browser.BrowserActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Refresh</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100068</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.duckduckgo.app.browser.BrowserActivity</declaringSootClass>
+          <elementID>100068</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;com.duckduckgo.app.browser.BrowserActivity: void onSaveInstanceState(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: android.webkit.WebBackForwardList saveState(android.os.Bundle)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.duckduckgo.app.browser.BrowserActivity: void onSaveInstanceState(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131427328</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.duckduckgo.app.browser.BrowserActivity</declaringSootClass>
+          <elementID>2131427328</elementID>
+          <intentFilters/>
+          <kindOfElement></kindOfElement>
+          <handlerMethod>&lt;com.duckduckgo.app.browser.BrowserActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230848</globalId>
+          <parentId>100062</parentId>
+          <declaringSootClass>com.duckduckgo.app.browser.BrowserActivity</declaringSootClass>
+          <elementID>2131230848</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;com.duckduckgo.app.browser.BrowserActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Privacy Dashboard</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+          <api>
+            <signature>&lt;android.support.v4.app.FragmentActivity: void startActivityForResult(android.content.Intent,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.duckduckgo.app.browser.BrowserActivity: void launchPrivacyDashboard()&gt;</callerSignature>
+          <classNameReg></classNameReg>
+          <actionTargets/>
+          <extras/>
+        </st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100069</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.duckduckgo.app.browser.BrowserActivity</declaringSootClass>
+          <elementID>100069</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;com.duckduckgo.app.browser.BrowserActivity: void onRestoreInstanceState(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>2</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: android.webkit.WebBackForwardList restoreState(android.os.Bundle)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.duckduckgo.app.browser.BrowserActivity: void onRestoreInstanceState(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: void onRestoreInstanceState(android.os.Bundle)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.duckduckgo.app.browser.BrowserActivity: void onRestoreInstanceState(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100067</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.duckduckgo.app.browser.BrowserActivity</declaringSootClass>
+          <elementID>100067</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;com.duckduckgo.app.browser.BrowserActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>10</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: void setWebViewClient(android.webkit.WebViewClient)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.duckduckgo.app.browser.BrowserActivity: void configureWebView()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebSettings: void setJavaScriptEnabled(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.duckduckgo.app.browser.BrowserActivity: void configureWebView()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: void setWebChromeClient(android.webkit.WebChromeClient)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.duckduckgo.app.browser.BrowserActivity: void configureWebView()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebSettings: void setUseWideViewPort(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.duckduckgo.app.browser.BrowserActivity: void configureWebView()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebSettings: void setLoadWithOverviewMode(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.duckduckgo.app.browser.BrowserActivity: void configureWebView()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebSettings: void setDisplayZoomControls(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.duckduckgo.app.browser.BrowserActivity: void configureWebView()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebSettings: void setBuiltInZoomControls(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.duckduckgo.app.browser.BrowserActivity: void configureWebView()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: android.webkit.WebSettings getSettings()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.duckduckgo.app.browser.BrowserActivity: void configureWebView()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebSettings: void setSupportZoom(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.duckduckgo.app.browser.BrowserActivity: void configureWebView()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: android.content.Context getContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.duckduckgo.app.global.view.ViewExtensionKt: void showKeyboard(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+</map>

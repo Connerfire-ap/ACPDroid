@@ -1,0 +1,2227 @@
+<map>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100921</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.settings.SettingsGames</declaringSootClass>
+          <elementID>100921</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onDestroy()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100898</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.about.AboutActivity</declaringSootClass>
+          <elementID>100898</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.about.AboutActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>6</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.about.TabsPagerAdapter: void &lt;init&gt;(android.support.v4.app.FragmentManager,android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void setGamePreferences(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void &lt;init&gt;(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: int getInteger(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String[] getStringArray(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100902</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.manual.Manual</declaringSootClass>
+          <elementID>100902</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onPause()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Handler: boolean sendEmptyMessageDelayed(int,long)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onPause()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100917</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.GameManager</declaringSootClass>
+          <elementID>100917</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.GameManager: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>18</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Scores$1: void run()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: boolean getSavedHideScore()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: int getIntExtra(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.GameManager: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: android.view.ViewTreeObserver getViewTreeObserver()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.GameManager: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: java.lang.String getSavedMenuBarPosPortrait()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: float getDimension(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.GameManager: void updateMenuBar()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: android.content.res.Configuration getConfiguration()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.GameManager: void updateMenuBar()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void setGamePreferences(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void &lt;init&gt;(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: int getInteger(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String[] getStringArray(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void saveCalculationAlternativeModeOld()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int e(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.LoadGame: de.tobiasbielefeld.solitaire.games.Game loadClass(android.app.Activity,int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.LoadGame$AllGameInformation: java.lang.String getName(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.graphics.Bitmap: int getWidth()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Bitmaps: android.graphics.Bitmap getStackBackground(int,int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.graphics.Bitmap: int getHeight()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Bitmaps: android.graphics.Bitmap getStackBackground(int,int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Bitmaps: android.graphics.Bitmap getStackBackground(int,int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: int getInt(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: int getSavedMaxNumberUndos()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100904</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.GameSelector</declaringSootClass>
+          <elementID>100904</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.GameSelector: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string>de.tobiasbielefeld.solitaire.ui.GameManager</string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>23</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.Context getApplicationContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.GameSelector: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Scores$1: void run()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: boolean getSavedHideScore()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: int getIntExtra(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.GameManager: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: android.view.ViewTreeObserver getViewTreeObserver()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.GameManager: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: java.lang.String getSavedMenuBarPosPortrait()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: float getDimension(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.GameManager: void updateMenuBar()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: android.content.res.Configuration getConfiguration()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.GameManager: void updateMenuBar()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void setGamePreferences(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void &lt;init&gt;(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: int getInteger(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String[] getStringArray(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void saveCalculationAlternativeModeOld()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int e(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.LoadGame: de.tobiasbielefeld.solitaire.games.Game loadClass(android.app.Activity,int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.LoadGame$AllGameInformation: java.lang.String getName(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.graphics.Bitmap: int getWidth()&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Bitmaps: android.graphics.Bitmap getStackBackground(int,int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.graphics.Bitmap: int getHeight()&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Bitmaps: android.graphics.Bitmap getStackBackground(int,int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Bitmaps: android.graphics.Bitmap getStackBackground(int,int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: int getInt(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: int getSavedMaxNumberUndos()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: boolean getSavedStartWithMenu()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.GameSelector: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: int getInt(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: int getSavedCurrentGame()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void saveCurrentGame(int)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100916</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.statistics.StatisticsActivity</declaringSootClass>
+          <elementID>100916</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>6</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: int getSavedOrientation()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: void setRequestedOrientation(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void setOrientation(android.app.Activity)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: int getInt(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: int getSavedBackgroundVolume()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: boolean getSavedSoundEnabled()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.Window getWindow()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void showOrHideStatusBar(android.app.Activity)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.Window: void setFlags(int,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void showOrHideStatusBar(android.app.Activity)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100910</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.settings.Settings</declaringSootClass>
+          <elementID>100910</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.settings.Settings: void onResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>6</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: void setRequestedOrientation(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.settings.Settings: void setOrientation()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: int getSavedOrientation()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: int getInt(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: int getSavedBackgroundVolume()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: boolean getSavedSoundEnabled()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.Window getWindow()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.settings.Settings: void showOrHideStatusBar()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.Window: void setFlags(int,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.settings.Settings: void showOrHideStatusBar()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100922</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.settings.SettingsGames</declaringSootClass>
+          <elementID>100922</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.settings.SettingsGames: void onPause()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Handler: boolean sendEmptyMessageDelayed(int,long)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.settings.SettingsGames: void onPause()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100763</globalId>
+          <parentId>100762</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.statistics.StatisticsActivity</declaringSootClass>
+          <elementID>100763</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.statistics.StatisticsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Delete all entries!</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100905</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.GameSelector</declaringSootClass>
+          <elementID>100905</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onPause()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Handler: boolean sendEmptyMessageDelayed(int,long)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onPause()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100900</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.about.AboutActivity</declaringSootClass>
+          <elementID>100900</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>6</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: int getSavedOrientation()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: void setRequestedOrientation(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void setOrientation(android.app.Activity)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: int getInt(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: int getSavedBackgroundVolume()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: boolean getSavedSoundEnabled()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.Window getWindow()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void showOrHideStatusBar(android.app.Activity)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.Window: void setFlags(int,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void showOrHideStatusBar(android.app.Activity)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100906</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.GameSelector</declaringSootClass>
+          <elementID>100906</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.GameSelector: void onResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>21</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: void setRequestedOrientation(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void setOrientation(android.app.Activity)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: int getInt(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: int getSavedBackgroundVolume()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: boolean getSavedSoundEnabled()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.Window getWindow()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void showOrHideStatusBar(android.app.Activity)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.Window: void setFlags(int,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void showOrHideStatusBar(android.app.Activity)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.graphics.Bitmap: android.graphics.Bitmap createBitmap(int,int,android.graphics.Bitmap$Config)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Bitmaps: android.graphics.Bitmap putTogether(android.graphics.Bitmap,android.graphics.Bitmap)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.graphics.Bitmap: android.graphics.Bitmap$Config getConfig()&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Bitmaps: android.graphics.Bitmap putTogether(android.graphics.Bitmap,android.graphics.Bitmap)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int e(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Bitmaps: android.graphics.Bitmap getMenu(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.graphics.Bitmap: android.graphics.Bitmap createBitmap(android.graphics.Bitmap,int,int,int,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Bitmaps: android.graphics.Bitmap getMenu(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Bitmaps: android.graphics.Bitmap drawTextToBitmap(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.graphics.Typeface: android.graphics.Typeface create(android.graphics.Typeface,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Bitmaps: android.graphics.Bitmap drawTextToBitmap(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.text.Layout: int getHeight()&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Bitmaps: android.graphics.Bitmap drawTextToBitmap(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.graphics.Bitmap: int getWidth()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Bitmaps: android.graphics.Bitmap getMenu(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.LoadGame$AllGameInformation: java.lang.String getName(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.graphics.Bitmap: int getHeight()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Bitmaps: android.graphics.Bitmap getMenu(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: float getDimension(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.GameSelector: void loadGameList()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: android.content.res.Configuration getConfiguration()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.GameSelector: void loadGameList()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.ImageView: void setImageBitmap(android.graphics.Bitmap)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.GameSelector: void loadGameList()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setLongClickable(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.GameSelector: void loadGameList()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: int getSavedMenuColumnsLandscape()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.ViewGroup: int getChildCount()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.GameSelector: void loadGameList()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100920</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.settings.SettingsGames</declaringSootClass>
+          <elementID>100920</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.settings.SettingsGames: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>10</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void setGamePreferences(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void &lt;init&gt;(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: int getInteger(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String[] getStringArray(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.ListActivity: android.widget.ListView getListView()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.settings.SettingsGames: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void saveKlondikeDrawMode(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: java.lang.String getSavedCanfieldDrawMode()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.Context getApplicationContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.settings.SettingsGames: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: android.view.ViewParent getParent()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.settings.SettingsGames: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100899</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.about.AboutActivity</declaringSootClass>
+          <elementID>100899</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onPause()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Handler: boolean sendEmptyMessageDelayed(int,long)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onPause()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100923</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.settings.SettingsGames</declaringSootClass>
+          <elementID>100923</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.settings.SettingsGames: void onResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>6</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: void setRequestedOrientation(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.settings.SettingsGames: void setOrientation()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: int getSavedOrientation()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: int getInt(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: int getSavedBackgroundVolume()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: boolean getSavedSoundEnabled()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.Window getWindow()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.settings.SettingsGames: void showOrHideStatusBar()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.Window: void setFlags(int,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.settings.SettingsGames: void showOrHideStatusBar()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100918</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.GameManager</declaringSootClass>
+          <elementID>100918</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.GameManager: void onPause()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>7</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Handler: boolean sendEmptyMessageDelayed(int,long)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onPause()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.TextView: java.lang.CharSequence getText()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.games.Calculation: void save()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void putSharedStringList(java.lang.String,java.util.List)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void saveRedealCount(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void saveMovedFirstCard(boolean)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: boolean isDeveloperOptionSavingDisabled()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void saveWinningTime(long)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100907</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.settings.Settings</declaringSootClass>
+          <elementID>100907</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.settings.Settings: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>12</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: boolean getSingleTapAllGames()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void saveLeftHandedMode(boolean)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: java.lang.String getSavedLocale()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void saveLocale(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: android.view.ViewParent getParent()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.settings.Settings: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.Context getApplicationContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.settings.Settings: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.ListActivity: android.widget.ListView getListView()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.settings.Settings: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void setGamePreferences(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void &lt;init&gt;(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: int getInteger(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String[] getStringArray(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100901</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.manual.Manual</declaringSootClass>
+          <elementID>100901</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.manual.Manual: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>13</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void setGamePreferences(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void &lt;init&gt;(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: int getInteger(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String[] getStringArray(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: int getColor(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.manual.Manual: void checkMenuItem(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setBackgroundColor(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.manual.Manual: void checkMenuItem(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.ViewGroup: android.view.View getChildAt(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.manual.Manual: void checkMenuItem(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.manual.Manual: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.Context getApplicationContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.manual.Manual: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.ContextThemeWrapper: android.content.res.Resources getResources()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.SharedData: boolean isLargeTablet(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: boolean getSavedForcedTabletLayout()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: android.content.res.Configuration getConfiguration()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.SharedData: boolean isLargeTablet(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100903</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.manual.Manual</declaringSootClass>
+          <elementID>100903</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>6</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: int getSavedOrientation()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: void setRequestedOrientation(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void setOrientation(android.app.Activity)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: int getInt(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: int getSavedBackgroundVolume()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: boolean getSavedSoundEnabled()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.Window getWindow()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void showOrHideStatusBar(android.app.Activity)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.Window: void setFlags(int,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void showOrHideStatusBar(android.app.Activity)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100926</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.settings.SettingsGames</declaringSootClass>
+          <elementID>100926</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onPostResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100915</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.statistics.StatisticsActivity</declaringSootClass>
+          <elementID>100915</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onPause()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Handler: boolean sendEmptyMessageDelayed(int,long)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void onPause()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100913</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.settings.Settings</declaringSootClass>
+          <elementID>100913</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onPostResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100919</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.GameManager</declaringSootClass>
+          <elementID>100919</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.GameManager: void onResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>12</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: long getLong(java.lang.String,long)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: long getSavedStartTime()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.handler.HandlerTimer: void handleMessage(android.os.Message)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: boolean getSavedHideTime()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Handler: boolean sendEmptyMessageDelayed(int,long)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.handler.HandlerTimer: void handleMessage(android.os.Message)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Handler: boolean sendEmptyMessage(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Timer: void load()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setBackgroundColor(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.GameManager: void loadBackgroundColor()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setBackgroundResource(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.GameManager: void loadBackgroundColor()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: int getSavedBackgroundColor()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: int getInt(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: int getSavedBackgroundColorType()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: void setRequestedOrientation(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void setOrientation(android.app.Activity)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.Window getWindow()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void showOrHideStatusBar(android.app.Activity)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.Window: void setFlags(int,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.classes.CustomAppCompatActivity: void showOrHideStatusBar(android.app.Activity)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100908</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.settings.Settings</declaringSootClass>
+          <elementID>100908</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onDestroy()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100924</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.settings.SettingsGames</declaringSootClass>
+          <elementID>100924</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onStop()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100909</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.settings.Settings</declaringSootClass>
+          <elementID>100909</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.settings.Settings: void onPause()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Handler: boolean sendEmptyMessageDelayed(int,long)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.settings.Settings: void onPause()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100912</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.settings.Settings</declaringSootClass>
+          <elementID>100912</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onPostCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100914</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.statistics.StatisticsActivity</declaringSootClass>
+          <elementID>100914</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.statistics.StatisticsActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>6</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void setGamePreferences(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void &lt;init&gt;(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: int getInteger(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: java.lang.String[] getStringArray(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.helper.Preferences: void loadStrings(android.content.res.Resources)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.tobiasbielefeld.solitaire.ui.statistics.TabsPagerAdapter: void &lt;init&gt;(android.support.v4.app.FragmentManager,android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100925</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.settings.SettingsGames</declaringSootClass>
+          <elementID>100925</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onPostCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131492866</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.statistics.StatisticsActivity</declaringSootClass>
+          <elementID>2131492866</elementID>
+          <intentFilters/>
+          <kindOfElement></kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.statistics.StatisticsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100911</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.tobiasbielefeld.solitaire.ui.settings.Settings</declaringSootClass>
+          <elementID>100911</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.tobiasbielefeld.solitaire.ui.settings.AppCompatPreferenceActivity: void onStop()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+</map>

@@ -1,0 +1,131 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+/home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/GoalExplorer/sootOutput/zapp-DeObfuscation/res/navigation folder does not exists!
+Found 18 entrypoint classes and 31 methods in overall
+Found 1 reachable methods from <de.christinecoenen.code.zapp.app.about.ui.ChangelogActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <de.christinecoenen.code.zapp.app.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <com.mikepenz.aboutlibraries.ui.LibsFragment: void onViewCreated(android.view.View,android.os.Bundle)>
+Found 1 reachable methods from <com.mikepenz.aboutlibraries.ui.LibsSupportFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <de.christinecoenen.code.zapp.app.settings.ui.SettingsFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <de.christinecoenen.code.zapp.app.about.ui.FaqActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <de.christinecoenen.code.zapp.app.mediathek.ui.list.MediathekListFragment: void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)>
+Found 1 reachable methods from <de.christinecoenen.code.zapp.app.livestream.ui.detail.StreamPageFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 4 reachable methods from <de.christinecoenen.code.zapp.app.settings.ui.SettingsActivity: void onCreate(android.os.Bundle)>
+Found 4 reachable methods from <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity: void onCreate(android.os.Bundle)>
+Found 4 reachable methods from <com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)>
+Found 8 reachable methods from <de.christinecoenen.code.zapp.app.livestream.ui.list.ChannelListFragment: void onStart()>
+Found 5 reachable methods from <de.christinecoenen.code.zapp.app.about.ui.AboutActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r9 = r0.<de.christinecoenen.code.zapp.app.livestream.ui.detail.StreamPageFragment: android.widget.TextView subtitleText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r5 = r0.<de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailFragment: android.widget.TextView durationView>
+Found 12 reachable methods from <de.christinecoenen.code.zapp.utils.view.FullscreenActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r5 = r0.<de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailFragment: android.widget.TextView channelView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r5 = r0.<de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailFragment: android.widget.TextView timeView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r5 = r0.<de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailFragment: android.widget.TextView descriptionView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r5 = r0.<de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailFragment: android.widget.TextView titleView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r5 = r0.<de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailFragment: android.widget.TextView topicView>
+Found 12 reachable methods from <de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onStart()>
+de.christinecoenen.code.zapp.app.settings.ui.SettingsFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailFragment: void onCreate(android.os.Bundle)>
+de.christinecoenen.code.zapp.app.livestream.ui.detail.StreamPageFragment: Finished processing of entrypoints after 0 seconds.
+de.christinecoenen.code.zapp.app.about.ui.FaqActivity: Finished processing of entrypoints after 0 seconds.
+de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailFragment: Finished processing of entrypoints after 0 seconds.
+de.christinecoenen.code.zapp.app.settings.ui.SettingsActivity: Finished processing of entrypoints after 0 seconds.
+de.christinecoenen.code.zapp.app.about.ui.ChangelogActivity: Finished processing of entrypoints after 0 seconds.
+Found 4 reachable methods from <de.christinecoenen.code.zapp.app.MainActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <com.mikepenz.aboutlibraries.ui.LibsFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <com.mikepenz.aboutlibraries.ui.LibsSupportFragment: void onViewCreated(android.view.View,android.os.Bundle)>
+com.mikepenz.aboutlibraries.ui.LibsSupportFragment: Finished processing of entrypoints after 0 seconds.
+com.mikepenz.aboutlibraries.ui.LibsFragment: Finished processing of entrypoints after 0 seconds.
+Found 20 reachable methods from <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity: Finished processing of entrypoints after 0 seconds.
+de.christinecoenen.code.zapp.utils.view.FullscreenActivity: Finished processing of entrypoints after 0 seconds.
+Error ListenerSwitch: Doesn't find SearchedReg in initializationOfField: $r7 = r0.<de.christinecoenen.code.zapp.app.MainActivity: android.support.v7.widget.SearchView searchView>
+Error ListenerSwitch: Doesn't find SearchedReg in initializationOfField: $r3 = r0.<de.christinecoenen.code.zapp.app.MainActivity: android.support.v4.view.ViewPager viewPager>
+Error ListenerSwitch: Doesn't find SearchedReg in initializationOfField: $r3 = r0.<de.christinecoenen.code.zapp.app.MainActivity: android.support.v4.view.ViewPager viewPager>
+de.christinecoenen.code.zapp.app.MainActivity: Finished processing of entrypoints after 0 seconds.
+Found 8 reachable methods from <de.christinecoenen.code.zapp.app.mediathek.ui.list.MediathekListFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Error ListenerSwitch: Doesn't find SearchedReg in initializationOfField: $r7 = r0.<de.christinecoenen.code.zapp.app.mediathek.ui.list.MediathekListFragment: android.support.v7.widget.RecyclerView recyclerView>
+Error ListenerSwitch: Doesn't find SearchedReg in initializationOfField: $r9 = r0.<de.christinecoenen.code.zapp.app.mediathek.ui.list.MediathekListFragment: android.support.v4.widget.SwipeRefreshLayout swipeRefreshLayout>
+Error ListenerSwitch: Doesn't find SearchedReg in initializationOfField: $r7 = r0.<de.christinecoenen.code.zapp.app.mediathek.ui.list.MediathekListFragment: android.support.v7.widget.RecyclerView recyclerView>
+Found 4 reachable methods from <de.christinecoenen.code.zapp.app.livestream.ui.list.ChannelListFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 32 reachable methods from <de.christinecoenen.code.zapp.app.settings.ui.ChannelSelectionActivity: void onCreate(android.os.Bundle)>
+Error ListenerSwitch: Doesn't find SearchedReg in initializationOfField: $r5 = r0.<de.christinecoenen.code.zapp.app.livestream.ui.list.ChannelListFragment: android.support.v7.widget.RecyclerView channelGridView>
+Error ListenerSwitch: Doesn't find SearchedReg in initializationOfField: $r5 = r0.<de.christinecoenen.code.zapp.app.livestream.ui.list.ChannelListFragment: android.support.v7.widget.RecyclerView channelGridView>
+Found 3 reachable methods from <de.christinecoenen.code.zapp.app.mediathek.ui.list.MediathekListFragment: void onCreate(android.os.Bundle)>
+Error ListenerSwitch: Doesn't find SearchedReg in initializationOfField: $r7 = r0.<de.christinecoenen.code.zapp.app.settings.ui.ChannelSelectionActivity: com.woxthebox.draglistview.DragListView channelListView>
+de.christinecoenen.code.zapp.app.mediathek.ui.list.MediathekListFragment: Finished processing of entrypoints after 0 seconds.
+de.christinecoenen.code.zapp.app.settings.ui.ChannelSelectionActivity: Finished processing of entrypoints after 0 seconds.
+Found 23 reachable methods from <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onStart()>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = r0.<de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: android.widget.TextView errorView>
+Found 1 reachable methods from <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: Finished processing of entrypoints after 0 seconds.
+Found 27 reachable methods from <de.christinecoenen.code.zapp.app.livestream.ui.list.ChannelListFragment: void onCreate(android.os.Bundle)>
+de.christinecoenen.code.zapp.app.livestream.ui.list.ChannelListFragment: Finished processing of entrypoints after 0 seconds.
+Found 53 reachable methods from <de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onCreate(android.os.Bundle)>
+Error ListenerSwitch: Doesn't find SearchedReg in initializationOfField: $r21 = r0.<de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: de.christinecoenen.code.zapp.utils.view.ClickableViewPager viewPager>
+Error ListenerSwitch: Doesn't find SearchedReg in initializationOfField: $r21 = r0.<de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: de.christinecoenen.code.zapp.utils.view.ClickableViewPager viewPager>
+Error ListenerSwitch: Doesn't find SearchedReg in initializationOfField: $r21 = r0.<de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: de.christinecoenen.code.zapp.utils.view.ClickableViewPager viewPager>
+Error ListenerSwitch: Doesn't find SearchedReg in initializationOfField: $r5 = r0.<de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: de.christinecoenen.code.zapp.utils.view.ClickableViewPager viewPager>
+de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: Finished processing of entrypoints after 0 seconds.
+com.mikepenz.aboutlibraries.ui.LibsActivity: Finished processing of entrypoints after 0 seconds.
+de.christinecoenen.code.zapp.app.about.ui.AboutActivity: Finished processing of entrypoints after 0 seconds.
+AppsUIElement not found with id: 16908290
+Dynamical declared elements, found: 0
+Found 5 callback classes and 5 methods overall
+Found 1 reachable methods from <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity: Finished processing of entrypoints after 0 seconds.
+Found 2 reachable methods from <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Found 3 reachable methods from <de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Found 5 reachable methods from <de.christinecoenen.code.zapp.app.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: Finished processing of entrypoints after 0 seconds.
+de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: Finished processing of entrypoints after 0 seconds.
+de.christinecoenen.code.zapp.app.MainActivity: Finished processing of entrypoints after 0 seconds.
+Found 6 reachable methods from <de.christinecoenen.code.zapp.app.mediathek.ui.list.MediathekListFragment: boolean onOptionsItemSelected(android.view.MenuItem)>
+de.christinecoenen.code.zapp.app.mediathek.ui.list.MediathekListFragment: Finished processing of entrypoints after 0 seconds.
+UI Analysis has run for 5.694246202 seconds
+Entry point creation has run for 0.003979023 seconds
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 36 callback methods from UI Analysis
+Found 36 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Method: <de.christinecoenen.code.zapp.app.MainActivity: void onCreate(android.os.Bundle)>, ElementId: 100198, GlobalId: 100198 -> 3 APIs
+Method: <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onPause()>, ElementId: 100207, GlobalId: 100207 -> 0 APIs
+Method: <de.christinecoenen.code.zapp.app.settings.ui.SettingsActivity: void onCreate(android.os.Bundle)>, ElementId: 100220, GlobalId: 100220 -> 1 APIs
+Method: <de.christinecoenen.code.zapp.app.mediathek.ui.list.MediathekListFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296415, GlobalId: 2131296415 -> 1 APIs
+Method: <com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)>, ElementId: 100221, GlobalId: 100221 -> 3 APIs
+Method: <de.christinecoenen.code.zapp.app.MainActivity: void onRestoreInstanceState(android.os.Bundle)>, ElementId: 100200, GlobalId: 100200 -> 3 APIs
+Method: <de.christinecoenen.code.zapp.app.about.ui.AboutActivity: void onCreate(android.os.Bundle)>, ElementId: 100213, GlobalId: 100213 -> 4 APIs
+Method: <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296417, GlobalId: 2131296417 -> 4 APIs
+Method: <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onResume()>, ElementId: 100208, GlobalId: 100208 -> 8 APIs
+Method: <de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onStop()>, ElementId: 100219, GlobalId: 100219 -> 0 APIs
+Method: <de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296416, GlobalId: 2131296416 -> 1 APIs
+Method: <de.christinecoenen.code.zapp.app.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131492865, GlobalId: 2131492865 -> 0 APIs
+Method: <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onRestoreInstanceState(android.os.Bundle)>, ElementId: 100212, GlobalId: 100212 -> 1 APIs
+Method: <de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296417, GlobalId: 2131296417 -> 1 APIs
+Method: <de.christinecoenen.code.zapp.app.about.ui.FaqActivity: void onCreate(android.os.Bundle)>, ElementId: 100204, GlobalId: 100204 -> 0 APIs
+Method: <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131492868, GlobalId: 2131492868 -> 0 APIs
+Method: <de.christinecoenen.code.zapp.app.MainActivity: void onSaveInstanceState(android.os.Bundle)>, ElementId: 100199, GlobalId: 100199 -> 0 APIs
+Method: <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onStop()>, ElementId: 100210, GlobalId: 100210 -> 0 APIs
+Method: <de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onCreate(android.os.Bundle)>, ElementId: 100214, GlobalId: 100214 -> 9 APIs
+Method: <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onDestroy()>, ElementId: 100206, GlobalId: 100206 -> 0 APIs
+Method: <de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onStart()>, ElementId: 100218, GlobalId: 100218 -> 6 APIs
+Method: <de.christinecoenen.code.zapp.app.about.ui.ChangelogActivity: void onCreate(android.os.Bundle)>, ElementId: 100201, GlobalId: 100201 -> 0 APIs
+Method: <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onSaveInstanceState(android.os.Bundle)>, ElementId: 100211, GlobalId: 100211 -> 0 APIs
+Method: <de.christinecoenen.code.zapp.app.settings.ui.ChannelSelectionActivity: void onCreate(android.os.Bundle)>, ElementId: 100202, GlobalId: 100202 -> 7 APIs
+Method: <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onCreate(android.os.Bundle)>, ElementId: 100205, GlobalId: 100205 -> 8 APIs
+Method: <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onStart()>, ElementId: 100209, GlobalId: 100209 -> 7 APIs
+Method: <de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onDestroy()>, ElementId: 100215, GlobalId: 100215 -> 0 APIs
+Method: <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296417, GlobalId: 2131296417 -> 1 APIs
+Method: <de.christinecoenen.code.zapp.app.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296416, GlobalId: 2131296416 -> 1 APIs
+Method: <de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131492864, GlobalId: 2131492864 -> 0 APIs
+Method: <de.christinecoenen.code.zapp.app.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296414, GlobalId: 2131296414 -> 1 APIs
+Method: <de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onResume()>, ElementId: 100217, GlobalId: 100217 -> 7 APIs
+Method: <de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onPause()>, ElementId: 100216, GlobalId: 100216 -> 0 APIs
+Method: <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131492867, GlobalId: 2131492867 -> 0 APIs
+Method: <de.christinecoenen.code.zapp.app.mediathek.ui.list.MediathekListFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131492869, GlobalId: 2131492869 -> 0 APIs
+Method: <de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity: void onCreate(android.os.Bundle)>, ElementId: 100203, GlobalId: 100203 -> 3 APIs
+Found 1 partitions
+Reachability Analysis has run for 0.684962268 seconds

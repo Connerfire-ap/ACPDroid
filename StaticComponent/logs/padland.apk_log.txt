@@ -1,0 +1,106 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+/home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/GoalExplorer/sootOutput/padland/res/navigation folder does not exists!
+Found 20 entrypoint classes and 23 methods in overall
+com.mikifus.padland.Dialog.PadlandAlertDialog: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.mikifus.padland.PadListActivity: void onStart()>
+Found 1 reachable methods from <com.mikifus.padland.PadInfoActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <com.mikifus.padland.SettingsActivity$GeneralPreferenceFragment: void onCreate(android.os.Bundle)>
+Found 2 reachable methods from <com.mikifus.padland.About: void onCreate(android.os.Bundle)>
+com.mikifus.padland.PadViewActivity$PadViewAuthDialog: Finished processing of entrypoints after 0 seconds.
+com.mikifus.padland.Dialog.BasicAuthDialog: Finished processing of entrypoints after 0 seconds.
+Found 5 reachable methods from <com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <com.mikifus.padland.PadLandActivity: void onCreate(android.os.Bundle)>
+Found 2 reachable methods from <com.mikifus.padland.SettingsActivity$SettingsFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <com.mikifus.padland.Intro.LinkableAppIntroFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+com.mikifus.padland.Dialog.NewPadGroup: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.mikifus.padland.SettingsActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <com.mikifus.padland.Dialog.NewServerDialog: void onStart()>
+Found 2 reachable methods from <com.mikifus.padland.PadViewActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 4 reachable methods from <com.mikifus.padland.PadLandDataActivity: void onCreate(android.os.Bundle)>
+Found 6 reachable methods from <com.mikifus.padland.SplashActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <com.mikifus.padland.Intro.CustomAppIntroFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 19 reachable methods from <com.mikifus.padland.ServerListActivity: void onCreate(android.os.Bundle)>
+Found 11 reachable methods from <com.mikifus.padland.NewPadActivity: void onCreate(android.os.Bundle)>
+com.mikifus.padland.Dialog.NewServerDialog: Finished processing of entrypoints after 0 seconds.
+com.mikifus.padland.Intro.CustomAppIntroFragment: Finished processing of entrypoints after 0 seconds.
+com.mikifus.padland.Intro.LinkableAppIntroFragment: Finished processing of entrypoints after 0 seconds.
+com.mikifus.padland.PadLandActivity: Finished processing of entrypoints after 0 seconds.
+com.mikifus.padland.SettingsActivity$SettingsFragment: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <com.github.paolorotolo.appintro.AppIntroBase: void onPostCreate(android.os.Bundle)>
+com.mikifus.padland.IntroActivity: Finished processing of entrypoints after 0 seconds.
+com.mikifus.padland.About: Finished processing of entrypoints after 0 seconds.
+com.mikifus.padland.SettingsActivity$GeneralPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+com.mikifus.padland.SplashActivity: Finished processing of entrypoints after 0 seconds.
+com.mikifus.padland.PadLandDataActivity: Finished processing of entrypoints after 0 seconds.
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r8 = $r3.<com.mikifus.padland.Models.Server: java.lang.String url>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r8 = $r3.<com.mikifus.padland.Models.Server: java.lang.String name>
+Found 2 reachable methods from <com.mikifus.padland.PadListActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 2 reachable methods from <com.mikifus.padland.NewPadActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 10 reachable methods from <com.mikifus.padland.SettingsActivity: void onPostCreate(android.os.Bundle)>
+com.mikifus.padland.ServerListActivity: Finished processing of entrypoints after 0 seconds.
+com.mikifus.padland.NewPadActivity: Finished processing of entrypoints after 0 seconds.
+com.mikifus.padland.SettingsActivity: Finished processing of entrypoints after 0 seconds.
+Found 30 reachable methods from <com.mikifus.padland.PadInfoActivity: void onCreate(android.os.Bundle)>
+com.mikifus.padland.PadInfoActivity: Finished processing of entrypoints after 0 seconds.
+Found 54 reachable methods from <com.mikifus.padland.PadListActivity: void onCreate(android.os.Bundle)>
+Found 54 reachable methods from <com.mikifus.padland.PadViewActivity: void onCreate(android.os.Bundle)>
+com.mikifus.padland.PadListActivity: Finished processing of entrypoints after 0 seconds.
+com.mikifus.padland.PadViewActivity: Finished processing of entrypoints after 0 seconds.
+AppsUIElement: tried to assign null listener object in 2131624154
+Dynamical declared elements, found: 0
+Found 2 callback classes and 6 methods overall
+Found 12 reachable methods from <com.mikifus.padland.PadInfoActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+com.mikifus.padland.PadInfoActivity: Finished processing of entrypoints after 0 seconds.
+Found 29 reachable methods from <com.mikifus.padland.NewPadActivity: void onCreateButtonClick(android.view.View)>
+Found 1 reachable methods from <com.mikifus.padland.PadListActivity: void onNewPadgroupClick(android.view.View)>
+Found 1 reachable methods from <com.mikifus.padland.ServerListActivity: void onNewServerClick(android.view.View)>
+Found 1 reachable methods from <com.mikifus.padland.PadListActivity: void onNewPadClick(android.view.View)>
+Found 1 reachable methods from <com.mikifus.padland.PadInfoActivity: void onViewButtonClick(android.view.View)>
+default_value: Finished processing of entrypoints after 0 seconds.
+UI Analysis has run for 5.265499406 seconds
+AppController:createUIElementsFromListener: listener method was not found!!!: <com.mikifus.padland.NewPadActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+AppController:createUIElementsFromListener: listener method was not found!!!: <com.mikifus.padland.NewPadActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+AppController:createUIElementsFromListener: listener method was not found!!!: <com.mikifus.padland.NewPadActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+AppController:createUIElementsFromListener: listener method was not found!!!: <com.mikifus.padland.NewPadActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+AppController:createUIElementsFromListener: listener method was not found!!!: <com.mikifus.padland.NewPadActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+AppController:createUIElementsFromListener: listener method was not found!!!: <com.mikifus.padland.NewPadActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Entry point creation has run for 0.004769457 seconds
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 32 callback methods from UI Analysis
+Found 32 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Method: <com.mikifus.padland.IntroActivity: void onCreate(android.os.Bundle)>, ElementId: 100135, GlobalId: 100135 -> 1 APIs
+Method: <com.mikifus.padland.PadListActivity: void onCreate(android.os.Bundle)>, ElementId: 100139, GlobalId: 100139 -> 63 APIs
+Method: <com.mikifus.padland.PadInfoActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131689473, GlobalId: 2131689473 -> 0 APIs
+Method: <com.mikifus.padland.About: void onCreate(android.os.Bundle)>, ElementId: 100143, GlobalId: 100143 -> 1 APIs
+Method: <com.mikifus.padland.PadListActivity: void onNewPadgroupClick(android.view.View)>, ElementId: 100091, GlobalId: 100091 -> 0 APIs
+Method: <com.mikifus.padland.SplashActivity: void onCreate(android.os.Bundle)>, ElementId: 100127, GlobalId: 100127 -> 0 APIs
+Method: <com.mikifus.padland.SettingsActivity: void onCreate(android.os.Bundle)>, ElementId: 100128, GlobalId: 100128 -> 0 APIs
+Method: <com.mikifus.padland.SettingsActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100130, GlobalId: 100130 -> 6 APIs
+Method: <com.mikifus.padland.PadLandDataActivity: void onDestroy()>, ElementId: 100126, GlobalId: 100126 -> 0 APIs
+Method: <com.github.paolorotolo.appintro.AppIntroBase: void onPostCreate(android.os.Bundle)>, ElementId: 100138, GlobalId: 100138 -> 0 APIs
+Method: <com.mikifus.padland.PadListActivity: void onStart()>, ElementId: 100141, GlobalId: 100141 -> 0 APIs
+Method: <com.mikifus.padland.PadLandDataActivity: void onDestroy()>, ElementId: 100145, GlobalId: 100145 -> 0 APIs
+Method: <com.mikifus.padland.PadLandDataActivity: void onDestroy()>, ElementId: 100140, GlobalId: 100140 -> 0 APIs
+Method: <com.mikifus.padland.PadViewActivity: void onCreate(android.os.Bundle)>, ElementId: 100131, GlobalId: 100131 -> 63 APIs
+Method: <com.github.paolorotolo.appintro.AppIntroBase: void onRestoreInstanceState(android.os.Bundle)>, ElementId: 100137, GlobalId: 100137 -> 0 APIs
+Method: <com.mikifus.padland.PadLandDataActivity: void onCreate(android.os.Bundle)>, ElementId: 100125, GlobalId: 100125 -> 3 APIs
+Method: <com.mikifus.padland.PadInfoActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131624156, GlobalId: 2131624156 -> 4 APIs
+Method: <com.mikifus.padland.PadInfoActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131624155, GlobalId: 2131624155 -> 72 APIs
+Method: <com.mikifus.padland.PadLandDataActivity$1: void onClick(android.content.DialogInterface,int)>, ElementId: -2, GlobalId: 100122 -> 0 APIs
+Method: <com.mikifus.padland.SettingsActivity: void onResume()>, ElementId: 100129, GlobalId: 100129 -> 6 APIs
+Method: <com.mikifus.padland.PadLandDataActivity$2: void onClick(android.content.DialogInterface,int)>, ElementId: -1, GlobalId: 100123 -> 66 APIs
+Method: <com.mikifus.padland.PadInfoActivity: void onViewButtonClick(android.view.View)>, ElementId: 2131624080, GlobalId: 2131624080 -> 68 APIs
+Method: <com.mikifus.padland.NewPadActivity: void onCreateButtonClick(android.view.View)>, ElementId: 2131624078, GlobalId: 2131624078 -> 72 APIs
+Method: <com.github.paolorotolo.appintro.AppIntroBase: void onSaveInstanceState(android.os.Bundle)>, ElementId: 100136, GlobalId: 100136 -> 0 APIs
+Method: <com.mikifus.padland.PadLandDataActivity: void onDestroy()>, ElementId: 100134, GlobalId: 100134 -> 0 APIs
+Method: <com.mikifus.padland.PadInfoActivity: void onCreate(android.os.Bundle)>, ElementId: 100133, GlobalId: 100133 -> 12 APIs
+Method: <com.mikifus.padland.PadListActivity: void onNewPadClick(android.view.View)>, ElementId: 100092, GlobalId: 100092 -> 10 APIs
+Method: <com.mikifus.padland.NewPadActivity: void onCreate(android.os.Bundle)>, ElementId: 100124, GlobalId: 100124 -> 10 APIs
+Method: <com.mikifus.padland.PadListActivity: void onStop()>, ElementId: 100142, GlobalId: 100142 -> 0 APIs
+Method: <com.mikifus.padland.PadLandDataActivity: void onDestroy()>, ElementId: 100132, GlobalId: 100132 -> 0 APIs
+Method: <com.mikifus.padland.ServerListActivity: void onNewServerClick(android.view.View)>, ElementId: 100033, GlobalId: 100033 -> 0 APIs
+Method: <com.mikifus.padland.ServerListActivity: void onCreate(android.os.Bundle)>, ElementId: 100144, GlobalId: 100144 -> 6 APIs
+Found 1 partitions
+Reachability Analysis has run for 0.604826164 seconds

@@ -1,0 +1,2623 @@
+<map>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230906</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.SettingsFragment</declaringSootClass>
+          <elementID>2131230906</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v7.widget.SwitchCompat</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$4: void onCheckedChanged(android.widget.CompoundButton,boolean)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Send crash reports</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>3</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$4: void onCheckedChanged(android.widget.CompoundButton,boolean)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$4: void onCheckedChanged(android.widget.CompoundButton,boolean)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$4: void onCheckedChanged(android.widget.CompoundButton,boolean)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230837</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.SettingsFragment</declaringSootClass>
+          <elementID>2131230837</elementID>
+          <intentFilters/>
+          <kindOfElement>EditText</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$6: void onTextChanged(java.lang.CharSequence,int,int,int)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string></string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100126</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.ResultActivity</declaringSootClass>
+          <elementID>100126</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.ResultActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>5</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.os.Bundle getExtras()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.ResultActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.ResultActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.io.File getFilesDir()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.ResultActivity: java.lang.Boolean hasMultipleResult()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int e(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.utils.JSONUtils$JSONL$JSONIterator: boolean hasNext()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.model.NetworkMeasurement: java.lang.String getTestName(android.content.Context,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100127</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.NotificationDialog</declaringSootClass>
+          <elementID>100127</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.NotificationDialog: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>3</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: void onCreate(android.os.Bundle)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.NotificationDialog: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.NotificationDialog: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.NotificationDialog: void displayAlert(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230962</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.BrowserActivity</declaringSootClass>
+          <elementID>2131230962</elementID>
+          <intentFilters/>
+          <kindOfElement>Button</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Try mirror</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>4</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.ImageView: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void LoadWebViewUrl(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: void loadUrl(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void LoadWebViewUrl(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: java.lang.Object getSystemService(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: boolean isInternetConnected()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.ConnectivityManager: android.net.NetworkInfo getActiveNetworkInfo()&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: boolean isInternetConnected()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230909</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.BrowserActivity</declaringSootClass>
+          <elementID>2131230909</elementID>
+          <intentFilters/>
+          <kindOfElement>ImageView</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string></string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>4</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.content.Intent setAction(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void shareUrl()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void shareUrl()&gt;</callerSignature>
+        </apiinformation>
+        <st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+          <api>
+            <signature>&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void shareUrl()&gt;</callerSignature>
+          <classNameReg></classNameReg>
+          <actionTargets/>
+          <action>android.intent.action.SEND</action>
+          <extras>
+            <string>android.intent.extra.TEXT</string>
+          </extras>
+        </st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: java.lang.String getUrl()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void shareUrl()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230777</globalId>
+          <parentId>100111</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.RunTestActivity</declaringSootClass>
+          <elementID>2131230777</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Close</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230773</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.SettingsFragment</declaringSootClass>
+          <elementID>2131230773</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v7.widget.SwitchCompat</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$1: void onCheckedChanged(android.widget.CompoundButton,boolean)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Include your IP?</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$1: void onCheckedChanged(android.widget.CompoundButton,boolean)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230866</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.AboutFragment</declaringSootClass>
+          <elementID>2131230866</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v7.widget.AppCompatButton</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.AboutFragment$2: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Click here to view our data policy</string>
+            </entry>
+          </text>
+        </default>
+        <string>org.openobservatory.ooniprobe.activity.RunTestActivity</string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>9</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: java.lang.String getAction()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.net.Uri getData()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.Uri: java.lang.String getQueryParameter(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;org.json.JSONArray: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void configureScreen(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;org.json.JSONObject: org.json.JSONArray getJSONArray(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void configureScreen(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void configureScreen(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230794</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.MainActivity</declaringSootClass>
+          <elementID>2131230794</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v4.widget.DrawerLayout</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.MainActivity$1: void onDrawerOpened(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string></string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230837</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.SettingsFragment</declaringSootClass>
+          <elementID>2131230837</elementID>
+          <intentFilters/>
+          <kindOfElement>EditText</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$6: void beforeTextChanged(java.lang.CharSequence,int,int,int)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string></string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230850</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.IConsentPage3Fragment</declaringSootClass>
+          <elementID>2131230850</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v7.widget.AppCompatButton</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.IConsentPage3Fragment$1: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Get Started!</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230772</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.SettingsFragment</declaringSootClass>
+          <elementID>2131230772</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v7.widget.SwitchCompat</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$3: void onCheckedChanged(android.widget.CompoundButton,boolean)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Include your country name?</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$3: void onCheckedChanged(android.widget.CompoundButton,boolean)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230823</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.TestInfoFragment</declaringSootClass>
+          <elementID>2131230823</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v7.widget.AppCompatButton</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.TestInfoFragment$1: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Learn more</string>
+            </entry>
+          </text>
+        </default>
+        <string>org.openobservatory.ooniprobe.activity.RunTestActivity</string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>9</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: java.lang.String getAction()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.net.Uri getData()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.Uri: java.lang.String getQueryParameter(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;org.json.JSONArray: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void configureScreen(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;org.json.JSONObject: org.json.JSONArray getJSONArray(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void configureScreen(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void configureScreen(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230850</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.IConsentPage1Fragment</declaringSootClass>
+          <elementID>2131230850</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v7.widget.AppCompatButton</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.IConsentPage1Fragment$1: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Get Started!</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100124</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.BrowserActivity</declaringSootClass>
+          <elementID>100124</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>17</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;org.json.JSONObject: java.lang.String getString(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: void setWebViewClient(android.webkit.WebViewClient)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void setUpWebView()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: android.webkit.WebSettings getSettings()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void setUpWebView()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.ImageView: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void LoadWebViewUrl(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: void loadUrl(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void LoadWebViewUrl(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: java.lang.Object getSystemService(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: boolean isInternetConnected()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.ConnectivityManager: android.net.NetworkInfo getActiveNetworkInfo()&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: boolean isInternetConnected()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebSettings: void setLoadWithOverviewMode(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void setUpWebView()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebSettings: void setUseWideViewPort(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void setUpWebView()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: void setInitialScale(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void setUpWebView()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebSettings: void setJavaScriptEnabled(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void setUpWebView()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;org.json.JSONObject: org.json.JSONArray getJSONArray(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int d(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.TextView: void setEnabled(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void initViews()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;org.json.JSONArray: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setClickable(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void reloadButtons()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230774</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.SettingsFragment</declaringSootClass>
+          <elementID>2131230774</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v7.widget.SwitchCompat</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$9: void onCheckedChanged(android.widget.CompoundButton,boolean)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Share results publicly?</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>2</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$9: void onCheckedChanged(android.widget.CompoundButton,boolean)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$9: void onCheckedChanged(android.widget.CompoundButton,boolean)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230837</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.SettingsFragment</declaringSootClass>
+          <elementID>2131230837</elementID>
+          <intentFilters/>
+          <kindOfElement>EditText</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$6: void afterTextChanged(android.text.Editable)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string></string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230830</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.SettingsFragment</declaringSootClass>
+          <elementID>2131230830</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v7.widget.SwitchCompat</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$7: void onCheckedChanged(android.widget.CompoundButton,boolean)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Run test automatically</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>7</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.utils.NotificationHandler: void setRecurringAlarm(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.AlarmManager: void setInexactRepeating(int,long,long,android.app.PendingIntent)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.utils.NotificationHandler: void setRecurringAlarm(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.utils.NotificationHandler: void setRecurringAlarm(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.utils.NotificationHandler: void setRecurringAlarm(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$7: void onCheckedChanged(android.widget.CompoundButton,boolean)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$7: void onCheckedChanged(android.widget.CompoundButton,boolean)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.Context getApplicationContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$7: void onCheckedChanged(android.widget.CompoundButton,boolean)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230977</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.BrowserActivity</declaringSootClass>
+          <elementID>2131230977</elementID>
+          <intentFilters/>
+          <kindOfElement>ImageView</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string></string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230823</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.IConsentPage3Fragment</declaringSootClass>
+          <elementID>2131230823</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v7.widget.AppCompatButton</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.IConsentPage3Fragment$2: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Learn more</string>
+            </entry>
+          </text>
+        </default>
+        <string>org.openobservatory.ooniprobe.activity.RunTestActivity</string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>9</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.Uri: java.lang.String getQueryParameter(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;org.json.JSONArray: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void configureScreen(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;org.json.JSONObject: org.json.JSONArray getJSONArray(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void configureScreen(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void configureScreen(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.net.Uri getData()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: java.lang.String getAction()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131427328</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.RunTestActivity</declaringSootClass>
+          <elementID>2131427328</elementID>
+          <intentFilters/>
+          <kindOfElement></kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230978</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.BrowserActivity</declaringSootClass>
+          <elementID>2131230978</elementID>
+          <intentFilters/>
+          <kindOfElement>ImageView</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string></string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100120</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.MainActivity</declaringSootClass>
+          <elementID>100120</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string>org.openobservatory.ooniprobe.activity.InformedConsentActivity</string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>18</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void copyResources(int,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.io.FileInputStream openFileInput(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void copyResources(int,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.io.FileOutputStream openFileOutput(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void copyResources(int,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int e(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void copyResources(int,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setEnabled(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.io.File getFilesDir()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: void removeUnusedFiles(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: int getColor(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void updateActionBar()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: android.graphics.drawable.Drawable getDrawable(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void updateActionBar()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: java.lang.CharSequence getTitle()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.Window getWindow()&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.InformedConsentActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: void storeTests(android.content.Context,java.util.List)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.AbsListView: void setItemChecked(int,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void selectItem(int)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230979</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.BrowserActivity</declaringSootClass>
+          <elementID>2131230979</elementID>
+          <intentFilters/>
+          <kindOfElement>ImageView</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string></string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100122</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.MainActivity</declaringSootClass>
+          <elementID>100122</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void onPostCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230831</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.SettingsFragment</declaringSootClass>
+          <elementID>2131230831</elementID>
+          <intentFilters/>
+          <kindOfElement>EditText</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$8: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string></string>
+            </entry>
+            <entry>
+              <string>org.openobservatory.ooniprobe.fragment.SettingsFragment</string>
+              <string>#:</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230771</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.SettingsFragment</declaringSootClass>
+          <elementID>2131230771</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v7.widget.SwitchCompat</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$2: void onCheckedChanged(android.widget.CompoundButton,boolean)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Include your network info?</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.fragment.SettingsFragment$2: void onCheckedChanged(android.widget.CompoundButton,boolean)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100125</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.RunTestActivity</declaringSootClass>
+          <elementID>100125</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>9</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: java.lang.String getAction()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.net.Uri getData()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.Uri: java.lang.String getQueryParameter(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;org.json.JSONArray: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void configureScreen(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;org.json.JSONObject: org.json.JSONArray getJSONArray(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void configureScreen(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void configureScreen(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230850</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.IConsentPage4Fragment</declaringSootClass>
+          <elementID>2131230850</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v7.widget.AppCompatButton</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.IConsentPage4Fragment$1: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Get Started!</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>5</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.TextView: void setTextColor(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.InformedConsentActivity: void showToast(int,boolean)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.Toast: android.view.View getView()&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.InformedConsentActivity: void showToast(int,boolean)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: int getColor(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.InformedConsentActivity: void showToast(int,boolean)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setBackgroundResource(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.InformedConsentActivity: void showToast(int,boolean)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.RadioGroup: int getCheckedRadioButtonId()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.fragment.IConsentPage4Fragment: void next()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230882</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.TestInfoFragment</declaringSootClass>
+          <elementID>2131230882</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v7.widget.AppCompatButton</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.TestInfoFragment$2: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Run</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>7</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.model.NetworkMeasurement: void &lt;init&gt;(android.content.Context,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.AssetManager: java.io.InputStream open(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.utils.TestLists: java.util.ArrayList readCVSFromAssetFolder(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.model.NetworkMeasurement: void &lt;init&gt;(android.content.Context,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: void storeTests(android.content.Context,java.util.List)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestData: org.openobservatory.ooniprobe.model.NetworkMeasurement configureTest(android.content.Context,org.openobservatory.ooniprobe.model.NetworkMeasurement)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestData: void doNetworkMeasurements(android.content.Context,org.openobservatory.ooniprobe.model.NetworkMeasurement)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230825</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.MainActivity</declaringSootClass>
+          <elementID>2131230825</elementID>
+          <intentFilters/>
+          <kindOfElement>ListView</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.MainActivity$DrawerItemClickListener: void onItemClick(android.widget.AdapterView,android.view.View,int,long)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string></string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>4</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: void storeTests(android.content.Context,java.util.List)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: void storeTests(android.content.Context,java.util.List)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.AbsListView: void setItemChecked(int,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void selectItem(int)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230850</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.IConsentPage2Fragment</declaringSootClass>
+          <elementID>2131230850</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v7.widget.AppCompatButton</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.IConsentPage2Fragment$1: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Get Started!</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230882</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.PastTestsFragment</declaringSootClass>
+          <elementID>2131230882</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v7.widget.AppCompatButton</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.PastTestsFragment$1: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Run</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>4</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: void storeTests(android.content.Context,java.util.List)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: void storeTests(android.content.Context,java.util.List)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.AbsListView: void setItemChecked(int,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void selectItem(int)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100123</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.InformedConsentActivity</declaringSootClass>
+          <elementID>100123</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.InformedConsentActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.Window getWindow()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.InformedConsentActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230823</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.AboutFragment</declaringSootClass>
+          <elementID>2131230823</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v7.widget.AppCompatButton</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.AboutFragment$1: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Learn more</string>
+            </entry>
+          </text>
+        </default>
+        <string>org.openobservatory.ooniprobe.activity.RunTestActivity</string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>9</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.Uri: java.lang.String getQueryParameter(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;org.json.JSONArray: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void configureScreen(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;org.json.JSONObject: org.json.JSONArray getJSONArray(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void configureScreen(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void configureScreen(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.net.Uri getData()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: java.lang.String getAction()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity: void gotIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230882</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.RunTestActivity</declaringSootClass>
+          <elementID>2131230882</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v7.widget.AppCompatButton</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity$6: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Run</string>
+            </entry>
+          </text>
+        </default>
+        <string>org.openobservatory.ooniprobe.activity.InformedConsentActivity</string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>22</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.Context getApplicationContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.RunTestActivity$6: void onClick(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void copyResources(int,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.io.FileInputStream openFileInput(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void copyResources(int,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.io.FileOutputStream openFileOutput(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void copyResources(int,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int e(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void copyResources(int,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setEnabled(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.io.File getFilesDir()&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: void removeUnusedFiles(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: int getColor(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void updateActionBar()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: android.graphics.drawable.Drawable getDrawable(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void updateActionBar()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: java.lang.CharSequence getTitle()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.Window getWindow()&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>2</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.InformedConsentActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>7</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: void storeTests(android.content.Context,java.util.List)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.AbsListView: void setItemChecked(int,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void selectItem(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestData: org.openobservatory.ooniprobe.model.NetworkMeasurement configureTest(android.content.Context,org.openobservatory.ooniprobe.model.NetworkMeasurement)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestData: org.openobservatory.ooniprobe.model.NetworkMeasurement configureTest(android.content.Context,org.openobservatory.ooniprobe.model.NetworkMeasurement)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int v(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestData: void doNetworkMeasurements(android.content.Context,org.openobservatory.ooniprobe.model.NetworkMeasurement)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230794</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.MainActivity</declaringSootClass>
+          <elementID>2131230794</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v4.widget.DrawerLayout</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.MainActivity$1: void onDrawerClosed(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string></string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230850</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.fragment.IConsentPage5Fragment</declaringSootClass>
+          <elementID>2131230850</elementID>
+          <intentFilters/>
+          <kindOfElement>android.support.v7.widget.AppCompatButton</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.fragment.IConsentPage5Fragment$1: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Get Started!</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>2</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.fragment.IConsentPage5Fragment: void next()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.fragment.IConsentPage5Fragment: void next()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100121</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.MainActivity</declaringSootClass>
+          <elementID>100121</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.MainActivity: void onResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>2</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.data.TestStorage: java.util.ArrayList loadTests(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131230980</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.openobservatory.ooniprobe.activity.BrowserActivity</declaringSootClass>
+          <elementID>2131230980</elementID>
+          <intentFilters/>
+          <kindOfElement>ImageView</kindOfElement>
+          <handlerMethod>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void onClick(android.view.View)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string></string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>5</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: java.lang.String getUrl()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void onClick(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.ImageView: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void LoadWebViewUrl(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: void loadUrl(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: void LoadWebViewUrl(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: java.lang.Object getSystemService(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: boolean isInternetConnected()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.ConnectivityManager: android.net.NetworkInfo getActiveNetworkInfo()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.openobservatory.ooniprobe.activity.BrowserActivity: boolean isInternetConnected()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+</map>

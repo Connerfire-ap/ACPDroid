@@ -1,0 +1,1641 @@
+<map>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100198</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.MainActivity</declaringSootClass>
+          <elementID>100198</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.MainActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>3</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.support.v4.view.ViewPager: int getCurrentItem()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.MainActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.MainActivity: void onPageSelected(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: void setDefaultValues(android.content.Context,int,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.MainActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100220</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.settings.ui.SettingsActivity</declaringSootClass>
+          <elementID>100220</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.settings.ui.SettingsActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.settings.ui.SettingsActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100207</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity</declaringSootClass>
+          <elementID>100207</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onPause()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100221</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>com.mikepenz.aboutlibraries.ui.LibsActivity</declaringSootClass>
+          <elementID>100221</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>3</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.Window getWindow()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.os.Bundle getExtras()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296415</globalId>
+          <parentId>100125</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.mediathek.ui.list.MediathekListFragment</declaringSootClass>
+          <elementID>2131296415</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.list.MediathekListFragment: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Aktualisieren</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.list.MediathekListFragment: void loadItems(int,boolean)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100200</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.MainActivity</declaringSootClass>
+          <elementID>100200</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.MainActivity: void onRestoreInstanceState(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>3</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.support.v4.view.ViewPager: int getCurrentItem()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.MainActivity: void search(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.list.MediathekListFragment: void loadItems(int,boolean)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: void onRestoreInstanceState(android.os.Bundle)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.MainActivity: void onRestoreInstanceState(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100213</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.about.ui.AboutActivity</declaringSootClass>
+          <elementID>100213</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.about.ui.AboutActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>4</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.about.ui.AboutActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.Window getWindow()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.os.Bundle getExtras()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;com.mikepenz.aboutlibraries.ui.LibsActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296417</globalId>
+          <parentId>100129</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity</declaringSootClass>
+          <elementID>2131296417</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Teilen</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>4</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.content.Intent createChooser(android.content.Intent,java.lang.CharSequence)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+        <st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+          <api>
+            <signature>&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+          <classNameReg></classNameReg>
+          <actionTargets/>
+          <extras/>
+        </st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.model.MediathekShow: android.content.Intent getShareIntentPlain()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100208</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity</declaringSootClass>
+          <elementID>100208</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>8</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.TextView: void setText(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void showError(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onVideoError(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.NetworkInfo: int getType()&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.utils.system.NetworkConnectionHelper: boolean isConnectedToWifi()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.ConnectivityManager: android.net.NetworkInfo getActiveNetworkInfo()&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.utils.system.NetworkConnectionHelper: boolean isConnectedToWifi()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void hideError()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onResume()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onResume()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: void setRequestedOrientation(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onResume()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100219</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity</declaringSootClass>
+          <elementID>100219</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onStop()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296416</globalId>
+          <parentId>100127</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity</declaringSootClass>
+          <elementID>2131296416</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Einstellungen</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+          <api>
+            <signature>&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+          <classNameReg></classNameReg>
+          <actionTargets/>
+          <extras/>
+        </st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131492865</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.MainActivity</declaringSootClass>
+          <elementID>2131492865</elementID>
+          <intentFilters/>
+          <kindOfElement></kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296417</globalId>
+          <parentId>100129</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity</declaringSootClass>
+          <elementID>2131296417</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Teilen</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+          <api>
+            <signature>&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+          <classNameReg></classNameReg>
+          <actionTargets/>
+          <extras/>
+        </st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100212</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity</declaringSootClass>
+          <elementID>100212</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onRestoreInstanceState(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: void onRestoreInstanceState(android.os.Bundle)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onRestoreInstanceState(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131492868</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity</declaringSootClass>
+          <elementID>2131492868</elementID>
+          <intentFilters/>
+          <kindOfElement></kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100204</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.about.ui.FaqActivity</declaringSootClass>
+          <elementID>100204</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.about.ui.FaqActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100210</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity</declaringSootClass>
+          <elementID>100210</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onStop()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100199</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.MainActivity</declaringSootClass>
+          <elementID>100199</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.MainActivity: void onSaveInstanceState(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100214</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity</declaringSootClass>
+          <elementID>100214</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>9</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.Window getWindow()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.utils.system.NetworkConnectionHelper: void startListenForNetworkChanges(de.christinecoenen.code.zapp.utils.system.NetworkConnectionHelper$Listener)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.settings.helper.PreferenceHelper: void &lt;init&gt;(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.settings.helper.PreferenceHelper: java.util.List loadList(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.lang.String getPackageName()&gt;</signature>
+          </api>
+          <depthMethodLevel>7</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.model.json.JsonChannelsParser: de.christinecoenen.code.zapp.model.ChannelModel mapJsonModel(de.christinecoenen.code.zapp.model.json.JsonChannelModel)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: int getIdentifier(java.lang.String,java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>7</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.model.json.JsonChannelsParser: de.christinecoenen.code.zapp.model.ChannelModel mapJsonModel(de.christinecoenen.code.zapp.model.json.JsonChannelModel)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.support.v4.view.ViewPager: void setCurrentItem(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void parseIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.os.Bundle getExtras()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void parseIntent(android.content.Intent)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100218</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity</declaringSootClass>
+          <elementID>100218</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onStart()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>6</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void play()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.NetworkInfo: int getType()&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.utils.system.NetworkConnectionHelper: boolean isConnectedToWifi()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.ConnectivityManager: android.net.NetworkInfo getActiveNetworkInfo()&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.utils.system.NetworkConnectionHelper: boolean isConnectedToWifi()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.utils.system.NetworkConnectionHelper: boolean isVideoPlaybackAllowed()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.utils.system.NetworkConnectionHelper: boolean isVideoPlaybackAllowed()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onVideoError(int)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100206</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity</declaringSootClass>
+          <elementID>100206</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onDestroy()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100211</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity</declaringSootClass>
+          <elementID>100211</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onSaveInstanceState(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100201</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.about.ui.ChangelogActivity</declaringSootClass>
+          <elementID>100201</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.about.ui.ChangelogActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100202</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.settings.ui.ChannelSelectionActivity</declaringSootClass>
+          <elementID>100202</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.settings.ui.ChannelSelectionActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>7</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: java.lang.Object getSystemService(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.settings.ui.ChannelSelectionAdapter: void &lt;init&gt;(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.utils.view.GridAutofitLayoutManager: void &lt;init&gt;(android.content.Context,int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setVerticalScrollBarEnabled(boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.settings.ui.ChannelSelectionActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.settings.helper.PreferenceHelper: void &lt;init&gt;(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.settings.helper.PreferenceHelper: java.util.List loadList(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.lang.String getPackageName()&gt;</signature>
+          </api>
+          <depthMethodLevel>7</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.model.json.JsonChannelsParser: de.christinecoenen.code.zapp.model.ChannelModel mapJsonModel(de.christinecoenen.code.zapp.model.json.JsonChannelModel)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: int getIdentifier(java.lang.String,java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>7</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.model.json.JsonChannelsParser: de.christinecoenen.code.zapp.model.ChannelModel mapJsonModel(de.christinecoenen.code.zapp.model.json.JsonChannelModel)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296417</globalId>
+          <parentId>100129</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity</declaringSootClass>
+          <elementID>2131296417</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Teilen</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+          <api>
+            <signature>&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.utils.system.IntentHelper: void openUrl(android.content.Context,java.lang.String)&gt;</callerSignature>
+          <classNameReg></classNameReg>
+          <actionTargets/>
+          <data>&lt;de.christinecoenen.code.zapp.app.mediathek.model.MediathekShow: java.lang.String videoUrl&gt;</data>
+          <action>android.intent.action.VIEW</action>
+          <extras/>
+        </st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100215</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity</declaringSootClass>
+          <elementID>100215</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onDestroy()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100209</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity</declaringSootClass>
+          <elementID>100209</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onStart()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>7</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.TextView: void setText(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void showError(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onVideoError(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.NetworkInfo: int getType()&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.utils.system.NetworkConnectionHelper: boolean isConnectedToWifi()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.ConnectivityManager: android.net.NetworkInfo getActiveNetworkInfo()&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.utils.system.NetworkConnectionHelper: boolean isConnectedToWifi()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.utils.system.NetworkConnectionHelper: boolean isVideoPlaybackAllowed()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.utils.system.NetworkConnectionHelper: boolean isVideoPlaybackAllowed()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void hideError()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100205</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity</declaringSootClass>
+          <elementID>100205</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>8</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.controller.Player: void &lt;init&gt;(android.content.Context,de.christinecoenen.code.zapp.app.mediathek.model.MediathekShow,de.christinecoenen.code.zapp.utils.video.VideoErrorHandler$IVideoErrorListener,de.christinecoenen.code.zapp.utils.video.VideoBufferingHandler$IVideoBufferingListener)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.utils.system.NetworkConnectionHelper: void startListenForNetworkChanges(de.christinecoenen.code.zapp.utils.system.NetworkConnectionHelper$Listener)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.controller.Player: void &lt;init&gt;(android.content.Context,de.christinecoenen.code.zapp.app.mediathek.model.MediathekShow,de.christinecoenen.code.zapp.utils.video.VideoErrorHandler$IVideoErrorListener,de.christinecoenen.code.zapp.utils.video.VideoBufferingHandler$IVideoBufferingListener)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.controller.Player: void &lt;init&gt;(android.content.Context,de.christinecoenen.code.zapp.app.mediathek.model.MediathekShow,de.christinecoenen.code.zapp.utils.video.VideoErrorHandler$IVideoErrorListener,de.christinecoenen.code.zapp.utils.video.VideoBufferingHandler$IVideoBufferingListener)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.ViewGroup: android.view.View getChildAt(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.os.Bundle getExtras()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.widget.ImageView: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekPlayerActivity: void updateSubtitleButtons()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296416</globalId>
+          <parentId>100127</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.MainActivity</declaringSootClass>
+          <elementID>2131296416</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Einstellungen</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+          <api>
+            <signature>&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+          <classNameReg></classNameReg>
+          <actionTargets/>
+          <extras/>
+        </st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131296414</globalId>
+          <parentId>100128</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.MainActivity</declaringSootClass>
+          <elementID>2131296414</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Über</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>1</int>
+        <st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+          <api>
+            <signature>&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+          <classNameReg></classNameReg>
+          <actionTargets/>
+          <extras/>
+        </st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131492864</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity</declaringSootClass>
+          <elementID>2131492864</elementID>
+          <intentFilters/>
+          <kindOfElement></kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100217</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity</declaringSootClass>
+          <elementID>100217</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>7</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onResume()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onResume()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void play()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.NetworkInfo: int getType()&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.utils.system.NetworkConnectionHelper: boolean isConnectedToWifi()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.ConnectivityManager: android.net.NetworkInfo getActiveNetworkInfo()&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.utils.system.NetworkConnectionHelper: boolean isConnectedToWifi()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onVideoError(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: void setRequestedOrientation(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onResume()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100216</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity</declaringSootClass>
+          <elementID>100216</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.livestream.ui.detail.ChannelDetailActivity: void onPause()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131492867</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity</declaringSootClass>
+          <elementID>2131492867</elementID>
+          <intentFilters/>
+          <kindOfElement></kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100203</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity</declaringSootClass>
+          <elementID>100203</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>3</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.os.Bundle getExtras()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Bundle: java.io.Serializable getSerializable(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.os.Bundle: void putSerializable(java.lang.String,java.io.Serializable)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailFragment: de.christinecoenen.code.zapp.app.mediathek.ui.detail.MediathekDetailFragment getInstance(de.christinecoenen.code.zapp.app.mediathek.model.MediathekShow)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131492869</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>de.christinecoenen.code.zapp.app.mediathek.ui.list.MediathekListFragment</declaringSootClass>
+          <elementID>2131492869</elementID>
+          <intentFilters/>
+          <kindOfElement></kindOfElement>
+          <handlerMethod>&lt;de.christinecoenen.code.zapp.app.mediathek.ui.list.MediathekListFragment: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+</map>

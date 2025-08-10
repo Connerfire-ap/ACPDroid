@@ -1,0 +1,178 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+LayoutHandler: didn't find style with name: @style/Base.V21.Theme.AppCompat.Light
+XMLLayoutFile:setName: couldn't find id of name: shortcuts
+XMLLayoutFile:setName: couldn't find id of name: list_widget_info
+XMLLayoutFile:setName: couldn't find id of name: file_paths
+XMLLayoutFile:setName: couldn't find id of name: pref_headers
+XMLLayoutFile:setName: couldn't find id of name: syncadapter
+XMLLayoutFile:setName: couldn't find id of name: authenticator
+XMLLayoutFile:setName: couldn't find id of name: sticky_note_widget_info
+/home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/GoalExplorer/sootOutput/kolabnotes/res/navigation folder does not exists!
+Found 21 entrypoint classes and 34 methods in overall
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.OverviewFragment: void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.DetailFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.DrawEditorActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.BlankFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.ChooseAccountDialogFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.TagListActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.AttachmentFragment: void onActivityCreated(android.os.Bundle)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.TagListFragment: void onActivityCreated(android.os.Bundle)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.setting.SettingsActivity$DataSyncPreferenceFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.setting.SettingsActivity$GeneralPreferenceFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.setting.SettingsActivity$NotificationPreferenceFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.DrawEditorFragment: void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)>
+Found 3 reachable methods from <org.kore.kolabnotes.android.DetailActivity: void onCreate(android.os.Bundle)>
+Found 5 reachable methods from <org.kore.kolabnotes.android.setting.AppCompatPreferenceActivity: void onCreate(android.os.Bundle)>
+Found 6 reachable methods from <org.kore.kolabnotes.android.setting.SettingsActivity: void onCreate(android.os.Bundle)>
+Found 17 reachable methods from <org.kore.kolabnotes.android.AttachmentActivity: void onCreate(android.os.Bundle)>
+Found 18 reachable methods from <org.kore.kolabnotes.android.MainActivity: void onCreate(android.os.Bundle)>
+org.kore.kolabnotes.android.fragment.BlankFragment: Finished processing of entrypoints after 0 seconds.
+org.kore.kolabnotes.android.setting.SettingsActivity$GeneralPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.DrawEditorFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+org.kore.kolabnotes.android.setting.SettingsActivity$DataSyncPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+org.kore.kolabnotes.android.DrawEditorActivity: Finished processing of entrypoints after 0 seconds.
+org.kore.kolabnotes.android.TagListActivity: Finished processing of entrypoints after 0 seconds.
+org.kore.kolabnotes.android.DetailActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.OverviewFragment: void onActivityCreated(android.os.Bundle)>
+org.kore.kolabnotes.android.setting.SettingsActivity$NotificationPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.DetailFragment: void onActivityCreated(android.os.Bundle)>
+Found 20 reachable methods from <org.kore.kolabnotes.android.security.AuthenticatorActivity: void onCreate(android.os.Bundle)>
+org.kore.kolabnotes.android.fragment.ChooseAccountDialogFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.DrawEditorFragment: void onActivityCreated(android.os.Bundle)>
+Found 6 reachable methods from <org.kore.kolabnotes.android.setting.SettingsActivity: void onPostCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.AttachmentFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.AttachmentFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 32 reachable methods from <org.kore.kolabnotes.android.fragment.PreviewFragment: void onActivityCreated(android.os.Bundle)>
+Found 5 reachable methods from <org.kore.kolabnotes.android.setting.AppCompatPreferenceActivity: void onPostCreate(android.os.Bundle)>
+org.kore.kolabnotes.android.setting.SettingsActivity: Finished processing of entrypoints after 0 seconds.
+org.kore.kolabnotes.android.setting.AppCompatPreferenceActivity: Finished processing of entrypoints after 0 seconds.
+org.kore.kolabnotes.android.fragment.AttachmentFragment: Finished processing of entrypoints after 0 seconds.
+org.kore.kolabnotes.android.AttachmentActivity: Finished processing of entrypoints after 0 seconds.
+org.kore.kolabnotes.android.MainActivity: Finished processing of entrypoints after 0 seconds.
+org.kore.kolabnotes.android.fragment.DrawEditorFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.OverviewFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+org.kore.kolabnotes.android.fragment.OverviewFragment: Finished processing of entrypoints after 0 seconds.
+Found 54 reachable methods from <org.kore.kolabnotes.android.widget.ListWidgetConfigureActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.TagListFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+org.kore.kolabnotes.android.fragment.TagListFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.PreviewFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.PreviewFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+org.kore.kolabnotes.android.fragment.PreviewFragment: Finished processing of entrypoints after 0 seconds.
+Found 62 reachable methods from <org.kore.kolabnotes.android.widget.StickyNoteWidgetConfigureActivity: void onCreate(android.os.Bundle)>
+org.kore.kolabnotes.android.widget.ListWidgetConfigureActivity: Finished processing of entrypoints after 0 seconds.
+org.kore.kolabnotes.android.security.AuthenticatorActivity: Finished processing of entrypoints after 0 seconds.
+org.kore.kolabnotes.android.widget.StickyNoteWidgetConfigureActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.DetailFragment: void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)>
+org.kore.kolabnotes.android.fragment.DetailFragment: Finished processing of entrypoints after 0 seconds.
+SpecXMLTag not found with id: 2131296408
+SpecXMLTag not found with id: 2131296512
+Dynamical declared elements, found: 0
+Found 11 callback classes and 25 methods overall
+Found 1 reachable methods from <org.kore.kolabnotes.android.security.AuthenticatorActivity$AccountTypeSelectedListener: void onNothingSelected(android.widget.AdapterView)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.AttachmentFragment$1: void onClick(android.view.View)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.widget.StickyNoteWidgetConfigureActivity$2: void onNothingSelected(android.widget.AdapterView)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.AttachmentFragment$NewAttachmentListener: void onClick(android.view.View)>
+org.kore.kolabnotes.android.fragment.AttachmentFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.DetailFragment$1: void onClick(android.view.View)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.OverviewFragment: boolean onOptionsItemSelected(android.view.MenuItem)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.ChooseAccountDialogFragment: void onClick(android.view.View)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.TagListFragment$CreateButtonListener: void onClick(android.view.View)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.DrawEditorFragment: boolean onOptionsItemSelected(android.view.MenuItem)>
+Found 14 reachable methods from <org.kore.kolabnotes.android.fragment.PreviewFragment$1: boolean onTouch(android.view.View,android.view.MotionEvent)>
+Found 3 reachable methods from <org.kore.kolabnotes.android.drawer.OnHeaderClicked: void onClick(android.view.View)>
+Found 3 reachable methods from <org.kore.kolabnotes.android.widget.StickyNoteWidgetConfigureActivity$2: void onItemSelected(android.widget.AdapterView,android.view.View,int,long)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.DetailFragment: boolean onOptionsItemSelected(android.view.MenuItem)>
+Found 5 reachable methods from <org.kore.kolabnotes.android.widget.ListWidgetConfigureActivity$1: void onClick(android.view.View)>
+org.kore.kolabnotes.android.fragment.DetailFragment: Finished processing of entrypoints after 0 seconds.
+org.kore.kolabnotes.android.fragment.TagListFragment: Finished processing of entrypoints after 0 seconds.
+org.kore.kolabnotes.android.MainActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.OverviewFragment$CreateButtonListener: void onClick(android.view.View)>
+org.kore.kolabnotes.android.fragment.PreviewFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.kore.kolabnotes.android.widget.ListWidgetConfigureActivity$6: void onNothingSelected(android.widget.AdapterView)>
+org.kore.kolabnotes.android.fragment.ChooseAccountDialogFragment: Finished processing of entrypoints after 0 seconds.
+org.kore.kolabnotes.android.fragment.OverviewFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.DrawEditorFragment$3: void onClick(android.view.View)>
+Found 1 reachable methods from <org.kore.kolabnotes.android.fragment.DrawEditorFragment$4: void onClick(android.view.View)>
+org.kore.kolabnotes.android.fragment.DrawEditorFragment: Finished processing of entrypoints after 0 seconds.
+Found 4 reachable methods from <org.kore.kolabnotes.android.widget.ListWidgetConfigureActivity$6: void onItemSelected(android.widget.AdapterView,android.view.View,int,long)>
+Found 10 reachable methods from <org.kore.kolabnotes.android.security.AuthenticatorActivity$AccountTypeSelectedListener: void onItemSelected(android.widget.AdapterView,android.view.View,int,long)>
+Found 39 reachable methods from <org.kore.kolabnotes.android.security.AuthenticatorActivity$1: void onClick(android.view.View)>
+Found 50 reachable methods from <org.kore.kolabnotes.android.widget.StickyNoteWidgetConfigureActivity$1: void onClick(android.view.View)>
+Found 59 reachable methods from <org.kore.kolabnotes.android.widget.ListWidgetConfigureActivity$3: void onClick(android.view.View)>
+org.kore.kolabnotes.android.widget.StickyNoteWidgetConfigureActivity: Finished processing of entrypoints after 0 seconds.
+Found 5 reachable methods from <org.kore.kolabnotes.android.widget.ListWidgetConfigureActivity$2: void onClick(android.view.View)>
+org.kore.kolabnotes.android.widget.ListWidgetConfigureActivity: Finished processing of entrypoints after 0 seconds.
+Found 4 reachable methods from <org.kore.kolabnotes.android.security.AuthenticatorActivity$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>
+org.kore.kolabnotes.android.security.AuthenticatorActivity: Finished processing of entrypoints after 0 seconds.
+UI Analysis has run for 6.010545622 seconds
+AppController:createUIElementsFromListener: listener method was not found!!!: <org.kore.kolabnotes.android.fragment.DrawEditorFragment$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>
+AppController:createUIElementsFromListener: listener method was not found!!!: <org.kore.kolabnotes.android.fragment.DrawEditorFragment$5: void onCheckedChanged(android.widget.CompoundButton,boolean)>
+Entry point creation has run for 0.003669612 seconds
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 61 callback methods from UI Analysis
+Found 61 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Method: <org.kore.kolabnotes.android.security.AuthenticatorActivity$2: void onCheckedChanged(android.widget.CompoundButton,boolean)>, ElementId: 2131296434, GlobalId: 2131296434 -> 1 APIs
+Method: <org.kore.kolabnotes.android.fragment.TagListFragment$CreateButtonListener: void onClick(android.view.View)>, ElementId: 2131296320, GlobalId: 2131296320 -> 4 APIs
+Method: <org.kore.kolabnotes.android.setting.AppCompatPreferenceActivity: void onStop()>, ElementId: 100201, GlobalId: 100201 -> 0 APIs
+Method: <org.kore.kolabnotes.android.widget.ListWidgetConfigureActivity$2: void onClick(android.view.View)>, ElementId: 2131296530, GlobalId: 2131296530 -> 0 APIs
+Method: <org.kore.kolabnotes.android.fragment.DrawEditorFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296536, GlobalId: 2131296536 -> 3 APIs
+Method: <org.kore.kolabnotes.android.fragment.DrawEditorFragment$3: void onClick(android.view.View)>, ElementId: 2131296405, GlobalId: 2131296405 -> 0 APIs
+Method: <org.kore.kolabnotes.android.DrawEditorActivity: void onCreate(android.os.Bundle)>, ElementId: 100195, GlobalId: 100195 -> 1 APIs
+Method: <org.kore.kolabnotes.android.TagListActivity: void onCreate(android.os.Bundle)>, ElementId: 100193, GlobalId: 100193 -> 1 APIs
+Method: <org.kore.kolabnotes.android.TagListActivity: void onSaveInstanceState(android.os.Bundle)>, ElementId: 100194, GlobalId: 100194 -> 0 APIs
+Method: <org.kore.kolabnotes.android.fragment.OverviewFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296377, GlobalId: 2131296377 -> 4 APIs
+Method: <org.kore.kolabnotes.android.fragment.DetailFragment$1: void onClick(android.view.View)>, ElementId: 2131296613, GlobalId: 2131296613 -> 11 APIs
+Method: <org.kore.kolabnotes.android.drawer.OnHeaderClicked: void onClick(android.view.View)>, ElementId: 2131296418, GlobalId: 2131296418 -> 4 APIs
+Method: <org.kore.kolabnotes.android.fragment.ChooseAccountDialogFragment: void onClick(android.view.View)>, ElementId: 2131296559, GlobalId: 2131296559 -> 10 APIs
+Method: <org.kore.kolabnotes.android.fragment.ChooseAccountDialogFragment: void onClick(android.view.View)>, ElementId: 2131296354, GlobalId: 2131296354 -> 0 APIs
+Method: <org.kore.kolabnotes.android.security.AuthenticatorActivity: void onCreate(android.os.Bundle)>, ElementId: 100187, GlobalId: 100187 -> 16 APIs
+Method: <org.kore.kolabnotes.android.widget.ListWidgetConfigureActivity$1: void onClick(android.view.View)>, ElementId: 2131296532, GlobalId: 2131296532 -> 0 APIs
+Method: <org.kore.kolabnotes.android.DetailActivity: void onSaveInstanceState(android.os.Bundle)>, ElementId: 100190, GlobalId: 100190 -> 0 APIs
+Method: <org.kore.kolabnotes.android.fragment.DetailFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296387, GlobalId: 2131296387 -> 9 APIs
+Method: <org.kore.kolabnotes.android.widget.ListWidgetConfigureActivity$3: void onClick(android.view.View)>, ElementId: 2131296321, GlobalId: 2131296321 -> 22 APIs
+Method: <org.kore.kolabnotes.android.MainActivity: void onSaveInstanceState(android.os.Bundle)>, ElementId: 100186, GlobalId: 100186 -> 0 APIs
+Method: <org.kore.kolabnotes.android.fragment.DetailFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296347, GlobalId: 2131296347 -> 3 APIs
+Method: <org.kore.kolabnotes.android.fragment.DetailFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296424, GlobalId: 2131296424 -> 4 APIs
+Method: <org.kore.kolabnotes.android.widget.ListWidgetConfigureActivity: void onCreate(android.os.Bundle)>, ElementId: 100191, GlobalId: 100191 -> 16 APIs
+Method: <org.kore.kolabnotes.android.DetailActivity: void onCreate(android.os.Bundle)>, ElementId: 100188, GlobalId: 100188 -> 5 APIs
+Method: <org.kore.kolabnotes.android.setting.AppCompatPreferenceActivity: void onDestroy()>, ElementId: 100200, GlobalId: 100200 -> 0 APIs
+Method: <org.kore.kolabnotes.android.fragment.DrawEditorFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296625, GlobalId: 2131296625 -> 3 APIs
+Method: <org.kore.kolabnotes.android.fragment.OverviewFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296465, GlobalId: 2131296465 -> 1 APIs
+Method: <org.kore.kolabnotes.android.fragment.OverviewFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296389, GlobalId: 2131296389 -> 5 APIs
+Method: <org.kore.kolabnotes.android.fragment.OverviewFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296304, GlobalId: 2131296304 -> 1 APIs
+Method: <org.kore.kolabnotes.android.AttachmentActivity: void onCreate(android.os.Bundle)>, ElementId: 100197, GlobalId: 100197 -> 2 APIs
+Method: <org.kore.kolabnotes.android.widget.StickyNoteWidgetConfigureActivity$1: void onClick(android.view.View)>, ElementId: 2131296321, GlobalId: 2131296321 -> 24 APIs
+Method: <org.kore.kolabnotes.android.DrawEditorActivity: void onSaveInstanceState(android.os.Bundle)>, ElementId: 100196, GlobalId: 100196 -> 0 APIs
+Method: <org.kore.kolabnotes.android.fragment.OverviewFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296561, GlobalId: 2131296561 -> 0 APIs
+Method: <org.kore.kolabnotes.android.fragment.DetailFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296511, GlobalId: 2131296511 -> 26 APIs
+Method: <org.kore.kolabnotes.android.MainActivity: void onResume()>, ElementId: 100185, GlobalId: 100185 -> 4 APIs
+Method: <org.kore.kolabnotes.android.fragment.DetailFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296359, GlobalId: 2131296359 -> 0 APIs
+Method: <org.kore.kolabnotes.android.fragment.DrawEditorFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296511, GlobalId: 2131296511 -> 3 APIs
+Method: <org.kore.kolabnotes.android.fragment.DetailFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296562, GlobalId: 2131296562 -> 11 APIs
+Method: <org.kore.kolabnotes.android.fragment.AttachmentFragment$1: void onClick(android.view.View)>, ElementId: 2131296614, GlobalId: 2131296614 -> 0 APIs
+Method: <org.kore.kolabnotes.android.setting.SettingsActivity: void onCreate(android.os.Bundle)>, ElementId: 100199, GlobalId: 100199 -> 0 APIs
+Method: <org.kore.kolabnotes.android.fragment.OverviewFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296599, GlobalId: 2131296599 -> 1 APIs
+Method: <org.kore.kolabnotes.android.MainActivity: void onPause()>, ElementId: 100184, GlobalId: 100184 -> 1 APIs
+Method: <org.kore.kolabnotes.android.security.AuthenticatorActivity$1: void onClick(android.view.View)>, ElementId: 2131296589, GlobalId: 2131296589 -> 14 APIs
+Method: <org.kore.kolabnotes.android.fragment.OverviewFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131492868, GlobalId: 2131492868 -> 1 APIs
+Method: <org.kore.kolabnotes.android.fragment.DetailFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296489, GlobalId: 2131296489 -> 4 APIs
+Method: <org.kore.kolabnotes.android.fragment.DrawEditorFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131492865, GlobalId: 2131492865 -> 0 APIs
+Method: <org.kore.kolabnotes.android.widget.StickyNoteWidgetConfigureActivity: void onCreate(android.os.Bundle)>, ElementId: 100192, GlobalId: 100192 -> 19 APIs
+Method: <org.kore.kolabnotes.android.fragment.DetailFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296525, GlobalId: 2131296525 -> 2 APIs
+Method: <org.kore.kolabnotes.android.fragment.OverviewFragment$CreateButtonListener: void onClick(android.view.View)>, ElementId: 2131296445, GlobalId: 2131296445 -> 11 APIs
+Method: <org.kore.kolabnotes.android.fragment.DrawEditorFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296366, GlobalId: 2131296366 -> 0 APIs
+Method: <org.kore.kolabnotes.android.fragment.DrawEditorFragment$4: void onClick(android.view.View)>, ElementId: 2131296409, GlobalId: 2131296409 -> 6 APIs
+Method: <org.kore.kolabnotes.android.fragment.DetailFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296370, GlobalId: 2131296370 -> 0 APIs
+Method: <org.kore.kolabnotes.android.MainActivity: void onCreate(android.os.Bundle)>, ElementId: 100183, GlobalId: 100183 -> 2 APIs
+Method: <org.kore.kolabnotes.android.fragment.AttachmentFragment$NewAttachmentListener: void onClick(android.view.View)>, ElementId: 2131296445, GlobalId: 2131296445 -> 1 APIs
+Method: <org.kore.kolabnotes.android.fragment.DetailFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131492864, GlobalId: 2131492864 -> 0 APIs
+Method: <org.kore.kolabnotes.android.setting.AppCompatPreferenceActivity: void onPostResume()>, ElementId: 100203, GlobalId: 100203 -> 0 APIs
+Method: <org.kore.kolabnotes.android.AttachmentActivity: void onSaveInstanceState(android.os.Bundle)>, ElementId: 100198, GlobalId: 100198 -> 0 APIs
+Method: <org.kore.kolabnotes.android.fragment.OverviewFragment: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296444, GlobalId: 2131296444 -> 10 APIs
+Method: <org.kore.kolabnotes.android.setting.SettingsActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100202, GlobalId: 100202 -> 1 APIs
+Method: <org.kore.kolabnotes.android.DetailActivity: void onPause()>, ElementId: 100189, GlobalId: 100189 -> 26 APIs
+Method: <org.kore.kolabnotes.android.fragment.PreviewFragment$1: boolean onTouch(android.view.View,android.view.MotionEvent)>, ElementId: 2131296485, GlobalId: 2131296485 -> 0 APIs
+Found 1 partitions
+Reachability Analysis has run for 0.667428019 seconds

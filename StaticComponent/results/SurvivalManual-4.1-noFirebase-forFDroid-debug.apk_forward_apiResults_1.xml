@@ -1,0 +1,860 @@
+<map>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100077</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.ligi.survivalmanual.ui.PreferenceActivity</declaringSootClass>
+          <elementID>100077</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;org.ligi.survivalmanual.ui.PreferenceActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>4</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.model.State: java.lang.String string(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: android.view.View getRootView()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.PreferenceActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.Window getWindow()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.PreferenceActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setBackgroundColor(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.PreferenceActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100079</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.ligi.survivalmanual.ui.MainActivity</declaringSootClass>
+          <elementID>100079</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;org.ligi.survivalmanual.ui.MainActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>13</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: long getLong(java.lang.String,long)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.snackengage.stats.SnackStats: long getOpportunityCount(org.ligi.snackengage.snacks.Snack)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.snackengage.stats.SnackStats: android.content.SharedPreferences getPrefs()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.snackengage.stats.SnackStats: void registerOpportunity(org.ligi.snackengage.snacks.Snack)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.AssetManager: java.io.InputStream open(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.model.SurvivalContent: java.lang.String getMarkdown(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>7</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.model.State: boolean markVisited()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.MainActivity: boolean processURL(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: int getHeight()&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.MainActivity: int imageWidth()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: float getDimension(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.MainActivity: int imageWidth()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: int getWidth()&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.MainActivity: int imageWidth()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.tracedroid.logging.Log: void i(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.Uri: java.lang.String getPath()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.MainActivity$onCreate$2: void run()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.net.Uri getData()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.MainActivity$onCreate$2: void run()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: android.content.Context getContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.snackengage.SnackContext: void &lt;init&gt;(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100078</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.ligi.survivalmanual.ui.PreferenceActivity</declaringSootClass>
+          <elementID>100078</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;org.ligi.survivalmanual.ui.BaseActivity: void onResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>4</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setBackgroundColor(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.BaseActivity: void onResume()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.Window getWindow()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.BaseActivity: void onResume()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.model.State: java.lang.String string(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: android.view.View getRootView()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.BaseActivity: void onResume()&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131755009</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.ligi.survivalmanual.ui.MainActivity</declaringSootClass>
+          <elementID>2131755009</elementID>
+          <intentFilters/>
+          <kindOfElement></kindOfElement>
+          <handlerMethod>&lt;org.ligi.survivalmanual.ui.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131755008</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.ligi.survivalmanual.ui.MainActivity</declaringSootClass>
+          <elementID>2131755008</elementID>
+          <intentFilters/>
+          <kindOfElement></kindOfElement>
+          <handlerMethod>&lt;org.ligi.survivalmanual.ui.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131689645</globalId>
+          <parentId>100071</parentId>
+          <declaringSootClass>org.ligi.survivalmanual.ui.MainActivity</declaringSootClass>
+          <elementID>2131689645</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;org.ligi.survivalmanual.ui.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Print</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>2</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.AssetManager: java.io.InputStream open(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.model.SurvivalContent: java.lang.String getMarkdown(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.webkit.WebView: void setWebViewClient(android.webkit.WebViewClient)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131689644</globalId>
+          <parentId>100072</parentId>
+          <declaringSootClass>org.ligi.survivalmanual.ui.MainActivity</declaringSootClass>
+          <elementID>2131689644</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;org.ligi.survivalmanual.ui.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Rate</string>
+            </entry>
+          </text>
+        </default>
+        <string>org.ligi.survivalmanual.ui.MainActivity</string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>14</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: long getLong(java.lang.String,long)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.snackengage.stats.SnackStats: long getOpportunityCount(org.ligi.snackengage.snacks.Snack)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)&gt;</signature>
+          </api>
+          <depthMethodLevel>7</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.snackengage.stats.SnackStats: android.content.SharedPreferences getPrefs()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.snackengage.stats.SnackStats: void registerOpportunity(org.ligi.snackengage.snacks.Snack)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.AssetManager: java.io.InputStream open(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>7</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.model.SurvivalContent: java.lang.String getMarkdown(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>9</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.model.State: boolean markVisited()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.MainActivity: boolean processURL(java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: int getHeight()&gt;</signature>
+          </api>
+          <depthMethodLevel>7</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.MainActivity: int imageWidth()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.Resources: float getDimension(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>7</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.MainActivity: int imageWidth()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: int getWidth()&gt;</signature>
+          </api>
+          <depthMethodLevel>7</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.MainActivity: int imageWidth()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.util.Log: int i(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>8</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.tracedroid.logging.Log: void i(java.lang.String,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.net.Uri: java.lang.String getPath()&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.MainActivity$onCreate$2: void run()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.net.Uri getData()&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.MainActivity$onCreate$2: void run()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: android.content.Context getContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>6</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.snackengage.SnackContext: void &lt;init&gt;(android.view.View)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.lang.String getPackageName()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.snackengage.snacks.RateSnack: android.net.Uri getUri(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100081</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.ligi.survivalmanual.ui.MainActivity</declaringSootClass>
+          <elementID>100081</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;org.ligi.survivalmanual.ui.MainActivity: void onPostCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131689641</globalId>
+          <parentId>100072</parentId>
+          <declaringSootClass>org.ligi.survivalmanual.ui.MainActivity</declaringSootClass>
+          <elementID>2131689641</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;org.ligi.survivalmanual.ui.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Settings</string>
+            </entry>
+          </text>
+        </default>
+        <string>org.ligi.survivalmanual.ui.PreferenceActivity</string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>4</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>5</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.model.State: java.lang.String string(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: android.view.View getRootView()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.PreferenceActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.Window getWindow()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.PreferenceActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setBackgroundColor(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>1</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.PreferenceActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131689640</globalId>
+          <parentId>100072</parentId>
+          <declaringSootClass>org.ligi.survivalmanual.ui.MainActivity</declaringSootClass>
+          <elementID>2131689640</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;org.ligi.survivalmanual.ui.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Search</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100082</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.ligi.survivalmanual.ui.ImageViewActivity</declaringSootClass>
+          <elementID>100082</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;org.ligi.survivalmanual.ui.ImageViewActivity: void onCreate(android.os.Bundle)&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>2</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.res.AssetManager: java.io.InputStream open(java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.ImageViewActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.os.Bundle getExtras()&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.ImageViewActivity: void onCreate(android.os.Bundle)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131689643</globalId>
+          <parentId>100072</parentId>
+          <declaringSootClass>org.ligi.survivalmanual.ui.MainActivity</declaringSootClass>
+          <elementID>2131689643</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;org.ligi.survivalmanual.ui.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Share</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>4</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.content.Intent createChooser(android.content.Intent,java.lang.CharSequence)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+        <st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+          <api>
+            <signature>&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+          <classNameReg></classNameReg>
+          <actionTargets/>
+          <action>android.intent.action.SEND</action>
+          <extras>
+            <string>android.intent.extra.TEXT</string>
+          </extras>
+        </st.cs.uni.saarland.de.reachabilityAnalysis.IntentInfo>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.ContextWrapper: java.lang.String getPackageName()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.snackengage.snacks.RateSnack: android.net.Uri getUri(android.content.Context)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)&gt;</signature>
+          </api>
+          <depthMethodLevel>1</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>100080</globalId>
+          <parentId>-1</parentId>
+          <declaringSootClass>org.ligi.survivalmanual.ui.MainActivity</declaringSootClass>
+          <elementID>100080</elementID>
+          <intentFilters/>
+          <kindOfElement>ActivityLifecycleMethod</kindOfElement>
+          <handlerMethod>&lt;org.ligi.survivalmanual.ui.MainActivity: void onResume()&gt;</handlerMethod>
+          <superClasses/>
+          <text/>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>7</int>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.Context: java.lang.String getString(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.model.State: java.lang.String string(int)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)&gt;</signature>
+          </api>
+          <depthMethodLevel>4</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.model.State: boolean markVisited()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: android.content.Context getContext()&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.MyNavigationView: java.lang.String asStringWithMarkingWhenRead(int,java.lang.String)&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setBackgroundColor(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.BaseActivity: void onResume()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.app.Activity: android.view.Window getWindow()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.BaseActivity: void onResume()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: android.view.View getRootView()&gt;</signature>
+          </api>
+          <depthMethodLevel>2</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.survivalmanual.ui.BaseActivity: void onResume()&gt;</callerSignature>
+        </apiinformation>
+        <apiinformation>
+          <api>
+            <signature>&lt;android.view.View: void setVisibility(int)&gt;</signature>
+          </api>
+          <depthMethodLevel>3</depthMethodLevel>
+          <depthComponentLevel>0</depthComponentLevel>
+          <additionalInfo/>
+          <callerSignature>&lt;org.ligi.kaxt.ViewExtensionsKt: void setVisibility(android.view.View,boolean,int)&gt;</callerSignature>
+        </apiinformation>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+  <entry>
+    <uiElement serialization="custom">
+      <uiElement>
+        <default>
+          <globalId>2131689642</globalId>
+          <parentId>100072</parentId>
+          <declaringSootClass>org.ligi.survivalmanual.ui.MainActivity</declaringSootClass>
+          <elementID>2131689642</elementID>
+          <intentFilters/>
+          <kindOfElement>item</kindOfElement>
+          <handlerMethod>&lt;org.ligi.survivalmanual.ui.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;</handlerMethod>
+          <superClasses/>
+          <text>
+            <entry>
+              <string>default_value</string>
+              <string>Bookmark</string>
+            </entry>
+          </text>
+        </default>
+        <string></string>
+      </uiElement>
+    </uiElement>
+    <java.util.concurrent.CopyOnWriteArrayList serialization="custom">
+      <java.util.concurrent.CopyOnWriteArrayList>
+        <default/>
+        <int>0</int>
+      </java.util.concurrent.CopyOnWriteArrayList>
+    </java.util.concurrent.CopyOnWriteArrayList>
+  </entry>
+</map>

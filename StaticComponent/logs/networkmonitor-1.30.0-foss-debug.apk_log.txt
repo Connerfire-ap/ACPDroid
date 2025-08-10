@@ -1,0 +1,125 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+XMLLayoutFile:setName: couldn't find id of name: file_paths
+XMLLayoutFile:setName: couldn't find id of name: backup_scheme
+/home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/GoalExplorer/sootOutput/networkmonitor-1.30.0-foss-debug/res/navigation folder does not exists!
+Found 22 entrypoint classes and 21 methods in overall
+ca.rmen.android.networkmonitor.app.dialog.DialogFragmentFactory: Finished processing of entrypoints after 0 seconds.
+ca.rmen.android.networkmonitor.app.prefs.NetMonPreferenceFragmentCompat: Finished processing of entrypoints after 0 seconds.
+ca.rmen.android.networkmonitor.app.dialog.ConfirmDialogFragment: Finished processing of entrypoints after 0 seconds.
+ca.rmen.android.networkmonitor.app.dialog.ChoiceDialogFragment: Finished processing of entrypoints after 0 seconds.
+ca.rmen.android.networkmonitor.app.dialog.InfoDialogFragment: Finished processing of entrypoints after 0 seconds.
+ca.rmen.android.networkmonitor.app.prefs.hack.PasswordPreferenceDialogFragmentCompat: Finished processing of entrypoints after 0 seconds.
+ca.rmen.android.networkmonitor.app.prefs.FilterColumnListFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ca.rmen.android.networkmonitor.app.prefs.hack.MultiSelectListPreferenceDialogFragmentCompat: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <ca.rmen.android.networkmonitor.app.email.EmailHelpActivity: void onCreate(android.os.Bundle)>
+ca.rmen.android.networkmonitor.app.main.WarningDialogFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <ca.rmen.android.networkmonitor.app.about.LicenseActivity: void onCreate(android.os.Bundle)>
+Found 4 reachable methods from <ca.rmen.android.networkmonitor.app.email.EmailPreferencesActivity: void onStart()>
+Found 5 reachable methods from <ca.rmen.android.networkmonitor.app.about.AboutActivity: void onCreate(android.os.Bundle)>
+Found 5 reachable methods from <ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: void onCreate(android.os.Bundle)>
+Found 7 reachable methods from <ca.rmen.android.networkmonitor.app.log.LogActivity: void onCreate(android.os.Bundle)>
+Found 7 reachable methods from <ca.rmen.android.networkmonitor.app.savetostorage.SaveToStorageActivity: void onCreate(android.os.Bundle)>
+Found 11 reachable methods from <ca.rmen.android.networkmonitor.app.dbops.ui.GnuplotSettingsActivity: void onCreate(android.os.Bundle)>
+ca.rmen.android.networkmonitor.app.about.LicenseActivity: Finished processing of entrypoints after 0 seconds.
+ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity: Finished processing of entrypoints after 0 seconds.
+ca.rmen.android.networkmonitor.app.email.EmailHelpActivity: Finished processing of entrypoints after 0 seconds.
+ca.rmen.android.networkmonitor.app.savetostorage.SaveToStorageActivity: Finished processing of entrypoints after 0 seconds.
+ca.rmen.android.networkmonitor.app.dbops.ui.GnuplotSettingsActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: Finished processing of entrypoints after 0 seconds.
+ca.rmen.android.networkmonitor.app.about.AboutActivity: Finished processing of entrypoints after 0 seconds.
+Found 8 reachable methods from <ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onPrepareOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ca.rmen.android.networkmonitor.app.log.LogActivity: Finished processing of entrypoints after 0 seconds.
+Found 13 reachable methods from <ca.rmen.android.networkmonitor.app.email.EmailPreferencesActivity: void onCreate(android.os.Bundle)>
+ca.rmen.android.networkmonitor.app.email.EmailPreferencesActivity: Finished processing of entrypoints after 0 seconds.
+Found 29 reachable methods from <ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity: void onStart()>
+ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity: Finished processing of entrypoints after 0 seconds.
+Found 31 reachable methods from <ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: void onCreate(android.os.Bundle)>
+Error ListenerSwitch: Doesn't find SearchedReg in initializationOfField: $r5 = $r4.<ca.rmen.android.networkmonitor.databinding.SelectFieldsBinding: android.support.v7.widget.RecyclerView recyclerView>
+Error ListenerSwitch: Doesn't find SearchedReg in initializationOfField: $r5 = $r4.<ca.rmen.android.networkmonitor.databinding.SelectFieldsBinding: android.support.v7.widget.RecyclerView recyclerView>
+ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: Finished processing of entrypoints after 0 seconds.
+Found 60 reachable methods from <ca.rmen.android.networkmonitor.app.main.MainActivity: void onCreate(android.os.Bundle)>
+Found 13 reachable methods from <ca.rmen.android.networkmonitor.app.main.MainActivity: void onStart()>
+ca.rmen.android.networkmonitor.app.main.MainActivity: Finished processing of entrypoints after 0 seconds.
+Found 52 reachable methods from <ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity: void onCreate(android.os.Bundle)>
+Found 16 reachable methods from <ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity: void onStart()>
+ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity: Finished processing of entrypoints after 1 seconds.
+Dynamical declared elements, found: 0
+Found 4 callback classes and 9 methods overall
+Found 1 reachable methods from <ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: Finished processing of entrypoints after 0 seconds.
+Found 4 reachable methods from <ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: void onOk(android.view.View)>
+Found 3 reachable methods from <ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity: void playStoreClicked(android.view.View)>
+Found 4 reachable methods from <ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Found 3 reachable methods from <ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity: void okClicked(android.view.View)>
+ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: Finished processing of entrypoints after 0 seconds.
+Found 3 reachable methods from <ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: void onCancel(android.view.View)>
+Found 3 reachable methods from <ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLibrariesClicked(android.view.View)>
+Found 1 reachable methods from <ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLegalClicked(android.view.View)>
+default_value: Finished processing of entrypoints after 0 seconds.
+Found 32 reachable methods from <ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+ca.rmen.android.networkmonitor.app.log.LogActivity: Finished processing of entrypoints after 0 seconds.
+UI Analysis has run for 5.895727151 seconds
+Entry point creation has run for 0.004323381 seconds
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 51 callback methods from UI Analysis
+Found 51 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Method: <ca.rmen.android.networkmonitor.app.log.LogActivity: void onCreate(android.os.Bundle)>, ElementId: 100194, GlobalId: 100194 -> 4 APIs
+Method: <ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: void onCreate(android.os.Bundle)>, ElementId: 100210, GlobalId: 100210 -> 10 APIs
+Method: <ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296289, GlobalId: 2131296289 -> 2 APIs
+Method: <ca.rmen.android.networkmonitor.app.email.EmailHelpActivity: void onCreate(android.os.Bundle)>, ElementId: 100193, GlobalId: 100193 -> 5 APIs
+Method: <ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296288, GlobalId: 2131296288 -> 2 APIs
+Method: <ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLibrariesClicked(android.view.View)>, ElementId: 2131296464, GlobalId: 2131296464 -> 2 APIs
+Method: <ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: void onCreate(android.os.Bundle)>, ElementId: 100192, GlobalId: 100192 -> 7 APIs
+Method: <ca.rmen.android.networkmonitor.app.log.LogActivity: void onDestroy()>, ElementId: 100195, GlobalId: 100195 -> 4 APIs
+Method: <ca.rmen.android.networkmonitor.app.log.LogActivity: void onPause()>, ElementId: 100196, GlobalId: 100196 -> 3 APIs
+Method: <ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity: void onCreate(android.os.Bundle)>, ElementId: 100207, GlobalId: 100207 -> 10 APIs
+Method: <ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296291, GlobalId: 2131296291 -> 2 APIs
+Method: <ca.rmen.android.networkmonitor.app.dbops.ui.GnuplotSettingsActivity: void onCreate(android.os.Bundle)>, ElementId: 100199, GlobalId: 100199 -> 7 APIs
+Method: <ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131492866, GlobalId: 2131492866 -> 0 APIs
+Method: <ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296290, GlobalId: 2131296290 -> 2 APIs
+Method: <ca.rmen.android.networkmonitor.app.email.EmailPreferencesActivity: void onStart()>, ElementId: 100202, GlobalId: 100202 -> 1 APIs
+Method: <ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity: void onStop()>, ElementId: 100209, GlobalId: 100209 -> 1 APIs
+Method: <ca.rmen.android.networkmonitor.app.about.AboutActivity: void onCreate(android.os.Bundle)>, ElementId: 100200, GlobalId: 100200 -> 8 APIs
+Method: <ca.rmen.android.networkmonitor.app.about.LicenseActivity: void onCreate(android.os.Bundle)>, ElementId: 100198, GlobalId: 100198 -> 0 APIs
+Method: <ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296287, GlobalId: 2131296287 -> 1 APIs
+Method: <ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296285, GlobalId: 2131296285 -> 1 APIs
+Method: <ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296276, GlobalId: 2131296276 -> 10 APIs
+Method: <ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296275, GlobalId: 2131296275 -> 5 APIs
+Method: <ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296271, GlobalId: 2131296271 -> 5 APIs
+Method: <ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296270, GlobalId: 2131296270 -> 5 APIs
+Method: <ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296287, GlobalId: 2131296287 -> 2 APIs
+Method: <ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity: void onStop()>, ElementId: 100190, GlobalId: 100190 -> 8 APIs
+Method: <ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296285, GlobalId: 2131296285 -> 2 APIs
+Method: <ca.rmen.android.networkmonitor.app.savetostorage.SaveToStorageActivity: void onCreate(android.os.Bundle)>, ElementId: 100212, GlobalId: 100212 -> 7 APIs
+Method: <ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity: void onStart()>, ElementId: 100189, GlobalId: 100189 -> 1 APIs
+Method: <ca.rmen.android.networkmonitor.app.main.MainActivity: void onStart()>, ElementId: 100205, GlobalId: 100205 -> 1 APIs
+Method: <ca.rmen.android.networkmonitor.app.log.LogActivity: void onResume()>, ElementId: 100197, GlobalId: 100197 -> 3 APIs
+Method: <ca.rmen.android.networkmonitor.app.main.MainActivity: void onCreate(android.os.Bundle)>, ElementId: 100204, GlobalId: 100204 -> 5 APIs
+Method: <ca.rmen.android.networkmonitor.app.prefs.SelectFieldsActivity: void onDestroy()>, ElementId: 100211, GlobalId: 100211 -> 0 APIs
+Method: <ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: void onOk(android.view.View)>, ElementId: 2131296381, GlobalId: 2131296381 -> 4 APIs
+Method: <ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296286, GlobalId: 2131296286 -> 11 APIs
+Method: <ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLegalClicked(android.view.View)>, ElementId: 2131296463, GlobalId: 2131296463 -> 0 APIs
+Method: <ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity: void onCreate(android.os.Bundle)>, ElementId: 100191, GlobalId: 100191 -> 5 APIs
+Method: <ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296284, GlobalId: 2131296284 -> 5 APIs
+Method: <ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296283, GlobalId: 2131296283 -> 9 APIs
+Method: <ca.rmen.android.networkmonitor.app.email.EmailPreferencesActivity: void onCreate(android.os.Bundle)>, ElementId: 100201, GlobalId: 100201 -> 5 APIs
+Method: <ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131492864, GlobalId: 2131492864 -> 0 APIs
+Method: <ca.rmen.android.networkmonitor.app.about.AboutActivity: void onLegalClicked(android.view.View)>, ElementId: 2131296465, GlobalId: 2131296465 -> 0 APIs
+Method: <ca.rmen.android.networkmonitor.app.prefs.AdvancedPreferencesActivity: void onStart()>, ElementId: 100208, GlobalId: 100208 -> 1 APIs
+Method: <ca.rmen.android.networkmonitor.app.prefs.FilterColumnActivity: void onCancel(android.view.View)>, ElementId: 2131296309, GlobalId: 2131296309 -> 1 APIs
+Method: <ca.rmen.android.networkmonitor.app.main.MainActivity: void onStop()>, ElementId: 100206, GlobalId: 100206 -> 1 APIs
+Method: <ca.rmen.android.networkmonitor.app.speedtest.SpeedTestPreferencesActivity: void onCreate(android.os.Bundle)>, ElementId: 100188, GlobalId: 100188 -> 16 APIs
+Method: <ca.rmen.android.networkmonitor.app.email.EmailPreferencesActivity: void onStop()>, ElementId: 100203, GlobalId: 100203 -> 1 APIs
+Method: <ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity: void playStoreClicked(android.view.View)>, ElementId: 2131296307, GlobalId: 2131296307 -> 2 APIs
+Method: <ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131492865, GlobalId: 2131492865 -> 1 APIs
+Method: <ca.rmen.android.networkmonitor.app.log.LogActivity: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131296292, GlobalId: 2131296292 -> 5 APIs
+Method: <ca.rmen.android.networkmonitor.app.speedtest.SpeedTestAboutActivity: void okClicked(android.view.View)>, ElementId: 2131296308, GlobalId: 2131296308 -> 1 APIs
+Found 1 partitions
+Reachability Analysis has run for 0.659877502 seconds

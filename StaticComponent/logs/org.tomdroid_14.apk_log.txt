@@ -1,0 +1,155 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+XMLLayoutFile:setName: couldn't find id of name: sync_provider
+XMLLayoutFile:setName: couldn't find id of name: searchable
+/home/lgy/AndroidTools/GoalExplorer-4.3/GoalExplorer-main/GoalExplorer/sootOutput/org.tomdroid_14/res/navigation folder does not exists!
+Found 11 entrypoint classes and 34 methods in overall
+Found 17 reachable methods from <org.tomdroid.ui.actionbar.ActionBarListActivity: void onPostCreate(android.os.Bundle)>
+Found 17 reachable methods from <org.tomdroid.ui.actionbar.ActionBarListActivity: void onPostCreate(android.os.Bundle)>
+Found 3 reachable methods from <org.tomdroid.ui.actionbar.ActionBarActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <org.tomdroid.ui.actionbar.ActionBarPreferenceActivity: void onCreate(android.os.Bundle)>
+Found 4 reachable methods from <org.tomdroid.ui.actionbar.ActionBarActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 11 reachable methods from <org.tomdroid.ui.ViewNote: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 11 reachable methods from <org.tomdroid.ui.EditNote: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 19 reachable methods from <org.tomdroid.ui.FilePickerActivity: void onCreate(android.os.Bundle)>
+Found 73 reachable methods from <org.tomdroid.ui.PreferencesActivity: void onCreate(android.os.Bundle)>
+Found 74 reachable methods from <org.tomdroid.ui.Tomdroid: void onCreate(android.os.Bundle)>
+Found 4 reachable methods from <org.tomdroid.ui.actionbar.ActionBarActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 17 reachable methods from <org.tomdroid.ui.actionbar.ActionBarPreferenceActivity: void onPostCreate(android.os.Bundle)>
+Found 17 reachable methods from <org.tomdroid.ui.actionbar.ActionBarActivity: void onPostCreate(android.os.Bundle)>
+Found 17 reachable methods from <org.tomdroid.ui.actionbar.ActionBarActivity: void onPostCreate(android.os.Bundle)>
+Found 87 reachable methods from <org.tomdroid.ui.CompareNotes: void onCreate(android.os.Bundle)>
+Found 17 reachable methods from <org.tomdroid.ui.actionbar.ActionBarActivity: void onPostCreate(android.os.Bundle)>
+Found 8 reachable methods from <org.tomdroid.ui.EditNote: void onCreate(android.os.Bundle)>
+Found 17 reachable methods from <org.tomdroid.ui.actionbar.ActionBarActivity: void onPostCreate(android.os.Bundle)>
+Found 4 reachable methods from <org.tomdroid.ui.actionbar.ActionBarPreferenceActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+org.tomdroid.ui.actionbar.ActionBarPreferenceActivity: Finished processing of entrypoints after 0 seconds.
+Found 3 reachable methods from <org.tomdroid.ui.actionbar.ActionBarListActivity: void onCreate(android.os.Bundle)>
+Found 4 reachable methods from <org.tomdroid.ui.actionbar.ActionBarListActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+org.tomdroid.ui.actionbar.ActionBarListActivity: Finished processing of entrypoints after 0 seconds.
+Found 17 reachable methods from <org.tomdroid.ui.actionbar.ActionBarListActivity: void onPostCreate(android.os.Bundle)>
+org.tomdroid.ui.actionbar.ActionBarActivity: Finished processing of entrypoints after 0 seconds.
+Found 16 reachable methods from <org.tomdroid.ui.ViewNote: void onCreate(android.os.Bundle)>
+Found 51 reachable methods from <org.tomdroid.ui.ShortcutActivity: void onCreate(android.os.Bundle)>
+org.tomdroid.ui.ViewNote: Finished processing of entrypoints after 0 seconds.
+org.tomdroid.ui.EditNote: Finished processing of entrypoints after 0 seconds.
+Found 99 reachable methods from <org.tomdroid.util.Receive: void onCreate(android.os.Bundle)>
+Found 5 reachable methods from <org.tomdroid.ui.FilePickerActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+org.tomdroid.ui.FilePickerActivity: Finished processing of entrypoints after 0 seconds.
+Found 17 reachable methods from <org.tomdroid.ui.actionbar.ActionBarListActivity: void onPostCreate(android.os.Bundle)>
+Found 4 reachable methods from <org.tomdroid.ui.actionbar.ActionBarListActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+org.tomdroid.ui.ShortcutActivity: Finished processing of entrypoints after 0 seconds.
+Found 13 reachable methods from <org.tomdroid.ui.Tomdroid: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 17 reachable methods from <org.tomdroid.ui.actionbar.ActionBarPreferenceActivity: void onPostCreate(android.os.Bundle)>
+Found 51 reachable methods from <org.tomdroid.ui.Tomdroid: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)>
+Found 4 reachable methods from <org.tomdroid.ui.actionbar.ActionBarPreferenceActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+org.tomdroid.ui.PreferencesActivity: Finished processing of entrypoints after 0 seconds.
+org.tomdroid.ui.Tomdroid: Finished processing of entrypoints after 0 seconds.
+org.tomdroid.util.Receive: Finished processing of entrypoints after 1 seconds.
+Found 4 reachable methods from <org.tomdroid.ui.actionbar.ActionBarActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 17 reachable methods from <org.tomdroid.ui.actionbar.ActionBarActivity: void onPostCreate(android.os.Bundle)>
+org.tomdroid.ui.CompareNotes: Finished processing of entrypoints after 1 seconds.
+AppsUIElement: tried to assign null listener object in 2131099710
+AppsUIElement: tried to assign null listener object in 2131099711
+AppsUIElement: tried to assign null listener object in 2131099709
+AppsUIElement: tried to assign null listener object in 2131099706
+AppsUIElement: tried to assign null listener object in 2131099707
+Dynamical declared elements, found: 0
+Found 6 callback classes and 15 methods overall
+Found 4 reachable methods from <org.tomdroid.ui.ViewNote: boolean onOptionsItemSelected(android.view.MenuItem)>
+Found 4 reachable methods from <org.tomdroid.ui.EditNote: boolean onOptionsItemSelected(android.view.MenuItem)>
+Found 5 reachable methods from <org.tomdroid.ui.CompareNotes$7: void onClick(android.view.View)>
+org.tomdroid.ui.EditNote: Finished processing of entrypoints after 0 seconds.
+org.tomdroid.ui.ViewNote: Finished processing of entrypoints after 0 seconds.
+Found 18 reachable methods from <org.tomdroid.ui.FilePickerActivity: void onListItemClick(android.widget.ListView,android.view.View,int,long)>
+org.tomdroid.ui.FilePickerActivity: Finished processing of entrypoints after 0 seconds.
+Found 52 reachable methods from <org.tomdroid.ui.ShortcutActivity: void onListItemClick(android.widget.ListView,android.view.View,int,long)>
+Found 72 reachable methods from <org.tomdroid.ui.Tomdroid: boolean onOptionsItemSelected(android.view.MenuItem)>
+Found 75 reachable methods from <org.tomdroid.ui.CompareNotes$3: void onClick(android.view.View)>
+org.tomdroid.ui.ShortcutActivity: Finished processing of entrypoints after 0 seconds.
+Found 3 reachable methods from <org.tomdroid.ui.CompareNotes$6: void onClick(android.view.View)>
+Found 47 reachable methods from <org.tomdroid.ui.Tomdroid: void onListItemClick(android.widget.ListView,android.view.View,int,long)>
+Found 25 reachable methods from <org.tomdroid.ui.CompareNotes$2: void onClick(android.view.View)>
+Found 70 reachable methods from <org.tomdroid.ui.CompareNotes$5: void onClick(android.view.View)>
+Found 61 reachable methods from <org.tomdroid.ui.Tomdroid: boolean onContextItemSelected(android.view.MenuItem)>
+org.tomdroid.ui.Tomdroid: Finished processing of entrypoints after 0 seconds.
+Found 5 reachable methods from <org.tomdroid.ui.CompareNotes$8: void onClick(android.view.View)>
+Found 4 reachable methods from <org.tomdroid.ui.CompareNotes$1: void onClick(android.view.View)>
+Found 74 reachable methods from <org.tomdroid.ui.CompareNotes$4: void onClick(android.view.View)>
+org.tomdroid.ui.CompareNotes: Finished processing of entrypoints after 0 seconds.
+UI Analysis has run for 5.800790135 seconds
+Entry point creation has run for 0.003459597 seconds
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 65 callback methods from UI Analysis
+Found 65 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Did not find listener of AppsUIElement from UIElement: 16908298 signature: <org.tomdroid.ui.Tomdroid: void onListItemClick(android.widget.ListView,android.view.View,int,long)>
+Did not find listener of AppsUIElement from UIElement: 16908298 signature: <org.tomdroid.ui.ShortcutActivity: void onListItemClick(android.widget.ListView,android.view.View,int,long)>
+Did not find listener of AppsUIElement from UIElement: 16908298 signature: <org.tomdroid.ui.FilePickerActivity: void onListItemClick(android.widget.ListView,android.view.View,int,long)>
+Method: <org.tomdroid.ui.actionbar.ActionBarListActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100470, GlobalId: 100470 -> 14 APIs
+Method: <org.tomdroid.ui.Tomdroid: void onListItemClick(android.widget.ListView,android.view.View,int,long)>, ElementId: 16908298, GlobalId: 16908298 -> 163 APIs
+Method: <org.tomdroid.ui.Tomdroid: boolean onContextItemSelected(android.view.MenuItem)>, ElementId: 2131099709, GlobalId: 2131099709 -> 0 APIs
+Method: <org.tomdroid.ui.Tomdroid: boolean onContextItemSelected(android.view.MenuItem)>, ElementId: 2131099708, GlobalId: 2131099708 -> 0 APIs
+Method: <org.tomdroid.ui.actionbar.ActionBarActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100477, GlobalId: 100477 -> 14 APIs
+Method: <org.tomdroid.ui.Tomdroid: boolean onContextItemSelected(android.view.MenuItem)>, ElementId: 2131099707, GlobalId: 2131099707 -> 155 APIs
+Method: <org.tomdroid.ui.Tomdroid: boolean onContextItemSelected(android.view.MenuItem)>, ElementId: 2131099706, GlobalId: 2131099706 -> 155 APIs
+Method: <org.tomdroid.ui.Tomdroid: void onDestroy()>, ElementId: 100472, GlobalId: 100472 -> 1 APIs
+Method: <org.tomdroid.ui.actionbar.ActionBarActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100463, GlobalId: 100463 -> 14 APIs
+Method: <org.tomdroid.ui.ShortcutActivity: void onListItemClick(android.widget.ListView,android.view.View,int,long)>, ElementId: 16908298, GlobalId: 16908298 -> 6 APIs
+Method: <org.tomdroid.ui.actionbar.ActionBarActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100460, GlobalId: 100460 -> 14 APIs
+Method: <org.tomdroid.ui.ViewNote: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131099715, GlobalId: 2131099715 -> 5 APIs
+Method: <org.tomdroid.ui.EditNote: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131361792, GlobalId: 2131361792 -> 0 APIs
+Method: <org.tomdroid.ui.CompareNotes: void onCreate(android.os.Bundle)>, ElementId: 100475, GlobalId: 100475 -> 26 APIs
+Method: <org.tomdroid.ui.CompareNotes$4: void onClick(android.view.View)>, ElementId: 2131099670, GlobalId: 2131099670 -> 14 APIs
+Method: <org.tomdroid.ui.ViewNote: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131099713, GlobalId: 2131099713 -> 158 APIs
+Method: <org.tomdroid.ui.ViewNote: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131099714, GlobalId: 2131099714 -> 0 APIs
+Method: <org.tomdroid.ui.CompareNotes$3: void onClick(android.view.View)>, ElementId: 2131099669, GlobalId: 2131099669 -> 17 APIs
+Method: <org.tomdroid.ui.EditNote: void onDestroy()>, ElementId: 100465, GlobalId: 100465 -> 8 APIs
+Method: <org.tomdroid.ui.Tomdroid: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131099700, GlobalId: 2131099700 -> 1 APIs
+Method: <org.tomdroid.ui.EditNote: void onResume()>, ElementId: 100467, GlobalId: 100467 -> 11 APIs
+Method: <org.tomdroid.ui.Tomdroid: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131099701, GlobalId: 2131099701 -> 10 APIs
+Method: <org.tomdroid.ui.Tomdroid: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131099702, GlobalId: 2131099702 -> 0 APIs
+Method: <org.tomdroid.ui.ViewNote: void onResume()>, ElementId: 100462, GlobalId: 100462 -> 16 APIs
+Method: <org.tomdroid.ui.Tomdroid: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131099703, GlobalId: 2131099703 -> 0 APIs
+Method: <org.tomdroid.ui.CompareNotes$7: void onClick(android.view.View)>, ElementId: 2131099675, GlobalId: 2131099675 -> 1 APIs
+Method: <org.tomdroid.ui.Tomdroid: boolean onContextItemSelected(android.view.MenuItem)>, ElementId: 2131099712, GlobalId: 2131099712 -> 11 APIs
+Method: <org.tomdroid.ui.Tomdroid: boolean onContextItemSelected(android.view.MenuItem)>, ElementId: 2131099711, GlobalId: 2131099711 -> 5 APIs
+Method: <org.tomdroid.ui.Tomdroid: boolean onContextItemSelected(android.view.MenuItem)>, ElementId: 2131099710, GlobalId: 2131099710 -> 0 APIs
+Method: <org.tomdroid.ui.EditNote$7: void onClick(android.content.DialogInterface,int)>, ElementId: -2, GlobalId: 100457 -> 0 APIs
+Method: <org.tomdroid.ui.Tomdroid: void onCreate(android.os.Bundle)>, ElementId: 100471, GlobalId: 100471 -> 173 APIs
+Method: <org.tomdroid.ui.CompareNotes$6: void onClick(android.view.View)>, ElementId: 2131099673, GlobalId: 2131099673 -> 1 APIs
+Method: <org.tomdroid.ui.PreferencesActivity: void onCreate(android.os.Bundle)>, ElementId: 100478, GlobalId: 100478 -> 5 APIs
+Method: <org.tomdroid.ui.CompareNotes$8: void onClick(android.view.View)>, ElementId: 2131099678, GlobalId: 2131099678 -> 1 APIs
+Method: <org.tomdroid.ui.CompareNotes$5: void onClick(android.view.View)>, ElementId: 2131099671, GlobalId: 2131099671 -> 13 APIs
+Method: <org.tomdroid.util.Receive: void onCreate(android.os.Bundle)>, ElementId: 100459, GlobalId: 100459 -> 199 APIs
+Method: <org.tomdroid.ui.actionbar.ActionBarListActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100474, GlobalId: 100474 -> 14 APIs
+Method: <org.tomdroid.ui.Tomdroid: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131099696, GlobalId: 2131099696 -> 5 APIs
+Method: <org.tomdroid.ui.ShortcutActivity: void onCreate(android.os.Bundle)>, ElementId: 100469, GlobalId: 100469 -> 10 APIs
+Method: <org.tomdroid.ui.Tomdroid: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131099697, GlobalId: 2131099697 -> 156 APIs
+Method: <org.tomdroid.ui.Tomdroid: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131099698, GlobalId: 2131099698 -> 12 APIs
+Method: <org.tomdroid.ui.Tomdroid: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131099699, GlobalId: 2131099699 -> 16 APIs
+Method: <org.tomdroid.ui.EditNote: void onCreate(android.os.Bundle)>, ElementId: 100464, GlobalId: 100464 -> 4 APIs
+Method: <org.tomdroid.ui.actionbar.ActionBarListActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100482, GlobalId: 100482 -> 14 APIs
+Method: <org.tomdroid.ui.CompareNotes$1: void onClick(android.view.View)>, ElementId: 2131099669, GlobalId: 2131099669 -> 2 APIs
+Method: <org.tomdroid.ui.EditNote: void onPause()>, ElementId: 100466, GlobalId: 100466 -> 25 APIs
+Method: <org.tomdroid.ui.EditNote: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131099696, GlobalId: 2131099696 -> 5 APIs
+Method: <org.tomdroid.ui.ViewNote: void onCreate(android.os.Bundle)>, ElementId: 100461, GlobalId: 100461 -> 10 APIs
+Method: <org.tomdroid.ui.FilePickerActivity: void onCreate(android.os.Bundle)>, ElementId: 100480, GlobalId: 100480 -> 10 APIs
+Method: <org.tomdroid.ui.ViewNote: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131099696, GlobalId: 2131099696 -> 5 APIs
+Method: <org.tomdroid.ui.Tomdroid: boolean onContextItemSelected(android.view.MenuItem)>, ElementId: 2131361794, GlobalId: 2131361794 -> 0 APIs
+Method: <org.tomdroid.ui.Tomdroid: boolean onContextItemSelected(android.view.MenuItem)>, ElementId: 2131361795, GlobalId: 2131361795 -> 0 APIs
+Method: <org.tomdroid.ui.actionbar.ActionBarPreferenceActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100479, GlobalId: 100479 -> 14 APIs
+Method: <org.tomdroid.ui.CompareNotes: void onResume()>, ElementId: 100476, GlobalId: 100476 -> 2 APIs
+Method: <org.tomdroid.ui.EditNote: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131099695, GlobalId: 2131099695 -> 4 APIs
+Method: <org.tomdroid.ui.EditNote: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131099694, GlobalId: 2131099694 -> 0 APIs
+Method: <org.tomdroid.ui.ViewNote: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131361797, GlobalId: 2131361797 -> 0 APIs
+Method: <org.tomdroid.ui.Tomdroid: void onResume()>, ElementId: 100473, GlobalId: 100473 -> 26 APIs
+Method: <org.tomdroid.ui.FilePickerActivity: void onListItemClick(android.widget.ListView,android.view.View,int,long)>, ElementId: 16908298, GlobalId: 16908298 -> 3 APIs
+Method: <org.tomdroid.ui.EditNote$8: void onClick(android.content.DialogInterface,int)>, ElementId: -1, GlobalId: 100458 -> 0 APIs
+Method: <org.tomdroid.ui.CompareNotes$2: void onClick(android.view.View)>, ElementId: 2131099669, GlobalId: 2131099669 -> 1 APIs
+Method: <org.tomdroid.ui.Tomdroid: boolean onOptionsItemSelected(android.view.MenuItem)>, ElementId: 2131361793, GlobalId: 2131361793 -> 0 APIs
+Method: <org.tomdroid.ui.FilePickerActivity: void onResume()>, ElementId: 100481, GlobalId: 100481 -> 0 APIs
+Method: <org.tomdroid.ui.ViewNote$5: void onClick(android.content.DialogInterface,int)>, ElementId: -1, GlobalId: 100456 -> 9 APIs
+Method: <org.tomdroid.ui.actionbar.ActionBarActivity: void onPostCreate(android.os.Bundle)>, ElementId: 100468, GlobalId: 100468 -> 14 APIs
+Found 1 partitions
+Reachability Analysis has run for 0.809585655 seconds
