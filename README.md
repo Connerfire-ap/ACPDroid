@@ -7,8 +7,12 @@ This project is licensed under the MIT License.
 This package will work on Linux system. There are many binaries that the scripts rely on so there are no guarantees on other platforms. 
 1. Install Ruby
 2. Install [Nokogiri](https://nokogiri.org/tutorials/installing_nokogiri.html)
-3. Install Python 2.7
+3. Install Python 3.7
 4. Install [uiautomator](https://github.com/xiaocong/uiautomator)
+5. Install [FlowDroid](https://github.com/secure-software-engineering/FlowDroid/)
+6. Install [Backstage](https://github.com/uds-se/backstage)
+
+Backstage : Detecting Behavior Anomalies in Graphical User Interfaces
 
 Install Android SDK through [Android Studio](https://developer.android.com/studio).
 Through either Android Studio or the [sdkmanager](https://developer.android.com/studio/command-line/sdkmanager) binary, install the following packages.
@@ -55,6 +59,10 @@ Create AVD（Android Virtual Device）
 avdmanager create avd -n MyEmu -k "system-images;android-33;google_apis;x86_64" --device "pixel"
 ```
 
+## Demo video of how to execute ACPDroid
+Youtube [ACPDroid](https://www.youtube.com/watch?v=6VdClNX3CDQ)
+
+
 ## Usage 
 Start the emulator
 
@@ -75,6 +83,12 @@ java -jar target/GoalExplorer-1.2-SNAPSHOT-jar-with-dependencies.jar ge -i 'path
 Usage of dynamic components
 ```shell script
 ruby bin/run_stoat_testing.rb --apk_path 'path to the apk file of app under test' --avd_name 'your created avd' --avd_port 'avaliable port' --stg 'path to the generated stg file'
+```
+
+
+Example (using klobe notes as an example)
+```shell script
+ruby bin/run_stoat_testing.rb --apk_path ruby bin/run_stoat_testing.rb --apk_path /you/local/path/ExperimentSubject-Effiency/Kolabnotes/kolabnotes-debug.apk --avd_name 'your created avd' --avd_port 5554 --stg /you/local/path/ExperimentSubject-Effiency/Kolabnotes/kolabnotes_stg_Test.xml
 ```
 
 
